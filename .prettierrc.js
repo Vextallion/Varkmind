@@ -1,0 +1,20 @@
+module.exports = {
+  arrowParens: 'avoid',
+  singleQuote: true,
+  trailingComma: 'all',
+  importOrder: [
+    '^react',
+    '^@react',
+    '<THIRD_PARTY_MODULES>',
+    '^@app/(.*)$',
+    '^@screens/(.*)$',
+    '^@widgets/(.*)$',
+    '^@features/(.*)$',
+    '^@entities/(.*)$',
+    '^@shared/(.*)$',
+    '^@theme/(.*)$',
+    '^[./]',
+  ],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
+};
