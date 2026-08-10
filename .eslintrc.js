@@ -1,12 +1,8 @@
 module.exports = {
   root: true,
-  extends: [
-    'expo',
-    'plugin:effector/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['expo', 'plugin:prettier/recommended'],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'effector'],
+  plugins: ['@typescript-eslint'],
   globals: {
     JSX: true,
   },

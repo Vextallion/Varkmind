@@ -1,21 +1,18 @@
-import { useContext } from 'react';
+import { ThemesList, useThemeStore } from '@shared/model/useThemeStore';
 
-import { ThemeContext, ThemesList } from './themeProvider';
 import { themes } from './themes';
 
 export function useTheme() {
-  const { theme, changeTheme } = useContext(ThemeContext);
-
-  const toggleTheme = () => {
-    changeTheme(
-      theme === ThemesList.primary ? ThemesList.dark : ThemesList.primary,
-    );
-  };
+  const themeName = useThemeStore(state => state.theme);
+  const changeTheme = useThemeStore(state => state.changeTheme);
+  const toggleTheme = useThemeStore(state => state.toggleTheme);
 
   return {
-    theme: Object.freeze(themes[theme]),
+    theme: Object.freeze(themes[themeName]),
     changeTheme,
     toggleTheme,
-    themeName: theme,
+    themeName,
   };
 }
+
+export { ThemesList };
