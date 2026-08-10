@@ -20,13 +20,11 @@ module.exports = function (api) {
           alias: {
             '@': './src',
             '@app': './src/app',
-            '@processes': './src/processes',
             '@screens': './src/screens',
             '@widgets': './src/widgets',
             '@features': './src/features',
             '@entities': './src/entities',
             '@shared': './src/shared',
-            '@theme': './src/theme',
           },
         },
       ],

@@ -39,6 +39,9 @@ pnpm-debug.*
 
 example
 
+startup.md
+PLAN.md
+
 # generated native folders
 /ios
 /android

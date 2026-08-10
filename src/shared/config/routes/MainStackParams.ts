@@ -1,3 +1,6 @@
 export type MainStackParams = {
-  HomeScreen: undefined;
+  Dashboard: undefined;
+  Learn: undefined;
+  Library: undefined;
+  Profile: undefined;
 };
