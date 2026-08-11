@@ -1,56 +1,91 @@
-# Welcome to your Expo app 👋
+# Varkmind
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Sound less B2 today.**
 
-## Get started
+Varkmind is a local-first mobile app that breaks the English **B2 plateau** — moving lexicon from *passive recognition* to *active production* through surgical **Register Upgrade** drills (bland B2 → professional C1).
 
-1. Install dependencies
+Not another streak game. Not a dictionary. A precision tool for people who already speak English but still sound basic at work.
 
-   ```bash
-   pnpm install
-   ```
+---
 
-2. Start the app
+## The idea
 
-   ```bash
-   pnpm start
-   ```
+| Problem | Varkmind |
+|--------|----------|
+| You know the word — you still say “very important” | Upgrade to C1 collocations in context |
+| SRS taps feel like progress; speech doesn’t | **Active Chunks** — acquired only after real use |
+| AI mid-drill = lag + wrong register | Curated **Register Graph** locally; AI only in the background |
+| Generic “Unit 12” courses | Outcome focus: Tech Lead · Academic 7.5+ · C-Level |
 
-In the output, you'll find options to open the app in a
+**Primary loop:** B2 context → type the C1 rewrite → live highlight → SM-2 → 48h Active Constraint.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Product principles
 
-## Get a fresh project
+1. **Core Drill First** — one mechanic must feel world-class before anything else ships.
+2. **Local-first** — drills run at 0 ms from SQLite; network is never on the hot path.
+3. **Active > streaks** — retention is proven in spontaneous output, not calendar flames.
+4. **No mid-session GPT** — trust and latency win over generative novelty.
 
-When you're ready, run:
+See [`startup.md`](./startup.md) for the full product spec, [`PLAN.md`](./PLAN.md) for sprints, and [`DESIGN.md`](./DESIGN.md) for UX direction.
+
+---
+
+## Stack
+
+| Layer | Choice |
+|-------|--------|
+| App | Expo (SDK 57) · React Native · Expo Router |
+| Architecture | Feature-Sliced Design (`src/`) |
+| UI state | Zustand |
+| Server state | TanStack Query |
+| Fast KV | MMKV (tokens, settings, flags) |
+| Learning DB | SQLite (`@op-engineering/op-sqlite`) — Register Graph + SRS |
+| Backend | Supabase (Auth, sync, Edge Functions) |
+| i18n | i18next · copy in `src/shared/config/locales/` |
+
+Brand identity: `src/shared/config/brand.ts` (name / scheme / storage id). UI strings use `{{brand}}` in locales.
+
+---
+
+## Develop
+
+> MMKV and native modules need a **dev build** — Expo Go is not enough.
 
 ```bash
-pnpm reset-project
+pnpm install
+pnpm prebuild          # generate native projects when needed
+pnpm android           # expo run:android
+pnpm ios               # expo run:ios
+pnpm start             # Metro
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+| Script | Purpose |
+|--------|---------|
+| `pnpm android` / `pnpm ios` | Native run |
+| `pnpm lint` | ESLint |
+| `pnpm pretty:all` | Prettier |
 
-### Other setup steps
+---
 
-- To set up ESLint for linting, run `pnpm lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## Docs map
 
-## Learn more
+| File | What |
+|------|------|
+| [`startup.md`](./startup.md) | Spec & architecture |
+| [`PLAN.md`](./PLAN.md) | Sprint checklist |
+| [`DESIGN.md`](./DESIGN.md) | Editorial Instrument UX |
+| [`LEGAL.md`](./LEGAL.md) | Trademarks, content, compliance |
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Status
 
-## Join the community
+Early build — design system and Core Drill shell in progress. Register Graph (SQLite), auth, and outcome decks next.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## License
+
+Proprietary. See [`LICENSE`](./LICENSE).
