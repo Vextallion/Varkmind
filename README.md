@@ -28,8 +28,6 @@ Not another streak game. Not a dictionary. A precision tool for people who alrea
 3. **Active > streaks** — retention is proven in spontaneous output, not calendar flames.
 4. **No mid-session GPT** — trust and latency win over generative novelty.
 
-See [`startup.md`](./startup.md) for the full product spec, [`PLAN.md`](./PLAN.md) for sprints, and [`DESIGN.md`](./DESIGN.md) for UX direction.
-
 ---
 
 ## Stack
@@ -66,23 +64,6 @@ pnpm start             # Metro
 | `pnpm android` / `pnpm ios` | Native run |
 | `pnpm lint` | ESLint |
 | `pnpm pretty:all` | Prettier |
-
----
-
-## Docs map
-
-| File | What |
-|------|------|
-| [`startup.md`](./startup.md) | Spec & architecture |
-| [`PLAN.md`](./PLAN.md) | Sprint checklist |
-| [`DESIGN.md`](./DESIGN.md) | Editorial Instrument UX |
-| [`LEGAL.md`](./LEGAL.md) | Trademarks, content, compliance |
-
----
-
-## Status
-
-Early build — design system and Core Drill shell in progress. Register Graph (SQLite), auth, and outcome decks next.
 
 ---
 
