@@ -1,16 +1,25 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { StyleSheet, Text, View } from 'react-native';
 
 import { useTheme } from '@shared/theme/useTheme';
 
 export const LibraryScreen: React.FC = () => {
+  const { t } = useTranslation();
   const { theme } = useTheme();
 
   return (
-    <View style={styles.container}>
-      <Text style={[styles.title, { color: theme.text.primary }]}>Library</Text>
-      <Text style={[styles.hint, { color: theme.text.primary }]}>
-        Collocations · Passive / Active / Mastered
+    <View style={[styles.container, { backgroundColor: theme.BG.white }]}>
+      <Text
+        style={[
+          theme.type.displayMd,
+          { color: theme.text.primary, marginBottom: theme.space.sm },
+        ]}
+      >
+        {t('library.title')}
+      </Text>
+      <Text style={[theme.type.body, { color: theme.text.secondary }]}>
+        {t('library.subtitle')}
       </Text>
     </View>
   );
@@ -20,14 +29,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    gap: 8,
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: '700',
-  },
-  hint: {
-    fontSize: 14,
-    opacity: 0.6,
   },
 });

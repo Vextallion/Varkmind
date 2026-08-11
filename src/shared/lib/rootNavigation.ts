@@ -11,6 +11,7 @@ export function goBack() {
   }
 }
 
+export function navigate({ screen, params }: NavigateArgs) {
   router.push({
     pathname: screen as never,
     params,

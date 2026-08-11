@@ -2,6 +2,8 @@ import { initReactI18next } from 'react-i18next';
 
 import i18next from 'i18next';
 
+import { brand } from '@shared/config/brand';
+
 import EN from './languages/en-us.json';
 
 const resources = {
@@ -15,6 +17,10 @@ i18next.use(initReactI18next).init({
   lng: 'en',
   interpolation: {
     escapeValue: false,
+    defaultVariables: {
+      brand: brand.name,
+      brandUpper: brand.name.toUpperCase(),
+    },
   },
   resources,
 });

@@ -1,49 +1,55 @@
-const colors = {
-  white: '#FFFFFF',
-  black: '#202020',
-};
-
-const gradients = {
-  default: ['#FFFFFF', '#FFFFFF'],
-};
+import { palette } from '../tokens/colors';
+import { fontFamily, typeScale } from '../tokens/typography';
+import { radius, space } from '../tokens/space';
 
 export const primaryScheme = {
-  //shared colors for all app
   BG: {
-    white: colors.white,
+    white: palette.paper,
+    surface: palette.surface,
+    accentSoft: palette.accentSoft,
   },
   text: {
-    primary: colors.black,
-    secondary: colors.white,
+    primary: palette.ink,
+    secondary: palette.inkMuted,
+    inverse: palette.surface,
+    accent: palette.accent,
+  },
+  progress: {
+    track: palette.accentTrack,
+    fill: palette.accent,
   },
   icon: {
-    primary: colors.black,
-    secondary: colors.white,
+    primary: palette.ink,
+    secondary: palette.inkMuted,
+    active: palette.accent,
   },
   border: {
-    primary: colors.white,
-    secondary: colors.black,
+    primary: palette.border,
+    secondary: palette.ink,
+    accent: palette.accent,
   },
-
-  gradients: {
-    default: gradients.default,
+  status: {
+    success: palette.success,
+    danger: palette.danger,
   },
-
-  //colors for UIkit
   button: {
-    primary: colors.white,
-    secondary: colors.black,
-    disabled: colors.white,
-    border: colors.black,
+    primary: palette.accent,
+    secondary: palette.ink,
+    disabled: palette.border,
+    border: palette.accent,
+    textOnPrimary: palette.surface,
   },
-
-  // colors for unique colors
-  // example
-  // calendar: {
-  //   active: colors.red,
-  //   activeText: colors.white,
-  //   primaryText: colors.black,
-  //   buttonColor: colors.secondaryBG,
-  //   divider: colors.grey,
-  // },
+  tab: {
+    active: palette.accent,
+    inactive: palette.inkMuted,
+    background: palette.surface,
+    border: palette.border,
+  },
+  font: fontFamily,
+  type: typeScale,
+  space,
+  radius,
+  gradients: {
+    default: [palette.paper, palette.paper],
+  },
 };

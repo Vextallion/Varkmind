@@ -1,8 +1,9 @@
+import { brand } from '@shared/config/brand';
 import { createMMKV } from 'react-native-mmkv';
 
 import type { StateStorage } from 'zustand/middleware';
 
-export const mmkv = createMMKV({ id: 'shift-c1' });
+export const mmkv = createMMKV({ id: brand.storageId });
 
 export const mmkvStateStorage: StateStorage = {
   getItem: name => mmkv.getString(name) ?? null,

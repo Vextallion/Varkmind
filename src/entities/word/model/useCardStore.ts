@@ -32,7 +32,6 @@ const initialState = {
   pitfallMessage: null as string | null,
 };
 
-/** Ephemeral drill UI — not persisted (session-only). */
 export const useCardStore = create<DrillCardState>(set => ({
   ...initialState,
   setCard: ({ b2ChunkId, b2Text, targetC1Text }) =>

@@ -1,49 +1,55 @@
-const colors = {
-  white: '#FFFFFF',
-  black: '#202020',
-};
-
-const gradients = {
-  default: ['#FFFFFF', '#FFFFFF'],
-};
+import { paletteDark } from '../tokens/colors';
+import { fontFamily, typeScale } from '../tokens/typography';
+import { radius, space } from '../tokens/space';
 
 export const darkScheme = {
-  //shared colors for all app
   BG: {
-    white: colors.white,
+    white: paletteDark.paper,
+    surface: paletteDark.surface,
+    accentSoft: paletteDark.accentSoft,
   },
   text: {
-    primary: colors.black,
-    secondary: colors.white,
+    primary: paletteDark.ink,
+    secondary: paletteDark.inkMuted,
+    inverse: paletteDark.paper,
+    accent: paletteDark.accent,
+  },
+  progress: {
+    track: paletteDark.accentTrack,
+    fill: paletteDark.accent,
   },
   icon: {
-    primary: colors.black,
-    secondary: colors.white,
+    primary: paletteDark.ink,
+    secondary: paletteDark.inkMuted,
+    active: paletteDark.accent,
   },
   border: {
-    primary: colors.white,
-    secondary: colors.black,
+    primary: paletteDark.border,
+    secondary: paletteDark.ink,
+    accent: paletteDark.accent,
   },
-
-  gradients: {
-    default: gradients.default,
+  status: {
+    success: paletteDark.success,
+    danger: paletteDark.danger,
   },
-
-  //colors for UIkit
   button: {
-    primary: colors.white,
-    secondary: colors.black,
-    disabled: colors.white,
-    border: colors.black,
+    primary: paletteDark.accent,
+    secondary: paletteDark.ink,
+    disabled: paletteDark.border,
+    border: paletteDark.accent,
+    textOnPrimary: paletteDark.paper,
   },
-
-  // colors for unique colors
-  // example
-  // calendar: {
-  //   active: colors.red,
-  //   activeText: colors.white,
-  //   primaryText: colors.black,
-  //   buttonColor: colors.secondaryBG,
-  //   divider: colors.grey,
-  // },
+  tab: {
+    active: paletteDark.accent,
+    inactive: paletteDark.inkMuted,
+    background: paletteDark.surface,
+    border: paletteDark.border,
+  },
+  font: fontFamily,
+  type: typeScale,
+  space,
+  radius,
+  gradients: {
+    default: [paletteDark.paper, paletteDark.paper],
+  },
 };

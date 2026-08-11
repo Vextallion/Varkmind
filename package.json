@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "varkmind",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "private": true,
@@ -22,6 +22,8 @@
     ]
   },
   "dependencies": {
+    "@expo-google-fonts/dm-sans": "^0.4.2",
+    "@expo-google-fonts/fraunces": "^0.4.1",
     "@expo/ui": "~57.0.9",
     "@tanstack/react-query": "^5.101.4",
     "expo": "~57.0.10",

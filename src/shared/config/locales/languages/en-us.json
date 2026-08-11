@@ -1,5 +1,76 @@
 {
+  "brand": {
+    "eyebrow": "{{brandUpper}}",
+    "headline": "Sound less B2\ntoday.",
+    "tagline": "Sound less B2 today."
+  },
   "common": {
-    "welcome": "Welcome to boilerplate!"
+    "welcome": "Welcome to {{brand}}!",
+    "change": "Change",
+    "before": "Before",
+    "after": "After",
+    "b2": "B2",
+    "c1": "C1"
+  },
+  "tabs": {
+    "home": "Home",
+    "learn": "Learn",
+    "library": "Library",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "activeLabel": "Active",
+    "goalLabel": "goal",
+    "chunksLeftToday": "{{count}} chunks left today",
+    "ctaHint": "One surgical B2 → C1 rewrite at a time.",
+    "startDrill": "Start drill",
+    "yourFocus": "Your focus"
+  },
+  "outcomes": {
+    "tech": "Tech Lead",
+    "academic": "Academic 7.5+",
+    "biz": "C-Level"
+  },
+  "learn": {
+    "title": "Learn"
+  },
+  "library": {
+    "title": "Library",
+    "subtitle": "Collocations · Passive / Active / Mastered"
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Active Chunks · Outcome deck · Share progress"
+  },
+  "activeQueue": {
+    "badge": "48H ACTIVE CONSTRAINT",
+    "dueCount": "{{count}} due",
+    "clear": "Clear",
+    "titleDue": "Phrases need to leave your head",
+    "titleEmpty": "Build your first Active Chunk",
+    "bodyDue": "Say or write them in a new context — or they slip back to passive.",
+    "bodyEmpty": "Finish a drill, then come back in 48h. That’s when retention starts.",
+    "ctaDue": "Activate now",
+    "ctaEmpty": "Go to Learn"
+  },
+  "shareCard": {
+    "title": "{{brand}} · B2 → C1",
+    "activeChunks": "Active Chunks · {{count}}"
+  },
+  "pitfall": {
+    "title": "Common pitfall"
+  },
+  "sm2": {
+    "hard": "Hard",
+    "good": "Good",
+    "easy": "Easy"
+  },
+  "demo": {
+    "b2Text": "This issue is very important for the project.",
+    "highlightChunk": "very important",
+    "targetC1Text": "of paramount importance",
+    "pitfall": "Paramount doesn't take 'very'.",
+    "shareB2": "This decision is very important for the company.",
+    "shareC1": "This decision is of paramount importance to the company."
   }
 }
