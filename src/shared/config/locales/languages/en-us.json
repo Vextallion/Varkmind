@@ -32,7 +32,12 @@
     "biz": "C-Level"
   },
   "learn": {
-    "title": "Learn"
+    "title": "Learn",
+    "loadingTitle": "Loading Register Graph",
+    "loadingBody": "Preparing your next B2 → C1 rewrite.",
+    "emptyTitle": "No cards ready",
+    "emptyBody": "The local graph could not load a drill card. Retry after rebuild.",
+    "retry": "Retry"
   },
   "library": {
     "title": "Library",

@@ -1,0 +1,1504 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-11",
+  "nodes": [
+    {
+      "id": "very-important",
+      "b2Text": "very important",
+      "highlightChunk": "very important",
+      "primaryC1": "of paramount importance",
+      "register": "academic",
+      "outcomeTags": [
+        "tech",
+        "academic"
+      ],
+      "context": "Addressing latency is of paramount importance for this release.",
+      "pitfall": {
+        "badText": "very paramount",
+        "explanation": "Paramount doesn't take 'very'."
+      },
+      "b2Context": "This is very important for the team."
+    },
+    {
+      "id": "a-lot-of",
+      "b2Text": "a lot of",
+      "highlightChunk": "a lot of",
+      "primaryC1": "a substantial number of",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We still have a substantial number of open action items.",
+      "pitfall": null,
+      "b2Context": "This is a lot of for the team."
+    },
+    {
+      "id": "make-sure",
+      "b2Text": "make sure",
+      "highlightChunk": "make sure",
+      "primaryC1": "ensure",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Please ensure the rollout plan is reviewed before Friday.",
+      "pitfall": null,
+      "b2Context": "We need to make sure before the release."
+    },
+    {
+      "id": "look-into",
+      "b2Text": "look into",
+      "highlightChunk": "look into",
+      "primaryC1": "investigate",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "We will investigate the regression before the next deploy.",
+      "pitfall": null,
+      "b2Context": "We need to look into before the release."
+    },
+    {
+      "id": "find-out",
+      "b2Text": "find out",
+      "highlightChunk": "find out",
+      "primaryC1": "determine",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We need to determine the root cause of the churn spike.",
+      "pitfall": null,
+      "b2Context": "We need to find out before the release."
+    },
+    {
+      "id": "get-better",
+      "b2Text": "get better",
+      "highlightChunk": "get better",
+      "primaryC1": "improve",
+      "register": "general",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "Throughput should improve after we shard the queue.",
+      "pitfall": null,
+      "b2Context": "We need to get better before the release."
+    },
+    {
+      "id": "big-problem",
+      "b2Text": "big problem",
+      "highlightChunk": "big problem",
+      "primaryC1": "critical issue",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "Memory leaks remain a critical issue in staging.",
+      "pitfall": null,
+      "b2Context": "This is big problem for the team."
+    },
+    {
+      "id": "help-with",
+      "b2Text": "help with",
+      "highlightChunk": "help with",
+      "primaryC1": "assist with",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Could you assist with the stakeholder briefing?",
+      "pitfall": null,
+      "b2Context": "We need to help with before the release."
+    },
+    {
+      "id": "talk-about",
+      "b2Text": "talk about",
+      "highlightChunk": "talk about",
+      "primaryC1": "discuss",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "Let us discuss the trade-offs before we commit.",
+      "pitfall": null,
+      "b2Context": "We need to talk about before the release."
+    },
+    {
+      "id": "come-up-with",
+      "b2Text": "come up with",
+      "highlightChunk": "come up with",
+      "primaryC1": "devise",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We need to devise a fallback if the vendor slips.",
+      "pitfall": null,
+      "b2Context": "We need to come up with before the release."
+    },
+    {
+      "id": "deal-with",
+      "b2Text": "deal with",
+      "highlightChunk": "deal with",
+      "primaryC1": "address",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We must address the compliance gaps this quarter.",
+      "pitfall": null,
+      "b2Context": "We need to deal with before the release."
+    },
+    {
+      "id": "put-off",
+      "b2Text": "put off",
+      "highlightChunk": "put off",
+      "primaryC1": "postpone",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We should postpone the launch until QA signs off.",
+      "pitfall": null,
+      "b2Context": "We need to put off before the release."
+    },
+    {
+      "id": "set-up",
+      "b2Text": "set up",
+      "highlightChunk": "set up",
+      "primaryC1": "establish",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We will establish a clear escalation path.",
+      "pitfall": null,
+      "b2Context": "We need to set up before the release."
+    },
+    {
+      "id": "go-over",
+      "b2Text": "go over",
+      "highlightChunk": "go over",
+      "primaryC1": "review",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Let us review the metrics from last sprint.",
+      "pitfall": null,
+      "b2Context": "We need to go over before the release."
+    },
+    {
+      "id": "work-on",
+      "b2Text": "work on",
+      "highlightChunk": "work on",
+      "primaryC1": "focus on",
+      "register": "general",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "This week we will focus on reducing checkout friction.",
+      "pitfall": null,
+      "b2Context": "We need to work on before the release."
+    },
+    {
+      "id": "point-out",
+      "b2Text": "point out",
+      "highlightChunk": "point out",
+      "primaryC1": "highlight",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "I want to highlight the risk in the migration plan.",
+      "pitfall": null,
+      "b2Context": "We need to point out before the release."
+    },
+    {
+      "id": "bring-up",
+      "b2Text": "bring up",
+      "highlightChunk": "bring up",
+      "primaryC1": "raise",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Please raise any blockers in standup.",
+      "pitfall": null,
+      "b2Context": "We need to bring up before the release."
+    },
+    {
+      "id": "figure-out",
+      "b2Text": "figure out",
+      "highlightChunk": "figure out",
+      "primaryC1": "resolve",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "We need to resolve the auth timeout before launch.",
+      "pitfall": null,
+      "b2Context": "We need to figure out before the release."
+    },
+    {
+      "id": "check-out",
+      "b2Text": "check out",
+      "highlightChunk": "check out",
+      "primaryC1": "examine",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "Examine the flame graph before optimizing further.",
+      "pitfall": null,
+      "b2Context": "We need to check out before the release."
+    },
+    {
+      "id": "keep-in-mind",
+      "b2Text": "keep in mind",
+      "highlightChunk": "keep in mind",
+      "primaryC1": "bear in mind",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Bear in mind that latency compounds under load.",
+      "pitfall": null,
+      "b2Context": "We need to keep in mind before the release."
+    },
+    {
+      "id": "as-soon-as-possible",
+      "b2Text": "as soon as possible",
+      "highlightChunk": "as soon as possible",
+      "primaryC1": "at the earliest opportunity",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Please share the draft at the earliest opportunity.",
+      "pitfall": null,
+      "b2Context": "We still use \"as soon as possible\" too often in standup."
+    },
+    {
+      "id": "in-the-long-run",
+      "b2Text": "in the long run",
+      "highlightChunk": "in the long run",
+      "primaryC1": "over the long term",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "Over the long term, this architecture will scale better.",
+      "pitfall": null,
+      "b2Context": "We still use \"in the long run\" too often in standup."
+    },
+    {
+      "id": "at-the-moment",
+      "b2Text": "at the moment",
+      "highlightChunk": "at the moment",
+      "primaryC1": "currently",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We are currently blocked on legal review.",
+      "pitfall": null,
+      "b2Context": "We still use \"at the moment\" too often in standup."
+    },
+    {
+      "id": "a-bit",
+      "b2Text": "a bit",
+      "highlightChunk": "a bit",
+      "primaryC1": "somewhat",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "The results are somewhat inconclusive.",
+      "pitfall": null,
+      "b2Context": "This is a bit for the team."
+    },
+    {
+      "id": "really-good",
+      "b2Text": "really good",
+      "highlightChunk": "really good",
+      "primaryC1": "highly effective",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "The new onboarding flow is highly effective.",
+      "pitfall": null,
+      "b2Context": "This is really good for the team."
+    },
+    {
+      "id": "really-bad",
+      "b2Text": "really bad",
+      "highlightChunk": "really bad",
+      "primaryC1": "severely deficient",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "The baseline documentation is severely deficient.",
+      "pitfall": null,
+      "b2Context": "This is really bad for the team."
+    },
+    {
+      "id": "get-rid-of",
+      "b2Text": "get rid of",
+      "highlightChunk": "get rid of",
+      "primaryC1": "eliminate",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We aim to eliminate redundant approval steps.",
+      "pitfall": null,
+      "b2Context": "We need to get rid of before the release."
+    },
+    {
+      "id": "show-up",
+      "b2Text": "show up",
+      "highlightChunk": "show up",
+      "primaryC1": "appear",
+      "register": "general",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "The defect does not appear in production logs.",
+      "pitfall": null,
+      "b2Context": "We need to show up before the release."
+    },
+    {
+      "id": "end-up",
+      "b2Text": "end up",
+      "highlightChunk": "end up",
+      "primaryC1": "ultimately",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We ultimately chose the simpler migration path.",
+      "pitfall": null,
+      "b2Context": "We need to end up before the release."
+    },
+    {
+      "id": "carry-out",
+      "b2Text": "carry out",
+      "highlightChunk": "carry out",
+      "primaryC1": "conduct",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "We will conduct a controlled experiment next week.",
+      "pitfall": null,
+      "b2Context": "We need to carry out before the release."
+    },
+    {
+      "id": "put-together",
+      "b2Text": "put together",
+      "highlightChunk": "put together",
+      "primaryC1": "assemble",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Please assemble a concise briefing for the board.",
+      "pitfall": null,
+      "b2Context": "We need to put together before the release."
+    },
+    {
+      "id": "run-into",
+      "b2Text": "run into",
+      "highlightChunk": "run into",
+      "primaryC1": "encounter",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "We may encounter rate limits during the backfill.",
+      "pitfall": null,
+      "b2Context": "We need to run into before the release."
+    },
+    {
+      "id": "cut-down",
+      "b2Text": "cut down",
+      "highlightChunk": "cut down",
+      "primaryC1": "reduce",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We need to reduce infrastructure spend by fifteen percent.",
+      "pitfall": null,
+      "b2Context": "We need to cut down before the release."
+    },
+    {
+      "id": "speed-up",
+      "b2Text": "speed up",
+      "highlightChunk": "speed up",
+      "primaryC1": "accelerate",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Caching should accelerate cold-start performance.",
+      "pitfall": null,
+      "b2Context": "We need to speed up before the release."
+    },
+    {
+      "id": "slow-down",
+      "b2Text": "slow down",
+      "highlightChunk": "slow down",
+      "primaryC1": "decelerate",
+      "register": "general",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Traffic may decelerate after the holiday peak.",
+      "pitfall": null,
+      "b2Context": "We need to slow down before the release."
+    },
+    {
+      "id": "take-care-of",
+      "b2Text": "take care of",
+      "highlightChunk": "take care of",
+      "primaryC1": "handle",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "I will handle the client follow-up after the call.",
+      "pitfall": null,
+      "b2Context": "We need to take care of before the release."
+    },
+    {
+      "id": "give-up",
+      "b2Text": "give up",
+      "highlightChunk": "give up",
+      "primaryC1": "abandon",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We should not abandon the initiative without data.",
+      "pitfall": null,
+      "b2Context": "We need to give up before the release."
+    },
+    {
+      "id": "keep-going",
+      "b2Text": "keep going",
+      "highlightChunk": "keep going",
+      "primaryC1": "persist",
+      "register": "general",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Teams that persist through ambiguity ship stronger products.",
+      "pitfall": null,
+      "b2Context": "We need to keep going before the release."
+    },
+    {
+      "id": "sort-out",
+      "b2Text": "sort out",
+      "highlightChunk": "sort out",
+      "primaryC1": "clarify",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We need to clarify ownership before the kickoff.",
+      "pitfall": null,
+      "b2Context": "We need to sort out before the release."
+    },
+    {
+      "id": "think-about",
+      "b2Text": "think about",
+      "highlightChunk": "think about",
+      "primaryC1": "consider",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "Consider the downstream effects on billing.",
+      "pitfall": null,
+      "b2Context": "We need to think about before the release."
+    },
+    {
+      "id": "need-to",
+      "b2Text": "need to",
+      "highlightChunk": "need to",
+      "primaryC1": "must",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We must finalize the SLA language today.",
+      "pitfall": null,
+      "b2Context": "We need to need to before the release."
+    },
+    {
+      "id": "want-to",
+      "b2Text": "want to",
+      "highlightChunk": "want to",
+      "primaryC1": "intend to",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We intend to publish the changelog tomorrow.",
+      "pitfall": null,
+      "b2Context": "We need to want to before the release."
+    },
+    {
+      "id": "try-to",
+      "b2Text": "try to",
+      "highlightChunk": "try to",
+      "primaryC1": "attempt to",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "We attempt to isolate the failing shard first.",
+      "pitfall": null,
+      "b2Context": "We need to try to before the release."
+    },
+    {
+      "id": "hard-to",
+      "b2Text": "hard to",
+      "highlightChunk": "hard to",
+      "primaryC1": "difficult to",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "It remains difficult to reproduce the race condition.",
+      "pitfall": null,
+      "b2Context": "We need to hard to before the release."
+    },
+    {
+      "id": "easy-to",
+      "b2Text": "easy to",
+      "highlightChunk": "easy to",
+      "primaryC1": "straightforward to",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "The new API is straightforward to integrate.",
+      "pitfall": null,
+      "b2Context": "We need to easy to before the release."
+    },
+    {
+      "id": "good-enough",
+      "b2Text": "good enough",
+      "highlightChunk": "good enough",
+      "primaryC1": "adequate",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "The prototype is adequate for an internal demo.",
+      "pitfall": null,
+      "b2Context": "This is good enough for the team."
+    },
+    {
+      "id": "not-enough",
+      "b2Text": "not enough",
+      "highlightChunk": "not enough",
+      "primaryC1": "insufficient",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "The sample size is insufficient for a firm conclusion.",
+      "pitfall": null,
+      "b2Context": "This is not enough for the team."
+    },
+    {
+      "id": "more-and-more",
+      "b2Text": "more and more",
+      "highlightChunk": "more and more",
+      "primaryC1": "increasingly",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "Customers are increasingly asking for audit trails.",
+      "pitfall": null,
+      "b2Context": "This is more and more for the team."
+    },
+    {
+      "id": "right-away",
+      "b2Text": "right away",
+      "highlightChunk": "right away",
+      "primaryC1": "immediately",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Escalate severity-one incidents immediately.",
+      "pitfall": null,
+      "b2Context": "We need to right away before the release."
+    },
+    {
+      "id": "for-example",
+      "b2Text": "for example",
+      "highlightChunk": "for example",
+      "primaryC1": "for instance",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "For instance, retries without backoff amplify load.",
+      "pitfall": null,
+      "b2Context": "We still use \"for example\" too often in standup."
+    },
+    {
+      "id": "in-fact",
+      "b2Text": "in fact",
+      "highlightChunk": "in fact",
+      "primaryC1": "indeed",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "The metric indeed correlates with retention.",
+      "pitfall": null,
+      "b2Context": "We still use \"in fact\" too often in standup."
+    },
+    {
+      "id": "on-the-other-hand",
+      "b2Text": "on the other hand",
+      "highlightChunk": "on the other hand",
+      "primaryC1": "conversely",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "Conversely, shorter sessions may reduce completion.",
+      "pitfall": null,
+      "b2Context": "We still use \"on the other hand\" too often in standup."
+    },
+    {
+      "id": "as-a-result",
+      "b2Text": "as a result",
+      "highlightChunk": "as a result",
+      "primaryC1": "consequently",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "Consequently, we revised the capacity plan.",
+      "pitfall": null,
+      "b2Context": "We still use \"as a result\" too often in standup."
+    },
+    {
+      "id": "because-of-this",
+      "b2Text": "because of this",
+      "highlightChunk": "because of this",
+      "primaryC1": "accordingly",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Accordingly, we adjusted the roadmap.",
+      "pitfall": null,
+      "b2Context": "We need to because of this before the release."
+    },
+    {
+      "id": "in-my-opinion",
+      "b2Text": "in my opinion",
+      "highlightChunk": "in my opinion",
+      "primaryC1": "in my view",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "In my view, the simpler design wins.",
+      "pitfall": null,
+      "b2Context": "We still use \"in my opinion\" too often in standup."
+    },
+    {
+      "id": "i-think",
+      "b2Text": "I think",
+      "highlightChunk": "I think",
+      "primaryC1": "I believe",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "I believe we should prioritize reliability this quarter.",
+      "pitfall": null,
+      "b2Context": "I think we should prioritize reliability."
+    },
+    {
+      "id": "maybe",
+      "b2Text": "maybe",
+      "highlightChunk": "maybe",
+      "primaryC1": "possibly",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "The outage was possibly triggered by a config drift.",
+      "pitfall": null,
+      "b2Context": "We still use \"maybe\" too often in standup."
+    },
+    {
+      "id": "probably",
+      "b2Text": "probably",
+      "highlightChunk": "probably",
+      "primaryC1": "likely",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "The spike is likely tied to the marketing campaign.",
+      "pitfall": null,
+      "b2Context": "We still use \"probably\" too often in standup."
+    },
+    {
+      "id": "about",
+      "b2Text": "about",
+      "highlightChunk": "about",
+      "primaryC1": "approximately",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Latency improved by approximately forty percent.",
+      "pitfall": null,
+      "b2Context": "We still use \"about\" too often in standup."
+    },
+    {
+      "id": "almost",
+      "b2Text": "almost",
+      "highlightChunk": "almost",
+      "primaryC1": "nearly",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "We have nearly completed the migration.",
+      "pitfall": null,
+      "b2Context": "We still use \"almost\" too often in standup."
+    },
+    {
+      "id": "very-fast",
+      "b2Text": "very fast",
+      "highlightChunk": "very fast",
+      "primaryC1": "rapid",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We saw a rapid increase in trial conversions.",
+      "pitfall": null,
+      "b2Context": "This is very fast for the team."
+    },
+    {
+      "id": "very-slow",
+      "b2Text": "very slow",
+      "highlightChunk": "very slow",
+      "primaryC1": "sluggish",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "Cold starts remain sluggish on the legacy path.",
+      "pitfall": null,
+      "b2Context": "This is very slow for the team."
+    },
+    {
+      "id": "very-clear",
+      "b2Text": "very clear",
+      "highlightChunk": "very clear",
+      "primaryC1": "unambiguous",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "The acceptance criteria must be unambiguous.",
+      "pitfall": null,
+      "b2Context": "This is very clear for the team."
+    },
+    {
+      "id": "very-unclear",
+      "b2Text": "very unclear",
+      "highlightChunk": "very unclear",
+      "primaryC1": "ambiguous",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "The ownership model is still ambiguous.",
+      "pitfall": null,
+      "b2Context": "This is very unclear for the team."
+    },
+    {
+      "id": "a-few",
+      "b2Text": "a few",
+      "highlightChunk": "a few",
+      "primaryC1": "several",
+      "register": "general",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Several teams reported the same symptom.",
+      "pitfall": null,
+      "b2Context": "This is a few for the team."
+    },
+    {
+      "id": "lots-of",
+      "b2Text": "lots of",
+      "highlightChunk": "lots of",
+      "primaryC1": "numerous",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "There are numerous edge cases in billing.",
+      "pitfall": null,
+      "b2Context": "This is lots of for the team."
+    },
+    {
+      "id": "kind-of",
+      "b2Text": "kind of",
+      "highlightChunk": "kind of",
+      "primaryC1": "somewhat",
+      "register": "general",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "The API response is somewhat inconsistent.",
+      "pitfall": null,
+      "b2Context": "We need to kind of before the release."
+    },
+    {
+      "id": "sort-of",
+      "b2Text": "sort of",
+      "highlightChunk": "sort of",
+      "primaryC1": "rather",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "The proposal is rather speculative at this stage.",
+      "pitfall": null,
+      "b2Context": "We need to sort of before the release."
+    },
+    {
+      "id": "get-back-to",
+      "b2Text": "get back to",
+      "highlightChunk": "get back to",
+      "primaryC1": "revert to",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We will revert to the previous topic after the demo.",
+      "pitfall": null,
+      "b2Context": "We need to get back to before the release."
+    },
+    {
+      "id": "follow-up-on",
+      "b2Text": "follow up on",
+      "highlightChunk": "follow up on",
+      "primaryC1": "pursue",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Please pursue the outstanding vendor questions.",
+      "pitfall": null,
+      "b2Context": "We need to follow up on before the release."
+    },
+    {
+      "id": "move-forward",
+      "b2Text": "move forward",
+      "highlightChunk": "move forward",
+      "primaryC1": "proceed",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We can proceed once legal clears the language.",
+      "pitfall": null,
+      "b2Context": "We need to move forward before the release."
+    },
+    {
+      "id": "take-into-account",
+      "b2Text": "take into account",
+      "highlightChunk": "take into account",
+      "primaryC1": "account for",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "The model must account for seasonal demand.",
+      "pitfall": null,
+      "b2Context": "We need to take into account before the release."
+    },
+    {
+      "id": "make-a-decision",
+      "b2Text": "make a decision",
+      "highlightChunk": "make a decision",
+      "primaryC1": "decide",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We need to decide on the pricing tier today.",
+      "pitfall": null,
+      "b2Context": "We need to make a decision before the release."
+    },
+    {
+      "id": "have-a-look",
+      "b2Text": "have a look",
+      "highlightChunk": "have a look",
+      "primaryC1": "review",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Could you review the draft before noon?",
+      "pitfall": null,
+      "b2Context": "We need to have a look before the release."
+    },
+    {
+      "id": "give-an-example",
+      "b2Text": "give an example",
+      "highlightChunk": "give an example",
+      "primaryC1": "illustrate",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Let me illustrate with a production incident.",
+      "pitfall": null,
+      "b2Context": "We need to give an example before the release."
+    },
+    {
+      "id": "do-research",
+      "b2Text": "do research",
+      "highlightChunk": "do research",
+      "primaryC1": "conduct research",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "We will conduct research on competitor pricing.",
+      "pitfall": null,
+      "b2Context": "We need to do research before the release."
+    },
+    {
+      "id": "make-progress",
+      "b2Text": "make progress",
+      "highlightChunk": "make progress",
+      "primaryC1": "advance",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We continue to advance the reliability roadmap.",
+      "pitfall": null,
+      "b2Context": "We need to make progress before the release."
+    },
+    {
+      "id": "get-worse",
+      "b2Text": "get worse",
+      "highlightChunk": "get worse",
+      "primaryC1": "deteriorate",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Error rates deteriorate under peak concurrency.",
+      "pitfall": null,
+      "b2Context": "We need to get worse before the release."
+    },
+    {
+      "id": "go-up",
+      "b2Text": "go up",
+      "highlightChunk": "go up",
+      "primaryC1": "increase",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "Support tickets increase after every major release.",
+      "pitfall": null,
+      "b2Context": "We need to go up before the release."
+    },
+    {
+      "id": "go-down",
+      "b2Text": "go down",
+      "highlightChunk": "go down",
+      "primaryC1": "decrease",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Churn should decrease after the onboarding redesign.",
+      "pitfall": null,
+      "b2Context": "We need to go down before the release."
+    },
+    {
+      "id": "put-in-place",
+      "b2Text": "put in place",
+      "highlightChunk": "put in place",
+      "primaryC1": "implement",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We will implement stricter access controls.",
+      "pitfall": null,
+      "b2Context": "We need to put in place before the release."
+    },
+    {
+      "id": "come-across",
+      "b2Text": "come across",
+      "highlightChunk": "come across",
+      "primaryC1": "encounter",
+      "register": "general",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "You may encounter deprecated fields in the export.",
+      "pitfall": null,
+      "b2Context": "We need to come across before the release."
+    },
+    {
+      "id": "look-like",
+      "b2Text": "look like",
+      "highlightChunk": "look like",
+      "primaryC1": "appear to be",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "The anomaly appears to be limited to one region.",
+      "pitfall": null,
+      "b2Context": "We need to look like before the release."
+    },
+    {
+      "id": "feel-like",
+      "b2Text": "feel like",
+      "highlightChunk": "feel like",
+      "primaryC1": "seem",
+      "register": "general",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "The rollout timeline seems aggressive.",
+      "pitfall": null,
+      "b2Context": "We need to feel like before the release."
+    },
+    {
+      "id": "be-aware-of",
+      "b2Text": "be aware of",
+      "highlightChunk": "be aware of",
+      "primaryC1": "remain mindful of",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "academic"
+      ],
+      "context": "Remain mindful of privacy constraints in analytics.",
+      "pitfall": null,
+      "b2Context": "We need to be aware of before the release."
+    },
+    {
+      "id": "pay-attention-to",
+      "b2Text": "pay attention to",
+      "highlightChunk": "pay attention to",
+      "primaryC1": "attend to",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Attend to edge cases in currency conversion.",
+      "pitfall": null,
+      "b2Context": "We need to pay attention to before the release."
+    },
+    {
+      "id": "make-sense",
+      "b2Text": "make sense",
+      "highlightChunk": "make sense",
+      "primaryC1": "be coherent",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "The narrative must be coherent for executives.",
+      "pitfall": null,
+      "b2Context": "We need to make sense before the release."
+    },
+    {
+      "id": "no-idea",
+      "b2Text": "no idea",
+      "highlightChunk": "no idea",
+      "primaryC1": "uncertain",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "We remain uncertain about the vendor timeline.",
+      "pitfall": null,
+      "b2Context": "This is no idea for the team."
+    },
+    {
+      "id": "big-difference",
+      "b2Text": "big difference",
+      "highlightChunk": "big difference",
+      "primaryC1": "significant difference",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "There is a significant difference between the cohorts.",
+      "pitfall": null,
+      "b2Context": "This is big difference for the team."
+    },
+    {
+      "id": "small-change",
+      "b2Text": "small change",
+      "highlightChunk": "small change",
+      "primaryC1": "marginal adjustment",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "This is only a marginal adjustment to pricing.",
+      "pitfall": null,
+      "b2Context": "This is small change for the team."
+    },
+    {
+      "id": "main-point",
+      "b2Text": "main point",
+      "highlightChunk": "main point",
+      "primaryC1": "central argument",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "The central argument is that latency drives churn.",
+      "pitfall": null,
+      "b2Context": "This is main point for the team."
+    },
+    {
+      "id": "key-thing",
+      "b2Text": "key thing",
+      "highlightChunk": "key thing",
+      "primaryC1": "critical factor",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Trust is the critical factor in enterprise deals.",
+      "pitfall": null,
+      "b2Context": "This is key thing for the team."
+    },
+    {
+      "id": "next-step",
+      "b2Text": "next step",
+      "highlightChunk": "next step",
+      "primaryC1": "subsequent action",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "The subsequent action is a controlled canary.",
+      "pitfall": null,
+      "b2Context": "This is next step for the team."
+    },
+    {
+      "id": "at-first",
+      "b2Text": "at first",
+      "highlightChunk": "at first",
+      "primaryC1": "initially",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Initially, the metric looked healthy.",
+      "pitfall": null,
+      "b2Context": "We still use \"at first\" too often in standup."
+    },
+    {
+      "id": "in-the-end",
+      "b2Text": "in the end",
+      "highlightChunk": "in the end",
+      "primaryC1": "ultimately",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "Ultimately, we chose reliability over novelty.",
+      "pitfall": null,
+      "b2Context": "We still use \"in the end\" too often in standup."
+    },
+    {
+      "id": "by-the-way",
+      "b2Text": "by the way",
+      "highlightChunk": "by the way",
+      "primaryC1": "incidentally",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "Incidentally, the same pattern appears in billing.",
+      "pitfall": null,
+      "b2Context": "We still use \"by the way\" too often in standup."
+    },
+    {
+      "id": "to-sum-up",
+      "b2Text": "to sum up",
+      "highlightChunk": "to sum up",
+      "primaryC1": "in summary",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "biz"
+      ],
+      "context": "In summary, we should freeze scope for this release.",
+      "pitfall": null,
+      "b2Context": "We still use \"to sum up\" too often in standup."
+    },
+    {
+      "id": "go-ahead",
+      "b2Text": "go ahead",
+      "highlightChunk": "go ahead",
+      "primaryC1": "proceed",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "You may proceed with the canary once metrics stabilize.",
+      "pitfall": null,
+      "b2Context": "We need to go ahead before the release."
+    },
+    {
+      "id": "hold-on",
+      "b2Text": "hold on",
+      "highlightChunk": "hold on",
+      "primaryC1": "pause",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Pause the migration until backups finish.",
+      "pitfall": null,
+      "b2Context": "We need to hold on before the release."
+    },
+    {
+      "id": "catch-up",
+      "b2Text": "catch up",
+      "highlightChunk": "catch up",
+      "primaryC1": "align",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Let us align after you review the brief.",
+      "pitfall": null,
+      "b2Context": "We need to catch up before the release."
+    },
+    {
+      "id": "fill-in",
+      "b2Text": "fill in",
+      "highlightChunk": "fill in",
+      "primaryC1": "complete",
+      "register": "business",
+      "outcomeTags": [
+        "biz"
+      ],
+      "context": "Please complete the missing fields in the form.",
+      "pitfall": null,
+      "b2Context": "We need to fill in before the release."
+    },
+    {
+      "id": "hand-over",
+      "b2Text": "hand over",
+      "highlightChunk": "hand over",
+      "primaryC1": "transfer",
+      "register": "business",
+      "outcomeTags": [
+        "biz",
+        "tech"
+      ],
+      "context": "We will transfer ownership to the platform team.",
+      "pitfall": null,
+      "b2Context": "We need to hand over before the release."
+    },
+    {
+      "id": "break-down",
+      "b2Text": "break down",
+      "highlightChunk": "break down",
+      "primaryC1": "decompose",
+      "register": "it",
+      "outcomeTags": [
+        "tech"
+      ],
+      "context": "Decompose the epic into shippable increments.",
+      "pitfall": null,
+      "b2Context": "We need to break down before the release."
+    },
+    {
+      "id": "build-up",
+      "b2Text": "build up",
+      "highlightChunk": "build up",
+      "primaryC1": "accumulate",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "Technical debt will accumulate without refactors.",
+      "pitfall": null,
+      "b2Context": "We need to build up before the release."
+    },
+    {
+      "id": "write-down",
+      "b2Text": "write down",
+      "highlightChunk": "write down",
+      "primaryC1": "document",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Document the decision in the architecture log.",
+      "pitfall": null,
+      "b2Context": "We need to write down before the release."
+    },
+    {
+      "id": "bring-about",
+      "b2Text": "bring about",
+      "highlightChunk": "bring about",
+      "primaryC1": "effect",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "The change should effect a measurable drop in errors.",
+      "pitfall": {
+        "badText": "affect a measurable drop",
+        "explanation": "Use 'effect' when you mean 'bring about' a result."
+      },
+      "b2Context": "We need to bring about before the release."
+    },
+    {
+      "id": "call-for",
+      "b2Text": "call for",
+      "highlightChunk": "call for",
+      "primaryC1": "necessitate",
+      "register": "academic",
+      "outcomeTags": [
+        "academic",
+        "tech"
+      ],
+      "context": "The outage may necessitate a postmortem.",
+      "pitfall": null,
+      "b2Context": "We need to call for before the release."
+    },
+    {
+      "id": "account-for",
+      "b2Text": "account for",
+      "highlightChunk": "account for",
+      "primaryC1": "explain",
+      "register": "academic",
+      "outcomeTags": [
+        "academic"
+      ],
+      "context": "Can we explain the variance between cohorts?",
+      "pitfall": null,
+      "b2Context": "We need to account for before the release."
+    },
+    {
+      "id": "rely-on",
+      "b2Text": "rely on",
+      "highlightChunk": "rely on",
+      "primaryC1": "depend on",
+      "register": "general",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "We cannot depend on a single vendor region.",
+      "pitfall": null,
+      "b2Context": "We need to rely on before the release."
+    },
+    {
+      "id": "focus-on",
+      "b2Text": "focus on",
+      "highlightChunk": "focus on",
+      "primaryC1": "concentrate on",
+      "register": "business",
+      "outcomeTags": [
+        "tech",
+        "biz"
+      ],
+      "context": "Concentrate on the highest-severity defects first.",
+      "pitfall": null,
+      "b2Context": "We need to focus on before the release."
+    }
+  ]
+}
