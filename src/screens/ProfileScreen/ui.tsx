@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ScrollView, Text, View } from 'react-native';
 
-import { useRouter } from 'expo-router';
+import { useFocusEffect, useRouter } from 'expo-router';
 
 import { signOut } from '@features/auth';
 
 import { useProfileStore } from '@entities/profile';
 import { useSessionStore } from '@entities/user';
+import { countActiveChunks } from '@entities/word';
 
 import { useTheme } from '@shared/theme/useTheme';
 import { Button } from '@shared/ui/atoms/Button';
@@ -21,6 +22,27 @@ export const ProfileScreen: React.FC = () => {
   const isAuthenticated = useSessionStore(s => s.isAuthenticated);
   const resetOnboarding = useProfileStore(s => s.resetOnboarding);
   const [busy, setBusy] = useState(false);
+  const [activeChunks, setActiveChunks] = useState(0);
+
+  useFocusEffect(
+    useCallback(() => {
+      let cancelled = false;
+      countActiveChunks()
+        .then(count => {
+          if (!cancelled) {
+            setActiveChunks(count);
+          }
+        })
+        .catch(() => {
+          if (!cancelled) {
+            setActiveChunks(0);
+          }
+        });
+      return () => {
+        cancelled = true;
+      };
+    }, []),
+  );
 
   const onSignOut = async () => {
     setBusy(true);
@@ -103,7 +125,7 @@ export const ProfileScreen: React.FC = () => {
       <ShareCard
         b2Text={t('demo.shareB2')}
         c1Text={t('demo.shareC1')}
-        activeChunksCount={0}
+        activeChunksCount={activeChunks}
       />
     </ScrollView>
   );

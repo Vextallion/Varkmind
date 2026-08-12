@@ -51,9 +51,15 @@
     "title": "Learn",
     "loadingTitle": "Loading Register Graph",
     "loadingBody": "Preparing your next B2 → C1 rewrite.",
-    "emptyTitle": "No cards ready",
-    "emptyBody": "The local graph could not load a drill card. Retry after rebuild.",
-    "retry": "Retry"
+    "emptyTitle": "You're caught up",
+    "emptyBody": "No cards due right now. Come back when reviews are ready — or replay a chunk later.",
+    "retry": "Check again",
+    "accentLabel": "Accent",
+    "accentUs": "US",
+    "accentUk": "UK",
+    "speedLabel": "Speed",
+    "speed1x": "1x",
+    "speed075": "0.75x"
   },
   "library": {
     "title": "Library",

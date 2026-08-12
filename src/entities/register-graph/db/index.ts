@@ -194,18 +194,8 @@ export async function getDueDrillCard(): Promise<DrillCard | null> {
     return getPrimaryCard(asString(dueId));
   }
 
-  const any = await db.execute(
-    `
-    SELECT b.id AS b2_chunk_id
-    FROM b2_chunks b
-    INNER JOIN c1_replacements r
-      ON r.b2_chunk_id = b.id AND r.is_primary = 1
-    ORDER BY b.id ASC
-    LIMIT 1
-    `,
-  );
-  const anyId = any.rows?.[0]?.b2_chunk_id;
-  return anyId == null ? null : getPrimaryCard(asString(anyId));
+  // Nothing due — empty Learn state (caught up). Do not recycle future-scheduled cards.
+  return null;
 }
 
 export function findReplacementMatch(

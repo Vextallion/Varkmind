@@ -1,5 +1,5 @@
-import { useRouter } from 'expo-router';
-import React from 'react';
+import { useFocusEffect, useRouter } from 'expo-router';
+import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 
@@ -8,6 +8,7 @@ import {
   type LearningOutcome,
   useProfileStore,
 } from '@entities/profile';
+import { countActiveChunks } from '@entities/word';
 
 import { useTheme } from '@shared/theme/useTheme';
 import { Button } from '@shared/ui/atoms/Button';
@@ -33,10 +34,29 @@ export const DashboardScreen: React.FC = () => {
   const router = useRouter();
   const outcome = useProfileStore(s => s.outcome);
   const setOutcome = useProfileStore(s => s.setOutcome);
-  const activeChunks = 0;
+  const [activeChunks, setActiveChunks] = useState(0);
   const dailyGoal = 15;
   const selectedOutcome = outcome ?? 'tech_lead_standups';
 
+  useFocusEffect(
+    useCallback(() => {
+      let cancelled = false;
+      countActiveChunks()
+        .then(count => {
+          if (!cancelled) {
+            setActiveChunks(count);
+          }
+        })
+        .catch(() => {
+          if (!cancelled) {
+            setActiveChunks(0);
+          }
+        });
+      return () => {
+        cancelled = true;
+      };
+    }, []),
+  );
   return (
     <ScrollView
       style={{ flex: 1, backgroundColor: theme.BG.white }}
