@@ -170,31 +170,65 @@ export async function listCardsByRegister(
   return cards;
 }
 
-export async function getDueDrillCard(): Promise<DrillCard | null> {
+export async function getDueDrillCard(
+  outcomeTag?: string | null,
+): Promise<DrillCard | null> {
   const db = getDb();
   const now = new Date().toISOString();
+  const tag = outcomeTag?.trim() || null;
 
-  const due = await db.execute(
-    `
-    SELECT b.id AS b2_chunk_id
-    FROM b2_chunks b
-    INNER JOIN c1_replacements r
-      ON r.b2_chunk_id = b.id AND r.is_primary = 1
-    LEFT JOIN srs_progress s
-      ON s.chunk_id = b.id
-    WHERE s.chunk_id IS NULL OR s.next_review_at <= ?
-    ORDER BY COALESCE(s.next_review_at, '') ASC, b.id ASC
-    LIMIT 1
-    `,
-    [now],
-  );
+  async function queryDue(filterTag: string | null): Promise<string | null> {
+    if (filterTag) {
+      const due = await db.execute(
+        `
+        SELECT b.id AS b2_chunk_id
+        FROM b2_chunks b
+        INNER JOIN c1_replacements r
+          ON r.b2_chunk_id = b.id AND r.is_primary = 1
+        LEFT JOIN srs_progress s
+          ON s.chunk_id = b.id
+        WHERE (s.chunk_id IS NULL OR s.next_review_at <= ?)
+          AND (',' || REPLACE(b.outcome_tags, ' ', '') || ',') LIKE ?
+        ORDER BY COALESCE(s.next_review_at, '') ASC, b.id ASC
+        LIMIT 1
+        `,
+        [now, `%,${filterTag},%`],
+      );
+      const id = due.rows?.[0]?.b2_chunk_id;
+      return id == null ? null : asString(id);
+    }
 
-  const dueId = due.rows?.[0]?.b2_chunk_id;
-  if (dueId != null) {
-    return getPrimaryCard(asString(dueId));
+    const due = await db.execute(
+      `
+      SELECT b.id AS b2_chunk_id
+      FROM b2_chunks b
+      INNER JOIN c1_replacements r
+        ON r.b2_chunk_id = b.id AND r.is_primary = 1
+      LEFT JOIN srs_progress s
+        ON s.chunk_id = b.id
+      WHERE s.chunk_id IS NULL OR s.next_review_at <= ?
+      ORDER BY COALESCE(s.next_review_at, '') ASC, b.id ASC
+      LIMIT 1
+      `,
+      [now],
+    );
+    const id = due.rows?.[0]?.b2_chunk_id;
+    return id == null ? null : asString(id);
   }
 
-  // Nothing due — empty Learn state (caught up). Do not recycle future-scheduled cards.
+  const filteredId = await queryDue(tag);
+  if (filteredId) {
+    return getPrimaryCard(filteredId);
+  }
+
+  // Soft fallback when deck filter has nothing due.
+  if (tag) {
+    const anyId = await queryDue(null);
+    if (anyId) {
+      return getPrimaryCard(anyId);
+    }
+  }
+
   return null;
 }
 

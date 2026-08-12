@@ -5,6 +5,11 @@ import { ScrollView, Text, View } from 'react-native';
 import { useFocusEffect, useRouter } from 'expo-router';
 
 import { signOut } from '@features/auth';
+import {
+  getLastUpgradeOrDemo,
+  shareUpgradeCard,
+  useShareProgressStore,
+} from '@features/share-progress';
 
 import { useProfileStore } from '@entities/profile';
 import { useSessionStore } from '@entities/user';
@@ -21,8 +26,15 @@ export const ProfileScreen: React.FC = () => {
   const user = useSessionStore(s => s.user);
   const isAuthenticated = useSessionStore(s => s.isAuthenticated);
   const resetOnboarding = useProfileStore(s => s.resetOnboarding);
+  const lastUpgrade = useShareProgressStore(s => s.lastUpgrade);
   const [busy, setBusy] = useState(false);
+  const [sharing, setSharing] = useState(false);
   const [activeChunks, setActiveChunks] = useState(0);
+
+  const upgrade = getLastUpgradeOrDemo({
+    b2Text: t('demo.shareB2'),
+    c1Text: t('demo.shareC1'),
+  });
 
   useFocusEffect(
     useCallback(() => {
@@ -56,6 +68,19 @@ export const ProfileScreen: React.FC = () => {
 
   const onReplayOnboarding = () => {
     resetOnboarding();
+  };
+
+  const onShare = async () => {
+    setSharing(true);
+    try {
+      await shareUpgradeCard({
+        b2Text: upgrade.b2Text,
+        c1Text: upgrade.c1Text,
+        activeChunksCount: activeChunks,
+      });
+    } finally {
+      setSharing(false);
+    }
   };
 
   return (
@@ -122,11 +147,25 @@ export const ProfileScreen: React.FC = () => {
         />
       </View>
 
-      <ShareCard
-        b2Text={t('demo.shareB2')}
-        c1Text={t('demo.shareC1')}
-        activeChunksCount={activeChunks}
-      />
+      <View style={{ gap: theme.space.md }}>
+        <ShareCard
+          b2Text={upgrade.b2Text}
+          c1Text={upgrade.c1Text}
+          activeChunksCount={activeChunks}
+        />
+        {!lastUpgrade ? (
+          <Text style={[theme.type.caption, { color: theme.text.secondary }]}>
+            {t('profile.shareDemoHint')}
+          </Text>
+        ) : null}
+        <Button
+          disabled={sharing}
+          label={t('profile.shareProgress')}
+          onPress={() => {
+            void onShare();
+          }}
+        />
+      </View>
     </ScrollView>
   );
 };

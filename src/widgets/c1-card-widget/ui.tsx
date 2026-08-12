@@ -1,9 +1,13 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
 
-import { validateC1Input } from '@features/upgrade-register';
+import { useFocusEffect } from 'expo-router';
 
+import { validateC1Input } from '@features/upgrade-register';
+import { recordLastUpgrade } from '@features/share-progress';
+
+import { outcomeToSeedTag, useProfileStore } from '@entities/profile';
 import {
   type DrillCard,
   findPitfall,
@@ -31,6 +35,7 @@ type SpeedStub = '1x' | '0.75x';
 export const C1CardWidget: React.FC = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
+  const outcome = useProfileStore(s => s.outcome);
   const {
     b2ChunkId,
     b2Text,
@@ -56,7 +61,8 @@ export const C1CardWidget: React.FC = () => {
   const loadCard = useCallback(async () => {
     setStatus('loading');
     try {
-      const card: DrillCard | null = await getDueDrillCard();
+      const tag = outcomeToSeedTag(outcome);
+      const card: DrillCard | null = await getDueDrillCard(tag);
       if (!card) {
         setStatus('empty');
         return;
@@ -71,11 +77,13 @@ export const C1CardWidget: React.FC = () => {
     } catch {
       setStatus('empty');
     }
-  }, [setCard]);
+  }, [outcome, setCard]);
 
-  useEffect(() => {
-    loadCard();
-  }, [loadCard]);
+  useFocusEffect(
+    useCallback(() => {
+      void loadCard();
+    }, [loadCard]),
+  );
 
   const onChangeText = (text: string) => {
     setInput(text);
@@ -94,6 +102,10 @@ export const C1CardWidget: React.FC = () => {
     if (b2ChunkId && validateC1Input(b2ChunkId, text)) {
       setPhase('success');
       setPitfallMessage(null);
+      recordLastUpgrade({
+        b2Text,
+        c1Text: targetC1Text,
+      });
       return;
     }
 

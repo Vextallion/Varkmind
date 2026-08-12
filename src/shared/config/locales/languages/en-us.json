@@ -73,7 +73,9 @@
     "guestMode": "Guest mode — progress stays on this device",
     "signIn": "Sign in",
     "signOut": "Sign out",
-    "replayOnboarding": "Replay onboarding"
+    "replayOnboarding": "Replay onboarding",
+    "shareProgress": "Share upgrade",
+    "shareDemoHint": "Complete a Learn card to replace this demo with your latest upgrade."
   },
   "auth": {
     "headline": "Start upgrading\nyour register.",
