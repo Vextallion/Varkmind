@@ -70,7 +70,7 @@ export const useSessionStore = create<SessionState>()(
         if (state?.accessToken) {
           setAuthToken(state.accessToken);
         }
-        state?.setHydrated(true);
+        // isHydrated is set by useAuthBootstrap after Supabase getSession.
       },
     },
   ),

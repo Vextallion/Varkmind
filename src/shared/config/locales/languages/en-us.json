@@ -45,7 +45,41 @@
   },
   "profile": {
     "title": "Profile",
-    "subtitle": "Active Chunks · Outcome deck · Share progress"
+    "subtitle": "Active Chunks · Outcome deck · Share progress",
+    "account": "Account",
+    "signedOut": "Not signed in",
+    "guestMode": "Guest mode — progress stays on this device",
+    "signIn": "Sign in",
+    "signOut": "Sign out"
+  },
+  "auth": {
+    "headline": "Start upgrading\nyour register.",
+    "subtitle": "Sign in to sync progress later — or continue as guest and drill offline.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "sendOtp": "Send code",
+    "otpLabel": "6-digit code",
+    "otpPlaceholder": "000000",
+    "verifyOtp": "Verify code",
+    "resendOtp": "Resend code",
+    "changeEmail": "Use a different email",
+    "otpSent": "Check your email for the 6-digit code.",
+    "otpVerified": "Signed in.",
+    "apple": "Continue with Apple",
+    "google": "Continue with Google",
+    "continueGuest": "Continue as guest",
+    "errors": {
+      "notConfigured": "Add EXPO_PUBLIC_SUPABASE_URL and EXPO_PUBLIC_SUPABASE_ANON_KEY to .env, then restart Metro.",
+      "emailRequired": "Enter an email address.",
+      "otpRequired": "Enter the code from your email.",
+      "otpInvalid": "That code is invalid or expired. Request a new one.",
+      "appleIosOnly": "Apple Sign-In is available on iOS.",
+      "appleUnavailable": "Apple Sign-In is not available on this device.",
+      "appleNoToken": "Apple did not return an identity token.",
+      "googleCancelled": "Google sign-in was cancelled.",
+      "googleNoUrl": "Google sign-in could not start.",
+      "generic": "Something went wrong. Try again."
+    }
   },
   "activeQueue": {
     "badge": "48H ACTIVE CONSTRAINT",
