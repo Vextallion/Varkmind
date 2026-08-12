@@ -1,7 +1,13 @@
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Pressable, ScrollView, Text, View } from 'react-native';
+
+import {
+  LEARNING_OUTCOMES,
+  type LearningOutcome,
+  useProfileStore,
+} from '@entities/profile';
 
 import { useTheme } from '@shared/theme/useTheme';
 import { Button } from '@shared/ui/atoms/Button';
@@ -9,15 +15,27 @@ import { Chip } from '@shared/ui/atoms/Chip';
 import { ProgressRing } from '@shared/ui/molecules/ProgressRing';
 import { ActiveQueueWidget } from '@widgets/active-queue';
 
-const OUTCOME_IDS = ['tech', 'academic', 'biz'] as const;
+function outcomeLabelKey(
+  id: LearningOutcome,
+):
+  | 'outcomes.tech_lead_standups'
+  | 'outcomes.academic_writing_7_5'
+  | 'outcomes.c_level_negotiations' {
+  return `outcomes.${id}` as
+    | 'outcomes.tech_lead_standups'
+    | 'outcomes.academic_writing_7_5'
+    | 'outcomes.c_level_negotiations';
+}
 
 export const DashboardScreen: React.FC = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
   const router = useRouter();
-  const [selectedOutcome, setSelectedOutcome] = useState<string>('tech');
+  const outcome = useProfileStore(s => s.outcome);
+  const setOutcome = useProfileStore(s => s.setOutcome);
   const activeChunks = 0;
   const dailyGoal = 15;
+  const selectedOutcome = outcome ?? 'tech_lead_standups';
 
   return (
     <ScrollView
@@ -142,12 +160,12 @@ export const DashboardScreen: React.FC = () => {
               gap: theme.space.sm,
             }}
           >
-            {OUTCOME_IDS.map(id => (
+            {LEARNING_OUTCOMES.map(id => (
               <Chip
                 key={id}
-                label={t(`outcomes.${id}`)}
+                label={t(outcomeLabelKey(id))}
                 selected={selectedOutcome === id}
-                onPress={() => setSelectedOutcome(id)}
+                onPress={() => setOutcome(id)}
               />
             ))}
           </View>

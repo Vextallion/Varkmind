@@ -6,6 +6,7 @@ import { useRouter } from 'expo-router';
 
 import { signOut } from '@features/auth';
 
+import { useProfileStore } from '@entities/profile';
 import { useSessionStore } from '@entities/user';
 
 import { useTheme } from '@shared/theme/useTheme';
@@ -18,6 +19,7 @@ export const ProfileScreen: React.FC = () => {
   const router = useRouter();
   const user = useSessionStore(s => s.user);
   const isAuthenticated = useSessionStore(s => s.isAuthenticated);
+  const resetOnboarding = useProfileStore(s => s.resetOnboarding);
   const [busy, setBusy] = useState(false);
 
   const onSignOut = async () => {
@@ -28,6 +30,10 @@ export const ProfileScreen: React.FC = () => {
     } finally {
       setBusy(false);
     }
+  };
+
+  const onReplayOnboarding = () => {
+    resetOnboarding();
   };
 
   return (
@@ -87,6 +93,11 @@ export const ProfileScreen: React.FC = () => {
             onPress={() => router.push('/(auth)/sign-in')}
           />
         )}
+        <Button
+          label={t('profile.replayOnboarding')}
+          variant="ghost"
+          onPress={onReplayOnboarding}
+        />
       </View>
 
       <ShareCard

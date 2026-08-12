@@ -27,9 +27,25 @@
     "yourFocus": "Your focus"
   },
   "outcomes": {
-    "tech": "Tech Lead",
-    "academic": "Academic 7.5+",
-    "biz": "C-Level"
+    "tech_lead_standups": "Tech Lead Standups",
+    "academic_writing_7_5": "Academic Writing 7.5+",
+    "c_level_negotiations": "C-Level Negotiations",
+    "desc": {
+      "tech_lead_standups": "Upgrade register for standups, design reviews, and engineering leadership.",
+      "academic_writing_7_5": "Sharpen formal academic writing toward a strong 7.5+ register.",
+      "c_level_negotiations": "Sound decisive and precise in executive and client negotiations."
+    }
+  },
+  "onboarding": {
+    "diagnosticHeadline": "Upgrade three\nB2 phrases.",
+    "diagnosticSubtitle": "Rewrite each highlighted chunk into C1 register. About three minutes — no level label, just register readiness.",
+    "outcomeHeadline": "Choose your\nfocus deck.",
+    "outcomeSubtitle": "We’ll bias drills toward the situations you care about first.",
+    "progress": "{{current}} of {{total}}",
+    "nextTransform": "Next transform",
+    "finishDiagnostic": "Choose focus",
+    "startApp": "Start upgrading",
+    "readinessNote": "This is a register focus — not a CEFR placement score."
   },
   "learn": {
     "title": "Learn",
@@ -50,7 +66,8 @@
     "signedOut": "Not signed in",
     "guestMode": "Guest mode — progress stays on this device",
     "signIn": "Sign in",
-    "signOut": "Sign out"
+    "signOut": "Sign out",
+    "replayOnboarding": "Replay onboarding"
   },
   "auth": {
     "headline": "Start upgrading\nyour register.",

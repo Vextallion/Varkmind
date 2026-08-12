@@ -1,7 +1,7 @@
 import { getSupabase, isSupabaseConfigured } from '@shared/api';
-import { useSessionStore } from '@entities/user';
 
 import { mapSupabaseUser } from '../model/mapSupabaseUser';
+import { useSessionStore } from '../model/useSessionStore';
 
 import type { User, UserId } from '../model/types';
 

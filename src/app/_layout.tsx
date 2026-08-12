@@ -9,6 +9,7 @@ import * as SplashScreen from 'expo-splash-screen';
 
 import { useAuthBootstrap } from '@features/auth';
 
+import { useProfileStore } from '@entities/profile';
 import { initRegisterGraph } from '@entities/register-graph/db/init';
 import { useSessionStore } from '@entities/user';
 
@@ -23,10 +24,23 @@ SplashScreen.preventAutoHideAsync();
 function AuthNavigation({ bootReady }: { bootReady: boolean }) {
   useAuthBootstrap();
 
-  const isHydrated = useSessionStore(s => s.isHydrated);
+  const isSessionHydrated = useSessionStore(s => s.isHydrated);
   const user = useSessionStore(s => s.user);
   const isAuthenticated = useSessionStore(s => s.isAuthenticated);
+  const isProfileHydrated = useProfileStore(s => s.isHydrated);
+  const onboardingCompleted = useProfileStore(s => s.onboardingCompleted);
+
   const hasAccess = isAuthenticated || Boolean(user?.isGuest);
+  const isHydrated = isSessionHydrated && isProfileHydrated;
+
+  useEffect(() => {
+    if (
+      useProfileStore.persist.hasHydrated() &&
+      !useProfileStore.getState().isHydrated
+    ) {
+      useProfileStore.getState().setHydrated(true);
+    }
+  }, []);
 
   useEffect(() => {
     if (bootReady && isHydrated) {
@@ -40,8 +54,11 @@ function AuthNavigation({ bootReady }: { bootReady: boolean }) {
 
   return (
     <Stack screenOptions={{ headerShown: false }}>
-      <Stack.Protected guard={hasAccess}>
+      <Stack.Protected guard={hasAccess && onboardingCompleted}>
         <Stack.Screen name="(tabs)" />
+      </Stack.Protected>
+      <Stack.Protected guard={hasAccess && !onboardingCompleted}>
+        <Stack.Screen name="(onboarding)" />
       </Stack.Protected>
       <Stack.Protected guard={!hasAccess}>
         <Stack.Screen name="(auth)" />

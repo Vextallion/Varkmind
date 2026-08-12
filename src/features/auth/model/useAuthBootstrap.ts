@@ -5,6 +5,8 @@ import { mapSupabaseUser } from '@entities/user/model/mapSupabaseUser';
 
 import { getSupabase, isSupabaseConfigured } from '@shared/api';
 
+const SESSION_FETCH_TIMEOUT_MS = 2500;
+
 function waitForPersistHydration(): Promise<void> {
   if (useSessionStore.persist.hasHydrated()) {
     return Promise.resolve();
@@ -18,6 +20,25 @@ function waitForPersistHydration(): Promise<void> {
   });
 }
 
+function withTimeout<T>(promise: PromiseLike<T>, ms: number): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error('AUTH_SESSION_TIMEOUT'));
+    }, ms);
+
+    Promise.resolve(promise).then(
+      value => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      error => {
+        clearTimeout(timer);
+        reject(error);
+      },
+    );
+  });
+}
+
 export function useAuthBootstrap(): void {
   const setSession = useSessionStore(s => s.setSession);
   const clearSession = useSessionStore(s => s.clearSession);
@@ -28,32 +49,39 @@ export function useAuthBootstrap(): void {
 
     async function bootstrap() {
       await waitForPersistHydration();
-
-      if (!isSupabaseConfigured()) {
-        if (mounted) {
-          setHydrated(true);
-        }
-        return;
-      }
-
-      const supabase = getSupabase();
-      const { data } = await supabase.auth.getSession();
-
       if (!mounted) {
         return;
       }
 
-      const session = data.session;
-      if (session?.user && session.access_token) {
-        setSession(mapSupabaseUser(session.user), session.access_token);
-      } else {
+      // Unblock splash from local MMKV — do not wait on network.
+      setHydrated(true);
+
+      if (!isSupabaseConfigured()) {
+        return;
+      }
+
+      try {
+        const { data } = await withTimeout(
+          getSupabase().auth.getSession(),
+          SESSION_FETCH_TIMEOUT_MS,
+        );
+        if (!mounted) {
+          return;
+        }
+
+        const session = data.session;
+        if (session?.user && session.access_token) {
+          setSession(mapSupabaseUser(session.user), session.access_token);
+          return;
+        }
+
         const current = useSessionStore.getState().user;
         if (current && !current.isGuest) {
           clearSession();
         }
+      } catch {
+        // Offline / DNS / slow network — keep persisted guest or auth state.
       }
-
-      setHydrated(true);
     }
 
     void bootstrap();
@@ -64,8 +92,7 @@ export function useAuthBootstrap(): void {
       };
     }
 
-    const supabase = getSupabase();
-    const { data: subscription } = supabase.auth.onAuthStateChange(
+    const { data: subscription } = getSupabase().auth.onAuthStateChange(
       (_event, session) => {
         if (!mounted) {
           return;

@@ -1,1 +1,5 @@
-export { fetchProfile, upsertProfile } from './profileApi';
+export {
+  fetchProfile,
+  persistOutcomeLocally,
+  upsertProfile,
+} from './profileApi';
