@@ -4,8 +4,8 @@ import { Text, View } from 'react-native';
 
 import { useFocusEffect } from 'expo-router';
 
-import { validateC1Input } from '@features/upgrade-register';
 import { recordLastUpgrade } from '@features/share-progress';
+import { validateC1Input } from '@features/upgrade-register';
 
 import { outcomeToSeedTag, useProfileStore } from '@entities/profile';
 import {
@@ -14,13 +14,17 @@ import {
   getDueDrillCard,
 } from '@entities/register-graph';
 import {
+  type SrsGrade,
   applySm2Grade,
   createInitialSrsProgress,
   loadSrsProgress,
   saveSrsProgress,
-  type SrsGrade,
 } from '@entities/srs';
-import { markDay1Active, useCardStore } from '@entities/word';
+import {
+  advanceActiveProduction,
+  markDay1Active,
+  useCardStore
+} from '@entities/word';
 
 import { useTheme } from '@shared/theme/useTheme';
 import { Chip } from '@shared/ui/atoms/Chip';
@@ -134,7 +138,10 @@ export const C1CardWidget: React.FC = () => {
       await saveSrsProgress(next);
 
       if (grade === 'good' || grade === 'easy') {
-        await markDay1Active(b2ChunkId);
+        const day1JustSet = await markDay1Active(b2ChunkId);
+        if (!day1JustSet) {
+          await advanceActiveProduction(b2ChunkId);
+        }
       }
 
       setInput('');

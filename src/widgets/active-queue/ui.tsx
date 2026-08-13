@@ -1,9 +1,13 @@
-import { useRouter } from 'expo-router';
-import React from 'react';
+import { useFocusEffect, useRouter } from 'expo-router';
+import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Text, View } from 'react-native';
 
-import { getDueActiveTasks } from '@features/active-production';
+import {
+  type ActiveTask,
+  getDueActiveTasks,
+} from '@features/active-production';
+
 import { useTheme } from '@shared/theme/useTheme';
 import { Button } from '@shared/ui/atoms/Button';
 
@@ -11,9 +15,31 @@ export const ActiveQueueWidget: React.FC = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
   const router = useRouter();
-  const tasks = getDueActiveTasks();
+  const [tasks, setTasks] = useState<ActiveTask[]>([]);
+
+  useFocusEffect(
+    useCallback(() => {
+      let cancelled = false;
+      getDueActiveTasks()
+        .then(next => {
+          if (!cancelled) {
+            setTasks(next);
+          }
+        })
+        .catch(() => {
+          if (!cancelled) {
+            setTasks([]);
+          }
+        });
+      return () => {
+        cancelled = true;
+      };
+    }, []),
+  );
+
   const dueCount = tasks.length;
   const hasDue = dueCount > 0;
+  const preview = tasks[0];
 
   return (
     <View
@@ -75,6 +101,23 @@ export const ActiveQueueWidget: React.FC = () => {
         <Text style={[theme.type.caption, { color: theme.text.secondary }]}>
           {hasDue ? t('activeQueue.bodyDue') : t('activeQueue.bodyEmpty')}
         </Text>
+
+        {preview ? (
+          <Text
+            style={[
+              theme.type.body,
+              { color: theme.text.primary, fontStyle: 'italic' },
+            ]}
+            numberOfLines={2}
+          >
+            {preview.stage === 'stage2'
+              ? t('activeQueue.stage2Label')
+              : t('activeQueue.stage3Label')}
+            {': “'}
+            {preview.prompt}
+            {'”'}
+          </Text>
+        ) : null}
 
         <Button
           label={hasDue ? t('activeQueue.ctaDue') : t('activeQueue.ctaEmpty')}

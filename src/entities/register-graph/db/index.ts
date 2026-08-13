@@ -178,25 +178,12 @@ export async function getDueDrillCard(
   const tag = outcomeTag?.trim() || null;
 
   async function queryDue(filterTag: string | null): Promise<string | null> {
-    if (filterTag) {
-      const due = await db.execute(
-        `
-        SELECT b.id AS b2_chunk_id
-        FROM b2_chunks b
-        INNER JOIN c1_replacements r
-          ON r.b2_chunk_id = b.id AND r.is_primary = 1
-        LEFT JOIN srs_progress s
-          ON s.chunk_id = b.id
-        WHERE (s.chunk_id IS NULL OR s.next_review_at <= ?)
-          AND (',' || REPLACE(b.outcome_tags, ' ', '') || ',') LIKE ?
-        ORDER BY COALESCE(s.next_review_at, '') ASC, b.id ASC
-        LIMIT 1
-        `,
-        [now, `%,${filterTag},%`],
-      );
-      const id = due.rows?.[0]?.b2_chunk_id;
-      return id == null ? null : asString(id);
-    }
+    const outcomeClause = filterTag
+      ? `AND (',' || REPLACE(b.outcome_tags, ' ', '') || ',') LIKE ?`
+      : '';
+    const params: SqlScalar[] = filterTag
+      ? [now, now, now, `%,${filterTag},%`]
+      : [now, now, now];
 
     const due = await db.execute(
       `
@@ -206,11 +193,40 @@ export async function getDueDrillCard(
         ON r.b2_chunk_id = b.id AND r.is_primary = 1
       LEFT JOIN srs_progress s
         ON s.chunk_id = b.id
-      WHERE s.chunk_id IS NULL OR s.next_review_at <= ?
-      ORDER BY COALESCE(s.next_review_at, '') ASC, b.id ASC
+      LEFT JOIN chunk_status cs
+        ON cs.chunk_id = b.id
+      WHERE (
+        s.chunk_id IS NULL
+        OR s.next_review_at <= ?
+        OR (
+          cs.stage2_completed_at IS NULL
+          AND cs.stage2_due_at IS NOT NULL
+          AND cs.stage2_due_at <= ?
+        )
+        OR (
+          cs.stage3_completed_at IS NULL
+          AND cs.stage3_due_at IS NOT NULL
+          AND cs.stage3_due_at <= ?
+        )
+      )
+      ${outcomeClause}
+      ORDER BY
+        CASE
+          WHEN cs.stage2_completed_at IS NULL
+            AND cs.stage2_due_at IS NOT NULL
+            AND cs.stage2_due_at <= ?
+            THEN 0
+          WHEN cs.stage3_completed_at IS NULL
+            AND cs.stage3_due_at IS NOT NULL
+            AND cs.stage3_due_at <= ?
+            THEN 0
+          ELSE 1
+        END ASC,
+        COALESCE(s.next_review_at, '') ASC,
+        b.id ASC
       LIMIT 1
       `,
-      [now],
+      [...params, now, now],
     );
     const id = due.rows?.[0]?.b2_chunk_id;
     return id == null ? null : asString(id);

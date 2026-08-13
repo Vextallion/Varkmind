@@ -1,46 +1,129 @@
 import { getDb, type SqlScalar } from '@shared/lib/sqlite';
 
-import type { ChunkStatus } from '../model/types';
-
 function asString(value: SqlScalar | undefined): string {
   return value == null ? '' : String(value);
 }
 
-function asStatus(value: SqlScalar | undefined): ChunkStatus {
-  const text = asString(value);
-  if (text === 'active' || text === 'mastered') {
-    return text;
-  }
-  return 'passive';
+function addHours(from: Date, hours: number): string {
+  const next = new Date(from.getTime());
+  next.setHours(next.getHours() + hours);
+  return next.toISOString();
 }
 
-/** Mark Day-1 Active progress on Good/Easy. Idempotent per chunk. */
+function addDays(from: Date, days: number): string {
+  const next = new Date(from.getTime());
+  next.setDate(next.getDate() + days);
+  return next.toISOString();
+}
+
+/** Stage 2 = 48h, Stage 3 = Day 7. Shorter in __DEV__ so the queue is testable. */
+function stageDueDates(from: Date): { stage2DueAt: string; stage3DueAt: string } {
+  if (__DEV__) {
+    return {
+      stage2DueAt: from.toISOString(), // due right away so Home queue lights up after Day-1
+      stage3DueAt: addHours(from, 1),
+    };
+  }
+  return {
+    stage2DueAt: addHours(from, 48),
+    stage3DueAt: addDays(from, 7),
+  };
+}
+
+/** Mark Day-1 Active progress on Good/Easy. Schedules 48h + Day-7 constraints. */
 export async function markDay1Active(chunkId: string): Promise<boolean> {
   const db = getDb();
   const existing = await db.execute(
-    'SELECT chunk_id, status FROM chunk_status WHERE chunk_id = ? LIMIT 1',
+    `
+    SELECT chunk_id, status, day1_completed_at
+    FROM chunk_status
+    WHERE chunk_id = ?
+    LIMIT 1
+    `,
     [chunkId],
   );
   const row = existing.rows?.[0];
-  if (row && asStatus(row.status) !== 'passive') {
+  if (row?.day1_completed_at) {
     return false;
   }
 
-  const now = new Date().toISOString();
+  const now = new Date();
+  const nowIso = now.toISOString();
+  const { stage2DueAt, stage3DueAt } = stageDueDates(now);
+
   await db.execute(
     `
-    INSERT INTO chunk_status (chunk_id, status, day1_completed_at)
-    VALUES (?, 'active', ?)
+    INSERT INTO chunk_status (
+      chunk_id, status, day1_completed_at,
+      stage2_due_at, stage3_due_at
+    ) VALUES (?, 'active', ?, ?, ?)
     ON CONFLICT(chunk_id) DO UPDATE SET
       status = CASE
-        WHEN chunk_status.status = 'passive' THEN 'active'
-        ELSE chunk_status.status
+        WHEN chunk_status.status = 'mastered' THEN 'mastered'
+        ELSE 'active'
       END,
-      day1_completed_at = COALESCE(chunk_status.day1_completed_at, excluded.day1_completed_at)
+      day1_completed_at = COALESCE(chunk_status.day1_completed_at, excluded.day1_completed_at),
+      stage2_due_at = COALESCE(chunk_status.stage2_due_at, excluded.stage2_due_at),
+      stage3_due_at = COALESCE(chunk_status.stage3_due_at, excluded.stage3_due_at)
     `,
-    [chunkId, now],
+    [chunkId, nowIso, stage2DueAt, stage3DueAt],
   );
   return true;
+}
+
+/**
+ * Advance Active Production when the learner re-produces a due chunk (Good/Easy).
+ * Stage 2 (48h) then Stage 3 (Day 7) → mastered.
+ */
+export async function advanceActiveProduction(
+  chunkId: string,
+): Promise<'stage2' | 'stage3' | null> {
+  const db = getDb();
+  const now = new Date().toISOString();
+  const result = await db.execute(
+    `
+    SELECT stage2_due_at, stage2_completed_at, stage3_due_at, stage3_completed_at
+    FROM chunk_status
+    WHERE chunk_id = ?
+    LIMIT 1
+    `,
+    [chunkId],
+  );
+  const row = result.rows?.[0];
+  if (!row) {
+    return null;
+  }
+
+  const stage2Due = asString(row.stage2_due_at);
+  const stage2Done = asString(row.stage2_completed_at);
+  const stage3Due = asString(row.stage3_due_at);
+  const stage3Done = asString(row.stage3_completed_at);
+
+  if (stage2Due && !stage2Done && stage2Due <= now) {
+    await db.execute(
+      `
+      UPDATE chunk_status
+      SET stage2_completed_at = ?
+      WHERE chunk_id = ?
+      `,
+      [now, chunkId],
+    );
+    return 'stage2';
+  }
+
+  if (stage3Due && !stage3Done && stage3Due <= now) {
+    await db.execute(
+      `
+      UPDATE chunk_status
+      SET stage3_completed_at = ?, status = 'mastered'
+      WHERE chunk_id = ?
+      `,
+      [now, chunkId],
+    );
+    return 'stage3';
+  }
+
+  return null;
 }
 
 export async function countActiveChunks(): Promise<number> {
@@ -53,4 +136,75 @@ export async function countActiveChunks(): Promise<number> {
     `,
   );
   return Number(result.rows?.[0]?.count ?? 0);
+}
+
+export type DueActiveRow = {
+  chunkId: string;
+  prompt: string;
+  dueAt: string;
+  stage: 'stage2' | 'stage3';
+};
+
+export async function listDueActiveConstraints(): Promise<DueActiveRow[]> {
+  const db = getDb();
+  const now = new Date().toISOString();
+  const result = await db.execute(
+    `
+    SELECT
+      cs.chunk_id AS chunk_id,
+      b.text AS prompt,
+      CASE
+        WHEN cs.stage2_completed_at IS NULL
+          AND cs.stage2_due_at IS NOT NULL
+          AND cs.stage2_due_at <= ?
+          THEN cs.stage2_due_at
+        WHEN cs.stage3_completed_at IS NULL
+          AND cs.stage3_due_at IS NOT NULL
+          AND cs.stage3_due_at <= ?
+          THEN cs.stage3_due_at
+        ELSE NULL
+      END AS due_at,
+      CASE
+        WHEN cs.stage2_completed_at IS NULL
+          AND cs.stage2_due_at IS NOT NULL
+          AND cs.stage2_due_at <= ?
+          THEN 'stage2'
+        WHEN cs.stage3_completed_at IS NULL
+          AND cs.stage3_due_at IS NOT NULL
+          AND cs.stage3_due_at <= ?
+          THEN 'stage3'
+        ELSE NULL
+      END AS stage
+    FROM chunk_status cs
+    INNER JOIN b2_chunks b ON b.id = cs.chunk_id
+    WHERE
+      (
+        cs.stage2_completed_at IS NULL
+        AND cs.stage2_due_at IS NOT NULL
+        AND cs.stage2_due_at <= ?
+      )
+      OR (
+        cs.stage3_completed_at IS NULL
+        AND cs.stage3_due_at IS NOT NULL
+        AND cs.stage3_due_at <= ?
+      )
+    ORDER BY due_at ASC
+    `,
+    [now, now, now, now, now, now],
+  );
+
+  return (result.rows ?? [])
+    .map(row => {
+      const stage = asString(row.stage);
+      if (stage !== 'stage2' && stage !== 'stage3') {
+        return null;
+      }
+      return {
+        chunkId: asString(row.chunk_id),
+        prompt: asString(row.prompt),
+        dueAt: asString(row.due_at),
+        stage,
+      } satisfies DueActiveRow;
+    })
+    .filter((row): row is DueActiveRow => row != null);
 }

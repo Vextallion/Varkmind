@@ -115,7 +115,9 @@
     "bodyDue": "Say or write them in a new context — or they slip back to passive.",
     "bodyEmpty": "Finish a drill, then come back in 48h. That’s when retention starts.",
     "ctaDue": "Activate now",
-    "ctaEmpty": "Go to Learn"
+    "ctaEmpty": "Go to Learn",
+    "stage2Label": "48h production",
+    "stage3Label": "Day-7 re-entry"
   },
   "shareCard": {
     "title": "{{brand}} · B2 → C1",
