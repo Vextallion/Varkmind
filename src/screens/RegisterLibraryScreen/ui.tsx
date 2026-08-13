@@ -19,6 +19,7 @@ import {
 
 import { useTheme } from '@shared/theme/useTheme';
 import { Button } from '@shared/ui/atoms/Button';
+import { ScreenHeader } from '@shared/ui/molecules/ScreenHeader';
 import { ScreenState } from '@shared/ui/molecules/ScreenState';
 
 export const RegisterLibraryScreen: React.FC = () => {
@@ -63,52 +64,43 @@ export const RegisterLibraryScreen: React.FC = () => {
 
   return (
     <View style={{ flex: 1, backgroundColor: theme.BG.white }}>
-      <View
-        style={{
-          paddingHorizontal: theme.space.xl,
-          paddingTop: theme.space.lg,
-          paddingBottom: theme.space.md,
-          gap: theme.space.md,
-          borderBottomWidth: 1,
-          borderBottomColor: theme.border.primary,
-        }}
-      >
-        <Pressable onPress={() => router.back()}>
-          <Text style={[theme.type.label, { color: theme.text.accent }]}>
-            {t('library.back')}
-          </Text>
-        </Pressable>
-        <View style={{ gap: theme.space.xs }}>
-          <Text style={[theme.type.displayMd, { color: theme.text.primary }]}>
-            {t('library.registerTitle')}
-          </Text>
-          <Text style={[theme.type.caption, { color: theme.text.secondary }]}>
-            {t('library.registerBody')}
-          </Text>
-          <Text style={[theme.type.label, { color: theme.text.accent }]}>
-            {countLabel}
-          </Text>
-        </View>
-
-        <TextInput
-          autoCapitalize="none"
-          autoCorrect={false}
-          placeholder={t('library.searchPlaceholder')}
-          placeholderTextColor={theme.text.secondary}
-          style={[
-            theme.type.body,
-            {
-              borderWidth: 1.5,
-              borderColor: theme.border.primary,
-              borderRadius: theme.radius.md,
-              padding: theme.space.md,
-              color: theme.text.primary,
-              backgroundColor: theme.BG.surface,
-            },
-          ]}
-          value={query}
-          onChangeText={setQuery}
+      <View>
+        <ScreenHeader
+          bordered={false}
+          backLabel={t('library.back')}
+          onBack={() => router.back()}
+          title={t('library.registerTitle')}
+          subtitle={t('library.registerBody')}
+          meta={countLabel}
         />
+        <View
+          style={{
+            paddingHorizontal: theme.space.xl,
+            paddingBottom: theme.space.md,
+            borderBottomWidth: 1,
+            borderBottomColor: theme.border.primary,
+          }}
+        >
+          <TextInput
+            autoCapitalize="none"
+            autoCorrect={false}
+            placeholder={t('library.searchPlaceholder')}
+            placeholderTextColor={theme.text.secondary}
+            style={[
+              theme.type.body,
+              {
+                borderWidth: 1.5,
+                borderColor: theme.border.primary,
+                borderRadius: theme.radius.md,
+                padding: theme.space.md,
+                color: theme.text.primary,
+                backgroundColor: theme.BG.surface,
+              },
+            ]}
+            value={query}
+            onChangeText={setQuery}
+          />
+        </View>
       </View>
 
       {status === 'loading' ? (
@@ -124,8 +116,10 @@ export const RegisterLibraryScreen: React.FC = () => {
           kind="empty"
           title={t('library.emptyTitle')}
           description={t('library.emptyRegisterBody')}
-          actionLabel={t('library.retry')}
-          onAction={load}
+          actionLabel={t('library.back')}
+          onAction={() => router.back()}
+          secondaryActionLabel={t('library.retry')}
+          onSecondaryAction={load}
         />
       ) : null}
 
@@ -134,44 +128,54 @@ export const RegisterLibraryScreen: React.FC = () => {
           data={entries}
           keyExtractor={item => item.b2ChunkId}
           contentContainerStyle={{
-            padding: theme.space.xl,
-            gap: theme.space.md,
+            paddingHorizontal: theme.space.xl,
+            paddingTop: theme.space.md,
             paddingBottom: theme.space.xxxl,
           }}
+          ItemSeparatorComponent={() => (
+            <View style={{ height: theme.space.sm }} />
+          )}
           renderItem={({ item }) => (
             <Pressable
               onPress={() => setSelected(item)}
-              style={{
-                padding: theme.space.lg,
-                borderRadius: theme.radius.lg,
+              style={({ pressed }) => ({
+                paddingHorizontal: theme.space.md,
+                paddingVertical: theme.space.md,
+                borderRadius: theme.radius.md,
                 borderWidth: 1,
                 borderColor: theme.border.primary,
                 backgroundColor: theme.BG.surface,
-                gap: theme.space.sm,
-              }}
+                gap: theme.space.xs,
+                opacity: pressed ? 0.9 : 1,
+              })}
             >
               <Text
-                style={[theme.type.label, { color: theme.text.accent }]}
+                style={[
+                  theme.type.label,
+                  { color: theme.text.secondary, textTransform: 'uppercase' },
+                ]}
               >
                 {t(`library.status.${item.status}`)}
+              </Text>
+              <Text
+                style={[
+                  theme.type.title,
+                  {
+                    color: theme.text.primary,
+                    fontFamily: theme.font.display,
+                    fontSize: 18,
+                    lineHeight: 24,
+                  },
+                ]}
+                numberOfLines={2}
+              >
+                {item.c1Text}
               </Text>
               <Text
                 style={[theme.type.body, { color: theme.text.secondary }]}
                 numberOfLines={2}
               >
                 {item.b2Text}
-              </Text>
-              <Text
-                style={[
-                  theme.type.bodyMedium,
-                  {
-                    color: theme.text.primary,
-                    fontFamily: theme.font.display,
-                  },
-                ]}
-                numberOfLines={2}
-              >
-                {item.c1Text}
               </Text>
             </Pressable>
           )}
@@ -187,7 +191,7 @@ export const RegisterLibraryScreen: React.FC = () => {
         <Pressable
           style={{
             flex: 1,
-            backgroundColor: 'rgba(0,0,0,0.35)',
+            backgroundColor: 'rgba(18,20,26,0.35)',
             justifyContent: 'flex-end',
           }}
           onPress={() => setSelected(null)}
@@ -205,11 +209,22 @@ export const RegisterLibraryScreen: React.FC = () => {
           >
             {selected ? (
               <>
-                <Text style={[theme.type.label, { color: theme.text.accent }]}>
+                <Text
+                  style={[
+                    theme.type.label,
+                    { color: theme.text.secondary, textTransform: 'uppercase' },
+                  ]}
+                >
                   {t(`library.status.${selected.status}`)}
                 </Text>
                 <Text
-                  style={[theme.type.title, { color: theme.text.primary }]}
+                  style={[
+                    theme.type.title,
+                    {
+                      color: theme.text.primary,
+                      fontFamily: theme.font.display,
+                    },
+                  ]}
                 >
                   {selected.c1Text}
                 </Text>

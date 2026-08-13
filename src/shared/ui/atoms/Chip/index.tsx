@@ -22,7 +22,16 @@ export function Chip({ label, selected = false, onPress }: ChipProps) {
   };
 
   return (
-    <Pressable onPress={onPress} style={style}>
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => [
+        style,
+        {
+          opacity: pressed ? 0.85 : 1,
+          transform: [{ scale: pressed ? 0.98 : 1 }],
+        },
+      ]}
+    >
       <Text
         style={[
           theme.type.label,

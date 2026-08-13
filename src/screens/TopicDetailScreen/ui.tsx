@@ -1,7 +1,7 @@
 import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { FlatList, Pressable, Text, View } from 'react-native';
+import { FlatList, Text, View } from 'react-native';
 
 import {
   getTopicById,
@@ -12,6 +12,7 @@ import {
 
 import { useTheme } from '@shared/theme/useTheme';
 import { SpoilerText } from '@shared/ui/atoms/SpoilerText';
+import { ScreenHeader } from '@shared/ui/molecules/ScreenHeader';
 import { ScreenState } from '@shared/ui/molecules/ScreenState';
 
 export const TopicDetailScreen: React.FC = () => {
@@ -60,35 +61,17 @@ export const TopicDetailScreen: React.FC = () => {
 
   return (
     <View style={{ flex: 1, backgroundColor: theme.BG.white }}>
-      <View
-        style={{
-          paddingHorizontal: theme.space.xl,
-          paddingTop: theme.space.lg,
-          paddingBottom: theme.space.md,
-          gap: theme.space.xs,
-          borderBottomWidth: 1,
-          borderBottomColor: theme.border.primary,
-        }}
-      >
-        <Pressable onPress={() => router.back()}>
-          <Text style={[theme.type.label, { color: theme.text.accent }]}>
-            {t('library.back')}
-          </Text>
-        </Pressable>
-        <View style={{ gap: theme.space.xs }}>
-          <Text style={[theme.type.displayMd, { color: theme.text.primary }]}>
-            {topic?.title ?? t('library.topicFallback')}
-          </Text>
-          <Text style={[theme.type.caption, { color: theme.text.secondary }]}>
-            {t('library.topicDetailSubtitle')}
-          </Text>
-          {topic ? (
-            <Text style={[theme.type.label, { color: theme.text.accent }]}>
-              {t('library.topicCount', { count: topic.entryCount })}
-            </Text>
-          ) : null}
-        </View>
-      </View>
+      <ScreenHeader
+        backLabel={t('library.back')}
+        onBack={() => router.back()}
+        title={topic?.title ?? t('library.topicFallback')}
+        subtitle={t('library.topicDetailSubtitle')}
+        meta={
+          topic
+            ? t('library.topicCount', { count: topic.entryCount })
+            : undefined
+        }
+      />
 
       {status === 'loading' ? (
         <ScreenState
@@ -103,8 +86,10 @@ export const TopicDetailScreen: React.FC = () => {
           kind="empty"
           title={t('library.emptyTitle')}
           description={t('library.emptyTopicBody')}
-          actionLabel={t('library.retry')}
-          onAction={load}
+          actionLabel={t('library.back')}
+          onAction={() => router.back()}
+          secondaryActionLabel={t('library.retry')}
+          onSecondaryAction={load}
         />
       ) : null}
 
@@ -137,10 +122,12 @@ export const TopicDetailScreen: React.FC = () => {
               >
                 <Text
                   style={[
-                    theme.type.bodyMedium,
+                    theme.type.title,
                     {
                       color: theme.text.primary,
                       fontFamily: theme.font.display,
+                      fontSize: 18,
+                      lineHeight: 24,
                     },
                   ]}
                 >
@@ -152,7 +139,10 @@ export const TopicDetailScreen: React.FC = () => {
                   {definition || t('library.definitionMissing')}
                 </Text>
                 <Text
-                  style={[theme.type.caption, { color: theme.text.secondary }]}
+                  style={[
+                    theme.type.caption,
+                    { color: theme.text.secondary, fontStyle: 'italic' },
+                  ]}
                 >
                   {item.example}
                 </Text>

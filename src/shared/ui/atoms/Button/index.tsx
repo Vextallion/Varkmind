@@ -31,7 +31,6 @@ export function Button({
     paddingHorizontal: theme.space.lg,
     alignItems: 'center',
     justifyContent: 'center',
-    opacity: disabled ? 0.45 : 1,
   };
 
   const labelStyle: TextStyle = {
@@ -55,7 +54,14 @@ export function Button({
     <Pressable
       accessibilityRole="button"
       disabled={disabled}
-      style={[container, style as ViewStyle]}
+      style={state => [
+        container,
+        {
+          opacity: disabled ? 0.45 : state.pressed ? 0.88 : 1,
+          transform: [{ scale: state.pressed && !disabled ? 0.98 : 1 }],
+        },
+        typeof style === 'function' ? style(state) : (style as ViewStyle),
+      ]}
       {...rest}
     >
       <Text style={labelStyle}>{label}</Text>

@@ -12,6 +12,8 @@ type ScreenStateProps = {
   description?: string;
   actionLabel?: string;
   onAction?: () => void;
+  secondaryActionLabel?: string;
+  onSecondaryAction?: () => void;
 };
 
 export function ScreenState({
@@ -20,6 +22,8 @@ export function ScreenState({
   description,
   actionLabel,
   onAction,
+  secondaryActionLabel,
+  onSecondaryAction,
 }: ScreenStateProps) {
   const { theme } = useTheme();
 
@@ -57,6 +61,13 @@ export function ScreenState({
       ) : null}
       {actionLabel && onAction ? (
         <Button label={actionLabel} onPress={onAction} />
+      ) : null}
+      {secondaryActionLabel && onSecondaryAction ? (
+        <Button
+          label={secondaryActionLabel}
+          variant="ghost"
+          onPress={onSecondaryAction}
+        />
       ) : null}
     </View>
   );

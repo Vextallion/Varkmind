@@ -29,33 +29,63 @@ export function ShareCard({
         gap: theme.space.lg,
       }}
     >
-      <Text style={[theme.type.label, { color: theme.text.accent }]}>
-        {t('shareCard.title')}
-      </Text>
+      <View
+        style={{
+          flexDirection: 'row',
+          justifyContent: 'space-between',
+          alignItems: 'baseline',
+          gap: theme.space.md,
+        }}
+      >
+        <Text style={[theme.type.label, { color: theme.text.accent }]}>
+          {t('shareCard.title')}
+        </Text>
+        <Text style={[theme.type.label, { color: theme.text.secondary }]}>
+          {t('shareCard.activeChunks', { count: activeChunksCount })}
+        </Text>
+      </View>
+
       <View style={{ gap: theme.space.xs }}>
-        <Text style={[theme.type.caption, { color: theme.text.secondary }]}>
+        <Text style={[theme.type.label, { color: theme.text.secondary }]}>
           {t('common.before')}
         </Text>
-        <Text style={[theme.type.body, { color: theme.text.secondary }]}>
+        <Text
+          style={[
+            theme.type.body,
+            {
+              color: theme.text.secondary,
+              textDecorationLine: 'line-through',
+              opacity: 0.85,
+            },
+          ]}
+        >
           {b2Text}
         </Text>
       </View>
+
+      <View
+        style={{
+          height: 1,
+          backgroundColor: theme.border.primary,
+        }}
+      />
+
       <View style={{ gap: theme.space.xs }}>
-        <Text style={[theme.type.caption, { color: theme.text.secondary }]}>
+        <Text style={[theme.type.label, { color: theme.text.accent }]}>
           {t('common.after')}
         </Text>
         <Text
           style={[
-            theme.type.bodyMedium,
-            { color: theme.text.primary, fontFamily: theme.font.display },
+            theme.type.title,
+            {
+              color: theme.text.primary,
+              fontFamily: theme.font.display,
+            },
           ]}
         >
           {c1Text}
         </Text>
       </View>
-      <Text style={[theme.type.label, { color: theme.text.accent }]}>
-        {t('shareCard.activeChunks', { count: activeChunksCount })}
-      </Text>
     </View>
   );
 }

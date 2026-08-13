@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { requireOptionalNativeModule } from 'expo';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 
@@ -21,6 +22,22 @@ import { ThemeProvider } from '@shared/theme/themeProvider';
 import { palette } from '@shared/theme/tokens/colors';
 
 SplashScreen.preventAutoHideAsync();
+
+/** Hide Expo Dev Client teal FAB — not part of product UI. Shake still opens the menu. */
+if (__DEV__) {
+  try {
+    const DevMenuPreferences = requireOptionalNativeModule<{
+      setPreferencesAsync?: (prefs: {
+        showFloatingActionButton?: boolean;
+      }) => Promise<void>;
+    }>('DevMenuPreferences');
+    void DevMenuPreferences?.setPreferencesAsync?.({
+      showFloatingActionButton: false,
+    });
+  } catch {
+    // Native module unavailable (web / plain Expo Go).
+  }
+}
 
 function AuthNavigation({ bootReady }: { bootReady: boolean }) {
   useAuthBootstrap();

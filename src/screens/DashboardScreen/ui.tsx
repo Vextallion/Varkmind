@@ -81,7 +81,7 @@ export const DashboardScreen: React.FC = () => {
             alignItems: 'flex-start',
           }}
         >
-          <View style={{ gap: 4, flex: 1 }}>
+          <View style={{ gap: theme.space.xs, flex: 1 }}>
             <Text style={[theme.type.label, { color: theme.text.accent }]}>
               {t('brand.eyebrow')}
             </Text>
@@ -167,7 +167,10 @@ export const DashboardScreen: React.FC = () => {
             <Text style={[theme.type.title, { color: theme.text.primary }]}>
               {t('dashboard.yourFocus')}
             </Text>
-            <Pressable>
+            <Pressable
+              onPress={() => router.push('/profile')}
+              style={({ pressed }) => ({ opacity: pressed ? 0.7 : 1 })}
+            >
               <Text style={[theme.type.label, { color: theme.text.accent }]}>
                 {t('common.change')}
               </Text>

@@ -1,8 +1,8 @@
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
-import { useFocusEffect } from 'expo-router';
+import { useFocusEffect, useRouter } from 'expo-router';
 
 import { recordLastUpgrade } from '@features/share-progress';
 import { useDrillPinStore, validateC1Input } from '@features/upgrade-register';
@@ -28,18 +28,15 @@ import {
 } from '@entities/word';
 
 import { useTheme } from '@shared/theme/useTheme';
-import { Chip } from '@shared/ui/atoms/Chip';
 import { DrillField } from '@shared/ui/molecules/DrillField';
 import { PitfallToast } from '@shared/ui/molecules/PitfallToast';
 import { SM2Bar } from '@shared/ui/molecules/SM2Bar';
 import { ScreenState } from '@shared/ui/molecules/ScreenState';
 
-type AccentStub = 'us' | 'uk';
-type SpeedStub = '1x' | '0.75x';
-
 export const C1CardWidget: React.FC = () => {
   const { t } = useTranslation();
   const { theme } = useTheme();
+  const router = useRouter();
   const outcome = useProfileStore(s => s.outcome);
   const {
     b2ChunkId,
@@ -59,8 +56,6 @@ export const C1CardWidget: React.FC = () => {
   const [status, setStatus] = useState<'loading' | 'ready' | 'empty'>(
     'loading',
   );
-  const [accent, setAccent] = useState<AccentStub>('us');
-  const [speed, setSpeed] = useState<SpeedStub>('1x');
   const [grading, setGrading] = useState(false);
 
   const loadCard = useCallback(async () => {
@@ -174,55 +169,16 @@ export const C1CardWidget: React.FC = () => {
         kind="empty"
         title={t('learn.emptyTitle')}
         description={t('learn.emptyBody')}
-        actionLabel={t('learn.retry')}
-        onAction={loadCard}
+        actionLabel={t('learn.openLibrary')}
+        onAction={() => router.push('/library')}
+        secondaryActionLabel={t('learn.retry')}
+        onSecondaryAction={loadCard}
       />
     );
   }
 
   return (
-    <View style={{ gap: theme.space.lg }}>
-      <View
-        style={{
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          gap: theme.space.sm,
-          alignItems: 'center',
-        }}
-      >
-        <Text style={[theme.type.label, { color: theme.text.secondary }]}>
-          {t('learn.accentLabel')}
-        </Text>
-        <Chip
-          label={t('learn.accentUs')}
-          selected={accent === 'us'}
-          onPress={() => setAccent('us')}
-        />
-        <Chip
-          label={t('learn.accentUk')}
-          selected={accent === 'uk'}
-          onPress={() => setAccent('uk')}
-        />
-        <Text
-          style={[
-            theme.type.label,
-            { color: theme.text.secondary, marginLeft: theme.space.sm },
-          ]}
-        >
-          {t('learn.speedLabel')}
-        </Text>
-        <Chip
-          label={t('learn.speed1x')}
-          selected={speed === '1x'}
-          onPress={() => setSpeed('1x')}
-        />
-        <Chip
-          label={t('learn.speed075')}
-          selected={speed === '0.75x'}
-          onPress={() => setSpeed('0.75x')}
-        />
-      </View>
-
+    <View style={{ gap: theme.space.xl }}>
       <DrillField
         autoFocus
         b2Text={b2Text}

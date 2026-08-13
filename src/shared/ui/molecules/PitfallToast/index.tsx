@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
+import Animated, { FadeInDown, FadeOutUp } from 'react-native-reanimated';
 
 import { useTheme } from '@shared/theme/useTheme';
 
@@ -18,7 +19,9 @@ export function PitfallToast({ message, visible = true }: PitfallToastProps) {
   }
 
   return (
-    <View
+    <Animated.View
+      entering={FadeInDown.duration(180)}
+      exiting={FadeOutUp.duration(140)}
       style={{
         padding: theme.space.md,
         borderRadius: theme.radius.md,
@@ -34,6 +37,6 @@ export function PitfallToast({ message, visible = true }: PitfallToastProps) {
       <Text style={[theme.type.caption, { color: theme.text.primary }]}>
         {message}
       </Text>
-    </View>
+    </Animated.View>
   );
 }

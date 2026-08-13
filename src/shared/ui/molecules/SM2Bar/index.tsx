@@ -1,8 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Pressable, Text, View } from 'react-native';
+import { Pressable, Text } from 'react-native';
+import Animated, { FadeInDown } from 'react-native-reanimated';
 
 import type { SrsGrade } from '@entities/srs';
+
 import { useTheme } from '@shared/theme/useTheme';
 
 type SM2BarProps = {
@@ -21,7 +23,8 @@ export function SM2Bar({ onGrade, disabled = false }: SM2BarProps) {
   const { theme } = useTheme();
 
   return (
-    <View
+    <Animated.View
+      entering={FadeInDown.duration(200).springify().damping(18)}
       style={{
         flexDirection: 'row',
         gap: theme.space.sm,
@@ -40,7 +43,7 @@ export function SM2Bar({ onGrade, disabled = false }: SM2BarProps) {
             key={grade}
             disabled={disabled}
             onPress={() => onGrade(grade)}
-            style={{
+            style={({ pressed }) => ({
               flex: 1,
               alignItems: 'center',
               paddingVertical: theme.space.md,
@@ -48,8 +51,9 @@ export function SM2Bar({ onGrade, disabled = false }: SM2BarProps) {
               borderWidth: 1,
               borderColor: tone,
               backgroundColor: theme.BG.surface,
-              opacity: disabled ? 0.4 : 1,
-            }}
+              opacity: disabled ? 0.4 : pressed ? 0.85 : 1,
+              transform: [{ scale: pressed && !disabled ? 0.98 : 1 }],
+            })}
           >
             <Text style={[theme.type.bodyMedium, { color: tone }]}>
               {t(`sm2.${key}`)}
@@ -57,6 +61,6 @@ export function SM2Bar({ onGrade, disabled = false }: SM2BarProps) {
           </Pressable>
         );
       })}
-    </View>
+    </Animated.View>
   );
 }

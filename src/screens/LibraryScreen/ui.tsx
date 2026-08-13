@@ -53,6 +53,10 @@ export const LibraryScreen: React.FC = () => {
     }, [load]),
   );
 
+  const overlay = 'rgba(18,20,26,0.52)';
+  const titleOnImage = theme.text.inverse;
+  const captionOnImage = theme.text.inverse;
+
   return (
     <View style={{ flex: 1, backgroundColor: theme.BG.white }}>
       <View
@@ -105,7 +109,13 @@ export const LibraryScreen: React.FC = () => {
           renderItem={({ item }) => {
             if (item.kind === 'register') {
               return (
-                <Pressable onPress={() => router.push('/library/register')}>
+                <Pressable
+                  onPress={() => router.push('/library/register')}
+                  style={({ pressed }) => ({
+                    opacity: pressed ? 0.92 : 1,
+                    transform: [{ scale: pressed ? 0.985 : 1 }],
+                  })}
+                >
                   <ImageBackground
                     source={registerUpgradeImage}
                     style={{
@@ -120,7 +130,7 @@ export const LibraryScreen: React.FC = () => {
                       style={{
                         padding: theme.space.xl,
                         gap: theme.space.xs,
-                        backgroundColor: 'rgba(18,20,26,0.52)',
+                        backgroundColor: overlay,
                       }}
                     >
                       <Text
@@ -132,7 +142,7 @@ export const LibraryScreen: React.FC = () => {
                         style={[
                           theme.type.title,
                           {
-                            color: theme.text.inverse,
+                            color: titleOnImage,
                             fontFamily: theme.font.display,
                           },
                         ]}
@@ -142,7 +152,7 @@ export const LibraryScreen: React.FC = () => {
                       <Text
                         style={[
                           theme.type.caption,
-                          { color: theme.text.inverse, opacity: 0.8 },
+                          { color: captionOnImage, opacity: 0.8 },
                         ]}
                       >
                         {t('library.registerBody')}
@@ -162,6 +172,10 @@ export const LibraryScreen: React.FC = () => {
                 onPress={() =>
                   router.push(`/library/topic/${item.topic.id}`)
                 }
+                style={({ pressed }) => ({
+                  opacity: pressed ? 0.92 : 1,
+                  transform: [{ scale: pressed ? 0.985 : 1 }],
+                })}
               >
                 <ImageBackground
                   source={image}
@@ -178,21 +192,26 @@ export const LibraryScreen: React.FC = () => {
                     style={{
                       padding: theme.space.xl,
                       gap: theme.space.xs,
-                      backgroundColor: 'rgba(18,20,26,0.48)',
+                      backgroundColor: overlay,
                     }}
                   >
                     <Text
                       style={[
                         theme.type.title,
                         {
-                          color: '#F7F2EA',
+                          color: titleOnImage,
                           fontFamily: theme.font.display,
                         },
                       ]}
                     >
                       {item.topic.title}
                     </Text>
-                    <Text style={[theme.type.caption, { color: '#D9D0C4' }]}>
+                    <Text
+                      style={[
+                        theme.type.caption,
+                        { color: captionOnImage, opacity: 0.78 },
+                      ]}
+                    >
                       {t('library.topicCount', {
                         count: item.topic.entryCount,
                       })}
