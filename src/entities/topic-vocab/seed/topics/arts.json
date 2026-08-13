@@ -1,0 +1,532 @@
+{
+  "id": "arts",
+  "title": "Arts & Culture",
+  "version": 1,
+  "entries": [
+    {
+      "id": "arts:aesthetics",
+      "term": "Aesthetics",
+      "gloss": "Эстетика",
+      "example": "The building has great aesthetics.",
+      "definition": "Study or quality of beauty"
+    },
+    {
+      "id": "arts:masterpiece",
+      "term": "Masterpiece",
+      "gloss": "Шедевр",
+      "example": "The Mona Lisa is a masterpiece.",
+      "definition": "Outstanding work of art"
+    },
+    {
+      "id": "arts:heritage",
+      "term": "Heritage",
+      "gloss": "Наследие",
+      "example": "Preserve our cultural heritage.",
+      "definition": "Traditions and objects passed down from the past"
+    },
+    {
+      "id": "arts:artifacts",
+      "term": "Artifacts",
+      "gloss": "Артефакты",
+      "example": "Ancient artifacts in the museum.",
+      "definition": "Objects made by people in the past"
+    },
+    {
+      "id": "arts:exhibition",
+      "term": "Exhibition",
+      "gloss": "Выставка",
+      "example": "I went to an art exhibition.",
+      "definition": "Public display of artworks"
+    },
+    {
+      "id": "arts:gallery",
+      "term": "Gallery",
+      "gloss": "Галерея",
+      "example": "Visit the national gallery.",
+      "definition": "Building where art is shown"
+    },
+    {
+      "id": "arts:curator",
+      "term": "Curator",
+      "gloss": "Куратор (музея)",
+      "example": "The curator organized the show.",
+      "definition": "Person who organizes a museum collection"
+    },
+    {
+      "id": "arts:performance",
+      "term": "Performance",
+      "gloss": "Представление",
+      "example": "The theater performance was long.",
+      "definition": "Live show of music, theatre or dance"
+    },
+    {
+      "id": "arts:protagonist",
+      "term": "Protagonist",
+      "gloss": "Главный герой",
+      "example": "The protagonist is a hero.",
+      "definition": "Main character in a story"
+    },
+    {
+      "id": "arts:antagonist",
+      "term": "Antagonist",
+      "gloss": "Антагонист",
+      "example": "The antagonist is very cruel.",
+      "definition": "Character who opposes the hero"
+    },
+    {
+      "id": "arts:genre",
+      "term": "Genre",
+      "gloss": "Жанр",
+      "example": "My favorite genre is sci-fi.",
+      "definition": "Category of art, music or literature"
+    },
+    {
+      "id": "arts:plot",
+      "term": "Plot",
+      "gloss": "Сюжет",
+      "example": "The plot was very confusing.",
+      "definition": "Sequence of events in a story"
+    },
+    {
+      "id": "arts:script",
+      "term": "Script",
+      "gloss": "Сценарий",
+      "example": "Read the script before filming.",
+      "definition": "Written text of a play or film"
+    },
+    {
+      "id": "arts:soundtrack",
+      "term": "Soundtrack",
+      "gloss": "Саундтрек",
+      "example": "I love the movie soundtrack.",
+      "definition": "Music that accompanies a film"
+    },
+    {
+      "id": "arts:visual-arts",
+      "term": "Visual arts",
+      "gloss": "Изобр. искусство",
+      "example": "Painting is a type of visual arts.",
+      "definition": "Art you look at, such as painting and sculpture"
+    },
+    {
+      "id": "arts:sculpture",
+      "term": "Sculpture",
+      "gloss": "Скульптура",
+      "example": "A marble sculpture of a lion.",
+      "definition": "Three-dimensional artwork made of stone, metal or clay"
+    },
+    {
+      "id": "arts:portrait",
+      "term": "Portrait",
+      "gloss": "Портрет",
+      "example": "He painted a realistic portrait.",
+      "definition": "Picture of a particular person"
+    },
+    {
+      "id": "arts:landscape",
+      "term": "Landscape",
+      "gloss": "Пейзаж",
+      "example": "The landscape was beautiful.",
+      "definition": "Picture or view of natural scenery"
+    },
+    {
+      "id": "arts:abstract",
+      "term": "Abstract",
+      "gloss": "Абстрактный",
+      "example": "I don't like abstract art.",
+      "definition": "Art that does not show realistic objects"
+    },
+    {
+      "id": "arts:contemporary",
+      "term": "Contemporary",
+      "gloss": "Современный",
+      "example": "Contemporary dance is energetic.",
+      "definition": "Belonging to the present time"
+    },
+    {
+      "id": "arts:precious",
+      "term": "Precious",
+      "gloss": "Драгоценный",
+      "example": "Precious paintings were stolen.",
+      "definition": "Very valuable and highly prized"
+    },
+    {
+      "id": "arts:authentic",
+      "term": "Authentic",
+      "gloss": "Подлинный",
+      "example": "Is this an authentic Picasso?",
+      "definition": "Real, not a copy"
+    },
+    {
+      "id": "arts:forgery",
+      "term": "Forgery",
+      "gloss": "Подделка",
+      "example": "The painting was a clever forgery.",
+      "definition": "Fake work presented as genuine"
+    },
+    {
+      "id": "arts:plagiarism",
+      "term": "Plagiarism",
+      "gloss": "Плагиат",
+      "example": "Plagiarism is a crime in art.",
+      "definition": "Copying someone else's work and claiming it"
+    },
+    {
+      "id": "arts:creativity",
+      "term": "Creativity",
+      "gloss": "Креативность",
+      "example": "Art requires immense creativity.",
+      "definition": "Ability to produce original ideas"
+    },
+    {
+      "id": "arts:inspiration",
+      "term": "Inspiration",
+      "gloss": "Вдохновение",
+      "example": "Nature is my main inspiration.",
+      "definition": "Feeling that gives you new ideas"
+    },
+    {
+      "id": "arts:to-express",
+      "term": "To express",
+      "gloss": "Выражать",
+      "example": "Art helps to express emotions.",
+      "definition": "To show thoughts or feelings"
+    },
+    {
+      "id": "arts:medium",
+      "term": "Medium",
+      "gloss": "Средство / Материал",
+      "example": "Oil is a popular medium.",
+      "definition": "Material or method used to make art"
+    },
+    {
+      "id": "arts:canvas",
+      "term": "Canvas",
+      "gloss": "Холст",
+      "example": "Paint your vision on a canvas.",
+      "definition": "Cloth surface used for painting"
+    },
+    {
+      "id": "arts:exquisite",
+      "term": "Exquisite",
+      "gloss": "Изысканный",
+      "example": "The jewelry was exquisite.",
+      "definition": "Extremely beautiful and finely made"
+    },
+    {
+      "id": "arts:audience",
+      "term": "Audience",
+      "gloss": "Аудитория",
+      "example": "The audience clapped loudly.",
+      "definition": "People watching or listening to a performance"
+    },
+    {
+      "id": "arts:venue",
+      "term": "Venue",
+      "gloss": "Место проведения",
+      "example": "The concert venue was small.",
+      "definition": "Place where an event happens"
+    },
+    {
+      "id": "arts:box-office",
+      "term": "Box office",
+      "gloss": "Касса (сборы)",
+      "example": "A huge box office success.",
+      "definition": "Ticket sales of a film or show"
+    },
+    {
+      "id": "arts:review",
+      "term": "Review",
+      "gloss": "Рецензия",
+      "example": "Read the movie review online.",
+      "definition": "Written opinion of a work of art"
+    },
+    {
+      "id": "arts:critic",
+      "term": "Critic",
+      "gloss": "Критик",
+      "example": "The critic hated the play.",
+      "definition": "Person who judges art or performances"
+    },
+    {
+      "id": "arts:blockbuster",
+      "term": "Blockbuster",
+      "gloss": "Блокбастер",
+      "example": "It was a summer blockbuster.",
+      "definition": "Very successful popular film"
+    },
+    {
+      "id": "arts:box-office-hit",
+      "term": "Box-office hit",
+      "gloss": "Хит проката",
+      "example": "The film was a box-office hit.",
+      "definition": "Film that sells a large number of tickets"
+    },
+    {
+      "id": "arts:censorship",
+      "term": "Censorship",
+      "gloss": "Цензура",
+      "example": "Fight against art censorship.",
+      "definition": "Official blocking of art or ideas"
+    },
+    {
+      "id": "arts:controversial",
+      "term": "Controversial",
+      "gloss": "Спорный",
+      "example": "A controversial installation.",
+      "definition": "Causing strong public disagreement"
+    },
+    {
+      "id": "arts:provocative",
+      "term": "Provocative",
+      "gloss": "Провокационный",
+      "example": "His style is very provocative.",
+      "definition": "Intended to shock or make people think"
+    },
+    {
+      "id": "arts:patronage",
+      "term": "Patronage",
+      "gloss": "Покровительство",
+      "example": "The arts need royal patronage.",
+      "definition": "Support given to artists by a wealthy person"
+    },
+    {
+      "id": "arts:funding",
+      "term": "Funding",
+      "gloss": "Финансирование",
+      "example": "Government funding for museums.",
+      "definition": "Money provided to support a project"
+    },
+    {
+      "id": "arts:subsidy",
+      "term": "Subsidy",
+      "gloss": "Субсидия",
+      "example": "The theater receives a subsidy.",
+      "definition": "Government money given to reduce costs"
+    },
+    {
+      "id": "arts:non-profit",
+      "term": "Non-profit",
+      "gloss": "Некоммерческий",
+      "example": "It is a non-profit organization.",
+      "definition": "Organization that does not aim to make money"
+    },
+    {
+      "id": "arts:philanthropy",
+      "term": "Philanthropy",
+      "gloss": "Филантропия",
+      "example": "Philanthropy supports the arts.",
+      "definition": "Giving money to help others or the arts"
+    },
+    {
+      "id": "arts:leisure",
+      "term": "Leisure",
+      "gloss": "Досуг",
+      "example": "Art is a great leisure activity.",
+      "definition": "Free time for enjoyment"
+    },
+    {
+      "id": "arts:amusement",
+      "term": "Amusement",
+      "gloss": "Развлечение",
+      "example": "Theme parks provide amusement.",
+      "definition": "Entertainment that makes you laugh or enjoy"
+    },
+    {
+      "id": "arts:folk-art",
+      "term": "Folk art",
+      "gloss": "Нар. искусство",
+      "example": "Folk art reflects tradition.",
+      "definition": "Traditional art made by ordinary people"
+    },
+    {
+      "id": "arts:literature",
+      "term": "Literature",
+      "gloss": "Литература",
+      "example": "Classic literature is timeless.",
+      "definition": "Written works of artistic value"
+    },
+    {
+      "id": "arts:poetry",
+      "term": "Poetry",
+      "gloss": "Поэзия",
+      "example": "She writes beautiful poetry.",
+      "definition": "Writing that uses rhythm and imagery"
+    },
+    {
+      "id": "arts:stanza",
+      "term": "Stanza",
+      "gloss": "Строфа",
+      "example": "Read the second stanza.",
+      "definition": "Group of lines in a poem"
+    },
+    {
+      "id": "arts:lyrics",
+      "term": "Lyrics",
+      "gloss": "Текст песни",
+      "example": "The lyrics are very deep.",
+      "definition": "Words of a song"
+    },
+    {
+      "id": "arts:acoustics",
+      "term": "Acoustics",
+      "gloss": "Акустика",
+      "example": "The hall has perfect acoustics.",
+      "definition": "How sound behaves in a room"
+    },
+    {
+      "id": "arts:symphony",
+      "term": "Symphony",
+      "gloss": "Симфония",
+      "example": "Listen to Beethoven's symphony.",
+      "definition": "Long piece of music for a full orchestra"
+    },
+    {
+      "id": "arts:orchestra",
+      "term": "Orchestra",
+      "gloss": "Оркестр",
+      "example": "The orchestra played well.",
+      "definition": "Large group of musicians playing together"
+    },
+    {
+      "id": "arts:rehearsal",
+      "term": "Rehearsal",
+      "gloss": "Репетиция",
+      "example": "We have a dress rehearsal.",
+      "definition": "Practice before a public performance"
+    },
+    {
+      "id": "arts:debut",
+      "term": "Debut",
+      "gloss": "Дебют",
+      "example": "It was her debut performance.",
+      "definition": "First public appearance as a performer"
+    },
+    {
+      "id": "arts:encore",
+      "term": "Encore",
+      "gloss": "Бисс",
+      "example": "The crowd shouted for an encore.",
+      "definition": "Extra performance after the audience asks"
+    },
+    {
+      "id": "arts:improvisation",
+      "term": "Improvisation",
+      "gloss": "Импровизация",
+      "example": "Jazz is based on improvisation.",
+      "definition": "Creating music or speech without a plan"
+    },
+    {
+      "id": "arts:craftsmanship",
+      "term": "Craftsmanship",
+      "gloss": "Мастерство (ручное)",
+      "example": "Admire the fine craftsmanship.",
+      "definition": "Skilled quality of handmade work"
+    },
+    {
+      "id": "arts:calligraphy",
+      "term": "Calligraphy",
+      "gloss": "Каллиграфия",
+      "example": "Calligraphy is an old art.",
+      "definition": "Art of beautiful handwriting"
+    },
+    {
+      "id": "arts:ceramics",
+      "term": "Ceramics",
+      "gloss": "Керамика",
+      "example": "I am taking a ceramics class.",
+      "definition": "Objects made from clay and fired"
+    },
+    {
+      "id": "arts:pottery",
+      "term": "Pottery",
+      "gloss": "Гончарное дело",
+      "example": "Making pottery is relaxing.",
+      "definition": "Craft of making pots and dishes from clay"
+    },
+    {
+      "id": "arts:architecture",
+      "term": "Architecture",
+      "gloss": "Архитектура",
+      "example": "Modern architecture is bold.",
+      "definition": "The design and style of buildings"
+    },
+    {
+      "id": "arts:statue",
+      "term": "Statue",
+      "gloss": "Статуя",
+      "example": "A bronze statue in the park.",
+      "definition": "Carved or cast figure of a person or animal"
+    },
+    {
+      "id": "arts:monument",
+      "term": "Monument",
+      "gloss": "Памятник",
+      "example": "A monument to the fallen.",
+      "definition": "Structure built to remember a person or event"
+    },
+    {
+      "id": "arts:graffiti",
+      "term": "Graffiti",
+      "gloss": "Граффити",
+      "example": "Some see graffiti as vandalism.",
+      "definition": "Writing or drawings on walls in public"
+    },
+    {
+      "id": "arts:street-art",
+      "term": "Street art",
+      "gloss": "Стрит-арт",
+      "example": "Street art beautifies the city.",
+      "definition": "Art created in public outdoor spaces"
+    },
+    {
+      "id": "arts:aesthetic-value",
+      "term": "Aesthetic value",
+      "gloss": "Эстет. ценность",
+      "example": "This chair has no aesthetic value.",
+      "definition": "Beauty or artistic worth of something"
+    },
+    {
+      "id": "arts:appreciation",
+      "term": "Appreciation",
+      "gloss": "Признание / Оценка",
+      "example": "Gain an appreciation for art.",
+      "definition": "Understanding and enjoyment of art"
+    },
+    {
+      "id": "arts:to-inspire",
+      "term": "To inspire",
+      "gloss": "Вдохновлять",
+      "example": "His work will inspire many.",
+      "definition": "To fill someone with ideas or motivation"
+    },
+    {
+      "id": "arts:sublime",
+      "term": "Sublime",
+      "gloss": "Возвышенный",
+      "example": "The view was absolutely sublime.",
+      "definition": "Extremely beautiful in a powerful way"
+    },
+    {
+      "id": "arts:symbolism",
+      "term": "Symbolism",
+      "gloss": "Символизм",
+      "example": "Use symbolism in your writing.",
+      "definition": "Use of images to represent ideas"
+    },
+    {
+      "id": "arts:universal-language",
+      "term": "Universal language",
+      "gloss": "Универс. язык",
+      "example": "Music is a universal language.",
+      "definition": "Form of expression everyone can understand"
+    },
+    {
+      "id": "arts:enrichment",
+      "term": "Enrichment",
+      "gloss": "Обогащение",
+      "example": "Art leads to spiritual enrichment.",
+      "definition": "Making life fuller and more meaningful"
+    }
+  ]
+}

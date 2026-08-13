@@ -1,0 +1,532 @@
+{
+  "id": "travel",
+  "title": "Travel & Transport",
+  "version": 1,
+  "entries": [
+    {
+      "id": "travel:commute",
+      "term": "Commute",
+      "gloss": "Ездить (на работу/учебу)",
+      "example": "My daily commute takes an hour.",
+      "definition": "Regular journey to work or school"
+    },
+    {
+      "id": "travel:commuter",
+      "term": "Commuter",
+      "gloss": "Пассажир",
+      "example": "The train was full of commuters.",
+      "definition": "Person who travels regularly to work"
+    },
+    {
+      "id": "travel:public-transport",
+      "term": "Public transport",
+      "gloss": "Обществ. транспорт",
+      "example": "Improve the public transport network.",
+      "definition": "Buses, trains and similar shared services"
+    },
+    {
+      "id": "travel:congestion",
+      "term": "Congestion",
+      "gloss": "Затор / Пробка",
+      "example": "Traffic congestion is a nightmare.",
+      "definition": "Too many vehicles causing slow traffic"
+    },
+    {
+      "id": "travel:gridlock",
+      "term": "Gridlock",
+      "gloss": "Тупик (мертвая пробка)",
+      "example": "The city center is in a gridlock.",
+      "definition": "Traffic jam where nothing can move"
+    },
+    {
+      "id": "travel:rush-hour",
+      "term": "Rush hour",
+      "gloss": "Час пик",
+      "example": "Avoid driving during rush hour.",
+      "definition": "Busiest time of day on the roads"
+    },
+    {
+      "id": "travel:infrastructure",
+      "term": "Infrastructure",
+      "gloss": "Инфраструктура",
+      "example": "Invest in transport infrastructure.",
+      "definition": "Basic systems like roads and railways"
+    },
+    {
+      "id": "travel:accessibility",
+      "term": "Accessibility",
+      "gloss": "Доступность",
+      "example": "Improve accessibility for the elderly.",
+      "definition": "How easy a place is to reach or use"
+    },
+    {
+      "id": "travel:reliable",
+      "term": "Reliable",
+      "gloss": "Надежный",
+      "example": "The bus service is not reliable.",
+      "definition": "Working well and on time"
+    },
+    {
+      "id": "travel:affordable",
+      "term": "Affordable",
+      "gloss": "Доступный (по цене)",
+      "example": "We need affordable train tickets.",
+      "definition": "Cheap enough for most people"
+    },
+    {
+      "id": "travel:sustainable",
+      "term": "Sustainable",
+      "gloss": "Экологичный / Устойч.",
+      "example": "Promoted sustainable travel options.",
+      "definition": "Causing little long-term environmental harm"
+    },
+    {
+      "id": "travel:electric-vehicle",
+      "term": "Electric vehicle (EV)",
+      "gloss": "Электромобиль",
+      "example": "EVs reduce air pollution.",
+      "definition": "Car powered by electricity, not petrol"
+    },
+    {
+      "id": "travel:hybrid",
+      "term": "Hybrid",
+      "gloss": "Гибридный",
+      "example": "He bought a hybrid car.",
+      "definition": "Vehicle using both fuel and electric power"
+    },
+    {
+      "id": "travel:emissions",
+      "term": "Emissions",
+      "gloss": "Выбросы",
+      "example": "Carbon emissions are rising.",
+      "definition": "Gases released into the air by vehicles"
+    },
+    {
+      "id": "travel:fuel-efficient",
+      "term": "Fuel-efficient",
+      "gloss": "Экономичный (топливо)",
+      "example": "Buy a fuel-efficient engine.",
+      "definition": "Using little fuel for the distance travelled"
+    },
+    {
+      "id": "travel:pedestrian",
+      "term": "Pedestrian",
+      "gloss": "Пешеход",
+      "example": "This street is for pedestrians only.",
+      "definition": "Person walking rather than driving"
+    },
+    {
+      "id": "travel:cyclist",
+      "term": "Cyclist",
+      "gloss": "Велосипедист",
+      "example": "Cities need more paths for cyclists.",
+      "definition": "Person riding a bicycle"
+    },
+    {
+      "id": "travel:curb-kerb",
+      "term": "Curb / Kerb",
+      "gloss": "Обочина / Бордюр",
+      "example": "Park your car near the curb.",
+      "definition": "Raised edge of a pavement along the road"
+    },
+    {
+      "id": "travel:overpass-flyover",
+      "term": "Overpass / Flyover",
+      "gloss": "Эстакада / Мост",
+      "example": "Take the overpass to avoid traffic.",
+      "definition": "Bridge carrying a road over another road"
+    },
+    {
+      "id": "travel:junction",
+      "term": "Junction",
+      "gloss": "Перекресток / Узел",
+      "example": "Turn left at the next junction.",
+      "definition": "Place where roads meet"
+    },
+    {
+      "id": "travel:lane",
+      "term": "Lane",
+      "gloss": "Полоса (движения)",
+      "example": "Stay in the middle lane.",
+      "definition": "Marked strip of a road for traffic"
+    },
+    {
+      "id": "travel:intercity",
+      "term": "Intercity",
+      "gloss": "Междугородний",
+      "example": "I took an intercity bus.",
+      "definition": "Travelling between different cities"
+    },
+    {
+      "id": "travel:high-speed-rail",
+      "term": "High-speed rail",
+      "gloss": "Скоростная ж/д",
+      "example": "High-speed rail is very efficient.",
+      "definition": "Very fast passenger train service"
+    },
+    {
+      "id": "travel:aviation",
+      "term": "Aviation",
+      "gloss": "Авиация",
+      "example": "The aviation industry is recovering.",
+      "definition": "Industry of flying aircraft"
+    },
+    {
+      "id": "travel:long-haul",
+      "term": "Long-haul",
+      "gloss": "Дальмагистральный",
+      "example": "I hate long-haul flights.",
+      "definition": "Travelling a very long distance, especially by air"
+    },
+    {
+      "id": "travel:short-haul",
+      "term": "Short-haul",
+      "gloss": "Короткие дистанции",
+      "example": "Short-haul flights are cheaper.",
+      "definition": "Travelling a relatively short distance by air"
+    },
+    {
+      "id": "travel:budget-airline",
+      "term": "Budget airline",
+      "gloss": "Лоукостер",
+      "example": "Travel with a budget airline.",
+      "definition": "Airline offering cheap tickets with fewer extras"
+    },
+    {
+      "id": "travel:layover-stopover",
+      "term": "Layover / Stopover",
+      "gloss": "Пересадка (ожидание)",
+      "example": "I had a five-hour layover.",
+      "definition": "Wait between connecting flights"
+    },
+    {
+      "id": "travel:departure",
+      "term": "Departure",
+      "gloss": "Отправление",
+      "example": "Check the departure board.",
+      "definition": "Act of leaving a place, especially by transport"
+    },
+    {
+      "id": "travel:destination",
+      "term": "Destination",
+      "gloss": "Пункт назначения",
+      "example": "We reached our destination at noon.",
+      "definition": "Place you are travelling to"
+    },
+    {
+      "id": "travel:itinerary",
+      "term": "Itinerary",
+      "gloss": "Маршрут (план)",
+      "example": "Stick to the travel itinerary.",
+      "definition": "Planned schedule of a journey"
+    },
+    {
+      "id": "travel:accommodation",
+      "term": "Accommodation",
+      "gloss": "Жилье / Проживание",
+      "example": "Book your accommodation early.",
+      "definition": "Place to stay while travelling"
+    },
+    {
+      "id": "travel:hospitality",
+      "term": "Hospitality",
+      "gloss": "Гостеприимство",
+      "example": "I love the local hospitality.",
+      "definition": "Friendly treatment of guests"
+    },
+    {
+      "id": "travel:sightseeing",
+      "term": "Sightseeing",
+      "gloss": "Осмотр достоприм.",
+      "example": "We went sightseeing in Rome.",
+      "definition": "Visiting famous places as a tourist"
+    },
+    {
+      "id": "travel:landmark",
+      "term": "Landmark",
+      "gloss": "Достопримечательность",
+      "example": "The Eiffel Tower is a famous landmark.",
+      "definition": "Famous building or place in a city"
+    },
+    {
+      "id": "travel:heritage-site",
+      "term": "Heritage site",
+      "gloss": "Объект наследия",
+      "example": "Visit the cultural heritage sites.",
+      "definition": "Place protected for its historic value"
+    },
+    {
+      "id": "travel:excursion",
+      "term": "Excursion",
+      "gloss": "Экскурсия / Поездка",
+      "example": "We went on a day excursion.",
+      "definition": "Short trip for pleasure"
+    },
+    {
+      "id": "travel:remote",
+      "term": "Remote",
+      "gloss": "Отдаленный",
+      "example": "They visited a remote village.",
+      "definition": "Far from towns and cities"
+    },
+    {
+      "id": "travel:off-the-beaten-track",
+      "term": "Off the beaten track",
+      "gloss": "Вдали от маршрутов",
+      "example": "I prefer places off the beaten track.",
+      "definition": "Away from popular tourist routes"
+    },
+    {
+      "id": "travel:ecotourism",
+      "term": "Ecotourism",
+      "gloss": "Экотуризм",
+      "example": "Ecotourism protects the jungle.",
+      "definition": "Travel that protects nature and local people"
+    },
+    {
+      "id": "travel:mass-tourism",
+      "term": "Mass tourism",
+      "gloss": "Массовый туризм",
+      "example": "Mass tourism ruins small towns.",
+      "definition": "Large numbers of tourists visiting one place"
+    },
+    {
+      "id": "travel:seasonality",
+      "term": "Seasonality",
+      "gloss": "Сезонность",
+      "example": "Our business suffers from seasonality.",
+      "definition": "Dependence on a particular time of year"
+    },
+    {
+      "id": "travel:peak-season",
+      "term": "Peak season",
+      "gloss": "Пик сезона",
+      "example": "Prices double during peak season.",
+      "definition": "Busiest and most expensive travel period"
+    },
+    {
+      "id": "travel:low-season",
+      "term": "Low season",
+      "gloss": "Межсезонье",
+      "example": "It’s quieter in the low season.",
+      "definition": "Quietest and cheapest travel period"
+    },
+    {
+      "id": "travel:souvenir",
+      "term": "Souvenir",
+      "gloss": "Сувенир",
+      "example": "I bought a small souvenir.",
+      "definition": "Object bought to remember a trip"
+    },
+    {
+      "id": "travel:voyage",
+      "term": "Voyage",
+      "gloss": "Путешествие (морское)",
+      "example": "The voyage lasted three weeks.",
+      "definition": "Long journey, especially by sea"
+    },
+    {
+      "id": "travel:expedition",
+      "term": "Expedition",
+      "gloss": "Экспедиция",
+      "example": "Join the Arctic expedition.",
+      "definition": "Organized journey for a purpose, often exploration"
+    },
+    {
+      "id": "travel:backpacking",
+      "term": "Backpacking",
+      "gloss": "Туризм с рюкзаком",
+      "example": "Backpacking is a cheap way to travel.",
+      "definition": "Low-cost travel with a rucksack"
+    },
+    {
+      "id": "travel:self-catering",
+      "term": "Self-catering",
+      "gloss": "С самообслуживанием",
+      "example": "We stayed in a self-catering flat.",
+      "definition": "Accommodation where you cook your own meals"
+    },
+    {
+      "id": "travel:all-inclusive",
+      "term": "All-inclusive",
+      "gloss": "Все включено",
+      "example": "I booked an all-inclusive resort.",
+      "definition": "Holiday where food and drinks are included"
+    },
+    {
+      "id": "travel:voucher",
+      "term": "Voucher",
+      "gloss": "Ваучер / Купон",
+      "example": "Use your travel voucher now.",
+      "definition": "Coupon that can be used instead of money"
+    },
+    {
+      "id": "travel:insurance",
+      "term": "Insurance",
+      "gloss": "Страховка",
+      "example": "Never travel without insurance.",
+      "definition": "Payment that covers loss or medical costs"
+    },
+    {
+      "id": "travel:customs",
+      "term": "Customs",
+      "gloss": "Таможня",
+      "example": "Go through customs at the airport.",
+      "definition": "Official check of goods when entering a country"
+    },
+    {
+      "id": "travel:border-control",
+      "term": "Border control",
+      "gloss": "Погранконтроль",
+      "example": "Border control was very slow.",
+      "definition": "Official check of passports at a border"
+    },
+    {
+      "id": "travel:visa-requirements",
+      "term": "Visa requirements",
+      "gloss": "Визовые требования",
+      "example": "Check the visa requirements.",
+      "definition": "Rules about who needs a visa to enter"
+    },
+    {
+      "id": "travel:logistics",
+      "term": "Logistics",
+      "gloss": "Логистика",
+      "example": "Travel logistics can be complex.",
+      "definition": "Practical organization of a journey or transport"
+    },
+    {
+      "id": "travel:to-embark",
+      "term": "To embark",
+      "gloss": "Садиться на судно/самол.",
+      "example": "We are ready to embark.",
+      "definition": "To get on a ship, plane or train"
+    },
+    {
+      "id": "travel:to-disembark",
+      "term": "To disembark",
+      "gloss": "Высаживаться",
+      "example": "Please wait to disembark.",
+      "definition": "To get off a ship, plane or train"
+    },
+    {
+      "id": "travel:transit",
+      "term": "Transit",
+      "gloss": "Транзит",
+      "example": "We are just in transit here.",
+      "definition": "Passing through a place on the way elsewhere"
+    },
+    {
+      "id": "travel:jet-lag",
+      "term": "Jet lag",
+      "gloss": "Синдром смены поясов",
+      "example": "I am suffering from jet lag.",
+      "definition": "Tiredness after flying across time zones"
+    },
+    {
+      "id": "travel:commuter-belt",
+      "term": "Commuter belt",
+      "gloss": "Пригородная зона",
+      "example": "He lives in the commuter belt.",
+      "definition": "Suburbs where people live and travel to the city"
+    },
+    {
+      "id": "travel:carpooling",
+      "term": "Carpooling",
+      "gloss": "Совместные поездки",
+      "example": "Carpooling saves petrol.",
+      "definition": "Sharing a car with others for a journey"
+    },
+    {
+      "id": "travel:to-navigate",
+      "term": "To navigate",
+      "gloss": "Ориентироваться",
+      "example": "Use GPS to navigate the city.",
+      "definition": "To find your way from place to place"
+    },
+    {
+      "id": "travel:congestion-charge",
+      "term": "Congestion charge",
+      "gloss": "Плата за въезд в центр",
+      "example": "London has a congestion charge.",
+      "definition": "Fee for driving into a busy city centre"
+    },
+    {
+      "id": "travel:mode-of-transport",
+      "term": "Mode of transport",
+      "gloss": "Вид транспорта",
+      "example": "What is your favorite mode...?",
+      "definition": "Type of vehicle used to travel"
+    },
+    {
+      "id": "travel:driverless",
+      "term": "Driverless",
+      "gloss": "Беспилотный",
+      "example": "Driverless cars are the future.",
+      "definition": "Operating without a human driver"
+    },
+    {
+      "id": "travel:road-rage",
+      "term": "Road rage",
+      "gloss": "Агрессия на дороге",
+      "example": "Avoid road rage during traffic.",
+      "definition": "Angry aggressive behaviour while driving"
+    },
+    {
+      "id": "travel:bottle-neck",
+      "term": "Bottle-neck",
+      "gloss": "Узкое место (пробка)",
+      "example": "The bridge is a major bottle-neck.",
+      "definition": "Narrow point that slows traffic"
+    },
+    {
+      "id": "travel:vandalism",
+      "term": "Vandalism",
+      "gloss": "Вандализм",
+      "example": "Stop vandalism on public buses.",
+      "definition": "Deliberate damage to property"
+    },
+    {
+      "id": "travel:overcrowded",
+      "term": "Overcrowded",
+      "gloss": "Переполненный",
+      "example": "The subway is overcrowded.",
+      "definition": "Containing too many people"
+    },
+    {
+      "id": "travel:punctual",
+      "term": "Punctual",
+      "gloss": "Пунктуальный",
+      "example": "The Japanese trains are very punctual.",
+      "definition": "Arriving at the correct time"
+    },
+    {
+      "id": "travel:delay",
+      "term": "Delay",
+      "gloss": "Задержка",
+      "example": "We apologize for the delay.",
+      "definition": "Extra waiting time before departure or arrival"
+    },
+    {
+      "id": "travel:cancellation",
+      "term": "Cancellation",
+      "gloss": "Отмена",
+      "example": "The flight cancellation was annoying.",
+      "definition": "Decision that a trip will not take place"
+    },
+    {
+      "id": "travel:fare",
+      "term": "Fare",
+      "gloss": "Стоимость проезда",
+      "example": "The bus fare just increased.",
+      "definition": "Price of a ticket for a journey"
+    },
+    {
+      "id": "travel:toll-road",
+      "term": "Toll road",
+      "gloss": "Платная дорога",
+      "example": "This toll road is very expensive.",
+      "definition": "Road you must pay to use"
+    }
+  ]
+}

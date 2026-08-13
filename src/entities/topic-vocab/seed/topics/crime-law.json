@@ -1,0 +1,532 @@
+{
+  "id": "crime-law",
+  "title": "Crime & Law",
+  "version": 1,
+  "entries": [
+    {
+      "id": "crime-law:offence",
+      "term": "Offence",
+      "gloss": "Правонарушение",
+      "example": "It was his first offence.",
+      "definition": "An illegal act; a crime"
+    },
+    {
+      "id": "crime-law:felony",
+      "term": "Felony",
+      "gloss": "Тяжкое преступление",
+      "example": "Murder is a serious felony.",
+      "definition": "A serious crime such as murder or robbery"
+    },
+    {
+      "id": "crime-law:misdemeanour",
+      "term": "Misdemeanour",
+      "gloss": "Проступок",
+      "example": "Shoplifting is a misdemeanour.",
+      "definition": "A relatively minor crime"
+    },
+    {
+      "id": "crime-law:perpetrator",
+      "term": "Perpetrator",
+      "gloss": "Преступник / Виновник",
+      "example": "The perpetrator fled the scene.",
+      "definition": "Person who commits a crime"
+    },
+    {
+      "id": "crime-law:convict",
+      "term": "Convict",
+      "gloss": "Осужденный",
+      "example": "The convict was sent to prison.",
+      "definition": "Person found guilty of a crime and sentenced"
+    },
+    {
+      "id": "crime-law:juvenile",
+      "term": "Juvenile",
+      "gloss": "Несовершеннолетний",
+      "example": "Juvenile crime is on the rise.",
+      "definition": "A young person, especially under 18"
+    },
+    {
+      "id": "crime-law:delinquency",
+      "term": "Delinquency",
+      "gloss": "Преступность (подростк.)",
+      "example": "We must tackle youth delinquency.",
+      "definition": "Criminal or antisocial behavior, especially by the young"
+    },
+    {
+      "id": "crime-law:recidivism",
+      "term": "Recidivism",
+      "gloss": "Рецидивизм",
+      "example": "High recidivism is a big problem.",
+      "definition": "Tendency of a convicted person to commit crime again"
+    },
+    {
+      "id": "crime-law:homicide",
+      "term": "Homicide",
+      "gloss": "Убийство",
+      "example": "The police investigated a homicide.",
+      "definition": "The killing of one person by another"
+    },
+    {
+      "id": "crime-law:burglary",
+      "term": "Burglary",
+      "gloss": "Кража со взломом",
+      "example": "They committed a burglary at night.",
+      "definition": "Illegal entry of a building in order to steal"
+    },
+    {
+      "id": "crime-law:larceny",
+      "term": "Larceny",
+      "gloss": "Хищение / Воровство",
+      "example": "He was charged with grand larceny.",
+      "definition": "Theft of another person's property"
+    },
+    {
+      "id": "crime-law:shoplifting",
+      "term": "Shoplifting",
+      "gloss": "Кража в магазине",
+      "example": "Shoplifting hurts small businesses.",
+      "definition": "Stealing goods from a shop"
+    },
+    {
+      "id": "crime-law:fraud",
+      "term": "Fraud",
+      "gloss": "Мошенничество",
+      "example": "Credit card fraud is common.",
+      "definition": "Crime of deceiving people for money or gain"
+    },
+    {
+      "id": "crime-law:embezzlement",
+      "term": "Embezzlement",
+      "gloss": "Растрата",
+      "example": "He was jailed for embezzlement.",
+      "definition": "Stealing money that you were trusted to manage"
+    },
+    {
+      "id": "crime-law:cybercrime",
+      "term": "Cybercrime",
+      "gloss": "Киберпреступность",
+      "example": "Cybercrime threatens our privacy.",
+      "definition": "Crime committed using computers or the internet"
+    },
+    {
+      "id": "crime-law:laundering",
+      "term": "Laundering",
+      "gloss": "Отмывание (денег)",
+      "example": "Stop illegal money laundering.",
+      "definition": "Hiding the origin of illegally obtained money"
+    },
+    {
+      "id": "crime-law:bribery",
+      "term": "Bribery",
+      "gloss": "Взяточничество",
+      "example": "Bribery corrupts the system.",
+      "definition": "Giving money to someone in power to influence them"
+    },
+    {
+      "id": "crime-law:corruption",
+      "term": "Corruption",
+      "gloss": "Коррупция",
+      "example": "Fight political corruption.",
+      "definition": "Dishonest use of power for personal gain"
+    },
+    {
+      "id": "crime-law:assault",
+      "term": "Assault",
+      "gloss": "Нападение",
+      "example": "He was arrested for physical assault.",
+      "definition": "Physical attack on another person"
+    },
+    {
+      "id": "crime-law:abuse-of-power",
+      "term": "Abuse of power",
+      "gloss": "Злоупотребление властью",
+      "example": "This is a clear abuse of power.",
+      "definition": "Using official authority in an unfair or illegal way"
+    },
+    {
+      "id": "crime-law:vandalism",
+      "term": "Vandalism",
+      "gloss": "Вандализм",
+      "example": "Graffiti is a form of vandalism.",
+      "definition": "Deliberate damage to public or private property"
+    },
+    {
+      "id": "crime-law:capital-punishment",
+      "term": "Capital punishment",
+      "gloss": "Смертная казнь",
+      "example": "Many oppose capital punishment.",
+      "definition": "The death penalty for a crime"
+    },
+    {
+      "id": "crime-law:life-imprisonment",
+      "term": "Life imprisonment",
+      "gloss": "Пожизненное заключ.",
+      "example": "He received life imprisonment.",
+      "definition": "Prison sentence that lasts for the rest of life"
+    },
+    {
+      "id": "crime-law:solitary",
+      "term": "Solitary",
+      "gloss": "Одиночный (о камере)",
+      "example": "He was kept in solitary confinement.",
+      "definition": "Being kept completely alone in a prison cell"
+    },
+    {
+      "id": "crime-law:custodial",
+      "term": "Custodial",
+      "gloss": "Связанный с лишением",
+      "example": "He got a custodial sentence.",
+      "definition": "Involving time spent in prison"
+    },
+    {
+      "id": "crime-law:non-custodial",
+      "term": "Non-custodial",
+      "gloss": "Без лишения свободы",
+      "example": "Choose non-custodial alternatives.",
+      "definition": "A punishment that does not involve prison"
+    },
+    {
+      "id": "crime-law:community-service",
+      "term": "Community service",
+      "gloss": "Общественные работы",
+      "example": "He was ordered to do community service.",
+      "definition": "Unpaid work for the public as a punishment"
+    },
+    {
+      "id": "crime-law:probation",
+      "term": "Probation",
+      "gloss": "Испытательный срок",
+      "example": "The thief is now on probation.",
+      "definition": "Period of supervised freedom instead of prison"
+    },
+    {
+      "id": "crime-law:parole",
+      "term": "Parole",
+      "gloss": "УДО",
+      "example": "He was released on parole.",
+      "definition": "Early release from prison under supervision"
+    },
+    {
+      "id": "crime-law:fine",
+      "term": "Fine",
+      "gloss": "Штраф",
+      "example": "Pay the parking fine online.",
+      "definition": "Money paid as a punishment for breaking a law"
+    },
+    {
+      "id": "crime-law:rehabilitation",
+      "term": "Rehabilitation",
+      "gloss": "Реабилитация",
+      "example": "Focus on prisoner rehabilitation.",
+      "definition": "Helping offenders return to a useful life"
+    },
+    {
+      "id": "crime-law:deterrence",
+      "term": "Deterrence",
+      "gloss": "Устрашение",
+      "example": "Strict laws act as a deterrence.",
+      "definition": "Discouraging crime by the threat of punishment"
+    },
+    {
+      "id": "crime-law:retribution",
+      "term": "Retribution",
+      "gloss": "Возмездие",
+      "example": "Some victims want retribution.",
+      "definition": "Punishment given as revenge for a crime"
+    },
+    {
+      "id": "crime-law:correctional",
+      "term": "Correctional",
+      "gloss": "Исправительный",
+      "example": "It is a modern correctional facility.",
+      "definition": "Relating to prisons and reforming offenders"
+    },
+    {
+      "id": "crime-law:inmate",
+      "term": "Inmate",
+      "gloss": "Заключенный",
+      "example": "Every inmate has certain rights.",
+      "definition": "Person living in a prison"
+    },
+    {
+      "id": "crime-law:judiciary",
+      "term": "Judiciary",
+      "gloss": "Судебная система",
+      "example": "The judiciary must be independent.",
+      "definition": "The system of courts and judges"
+    },
+    {
+      "id": "crime-law:prosecutor",
+      "term": "Prosecutor",
+      "gloss": "Прокурор",
+      "example": "The prosecutor presented evidence.",
+      "definition": "Lawyer who argues the case against the accused"
+    },
+    {
+      "id": "crime-law:defence",
+      "term": "Defence",
+      "gloss": "Защита",
+      "example": "The defence lawyer was very smart.",
+      "definition": "Legal team that represents the accused"
+    },
+    {
+      "id": "crime-law:plaintiff",
+      "term": "Plaintiff",
+      "gloss": "Истец",
+      "example": "The plaintiff filed a lawsuit.",
+      "definition": "Person who brings a civil case to court"
+    },
+    {
+      "id": "crime-law:defendant",
+      "term": "Defendant",
+      "gloss": "Подсудимый",
+      "example": "The defendant pleaded not guilty.",
+      "definition": "Person accused of a crime or sued in court"
+    },
+    {
+      "id": "crime-law:jury",
+      "term": "Jury",
+      "gloss": "Присяжные",
+      "example": "The jury reached a verdict.",
+      "definition": "Group of citizens who decide if someone is guilty"
+    },
+    {
+      "id": "crime-law:verdict",
+      "term": "Verdict",
+      "gloss": "Вердикт",
+      "example": "We are waiting for the verdict.",
+      "definition": "Official decision of a jury or court"
+    },
+    {
+      "id": "crime-law:sentence",
+      "term": "Sentence",
+      "gloss": "Приговор",
+      "example": "The judge passed a harsh sentence.",
+      "definition": "Punishment given by a court to a guilty person"
+    },
+    {
+      "id": "crime-law:to-acquit",
+      "term": "To acquit",
+      "gloss": "Оправдать",
+      "example": "The court decided to acquit him.",
+      "definition": "To officially declare that someone is not guilty"
+    },
+    {
+      "id": "crime-law:to-convict",
+      "term": "To convict",
+      "gloss": "Осудить",
+      "example": "They had enough proof to convict.",
+      "definition": "To officially declare that someone is guilty"
+    },
+    {
+      "id": "crime-law:evidence",
+      "term": "Evidence",
+      "gloss": "Улика / Доказательство",
+      "example": "DNA is a strong evidence.",
+      "definition": "Facts or objects used to prove something in court"
+    },
+    {
+      "id": "crime-law:witness",
+      "term": "Witness",
+      "gloss": "Свидетель",
+      "example": "Call the witness to the stand.",
+      "definition": "Person who saw an event and can describe it"
+    },
+    {
+      "id": "crime-law:testimony",
+      "term": "Testimony",
+      "gloss": "Показания",
+      "example": "Her testimony changed everything.",
+      "definition": "Formal statement given as evidence in court"
+    },
+    {
+      "id": "crime-law:allegation",
+      "term": "Allegation",
+      "gloss": "Обвинение (заявление)",
+      "example": "Investigate the allegation of theft.",
+      "definition": "Claim that someone did wrong, not yet proven"
+    },
+    {
+      "id": "crime-law:investigation",
+      "term": "Investigation",
+      "gloss": "Расследование",
+      "example": "The investigation is still ongoing.",
+      "definition": "Official process of finding out the facts of a crime"
+    },
+    {
+      "id": "crime-law:surveillance",
+      "term": "Surveillance",
+      "gloss": "Наблюдение",
+      "example": "High surveillance reduces crime.",
+      "definition": "Close watching of a person or place"
+    },
+    {
+      "id": "crime-law:law-enforcement",
+      "term": "Law enforcement",
+      "gloss": "Прав-ные органы",
+      "example": "Support our law enforcement.",
+      "definition": "Police and other agencies that make people obey the law"
+    },
+    {
+      "id": "crime-law:crime-rate",
+      "term": "Crime rate",
+      "gloss": "Уровень преступности",
+      "example": "The crime rate is dropping.",
+      "definition": "Number of crimes in an area over a period"
+    },
+    {
+      "id": "crime-law:victimless",
+      "term": "Victimless",
+      "gloss": "Без жертв",
+      "example": "Drug use is a victimless crime.",
+      "definition": "A crime that does not directly harm another person"
+    },
+    {
+      "id": "crime-law:grievous",
+      "term": "Grievous",
+      "gloss": "Тяжкий",
+      "example": "He suffered grievous bodily harm.",
+      "definition": "Very serious or causing great harm"
+    },
+    {
+      "id": "crime-law:reintegration",
+      "term": "Reintegration",
+      "gloss": "Реинтеграция",
+      "example": "Help with the reintegration of ex-cons.",
+      "definition": "Helping someone return to normal life in society"
+    },
+    {
+      "id": "crime-law:vocational",
+      "term": "Vocational",
+      "gloss": "Профессиональный",
+      "example": "Vocational training helps in jobs.",
+      "definition": "Relating to skills needed for a particular job"
+    },
+    {
+      "id": "crime-law:exclusion",
+      "term": "Exclusion",
+      "gloss": "Изоляция / Исключение",
+      "example": "Avoid social exclusion of poor.",
+      "definition": "Being left out of a group or society"
+    },
+    {
+      "id": "crime-law:poverty-stricken",
+      "term": "Poverty-stricken",
+      "gloss": "Обедневший",
+      "example": "Crime is high in poverty-stricken areas.",
+      "definition": "Suffering from extreme poverty"
+    },
+    {
+      "id": "crime-law:peer-pressure",
+      "term": "Peer pressure",
+      "gloss": "Давление среды",
+      "example": "Kids often yield to peer pressure.",
+      "definition": "Influence from people of the same age group"
+    },
+    {
+      "id": "crime-law:legislation",
+      "term": "Legislation",
+      "gloss": "Законодательство",
+      "example": "Strict legislation is needed.",
+      "definition": "Laws made by a government"
+    },
+    {
+      "id": "crime-law:to-infringe",
+      "term": "To infringe",
+      "gloss": "Нарушать",
+      "example": "Do not infringe the law.",
+      "definition": "To break a law or violate a right"
+    },
+    {
+      "id": "crime-law:to-abide-by",
+      "term": "To abide by",
+      "gloss": "Соблюдать",
+      "example": "You must abide by the rules.",
+      "definition": "To accept and follow a rule or law"
+    },
+    {
+      "id": "crime-law:mitigating",
+      "term": "Mitigating",
+      "gloss": "Смягчающий",
+      "example": "Consider mitigating circumstances.",
+      "definition": "Making a crime seem less serious"
+    },
+    {
+      "id": "crime-law:aggravating",
+      "term": "Aggravating",
+      "gloss": "Отягчающий",
+      "example": "There were many aggravating factors.",
+      "definition": "Making a crime seem more serious"
+    },
+    {
+      "id": "crime-law:wrongful",
+      "term": "Wrongful",
+      "gloss": "Неправомерный",
+      "example": "It was a wrongful conviction.",
+      "definition": "Unfair, unjust, or against the law"
+    },
+    {
+      "id": "crime-law:injustice",
+      "term": "Injustice",
+      "gloss": "Несправедливость",
+      "example": "We must fight social injustice.",
+      "definition": "Unfair treatment or lack of justice"
+    },
+    {
+      "id": "crime-law:clemency",
+      "term": "Clemency",
+      "gloss": "Помилование",
+      "example": "The prisoner asked for clemency.",
+      "definition": "Mercy shown by reducing a punishment"
+    },
+    {
+      "id": "crime-law:premeditated",
+      "term": "Premeditated",
+      "gloss": "Преднамеренный",
+      "example": "It was a premeditated plan.",
+      "definition": "Planned carefully in advance"
+    },
+    {
+      "id": "crime-law:spontaneous",
+      "term": "Spontaneous",
+      "gloss": "Спонтанный",
+      "example": "The fight was spontaneous.",
+      "definition": "Happening suddenly without planning"
+    },
+    {
+      "id": "crime-law:to-deter",
+      "term": "To deter",
+      "gloss": "Отпугивать",
+      "example": "Police patrols deter criminals.",
+      "definition": "To discourage someone from doing something"
+    },
+    {
+      "id": "crime-law:zero-tolerance",
+      "term": "Zero-tolerance",
+      "gloss": "Нулевая терпимость",
+      "example": "Adopt a zero-tolerance policy.",
+      "definition": "Policy of punishing every offence, however small"
+    },
+    {
+      "id": "crime-law:motive",
+      "term": "Motive",
+      "gloss": "Мотив",
+      "example": "What was the motive for crime?",
+      "definition": "Reason why someone commits a crime"
+    },
+    {
+      "id": "crime-law:alibi",
+      "term": "Alibi",
+      "gloss": "Алиби",
+      "example": "He has a solid alibi.",
+      "definition": "Proof that you were elsewhere when a crime happened"
+    },
+    {
+      "id": "crime-law:custody",
+      "term": "Custody",
+      "gloss": "Под стражей",
+      "example": "The suspect is in police custody.",
+      "definition": "Being held by the police or in prison"
+    }
+  ]
+}

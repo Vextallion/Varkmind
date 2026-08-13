@@ -1,0 +1,532 @@
+{
+  "id": "society",
+  "title": "Society & Demographics",
+  "version": 1,
+  "entries": [
+    {
+      "id": "society:demographic-shift",
+      "term": "Demographic shift",
+      "gloss": "Демограф. сдвиг",
+      "example": "We face a major demographic shift.",
+      "definition": "Major change in the makeup of a population"
+    },
+    {
+      "id": "society:ageing-population",
+      "term": "Ageing population",
+      "gloss": "Стареющее население",
+      "example": "Japan has an ageing population.",
+      "definition": "Society with a growing share of older people"
+    },
+    {
+      "id": "society:birth-rate",
+      "term": "Birth rate",
+      "gloss": "Рождаемость",
+      "example": "The birth rate is declining.",
+      "definition": "Number of babies born per thousand people"
+    },
+    {
+      "id": "society:mortality-rate",
+      "term": "Mortality rate",
+      "gloss": "Смертность",
+      "example": "The mortality rate has dropped.",
+      "definition": "Number of deaths per thousand people"
+    },
+    {
+      "id": "society:life-expectancy",
+      "term": "Life expectancy",
+      "gloss": "Прод-ность жизни",
+      "example": "Life expectancy is increasing.",
+      "definition": "Average number of years a person is expected to live"
+    },
+    {
+      "id": "society:longevity",
+      "term": "Longevity",
+      "gloss": "Долголетие",
+      "example": "Science improves human longevity.",
+      "definition": "Long length of life"
+    },
+    {
+      "id": "society:retirement-age",
+      "term": "Retirement age",
+      "gloss": "Пенсионный возраст",
+      "example": "Raise the retirement age to 67.",
+      "definition": "Age at which people typically stop working"
+    },
+    {
+      "id": "society:pension-scheme",
+      "term": "Pension scheme",
+      "gloss": "Пенсионная система",
+      "example": "Join a private pension scheme.",
+      "definition": "Official plan that pays money after retirement"
+    },
+    {
+      "id": "society:healthcare-burden",
+      "term": "Healthcare burden",
+      "gloss": "Нагрузка на медицину",
+      "example": "Ageing creates a healthcare burden.",
+      "definition": "Extra pressure on medical services and costs"
+    },
+    {
+      "id": "society:social-security",
+      "term": "Social security",
+      "gloss": "Соцобеспечение",
+      "example": "Social security helps the elderly.",
+      "definition": "Government support for people in need or old age"
+    },
+    {
+      "id": "society:welfare-state",
+      "term": "Welfare state",
+      "gloss": "Соц. государство",
+      "example": "Norway is a famous welfare state.",
+      "definition": "Country that provides extensive social support"
+    },
+    {
+      "id": "society:poverty-line",
+      "term": "Poverty line",
+      "gloss": "Черта бедности",
+      "example": "Many live below the poverty line.",
+      "definition": "Income level below which a person is considered poor"
+    },
+    {
+      "id": "society:impoverished",
+      "term": "Impoverished",
+      "gloss": "Обедневший",
+      "example": "Aid the impoverished communities.",
+      "definition": "Reduced to a state of poverty"
+    },
+    {
+      "id": "society:destitution",
+      "term": "Destitution",
+      "gloss": "Нищета",
+      "example": "War led to total destitution.",
+      "definition": "Extreme poverty with almost nothing to live on"
+    },
+    {
+      "id": "society:homelessness",
+      "term": "Homelessness",
+      "gloss": "Бездомность",
+      "example": "We must end homelessness.",
+      "definition": "State of having nowhere to live"
+    },
+    {
+      "id": "society:rough-sleepers",
+      "term": "Rough sleepers",
+      "gloss": "Спящие на улице",
+      "example": "Provide beds for rough sleepers.",
+      "definition": "People who sleep outdoors because they have no home"
+    },
+    {
+      "id": "society:income-inequality",
+      "term": "Income inequality",
+      "gloss": "Неравенство доходов",
+      "example": "Tax the rich to reduce inequality.",
+      "definition": "Uneven gap between high and low earners"
+    },
+    {
+      "id": "society:wealth-distribution",
+      "term": "Wealth distribution",
+      "gloss": "Распределение благ",
+      "example": "Focus on fair wealth distribution.",
+      "definition": "How money and assets are shared in society"
+    },
+    {
+      "id": "society:marginalized",
+      "term": "Marginalized",
+      "gloss": "Маргинализированный",
+      "example": "Protect marginalized groups.",
+      "definition": "Pushed to the edge of society and given little power"
+    },
+    {
+      "id": "society:social-exclusion",
+      "term": "Social exclusion",
+      "gloss": "Соц. отчуждение",
+      "example": "Poverty causes social exclusion.",
+      "definition": "Being shut out of normal social and economic life"
+    },
+    {
+      "id": "society:discrimination",
+      "term": "Discrimination",
+      "gloss": "Дискриминация",
+      "example": "End age discrimination at work.",
+      "definition": "Unfair treatment based on group identity"
+    },
+    {
+      "id": "society:prejudice",
+      "term": "Prejudice",
+      "gloss": "Предрассудок",
+      "example": "Overcome your racial prejudice.",
+      "definition": "Unfair opinion formed without knowledge or reason"
+    },
+    {
+      "id": "society:stereotyping",
+      "term": "Stereotyping",
+      "gloss": "Стереотипизация",
+      "example": "Avoid stereotyping the poor.",
+      "definition": "Applying a fixed oversimplified idea to a whole group"
+    },
+    {
+      "id": "society:gender-gap",
+      "term": "Gender gap",
+      "gloss": "Гендерный разрыв",
+      "example": "Close the gender gap in pay.",
+      "definition": "Difference in opportunities or pay between men and women"
+    },
+    {
+      "id": "society:glass-ceiling",
+      "term": "Glass ceiling",
+      "gloss": "Стеклянный потолок",
+      "example": "Women still hit a glass ceiling.",
+      "definition": "Invisible barrier stopping women from reaching top jobs"
+    },
+    {
+      "id": "society:domestic-violence",
+      "term": "Domestic violence",
+      "gloss": "Домашнее насилие",
+      "example": "Report cases of domestic violence.",
+      "definition": "Physical or emotional abuse within a household"
+    },
+    {
+      "id": "society:substance-abuse",
+      "term": "Substance abuse",
+      "gloss": "Злоупотребление",
+      "example": "Substance abuse ruins lives.",
+      "definition": "Harmful overuse of drugs or alcohol"
+    },
+    {
+      "id": "society:addiction",
+      "term": "Addiction",
+      "gloss": "Зависимость",
+      "example": "Overcome drug addiction.",
+      "definition": "Compulsive need for a substance or activity"
+    },
+    {
+      "id": "society:rehabilitation",
+      "term": "Rehabilitation",
+      "gloss": "Реабилитация",
+      "example": "He is in a rehabilitation center.",
+      "definition": "Treatment to help someone recover from addiction or injury"
+    },
+    {
+      "id": "society:vulnerable",
+      "term": "Vulnerable",
+      "gloss": "Уязвимый",
+      "example": "Help the vulnerable children.",
+      "definition": "Easily harmed or in need of protection"
+    },
+    {
+      "id": "society:disability",
+      "term": "Disability",
+      "gloss": "Инвалидность",
+      "example": "A disability is not a barrier.",
+      "definition": "Physical or mental condition that limits daily activities"
+    },
+    {
+      "id": "society:accessibility",
+      "term": "Accessibility",
+      "gloss": "Доступность",
+      "example": "Improve accessibility for all.",
+      "definition": "Ease with which people, especially disabled, can use something"
+    },
+    {
+      "id": "society:underprivileged",
+      "term": "Underprivileged",
+      "gloss": "Неблагополучный",
+      "example": "Support underprivileged youth.",
+      "definition": "Lacking the advantages that other people have"
+    },
+    {
+      "id": "society:slums",
+      "term": "Slums",
+      "gloss": "Трущобы",
+      "example": "People live in crowded slums.",
+      "definition": "Overcrowded poor areas with very bad housing"
+    },
+    {
+      "id": "society:urban-decay",
+      "term": "Urban decay",
+      "gloss": "Упадок города",
+      "example": "Urban decay leads to crime.",
+      "definition": "Decline of a city area through neglect and poverty"
+    },
+    {
+      "id": "society:gentrification",
+      "term": "Gentrification",
+      "gloss": "Джентрификация",
+      "example": "Gentrification changes the district.",
+      "definition": "Wealthier people moving in and pushing poorer residents out"
+    },
+    {
+      "id": "society:social-mobility",
+      "term": "Social mobility",
+      "gloss": "Соц. мобильность",
+      "example": "Education improves social mobility.",
+      "definition": "Ability to move up or down in social class"
+    },
+    {
+      "id": "society:hierarchical",
+      "term": "Hierarchical",
+      "gloss": "Иерархический",
+      "example": "It is a hierarchical society.",
+      "definition": "Organized in ranked levels of status or power"
+    },
+    {
+      "id": "society:class-conscious",
+      "term": "Class-conscious",
+      "gloss": "Классовый",
+      "example": "People are very class-conscious.",
+      "definition": "Very aware of differences in social class"
+    },
+    {
+      "id": "society:elite",
+      "term": "Elite",
+      "gloss": "Элита",
+      "example": "The power belongs to the elite.",
+      "definition": "Small group of people with the most power or wealth"
+    },
+    {
+      "id": "society:working-class",
+      "term": "Working class",
+      "gloss": "Рабочий класс",
+      "example": "Support the working class.",
+      "definition": "People who do manual or low-paid jobs"
+    },
+    {
+      "id": "society:middle-class",
+      "term": "Middle class",
+      "gloss": "Средний класс",
+      "example": "The middle class is shrinking.",
+      "definition": "People with moderate income, often in professional jobs"
+    },
+    {
+      "id": "society:prosperity",
+      "term": "Prosperity",
+      "gloss": "Процветание",
+      "example": "Hard work leads to prosperity.",
+      "definition": "State of being successful and having enough money"
+    },
+    {
+      "id": "society:affluence",
+      "term": "Affluence",
+      "gloss": "Изобилие / Богатство",
+      "example": "He lived a life of affluence.",
+      "definition": "Having a lot of money and a comfortable life"
+    },
+    {
+      "id": "society:philanthropy",
+      "term": "Philanthropy",
+      "gloss": "Филантропия",
+      "example": "He is famous for his philanthropy.",
+      "definition": "Giving money or help to people in need"
+    },
+    {
+      "id": "society:charity",
+      "term": "Charity",
+      "gloss": "Благотв-ность",
+      "example": "Donate money to a charity.",
+      "definition": "Organization that helps people in need"
+    },
+    {
+      "id": "society:volunteering",
+      "term": "Volunteering",
+      "gloss": "Волонтерство",
+      "example": "Volunteering is a noble act.",
+      "definition": "Working for free to help others"
+    },
+    {
+      "id": "society:ngo",
+      "term": "NGO",
+      "gloss": "НКО",
+      "example": "This NGO builds schools in Africa.",
+      "definition": "Non-governmental organization working for a social cause"
+    },
+    {
+      "id": "society:civil-society",
+      "term": "Civil society",
+      "gloss": "Гражданское общ-во",
+      "example": "A strong civil society is vital.",
+      "definition": "Groups and citizens acting independently of government"
+    },
+    {
+      "id": "society:human-rights",
+      "term": "Human rights",
+      "gloss": "Права человека",
+      "example": "Respect basic human rights.",
+      "definition": "Basic freedoms and protections every person should have"
+    },
+    {
+      "id": "society:freedom-of-speech",
+      "term": "Freedom of speech",
+      "gloss": "Свобода слова",
+      "example": "Defend the freedom of speech.",
+      "definition": "Right to express opinions without government punishment"
+    },
+    {
+      "id": "society:tolerance",
+      "term": "Tolerance",
+      "gloss": "Терпимость",
+      "example": "Promote cultural tolerance.",
+      "definition": "Willingness to accept people who are different"
+    },
+    {
+      "id": "society:empathy",
+      "term": "Empathy",
+      "gloss": "Сопереживание",
+      "example": "Have empathy for others.",
+      "definition": "Ability to understand and share another person's feelings"
+    },
+    {
+      "id": "society:community-spirit",
+      "term": "Community spirit",
+      "gloss": "Дух общины",
+      "example": "There is a great community spirit.",
+      "definition": "Feeling of togetherness and mutual help in a group"
+    },
+    {
+      "id": "society:belonging",
+      "term": "Belonging",
+      "gloss": "Сопричастность",
+      "example": "Everyone needs a sense of belonging.",
+      "definition": "Feeling of being accepted as part of a group"
+    },
+    {
+      "id": "society:migration",
+      "term": "Migration",
+      "gloss": "Миграция",
+      "example": "Massive migration causes tension.",
+      "definition": "Movement of people from one place or country to another"
+    },
+    {
+      "id": "society:immigrant",
+      "term": "Immigrant",
+      "gloss": "Иммигрант",
+      "example": "He is a legal immigrant.",
+      "definition": "Person who comes to live permanently in a new country"
+    },
+    {
+      "id": "society:refugee",
+      "term": "Refugee",
+      "gloss": "Беженец",
+      "example": "Provide food for every refugee.",
+      "definition": "Person forced to leave their country to escape danger"
+    },
+    {
+      "id": "society:asylum-seeker",
+      "term": "Asylum seeker",
+      "gloss": "Проситель убежища",
+      "example": "The asylum seeker was denied.",
+      "definition": "Person asking for protection in another country"
+    },
+    {
+      "id": "society:integration",
+      "term": "Integration",
+      "gloss": "Интеграция",
+      "example": "Focus on the integration of migrants.",
+      "definition": "Process of becoming part of a new society"
+    },
+    {
+      "id": "society:assimilation",
+      "term": "Assimilation",
+      "gloss": "Ассимиляция",
+      "example": "Fast assimilation is rare.",
+      "definition": "Fully adopting the culture of a new society"
+    },
+    {
+      "id": "society:brain-drain",
+      "term": "Brain drain",
+      "gloss": "Утечка мозгов",
+      "example": "The country suffers from brain drain.",
+      "definition": "Loss of skilled people who leave to work abroad"
+    },
+    {
+      "id": "society:remittances",
+      "term": "Remittances",
+      "gloss": "Денежные переводы",
+      "example": "Remittances support their family.",
+      "definition": "Money sent home by people working in another country"
+    },
+    {
+      "id": "society:sanitation",
+      "term": "Sanitation",
+      "gloss": "Санитария",
+      "example": "Improve basic sanitation levels.",
+      "definition": "Systems for clean water and safe waste disposal"
+    },
+    {
+      "id": "society:malnutrition",
+      "term": "Malnutrition",
+      "gloss": "Недоедание",
+      "example": "Kids suffer from malnutrition.",
+      "definition": "Poor health caused by not having enough of the right food"
+    },
+    {
+      "id": "society:famine",
+      "term": "Famine",
+      "gloss": "Голод (массовый)",
+      "example": "Millions died during the famine.",
+      "definition": "Extreme shortage of food affecting a whole region"
+    },
+    {
+      "id": "society:literacy-rate",
+      "term": "Literacy rate",
+      "gloss": "Уровень грамотн.",
+      "example": "The literacy rate is 90%.",
+      "definition": "Percentage of people who can read and write"
+    },
+    {
+      "id": "society:illiteracy",
+      "term": "Illiteracy",
+      "gloss": "Безграмотность",
+      "example": "End adult illiteracy.",
+      "definition": "Inability to read and write"
+    },
+    {
+      "id": "society:social-stigma",
+      "term": "Social stigma",
+      "gloss": "Соц. клеймо / Стыд",
+      "example": "Mental illness has a social stigma.",
+      "definition": "Strong public disapproval that shames a person or group"
+    },
+    {
+      "id": "society:standard-of-living",
+      "term": "Standard of living",
+      "gloss": "Уровень жизни",
+      "example": "Improve the standard of living.",
+      "definition": "Level of wealth and comfort people enjoy"
+    },
+    {
+      "id": "society:cost-of-living",
+      "term": "Cost of living",
+      "gloss": "Стоимость жизни",
+      "example": "The cost of living is high in NYC.",
+      "definition": "Amount of money needed for basic everyday expenses"
+    },
+    {
+      "id": "society:safety-net",
+      "term": "Safety net",
+      "gloss": "Сетка безопасности",
+      "example": "Benefits provide a safety net.",
+      "definition": "Government support that protects people from extreme hardship"
+    },
+    {
+      "id": "society:injustice",
+      "term": "Injustice",
+      "gloss": "Несправедливость",
+      "example": "Correct this historic injustice.",
+      "definition": "Unfair treatment or a situation that is not just"
+    },
+    {
+      "id": "society:awareness",
+      "term": "Awareness",
+      "gloss": "Осведомленность",
+      "example": "Raise public awareness of poverty.",
+      "definition": "Knowledge that a problem or situation exists"
+    },
+    {
+      "id": "society:advocacy",
+      "term": "Advocacy",
+      "gloss": "Защита интересов",
+      "example": "She is known for her advocacy work.",
+      "definition": "Public support for a cause or group of people"
+    }
+  ]
+}

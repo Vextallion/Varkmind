@@ -1,0 +1,728 @@
+{
+  "id": "daily-life",
+  "title": "Daily Life",
+  "version": 1,
+  "entries": [
+    {
+      "id": "daily-life:drinks-it-straight-away",
+      "term": "Drinks it straight away",
+      "gloss": "Выпивает сразу же",
+      "example": "He opens the juice and drinks it straight away.",
+      "definition": "consumes a drink immediately, without waiting"
+    },
+    {
+      "id": "daily-life:laundry",
+      "term": "Laundry",
+      "gloss": "Стирка / Грязное белье",
+      "example": "I need to do my laundry this weekend.",
+      "definition": "clothes that need washing, or the act of washing them"
+    },
+    {
+      "id": "daily-life:sort-of-evolved",
+      "term": "Sort of evolved",
+      "gloss": "Своего рода эволюционировал",
+      "example": "The project sort of evolved over time.",
+      "definition": "gradually developed in a rather informal way"
+    },
+    {
+      "id": "daily-life:solid",
+      "term": "Solid",
+      "gloss": "Твердый / Надежный",
+      "example": "This is a solid plan for the business.",
+      "definition": "reliable, strong, and well thought out"
+    },
+    {
+      "id": "daily-life:boundaries",
+      "term": "Boundaries",
+      "gloss": "Границы",
+      "example": "You must respect personal boundaries.",
+      "definition": "limits that protect your time, space, or feelings"
+    },
+    {
+      "id": "daily-life:hesitated",
+      "term": "Hesitated",
+      "gloss": "Колебался / Мешкал",
+      "example": "He hesitated before answering the question.",
+      "definition": "paused because of doubt or uncertainty"
+    },
+    {
+      "id": "daily-life:spare",
+      "term": "Spare",
+      "gloss": "Запасной / Лишний",
+      "example": "Do you have a spare pen?",
+      "definition": "extra; available because it is not in use"
+    },
+    {
+      "id": "daily-life:jousting",
+      "term": "Jousting",
+      "gloss": "Рыцарский поединок",
+      "example": "Jousting was a popular sport in the past.",
+      "definition": "a medieval sport of knights fighting on horseback"
+    },
+    {
+      "id": "daily-life:rough",
+      "term": "Rough",
+      "gloss": "Грубый / Шероховатый",
+      "example": "The sea is very rough today.",
+      "definition": "not smooth, or stormy and unpleasant"
+    },
+    {
+      "id": "daily-life:gain-leverage",
+      "term": "Gain leverage",
+      "gloss": "Получить рычаг давления",
+      "example": "This info will help us gain leverage.",
+      "definition": "get an advantage that helps you influence others"
+    },
+    {
+      "id": "daily-life:courage",
+      "term": "Courage",
+      "gloss": "Мужество",
+      "example": "It takes courage to speak the truth.",
+      "definition": "the ability to do something frightening or hard"
+    },
+    {
+      "id": "daily-life:broader",
+      "term": "Broader",
+      "gloss": "Более широкий",
+      "example": "We need a broader perspective on this.",
+      "definition": "wider in range or covering more aspects"
+    },
+    {
+      "id": "daily-life:turnstile",
+      "term": "Turnstile",
+      "gloss": "Турникет",
+      "example": "Pass through the turnstile at the station.",
+      "definition": "a rotating gate that lets one person through at a time"
+    },
+    {
+      "id": "daily-life:revolving-door",
+      "term": "Revolving door",
+      "gloss": "Вращающаяся дверь",
+      "example": "Go through the revolving door to enter.",
+      "definition": "a door made of panels that turn around a central axis"
+    },
+    {
+      "id": "daily-life:seizure",
+      "term": "Seizure",
+      "gloss": "Припадок / Захват",
+      "example": "He suffered a sudden seizure.",
+      "definition": "a sudden attack of uncontrolled body movement"
+    },
+    {
+      "id": "daily-life:tremble",
+      "term": "Tremble",
+      "gloss": "Дрожать",
+      "example": "I saw his hands tremble with cold.",
+      "definition": "to shake slightly from cold, fear, or weakness"
+    },
+    {
+      "id": "daily-life:way-of-putting-it",
+      "term": "Way of putting it",
+      "gloss": "Способ выразиться",
+      "example": "That’s an interesting way of putting it.",
+      "definition": "a particular choice of words to describe something"
+    },
+    {
+      "id": "daily-life:jealous",
+      "term": "Jealous",
+      "gloss": "Ревнивый / Завистливый",
+      "example": "Don't be jealous of her success.",
+      "definition": "unhappy because someone else has what you want"
+    },
+    {
+      "id": "daily-life:a-bit-off",
+      "term": "A bit off",
+      "gloss": "Немного не в себе / Странный",
+      "example": "This milk smells a bit off.",
+      "definition": "slightly strange, wrong, or no longer fresh"
+    },
+    {
+      "id": "daily-life:toothless",
+      "term": "Toothless",
+      "gloss": "Беззубый / Бессильный",
+      "example": "The new law seems toothless.",
+      "definition": "lacking power to enforce anything"
+    },
+    {
+      "id": "daily-life:turn-down",
+      "term": "Turn down",
+      "gloss": "Отвергнуть / Убавить",
+      "example": "She had to turn down the job offer.",
+      "definition": "to refuse an offer, or to lower volume"
+    },
+    {
+      "id": "daily-life:precise",
+      "term": "Precise",
+      "gloss": "Точный",
+      "example": "Give me the precise time of arrival.",
+      "definition": "exact and accurate"
+    },
+    {
+      "id": "daily-life:elated",
+      "term": "Elated",
+      "gloss": "В приподнятом настроении",
+      "example": "I was elated to hear the good news.",
+      "definition": "extremely happy and excited"
+    },
+    {
+      "id": "daily-life:dull",
+      "term": "Dull",
+      "gloss": "Тусклый / Скучный",
+      "example": "The movie was quite dull and long.",
+      "definition": "boring, or not bright or sharp"
+    },
+    {
+      "id": "daily-life:joyful",
+      "term": "Joyful",
+      "gloss": "Радостный",
+      "example": "It was a joyful occasion for all.",
+      "definition": "full of happiness"
+    },
+    {
+      "id": "daily-life:obsolete",
+      "term": "Obsolete",
+      "gloss": "Устаревший",
+      "example": "Typewriters are now obsolete.",
+      "definition": "no longer used because something newer exists"
+    },
+    {
+      "id": "daily-life:candid",
+      "term": "Candid",
+      "gloss": "Откровенный",
+      "example": "We had a candid talk about money.",
+      "definition": "honest and direct, not hiding your opinion"
+    },
+    {
+      "id": "daily-life:moody",
+      "term": "Moody",
+      "gloss": "Капризный / Переменчивый",
+      "example": "Teenagers can be very moody.",
+      "definition": "having frequent, unpredictable changes of feeling"
+    },
+    {
+      "id": "daily-life:bold",
+      "term": "Bold",
+      "gloss": "Смелый / Жирный (шрифт)",
+      "example": "That was a bold move to quit your job.",
+      "definition": "confident and willing to take risks"
+    },
+    {
+      "id": "daily-life:reluctant",
+      "term": "Reluctant",
+      "gloss": "Неохотный",
+      "example": "He was reluctant to share his secret.",
+      "definition": "unwilling and slow to agree or act"
+    },
+    {
+      "id": "daily-life:unwilling",
+      "term": "Unwilling",
+      "gloss": "Нежелающий",
+      "example": "They are unwilling to pay more.",
+      "definition": "not wanting to do something"
+    },
+    {
+      "id": "daily-life:veracity",
+      "term": "Veracity",
+      "gloss": "Истинность / Правдивость",
+      "example": "I doubt the veracity of his story.",
+      "definition": "the quality of being true or honest"
+    },
+    {
+      "id": "daily-life:contradict",
+      "term": "Contradict",
+      "gloss": "Противоречить",
+      "example": "Her actions contradict her words.",
+      "definition": "to say or do the opposite of something"
+    },
+    {
+      "id": "daily-life:break-me-down",
+      "term": "Break me down",
+      "gloss": "Сломать меня",
+      "example": "They tried to break me down, but failed.",
+      "definition": "destroy someone's strength or spirit"
+    },
+    {
+      "id": "daily-life:barely",
+      "term": "Barely",
+      "gloss": "Едва / Почти нет",
+      "example": "I can barely hear you over the music.",
+      "definition": "only just; almost not"
+    },
+    {
+      "id": "daily-life:chug-down-it",
+      "term": "Chug / Down it",
+      "gloss": "Пить залпом",
+      "example": "He can chug a bottle of water in seconds.",
+      "definition": "drink something quickly in large gulps"
+    },
+    {
+      "id": "daily-life:warrants",
+      "term": "Warrants",
+      "gloss": "Ордера / Основания",
+      "example": "The situation warrants further study.",
+      "definition": "justifies or makes something necessary"
+    },
+    {
+      "id": "daily-life:hilarious",
+      "term": "Hilarious",
+      "gloss": "Очень смешной",
+      "example": "That joke was absolutely hilarious.",
+      "definition": "extremely funny and amusing"
+    },
+    {
+      "id": "daily-life:coming-over",
+      "term": "Coming over",
+      "gloss": "Заходить в гости",
+      "example": "Are you coming over tonight?",
+      "definition": "visiting someone's home"
+    },
+    {
+      "id": "daily-life:college-dorm",
+      "term": "College dorm",
+      "gloss": "Студенческое общежитие",
+      "example": "Life in a college dorm is noisy.",
+      "definition": "student housing on a university campus"
+    },
+    {
+      "id": "daily-life:scold",
+      "term": "Scold",
+      "gloss": "Ругать",
+      "example": "Don't scold the child for a mistake.",
+      "definition": "to speak angrily to someone for doing wrong"
+    },
+    {
+      "id": "daily-life:porch",
+      "term": "Porch",
+      "gloss": "Крыльцо / Веранда",
+      "example": "Let's sit on the porch and talk.",
+      "definition": "a covered area at the entrance of a house"
+    },
+    {
+      "id": "daily-life:anthem",
+      "term": "Anthem",
+      "gloss": "Гимн",
+      "example": "We sang the national anthem.",
+      "definition": "an official song representing a country or group"
+    },
+    {
+      "id": "daily-life:rebel",
+      "term": "Rebel",
+      "gloss": "Бунтарь / Восставать",
+      "example": "He was a rebel in his youth.",
+      "definition": "a person who fights against rules or authority"
+    },
+    {
+      "id": "daily-life:thorough",
+      "term": "Thorough",
+      "gloss": "Тщательный",
+      "example": "We need a thorough investigation.",
+      "definition": "complete and careful, covering every detail"
+    },
+    {
+      "id": "daily-life:seamless",
+      "term": "Seamless",
+      "gloss": "Бесшовный / Плавный",
+      "example": "The transition was seamless.",
+      "definition": "smooth, with no obvious joins or interruptions"
+    },
+    {
+      "id": "daily-life:conduct",
+      "term": "Conduct",
+      "gloss": "Проводить / Вести себя",
+      "example": "They will conduct an experiment.",
+      "definition": "to organize and carry out an activity"
+    },
+    {
+      "id": "daily-life:tackle",
+      "term": "Tackle",
+      "gloss": "Решать (проблему)",
+      "example": "We must tackle the climate crisis.",
+      "definition": "to deal with a difficult problem directly"
+    },
+    {
+      "id": "daily-life:bother",
+      "term": "Bother",
+      "gloss": "Беспокоить",
+      "example": "Does the noise bother you?",
+      "definition": "to annoy or cause trouble for someone"
+    },
+    {
+      "id": "daily-life:invade",
+      "term": "Invade",
+      "gloss": "Вторгаться",
+      "example": "Do not invade my privacy.",
+      "definition": "to enter a place or private life without permission"
+    },
+    {
+      "id": "daily-life:willingness",
+      "term": "Willingness",
+      "gloss": "Готовность",
+      "example": "Show a willingness to learn.",
+      "definition": "being ready and happy to do something"
+    },
+    {
+      "id": "daily-life:nest",
+      "term": "Nest",
+      "gloss": "Гнездо",
+      "example": "The birds built a nest in the tree.",
+      "definition": "a structure birds build for eggs and young"
+    },
+    {
+      "id": "daily-life:trough",
+      "term": "Trough",
+      "gloss": "Корыто / Впадина",
+      "example": "The horses drank from the trough.",
+      "definition": "a long open container that animals drink from"
+    },
+    {
+      "id": "daily-life:fame",
+      "term": "Fame",
+      "gloss": "Слава",
+      "example": "Fame didn't change him at all.",
+      "definition": "the state of being well known by many people"
+    },
+    {
+      "id": "daily-life:chiseled",
+      "term": "Chiseled",
+      "gloss": "Выточенный (о чертах лица)",
+      "example": "He has a chiseled jawline.",
+      "definition": "having sharp, well-defined facial features"
+    },
+    {
+      "id": "daily-life:glow-up",
+      "term": "Glow up",
+      "gloss": "Преображение (сленг)",
+      "example": "She had a massive glow up recently.",
+      "definition": "a striking improvement in looks or style"
+    },
+    {
+      "id": "daily-life:unfold",
+      "term": "Unfold",
+      "gloss": "Разворачиваться",
+      "example": "Watch the story unfold on screen.",
+      "definition": "to develop and become clear over time"
+    },
+    {
+      "id": "daily-life:boundary",
+      "term": "Boundary",
+      "gloss": "Граница",
+      "example": "This fence marks the boundary.",
+      "definition": "a line that marks the edge of an area"
+    },
+    {
+      "id": "daily-life:gripping",
+      "term": "Gripping",
+      "gloss": "Захватывающий",
+      "example": "This thriller is absolutely gripping.",
+      "definition": "so interesting that it holds your attention"
+    },
+    {
+      "id": "daily-life:tub",
+      "term": "Tub",
+      "gloss": "Ванна / Бочка",
+      "example": "I need a soak in a hot tub.",
+      "definition": "a large container, especially a bathtub"
+    },
+    {
+      "id": "daily-life:banger",
+      "term": "Banger",
+      "gloss": "Крутая песня (сленг)",
+      "example": "This new track is a total banger.",
+      "definition": "an excellent, catchy song"
+    },
+    {
+      "id": "daily-life:cornerstone",
+      "term": "Cornerstone",
+      "gloss": "Доверие/фундамент",
+      "example": "Trust is the cornerstone of marriage.",
+      "definition": "the most important basic part of something"
+    },
+    {
+      "id": "daily-life:coincidence",
+      "term": "Coincidence",
+      "gloss": "Совпадение",
+      "example": "What a strange coincidence!",
+      "definition": "two things happening together by chance"
+    },
+    {
+      "id": "daily-life:sober",
+      "term": "Sober",
+      "gloss": "Трезвый",
+      "example": "He has been sober for a year.",
+      "definition": "not drunk; also serious in attitude"
+    },
+    {
+      "id": "daily-life:prescription",
+      "term": "Prescription",
+      "gloss": "Рецепт (врача)",
+      "example": "You need a prescription for these pills.",
+      "definition": "a doctor's written order for medicine"
+    },
+    {
+      "id": "daily-life:brace-yourself",
+      "term": "Brace yourself",
+      "gloss": "Приготовься (к худшему)",
+      "example": "Brace yourself for the storm.",
+      "definition": "prepare yourself for something unpleasant"
+    },
+    {
+      "id": "daily-life:violation",
+      "term": "Violation",
+      "gloss": "Нарушение",
+      "example": "This is a violation of the rules.",
+      "definition": "an act of breaking a rule or law"
+    },
+    {
+      "id": "daily-life:fold",
+      "term": "Fold",
+      "gloss": "Складывать",
+      "example": "Help me fold the blankets.",
+      "definition": "to bend something so one part covers another"
+    },
+    {
+      "id": "daily-life:petite",
+      "term": "Petite",
+      "gloss": "Изящная / Маленькая",
+      "example": "She is a petite woman.",
+      "definition": "small and slim in build, usually of a woman"
+    },
+    {
+      "id": "daily-life:intentional",
+      "term": "Intentional",
+      "gloss": "Намеренный",
+      "example": "It wasn't an accident; it was intentional.",
+      "definition": "done on purpose, not by accident"
+    },
+    {
+      "id": "daily-life:napkins",
+      "term": "Napkins",
+      "gloss": "Салфетки",
+      "example": "Please put the napkins on the table.",
+      "definition": "small pieces of cloth or paper used at meals"
+    },
+    {
+      "id": "daily-life:carry-away",
+      "term": "Carry away",
+      "gloss": "Увлекаться",
+      "example": "Don't get carried away with shopping.",
+      "definition": "become too excited and lose self-control"
+    },
+    {
+      "id": "daily-life:decent",
+      "term": "Decent",
+      "gloss": "Приличный",
+      "example": "I need to find a decent hotel.",
+      "definition": "of an acceptable or fairly good standard"
+    },
+    {
+      "id": "daily-life:break-it-down",
+      "term": "Break it down",
+      "gloss": "Разобрать по полочкам",
+      "example": "Let me break it down for you.",
+      "definition": "explain something in simpler parts"
+    },
+    {
+      "id": "daily-life:spill",
+      "term": "Spill",
+      "gloss": "Пролить",
+      "example": "Don't spill juice on the rug.",
+      "definition": "to accidentally let liquid fall out"
+    },
+    {
+      "id": "daily-life:came-off",
+      "term": "Came off",
+      "gloss": "Получилось / Сошло",
+      "example": "The joke came off as a bit rude.",
+      "definition": "was received or appeared in a certain way"
+    },
+    {
+      "id": "daily-life:kidney",
+      "term": "Kidney",
+      "gloss": "Почка",
+      "example": "Drinking water is good for your kidneys.",
+      "definition": "an organ that filters waste from the blood"
+    },
+    {
+      "id": "daily-life:toddler",
+      "term": "Toddler",
+      "gloss": "Ребенок (начинающий ходить)",
+      "example": "The toddler is learning to walk.",
+      "definition": "a small child who is just learning to walk"
+    },
+    {
+      "id": "daily-life:junk",
+      "term": "Junk",
+      "gloss": "Хлам / Мусор",
+      "example": "Get rid of all that junk in the attic.",
+      "definition": "things of little value that should be thrown away"
+    },
+    {
+      "id": "daily-life:drudgery",
+      "term": "Drudgery",
+      "gloss": "Нудная работа",
+      "example": "Household chores can be a drudgery.",
+      "definition": "hard, boring work that you have to do"
+    },
+    {
+      "id": "daily-life:joy",
+      "term": "Joy",
+      "gloss": "Радость",
+      "example": "Her children are her greatest joy.",
+      "definition": "a feeling of great happiness"
+    },
+    {
+      "id": "daily-life:burdens",
+      "term": "Burdens",
+      "gloss": "Бремя / Тяготы",
+      "example": "Don't carry your burdens alone.",
+      "definition": "heavy duties or worries that are hard to carry"
+    },
+    {
+      "id": "daily-life:keep-up",
+      "term": "Keep up",
+      "gloss": "Успевать / Поддерживать",
+      "example": "It's hard to keep up with the news.",
+      "definition": "stay at the same speed or level as others"
+    },
+    {
+      "id": "daily-life:nausea",
+      "term": "Nausea",
+      "gloss": "Тошнота",
+      "example": "He felt a wave of nausea.",
+      "definition": "the feeling that you may vomit"
+    },
+    {
+      "id": "daily-life:mood-swings",
+      "term": "Mood swings",
+      "gloss": "Перепады настроения",
+      "example": "Pregnancy can cause mood swings.",
+      "definition": "sudden changes from one emotion to another"
+    },
+    {
+      "id": "daily-life:fatigue",
+      "term": "Fatigue",
+      "gloss": "Усталость",
+      "example": "Muscle fatigue after a long run.",
+      "definition": "extreme tiredness after effort or illness"
+    },
+    {
+      "id": "daily-life:ligament-pain",
+      "term": "Ligament pain",
+      "gloss": "Боль в связках",
+      "example": "He has sharp ligament pain in his knee.",
+      "definition": "pain in the tough tissue that connects bones"
+    },
+    {
+      "id": "daily-life:shirk",
+      "term": "Shirk",
+      "gloss": "Уклоняться (от долга)",
+      "example": "Don't shirk your responsibilities.",
+      "definition": "to avoid a duty you should do"
+    },
+    {
+      "id": "daily-life:dedicated",
+      "term": "Dedicated",
+      "gloss": "Преданный / Посвященный",
+      "example": "He is a dedicated teacher.",
+      "definition": "giving a lot of time and effort to something"
+    },
+    {
+      "id": "daily-life:cut-off",
+      "term": "Cut off",
+      "gloss": "Отрезать / Прервать",
+      "example": "They cut off the water supply.",
+      "definition": "to stop the supply of something, or to isolate"
+    },
+    {
+      "id": "daily-life:hangover",
+      "term": "Hangover",
+      "gloss": "Похмелье",
+      "example": "I have a terrible hangover today.",
+      "definition": "headache and sickness after drinking too much alcohol"
+    },
+    {
+      "id": "daily-life:fraud",
+      "term": "Fraud",
+      "gloss": "Мошенничество",
+      "example": "He was arrested for credit card fraud.",
+      "definition": "the crime of tricking people for money or gain"
+    },
+    {
+      "id": "daily-life:hustle",
+      "term": "Hustle",
+      "gloss": "Суета / Активная работа",
+      "example": "I love the hustle and bustle of NYC.",
+      "definition": "busy energetic activity, or working hard to get ahead"
+    },
+    {
+      "id": "daily-life:cheer-on",
+      "term": "Cheer on",
+      "gloss": "Подбадривать",
+      "example": "We went to the stadium to cheer on the team.",
+      "definition": "shout encouragement to someone competing"
+    },
+    {
+      "id": "daily-life:sum-up",
+      "term": "Sum up",
+      "gloss": "Подытожить",
+      "example": "To sum up, we need more time.",
+      "definition": "give a short statement of the main points"
+    },
+    {
+      "id": "daily-life:sides",
+      "term": "Sides",
+      "gloss": "Стороны / Гарниры",
+      "example": "There are two sides to every story.",
+      "definition": "opposing viewpoints, or extra dishes with a meal"
+    },
+    {
+      "id": "daily-life:revenue",
+      "term": "Revenue",
+      "gloss": "Доход (компании)",
+      "example": "Company revenue increased this year.",
+      "definition": "money a company or government receives"
+    },
+    {
+      "id": "daily-life:provide",
+      "term": "Provide",
+      "gloss": "Предоставлять",
+      "example": "We provide free Wi-Fi for guests.",
+      "definition": "to give something that is needed"
+    },
+    {
+      "id": "daily-life:dye",
+      "term": "Dye",
+      "gloss": "Красить / Краситель",
+      "example": "She wants to dye her hair pink.",
+      "definition": "to change the color of something with a chemical"
+    },
+    {
+      "id": "daily-life:exacerbate",
+      "term": "Exacerbate",
+      "gloss": "Усугублять",
+      "example": "Loud music will exacerbate your headache.",
+      "definition": "to make a problem or feeling worse"
+    },
+    {
+      "id": "daily-life:lawsuit",
+      "term": "Lawsuit",
+      "gloss": "Судебный иск",
+      "example": "They filed a lawsuit against the bank.",
+      "definition": "a legal case brought against someone in court"
+    },
+    {
+      "id": "daily-life:feasible",
+      "term": "Feasible",
+      "gloss": "Осуществимый",
+      "example": "Is it feasible to finish by Friday?",
+      "definition": "possible and practical to carry out"
+    },
+    {
+      "id": "daily-life:coherent",
+      "term": "Coherent",
+      "gloss": "Связный",
+      "example": "He was too tired to give a coherent answer.",
+      "definition": "clear, logical, and easy to understand"
+    }
+  ]
+}

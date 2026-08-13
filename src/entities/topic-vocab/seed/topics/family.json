@@ -1,0 +1,532 @@
+{
+  "id": "family",
+  "title": "Family & Relationships",
+  "version": 1,
+  "entries": [
+    {
+      "id": "family:nuclear-family",
+      "term": "Nuclear family",
+      "gloss": "Малая семья (родители+дети)",
+      "example": "Most city dwellers live in a nuclear family.",
+      "definition": "parents and their children living as one household"
+    },
+    {
+      "id": "family:extended-family",
+      "term": "Extended family",
+      "gloss": "Большая семья (с бабушками и т.д.)",
+      "example": "In villages, the extended family is common.",
+      "definition": "relatives beyond parents and children, such as grandparents"
+    },
+    {
+      "id": "family:single-parent-family",
+      "term": "Single-parent family",
+      "gloss": "Неполная семья",
+      "example": "Single-parent families need more support.",
+      "definition": "a family in which only one parent raises the children"
+    },
+    {
+      "id": "family:immediate-family",
+      "term": "Immediate family",
+      "gloss": "Ближайшие родственники",
+      "example": "Only immediate family attended the funeral.",
+      "definition": "your closest relatives, such as parents, spouse, and children"
+    },
+    {
+      "id": "family:siblings",
+      "term": "Siblings",
+      "gloss": "Братья и сестры",
+      "example": "How many siblings do you have?",
+      "definition": "brothers and sisters"
+    },
+    {
+      "id": "family:spouse",
+      "term": "Spouse",
+      "gloss": "Супруг / Супруга",
+      "example": "My spouse works in a bank.",
+      "definition": "a husband or wife"
+    },
+    {
+      "id": "family:offspring",
+      "term": "Offspring",
+      "gloss": "Отпрыск / Потомство",
+      "example": "They are proud of their offspring.",
+      "definition": "a person's child or children"
+    },
+    {
+      "id": "family:ancestor",
+      "term": "Ancestor",
+      "gloss": "Предок",
+      "example": "My ancestors were farmers.",
+      "definition": "a family member from a much earlier generation"
+    },
+    {
+      "id": "family:descendant",
+      "term": "Descendant",
+      "gloss": "Потомок",
+      "example": "He is a descendant of a king.",
+      "definition": "a person who comes from a particular ancestor"
+    },
+    {
+      "id": "family:step-parent",
+      "term": "Step-parent",
+      "gloss": "Отчим / Мачеха",
+      "example": "My step-parent is very kind.",
+      "definition": "a parent's new spouse who is not your biological parent"
+    },
+    {
+      "id": "family:guardian",
+      "term": "Guardian",
+      "gloss": "Опекун",
+      "example": "The legal guardian signed the paper.",
+      "definition": "a person legally responsible for a child's care"
+    },
+    {
+      "id": "family:sole-provider",
+      "term": "Sole provider",
+      "gloss": "Единств. кормилец",
+      "example": "He is the sole provider for the family.",
+      "definition": "the only person earning money for a household"
+    },
+    {
+      "id": "family:breadwinner",
+      "term": "Breadwinner",
+      "gloss": "Кормилец",
+      "example": "Nowadays, both parents are breadwinners.",
+      "definition": "the family member who earns most of the income"
+    },
+    {
+      "id": "family:household-chores",
+      "term": "Household chores",
+      "gloss": "Дела по дому",
+      "example": "Share the household chores fairly.",
+      "definition": "regular jobs needed to keep a home running"
+    },
+    {
+      "id": "family:child-rearing",
+      "term": "Child-rearing",
+      "gloss": "Воспитание детей",
+      "example": "Child-rearing is a huge responsibility.",
+      "definition": "the work of raising and looking after children"
+    },
+    {
+      "id": "family:upbringing",
+      "term": "Upbringing",
+      "gloss": "Воспитание (процесс)",
+      "example": "She had a very strict upbringing.",
+      "definition": "the way a person is raised as a child"
+    },
+    {
+      "id": "family:nature-vs-nurture",
+      "term": "Nature vs Nurture",
+      "gloss": "Врожденное против воспитанного",
+      "example": "The nature vs nurture debate is old.",
+      "definition": "debate over genes versus environment in shaping people"
+    },
+    {
+      "id": "family:to-nurture",
+      "term": "To nurture",
+      "gloss": "Взращивать / Питать",
+      "example": "Parents nurture their children's talents.",
+      "definition": "to care for someone and help them grow"
+    },
+    {
+      "id": "family:adolescence",
+      "term": "Adolescence",
+      "gloss": "Подростковый возраст",
+      "example": "Adolescence can be a difficult period.",
+      "definition": "the stage of life between childhood and adulthood"
+    },
+    {
+      "id": "family:juvenile",
+      "term": "Juvenile",
+      "gloss": "Несовершеннолетний",
+      "example": "The juvenile court handles youth cases.",
+      "definition": "a young person, especially below legal adult age"
+    },
+    {
+      "id": "family:generation-gap",
+      "term": "Generation gap",
+      "gloss": "Конфликт поколений",
+      "example": "Tech often widens the generation gap.",
+      "definition": "differences in views between older and younger people"
+    },
+    {
+      "id": "family:senior-citizen",
+      "term": "Senior citizen",
+      "gloss": "Пожилой человек",
+      "example": "Discounts are available for senior citizens.",
+      "definition": "an older person, usually of retirement age"
+    },
+    {
+      "id": "family:elderly",
+      "term": "Elderly",
+      "gloss": "Престарелый",
+      "example": "We must care for the elderly.",
+      "definition": "old people, especially those who may need care"
+    },
+    {
+      "id": "family:retirement",
+      "term": "Retirement",
+      "gloss": "Выход на пенсию",
+      "example": "They are enjoying their retirement.",
+      "definition": "the period of life after a person stops working"
+    },
+    {
+      "id": "family:nursing-home",
+      "term": "Nursing home",
+      "gloss": "Дом престарелых",
+      "example": "He moved into a nursing home.",
+      "definition": "a residential place that cares for old or ill people"
+    },
+    {
+      "id": "family:kinship",
+      "term": "Kinship",
+      "gloss": "Родство",
+      "example": "I feel a strong sense of kinship.",
+      "definition": "a family relationship or feeling of being related"
+    },
+    {
+      "id": "family:blood-relation",
+      "term": "Blood relation",
+      "gloss": "Кровное родство",
+      "example": "She is a distant blood relation.",
+      "definition": "a relative connected by birth rather than marriage"
+    },
+    {
+      "id": "family:adoptive-parents",
+      "term": "Adoptive parents",
+      "gloss": "Приемные родители",
+      "example": "Her adoptive parents are wonderful.",
+      "definition": "people who legally take a child as their own"
+    },
+    {
+      "id": "family:foster-care",
+      "term": "Foster care",
+      "gloss": "Временная опека",
+      "example": "Many kids are in foster care.",
+      "definition": "temporary care of a child by another family"
+    },
+    {
+      "id": "family:sibling-rivalry",
+      "term": "Sibling rivalry",
+      "gloss": "Соперничество братьев/сестер",
+      "example": "Sibling rivalry is normal in kids.",
+      "definition": "competition or jealousy between brothers and sisters"
+    },
+    {
+      "id": "family:conflict",
+      "term": "Conflict",
+      "gloss": "Конфликт",
+      "example": "Resolve the conflict peacefully.",
+      "definition": "a serious disagreement or clash between people"
+    },
+    {
+      "id": "family:reconciliation",
+      "term": "Reconciliation",
+      "gloss": "Примирение",
+      "example": "They hope for a reconciliation.",
+      "definition": "making peace after an argument or split"
+    },
+    {
+      "id": "family:to-bond",
+      "term": "To bond",
+      "gloss": "Сближаться / Связываться",
+      "example": "Camping helps the family to bond.",
+      "definition": "to form a close emotional connection"
+    },
+    {
+      "id": "family:affection",
+      "term": "Affection",
+      "gloss": "Привязанность / Любовь",
+      "example": "Show affection to your partner.",
+      "definition": "a feeling of fondness and gentle love"
+    },
+    {
+      "id": "family:intimacy",
+      "term": "Intimacy",
+      "gloss": "Близость",
+      "example": "Emotional intimacy is important.",
+      "definition": "a close personal or emotional connection"
+    },
+    {
+      "id": "family:commitment",
+      "term": "Commitment",
+      "gloss": "Обязательство / Верность",
+      "example": "Marriage requires a strong commitment.",
+      "definition": "a promise to stay loyal and involved"
+    },
+    {
+      "id": "family:mutual-respect",
+      "term": "Mutual respect",
+      "gloss": "Взаимное уважение",
+      "example": "Build a relationship on mutual respect.",
+      "definition": "equal regard that people show one another"
+    },
+    {
+      "id": "family:to-confide-in",
+      "term": "To confide in",
+      "gloss": "Доверять секреты",
+      "example": "I always confide in my sister.",
+      "definition": "to tell someone your private thoughts or secrets"
+    },
+    {
+      "id": "family:peer-pressure",
+      "term": "Peer pressure",
+      "gloss": "Давление сверстников",
+      "example": "Teenagers often suffer from peer pressure.",
+      "definition": "influence from people your age to act a certain way"
+    },
+    {
+      "id": "family:role-model",
+      "term": "Role model",
+      "gloss": "Образец для подражания",
+      "example": "My father is my role model.",
+      "definition": "a person you admire and try to copy"
+    },
+    {
+      "id": "family:socialization",
+      "term": "Socialization",
+      "gloss": "Социализация",
+      "example": "School is vital for socialization.",
+      "definition": "learning how to behave and mix in society"
+    },
+    {
+      "id": "family:to-interact",
+      "term": "To interact",
+      "gloss": "Взаимодействовать",
+      "example": "Children need to interact with peers.",
+      "definition": "to communicate or deal with other people"
+    },
+    {
+      "id": "family:infant",
+      "term": "Infant",
+      "gloss": "Младенец",
+      "example": "The infant is sleeping.",
+      "definition": "a very young baby"
+    },
+    {
+      "id": "family:toddler",
+      "term": "Toddler",
+      "gloss": "Ребенок (начинающий ходить)",
+      "example": "The toddler is learning to speak.",
+      "definition": "a small child who is just learning to walk"
+    },
+    {
+      "id": "family:dependency",
+      "term": "Dependency",
+      "gloss": "Зависимость",
+      "example": "Avoid emotional dependency.",
+      "definition": "relying too much on someone or something"
+    },
+    {
+      "id": "family:autonomy",
+      "term": "Autonomy",
+      "gloss": "Автономия / Независимость",
+      "example": "Teens seek more autonomy.",
+      "definition": "the freedom to make your own decisions"
+    },
+    {
+      "id": "family:overprotective",
+      "term": "Overprotective",
+      "gloss": "Чрезмерно опекающий",
+      "example": "Overprotective parents can limit kids.",
+      "definition": "protecting someone more than is healthy or needed"
+    },
+    {
+      "id": "family:strict",
+      "term": "Strict",
+      "gloss": "Строгий",
+      "example": "He is a very strict teacher.",
+      "definition": "demanding that rules are followed closely"
+    },
+    {
+      "id": "family:lenient",
+      "term": "Lenient",
+      "gloss": "Снисходительный",
+      "example": "Her parents are quite lenient.",
+      "definition": "not strict; allowing more freedom than usual"
+    },
+    {
+      "id": "family:authority",
+      "term": "Authority",
+      "gloss": "Авторитет / Власть",
+      "example": "Respect the father's authority.",
+      "definition": "the power to give orders and make decisions"
+    },
+    {
+      "id": "family:discipline",
+      "term": "Discipline",
+      "gloss": "Дисциплина",
+      "example": "Self-discipline is key to success.",
+      "definition": "training people to follow rules and control themselves"
+    },
+    {
+      "id": "family:punishment",
+      "term": "Punishment",
+      "gloss": "Наказание",
+      "example": "Physical punishment is banned.",
+      "definition": "a penalty given for breaking a rule"
+    },
+    {
+      "id": "family:domestic",
+      "term": "Domestic",
+      "gloss": "Домашний / Семейный",
+      "example": "Stop domestic violence.",
+      "definition": "relating to the home or family life"
+    },
+    {
+      "id": "family:abuse",
+      "term": "Abuse",
+      "gloss": "Насилие / Оскорбление",
+      "example": "Child abuse is a tragedy.",
+      "definition": "cruel or violent treatment of a person"
+    },
+    {
+      "id": "family:divorce-rate",
+      "term": "Divorce rate",
+      "gloss": "Уровень разводов",
+      "example": "The divorce rate is increasing.",
+      "definition": "how common divorce is in a population"
+    },
+    {
+      "id": "family:separation",
+      "term": "Separation",
+      "gloss": "Расставание",
+      "example": "A temporary separation helped them.",
+      "definition": "living apart from a partner, often before divorce"
+    },
+    {
+      "id": "family:custody",
+      "term": "Custody",
+      "gloss": "Опека (после развода)",
+      "example": "The mother won sole custody.",
+      "definition": "the legal right to care for a child after divorce"
+    },
+    {
+      "id": "family:alimony",
+      "term": "Alimony",
+      "gloss": "Алименты",
+      "example": "He pays alimony every month.",
+      "definition": "money paid to a former spouse after divorce"
+    },
+    {
+      "id": "family:cohabitation",
+      "term": "Cohabitation",
+      "gloss": "Сожительство",
+      "example": "Cohabitation before marriage.",
+      "definition": "living together as a couple without being married"
+    },
+    {
+      "id": "family:stability",
+      "term": "Stability",
+      "gloss": "Стабильность",
+      "example": "Children need emotional stability.",
+      "definition": "a steady, secure, and predictable situation"
+    },
+    {
+      "id": "family:dysfunctional",
+      "term": "Dysfunctional",
+      "gloss": "Дисфункциональный",
+      "example": "He grew up in a dysfunctional family.",
+      "definition": "not working in a healthy or normal way"
+    },
+    {
+      "id": "family:to-inherit",
+      "term": "To inherit",
+      "gloss": "Наследовать",
+      "example": "I inherited my mother's eyes.",
+      "definition": "to receive money, property, or traits from family"
+    },
+    {
+      "id": "family:succession",
+      "term": "Succession",
+      "gloss": "Преемственность",
+      "example": "The succession of the family business.",
+      "definition": "taking over a role or business from a predecessor"
+    },
+    {
+      "id": "family:legacy",
+      "term": "Legacy",
+      "gloss": "Наследие (нематер.)",
+      "example": "He left a great musical legacy.",
+      "definition": "something valuable left behind for later generations"
+    },
+    {
+      "id": "family:tradition",
+      "term": "Tradition",
+      "gloss": "Традиция",
+      "example": "It's a long-standing family tradition.",
+      "definition": "a custom passed down through generations"
+    },
+    {
+      "id": "family:ritual",
+      "term": "Ritual",
+      "gloss": "Ритуал",
+      "example": "Sunday dinner is our weekly ritual.",
+      "definition": "a regular ceremony or set of meaningful actions"
+    },
+    {
+      "id": "family:values",
+      "term": "Values",
+      "gloss": "Ценности",
+      "example": "Teach your kids moral values.",
+      "definition": "beliefs about what is right and important"
+    },
+    {
+      "id": "family:belonging",
+      "term": "Belonging",
+      "gloss": "Принадлежность",
+      "example": "A sense of belonging is vital.",
+      "definition": "the feeling of being accepted as part of a group"
+    },
+    {
+      "id": "family:loneliness",
+      "term": "Loneliness",
+      "gloss": "Одиночество",
+      "example": "Loneliness is a problem for seniors.",
+      "definition": "the unhappy feeling of being alone"
+    },
+    {
+      "id": "family:isolation",
+      "term": "Isolation",
+      "gloss": "Изоляция",
+      "example": "Social isolation affects health.",
+      "definition": "being cut off from other people"
+    },
+    {
+      "id": "family:support-system",
+      "term": "Support system",
+      "gloss": "Система поддержки",
+      "example": "Friends are a great support system.",
+      "definition": "people who help you in difficult times"
+    },
+    {
+      "id": "family:trustworthiness",
+      "term": "Trustworthiness",
+      "gloss": "Надежность",
+      "example": "Trustworthiness is a key trait.",
+      "definition": "the quality of being honest and reliable"
+    },
+    {
+      "id": "family:to-neglect",
+      "term": "To neglect",
+      "gloss": "Пренебрегать",
+      "example": "Do not neglect your family duties.",
+      "definition": "to fail to give someone the care they need"
+    },
+    {
+      "id": "family:inseparable",
+      "term": "Inseparable",
+      "gloss": "Неразлучные",
+      "example": "Those two friends are inseparable.",
+      "definition": "so close that you are almost always together"
+    },
+    {
+      "id": "family:ties",
+      "term": "Ties",
+      "gloss": "Узы / Связи",
+      "example": "Strengthen your family ties.",
+      "definition": "emotional or family connections between people"
+    }
+  ]
+}

@@ -33,6 +33,9 @@ export async function runSeed(db: SqlDB): Promise<void> {
     return;
   }
 
+  // Drop one-shot vocab-* imports; C1 Register Graph is the curated pack only.
+  await db.execute(`DELETE FROM b2_chunks WHERE id LIKE 'vocab-%'`);
+
   const now = new Date().toISOString();
   const commands: SqlBatchTuple[] = [];
 

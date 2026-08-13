@@ -1,0 +1,532 @@
+{
+  "id": "media",
+  "title": "Media & Communication",
+  "version": 1,
+  "entries": [
+    {
+      "id": "media:broadcasting",
+      "term": "Broadcasting",
+      "gloss": "Вещание",
+      "example": "Radio broadcasting started early.",
+      "definition": "Sending TV or radio programmes to the public"
+    },
+    {
+      "id": "media:journalism",
+      "term": "Journalism",
+      "gloss": "Журналистика",
+      "example": "Investigative journalism is vital.",
+      "definition": "Work of reporting news and current events"
+    },
+    {
+      "id": "media:mass-media",
+      "term": "Mass media",
+      "gloss": "Масс-медиа",
+      "example": "Mass media shapes public opinion.",
+      "definition": "TV, radio, press and internet reaching many people"
+    },
+    {
+      "id": "media:mainstream",
+      "term": "Mainstream",
+      "gloss": "Традиционный / Попул.",
+      "example": "Avoid only mainstream news.",
+      "definition": "Accepted by most people as normal or popular"
+    },
+    {
+      "id": "media:alternative",
+      "term": "Alternative",
+      "gloss": "Альтернативный",
+      "example": "Read alternative sources too.",
+      "definition": "Different from the usual or official option"
+    },
+    {
+      "id": "media:credibility",
+      "term": "Credibility",
+      "gloss": "Достоверность",
+      "example": "The source lost its credibility.",
+      "definition": "Quality of being trusted and believed"
+    },
+    {
+      "id": "media:reliable",
+      "term": "Reliable",
+      "gloss": "Надежный",
+      "example": "Seek reliable information online.",
+      "definition": "Able to be trusted as accurate"
+    },
+    {
+      "id": "media:biased",
+      "term": "Biased",
+      "gloss": "Предвзятый",
+      "example": "The report was clearly biased.",
+      "definition": "Unfairly favouring one side"
+    },
+    {
+      "id": "media:objective",
+      "term": "Objective",
+      "gloss": "Объективный",
+      "example": "Try to remain objective always.",
+      "definition": "Based on facts, not personal feelings"
+    },
+    {
+      "id": "media:subjective",
+      "term": "Subjective",
+      "gloss": "Субъективный",
+      "example": "News should not be subjective.",
+      "definition": "Based on personal opinions or feelings"
+    },
+    {
+      "id": "media:censorship",
+      "term": "Censorship",
+      "gloss": "Цензура",
+      "example": "Oppose strict government censorship.",
+      "definition": "Official control that blocks certain information"
+    },
+    {
+      "id": "media:press-freedom",
+      "term": "Press freedom",
+      "gloss": "Свобода прессы",
+      "example": "Press freedom is a human right.",
+      "definition": "Right of journalists to report without control"
+    },
+    {
+      "id": "media:tabloid",
+      "term": "Tabloid",
+      "gloss": "Таблоид (желтая пресса)",
+      "example": "Tabloids love celebrity scandals.",
+      "definition": "Newspaper focused on scandal and celebrities"
+    },
+    {
+      "id": "media:broadsheet",
+      "term": "Broadsheet",
+      "gloss": "Серьезная газета",
+      "example": "Broadsheets focus on politics.",
+      "definition": "Serious newspaper covering politics and news"
+    },
+    {
+      "id": "media:editorial",
+      "term": "Editorial",
+      "gloss": "Редакционная статья",
+      "example": "Read the editorial on climate.",
+      "definition": "Article giving the newspaper's own opinion"
+    },
+    {
+      "id": "media:headline",
+      "term": "Headline",
+      "gloss": "Заголовок",
+      "example": "The headline caught my eye.",
+      "definition": "Title of a news story"
+    },
+    {
+      "id": "media:front-page",
+      "term": "Front page",
+      "gloss": "Первая полоса",
+      "example": "It was news on the front page.",
+      "definition": "First page of a newspaper with top stories"
+    },
+    {
+      "id": "media:sensationalism",
+      "term": "Sensationalism",
+      "gloss": "Сенсационность",
+      "example": "Sensationalism sells more papers.",
+      "definition": "Presenting news in an exaggerated exciting way"
+    },
+    {
+      "id": "media:clickbait",
+      "term": "Clickbait",
+      "gloss": "Кликбейт",
+      "example": "Don't click on that clickbait.",
+      "definition": "Headline designed only to attract clicks"
+    },
+    {
+      "id": "media:misinformation",
+      "term": "Misinformation",
+      "gloss": "Дезинформация",
+      "example": "Misinformation spreads quickly.",
+      "definition": "False or inaccurate information"
+    },
+    {
+      "id": "media:fake-news",
+      "term": "Fake news",
+      "gloss": "Фейковые новости",
+      "example": "Verify facts to avoid fake news.",
+      "definition": "Deliberately false stories presented as news"
+    },
+    {
+      "id": "media:verification",
+      "term": "Verification",
+      "gloss": "Проверка (фактов)",
+      "example": "Verification of data is crucial.",
+      "definition": "Checking that information is true"
+    },
+    {
+      "id": "media:source",
+      "term": "Source",
+      "gloss": "Источник",
+      "example": "Always cite your source.",
+      "definition": "Person or document that provides information"
+    },
+    {
+      "id": "media:anonymous",
+      "term": "Anonymous",
+      "gloss": "Анонимный",
+      "example": "An anonymous source called us.",
+      "definition": "Not named or identified"
+    },
+    {
+      "id": "media:whistleblower",
+      "term": "Whistleblower",
+      "gloss": "Информатор (разоблачитель)",
+      "example": "The whistleblower was brave.",
+      "definition": "Person who reports secret wrongdoing"
+    },
+    {
+      "id": "media:scoop",
+      "term": "Scoop",
+      "gloss": "Сенсация (эксклюзив)",
+      "example": "The reporter got a big scoop.",
+      "definition": "Exclusive story published before others"
+    },
+    {
+      "id": "media:breaking-news",
+      "term": "Breaking news",
+      "gloss": "Срочные новости",
+      "example": "We have some breaking news.",
+      "definition": "Very recent important news"
+    },
+    {
+      "id": "media:coverage",
+      "term": "Coverage",
+      "gloss": "Освещение (в СМИ)",
+      "example": "The election had wide coverage.",
+      "definition": "Amount of attention media gives a topic"
+    },
+    {
+      "id": "media:feature",
+      "term": "Feature",
+      "gloss": "Спец. выпуск / Статья",
+      "example": "A feature story on poverty.",
+      "definition": "Longer in-depth article or programme"
+    },
+    {
+      "id": "media:correspondent",
+      "term": "Correspondent",
+      "gloss": "Корреспондент",
+      "example": "Our war correspondent is safe.",
+      "definition": "Journalist reporting from a particular place"
+    },
+    {
+      "id": "media:anchor-presenter",
+      "term": "Anchor / Presenter",
+      "gloss": "Ведущий новостей",
+      "example": "The anchor read the news.",
+      "definition": "Person who hosts a news programme"
+    },
+    {
+      "id": "media:social-media",
+      "term": "Social media",
+      "gloss": "Соцсети",
+      "example": "Social media is a news hub.",
+      "definition": "Websites where people share content"
+    },
+    {
+      "id": "media:viral",
+      "term": "Viral",
+      "gloss": "Вирусный",
+      "example": "The video went viral instantly.",
+      "definition": "Spreading very quickly online"
+    },
+    {
+      "id": "media:influencer",
+      "term": "Influencer",
+      "gloss": "Инфлюенсер",
+      "example": "She is a popular influencer.",
+      "definition": "Person who affects others' opinions online"
+    },
+    {
+      "id": "media:algorithm",
+      "term": "Algorithm",
+      "gloss": "Алгоритм",
+      "example": "The algorithm suggests content.",
+      "definition": "Set of rules a computer uses to decide content"
+    },
+    {
+      "id": "media:echo-chamber",
+      "term": "Echo chamber",
+      "gloss": "Эхо-камера (изоляция)",
+      "example": "Social media is an echo chamber.",
+      "definition": "Space where you only hear similar views"
+    },
+    {
+      "id": "media:filter-bubble",
+      "term": "Filter bubble",
+      "gloss": "Пузырь фильтров",
+      "example": "Break out of your filter bubble.",
+      "definition": "Online isolation from opposing views"
+    },
+    {
+      "id": "media:user-generated",
+      "term": "User-generated",
+      "gloss": "Пот-ский контент",
+      "example": "TikTok is user-generated media.",
+      "definition": "Created by ordinary users, not companies"
+    },
+    {
+      "id": "media:subscription",
+      "term": "Subscription",
+      "gloss": "Подписка",
+      "example": "Pay for a digital subscription.",
+      "definition": "Regular payment for access to content"
+    },
+    {
+      "id": "media:paywall",
+      "term": "Paywall",
+      "gloss": "Платный доступ (сайт)",
+      "example": "This site has a strict paywall.",
+      "definition": "Barrier requiring payment to read content"
+    },
+    {
+      "id": "media:circulation",
+      "term": "Circulation",
+      "gloss": "Тираж",
+      "example": "The magazine has a huge circulation.",
+      "definition": "Number of copies a newspaper sells"
+    },
+    {
+      "id": "media:viewership",
+      "term": "Viewership",
+      "gloss": "Аудитория (ТВ)",
+      "example": "Viewership peaked during the game.",
+      "definition": "Number of people watching a programme"
+    },
+    {
+      "id": "media:readership",
+      "term": "Readership",
+      "gloss": "Аудитория (читатели)",
+      "example": "Our readership is mostly young.",
+      "definition": "People who regularly read a publication"
+    },
+    {
+      "id": "media:ratings",
+      "term": "Ratings",
+      "gloss": "Рейтинги",
+      "example": "TV ratings are falling now.",
+      "definition": "Figures showing how many people watched"
+    },
+    {
+      "id": "media:slander",
+      "term": "Slander",
+      "gloss": "Клевета (устная)",
+      "example": "He sued the agent for slander.",
+      "definition": "Spoken false statements that harm reputation"
+    },
+    {
+      "id": "media:libel",
+      "term": "Libel",
+      "gloss": "Клевета (печатная)",
+      "example": "The paper was guilty of libel.",
+      "definition": "Written false statements that harm reputation"
+    },
+    {
+      "id": "media:infringement",
+      "term": "Infringement",
+      "gloss": "Нарушение (прав)",
+      "example": "Copyright infringement is illegal.",
+      "definition": "Breaking a law or right, especially copyright"
+    },
+    {
+      "id": "media:privacy",
+      "term": "Privacy",
+      "gloss": "Приватность",
+      "example": "Protect your digital privacy.",
+      "definition": "Right to keep personal life secret"
+    },
+    {
+      "id": "media:data-breach",
+      "term": "Data breach",
+      "gloss": "Утечка данных",
+      "example": "A data breach exposed emails.",
+      "definition": "Unauthorized access to private information"
+    },
+    {
+      "id": "media:surveillance",
+      "term": "Surveillance",
+      "gloss": "Наблюдение / Слежка",
+      "example": "Governments use surveillance.",
+      "definition": "Close watching of people, often by authorities"
+    },
+    {
+      "id": "media:opinion-poll",
+      "term": "Opinion poll",
+      "gloss": "Опрос мнения",
+      "example": "The opinion poll shows a tie.",
+      "definition": "Survey of what people think about an issue"
+    },
+    {
+      "id": "media:publicity",
+      "term": "Publicity",
+      "gloss": "Публичность / Реклама",
+      "example": "The movie got good publicity.",
+      "definition": "Public attention given to someone or something"
+    },
+    {
+      "id": "media:hype",
+      "term": "Hype",
+      "gloss": "Хайп / Ажиотаж",
+      "example": "Don't believe the marketing hype.",
+      "definition": "Excessive publicity and excitement"
+    },
+    {
+      "id": "media:scandal",
+      "term": "Scandal",
+      "gloss": "Скандал",
+      "example": "A political scandal broke out.",
+      "definition": "Shocking event that damages reputation"
+    },
+    {
+      "id": "media:controversial",
+      "term": "Controversial",
+      "gloss": "Спорный",
+      "example": "It was a controversial topic.",
+      "definition": "Causing public disagreement or debate"
+    },
+    {
+      "id": "media:unbiased",
+      "term": "Unbiased",
+      "gloss": "Непредвзятый",
+      "example": "We provide unbiased reports.",
+      "definition": "Not favouring any side"
+    },
+    {
+      "id": "media:to-manipulate",
+      "term": "To manipulate",
+      "gloss": "Манипулировать",
+      "example": "Media can manipulate emotions.",
+      "definition": "To control people or facts unfairly"
+    },
+    {
+      "id": "media:propaganda",
+      "term": "Propaganda",
+      "gloss": "Пропаганда",
+      "example": "State media used propaganda.",
+      "definition": "Biased information used to influence opinion"
+    },
+    {
+      "id": "media:distortion",
+      "term": "Distortion",
+      "gloss": "Искажение",
+      "example": "Stop the distortion of facts.",
+      "definition": "Changing facts so they are no longer true"
+    },
+    {
+      "id": "media:to-exaggerate",
+      "term": "To exaggerate",
+      "gloss": "Преувеличивать",
+      "example": "Headlines often exaggerate.",
+      "definition": "To make something seem bigger than it is"
+    },
+    {
+      "id": "media:accountability",
+      "term": "Accountability",
+      "gloss": "Подотчетность",
+      "example": "Journalists need accountability.",
+      "definition": "Duty to explain and take responsibility"
+    },
+    {
+      "id": "media:integrity",
+      "term": "Integrity",
+      "gloss": "Честность / Мораль",
+      "example": "Professional integrity is key.",
+      "definition": "Honesty and strong moral principles"
+    },
+    {
+      "id": "media:ethical",
+      "term": "Ethical",
+      "gloss": "Этичный",
+      "example": "Follow ethical standards.",
+      "definition": "Morally right and fair"
+    },
+    {
+      "id": "media:transparency",
+      "term": "Transparency",
+      "gloss": "Прозрачность",
+      "example": "We demand more transparency.",
+      "definition": "Openness about how decisions are made"
+    },
+    {
+      "id": "media:regulation",
+      "term": "Regulation",
+      "gloss": "Регулирование",
+      "example": "Media regulation is necessary.",
+      "definition": "Official rules that control an activity"
+    },
+    {
+      "id": "media:defamation",
+      "term": "Defamation",
+      "gloss": "Диффамация (порча реп.)",
+      "example": "He was accused of defamation.",
+      "definition": "Damaging someone's reputation with false claims"
+    },
+    {
+      "id": "media:impartial",
+      "term": "Impartial",
+      "gloss": "Беспристрастный",
+      "example": "Judges must be impartial.",
+      "definition": "Treating all sides fairly"
+    },
+    {
+      "id": "media:obsolete",
+      "term": "Obsolete",
+      "gloss": "Устаревший",
+      "example": "Paper news is becoming obsolete.",
+      "definition": "No longer used or useful"
+    },
+    {
+      "id": "media:on-demand",
+      "term": "On-demand",
+      "gloss": "По запросу",
+      "example": "I prefer on-demand streaming.",
+      "definition": "Available whenever the user wants"
+    },
+    {
+      "id": "media:live-stream",
+      "term": "Live stream",
+      "gloss": "Прямой эфир",
+      "example": "Watch the live stream now.",
+      "definition": "Video broadcast in real time over the internet"
+    },
+    {
+      "id": "media:podcast",
+      "term": "Podcast",
+      "gloss": "Подкаст",
+      "example": "Listen to our weekly podcast.",
+      "definition": "Audio programme you can download or stream"
+    },
+    {
+      "id": "media:blogging",
+      "term": "Blogging",
+      "gloss": "Блогинг",
+      "example": "Blogging changed journalism.",
+      "definition": "Writing regular posts on a website"
+    },
+    {
+      "id": "media:citizen-journalism",
+      "term": "Citizen journalism",
+      "gloss": "Гражданская жур-ка",
+      "example": "Citizen journalism is rising.",
+      "definition": "News reporting by ordinary people"
+    },
+    {
+      "id": "media:digital-footprint",
+      "term": "Digital footprint",
+      "gloss": "Цифровой след",
+      "example": "Mind your digital footprint.",
+      "definition": "Trace of your activity left online"
+    },
+    {
+      "id": "media:information-overload",
+      "term": "Information overload",
+      "gloss": "Инф. перегрузка",
+      "example": "Avoid daily information overload.",
+      "definition": "Too much information to process"
+    }
+  ]
+}

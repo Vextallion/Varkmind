@@ -1,0 +1,532 @@
+{
+  "id": "health",
+  "title": "Health & Well-being",
+  "version": 1,
+  "entries": [
+    {
+      "id": "health:well-being",
+      "term": "Well-being",
+      "gloss": "Благополучие / Здоровье",
+      "example": "Exercise improves your well-being.",
+      "definition": "Overall physical and mental health"
+    },
+    {
+      "id": "health:physical-fitness",
+      "term": "Physical fitness",
+      "gloss": "Физ. форма",
+      "example": "Maintain your physical fitness.",
+      "definition": "How strong and healthy your body is"
+    },
+    {
+      "id": "health:sedentary-lifestyle",
+      "term": "Sedentary lifestyle",
+      "gloss": "Сидячий образ жизни",
+      "example": "A sedentary lifestyle is risky.",
+      "definition": "Life with little physical activity"
+    },
+    {
+      "id": "health:obesity",
+      "term": "Obesity",
+      "gloss": "Ожирение",
+      "example": "Childhood obesity is a crisis.",
+      "definition": "Condition of being dangerously overweight"
+    },
+    {
+      "id": "health:diabetes",
+      "term": "Diabetes",
+      "gloss": "Диабет",
+      "example": "Sugar increases the risk of diabetes.",
+      "definition": "Disease where the body cannot control blood sugar"
+    },
+    {
+      "id": "health:cardiovascular",
+      "term": "Cardiovascular",
+      "gloss": "Сердечно-сосудистый",
+      "example": "Cardiovascular diseases are deadly.",
+      "definition": "Relating to the heart and blood vessels"
+    },
+    {
+      "id": "health:hypertension",
+      "term": "Hypertension",
+      "gloss": "Гипертония",
+      "example": "Stress leads to hypertension.",
+      "definition": "Abnormally high blood pressure"
+    },
+    {
+      "id": "health:metabolism",
+      "term": "Metabolism",
+      "gloss": "Обмен веществ",
+      "example": "Exercise boosts your metabolism.",
+      "definition": "Process of turning food into energy"
+    },
+    {
+      "id": "health:immune-system",
+      "term": "Immune system",
+      "gloss": "Иммунная система",
+      "example": "Vitamin C helps the immune system.",
+      "definition": "Body's defense against infection"
+    },
+    {
+      "id": "health:nutrients",
+      "term": "Nutrients",
+      "gloss": "Питательные вещества",
+      "example": "Fruits are full of nutrients.",
+      "definition": "Substances in food that keep you healthy"
+    },
+    {
+      "id": "health:fiber",
+      "term": "Fiber",
+      "gloss": "Клетчатка",
+      "example": "Eat more fiber for digestion.",
+      "definition": "Plant material that helps digestion"
+    },
+    {
+      "id": "health:carbohydrates",
+      "term": "Carbohydrates",
+      "gloss": "Углеводы",
+      "example": "Bread is high in carbohydrates.",
+      "definition": "Nutrients in food that provide energy"
+    },
+    {
+      "id": "health:protein",
+      "term": "Protein",
+      "gloss": "Белок",
+      "example": "Gym-goers need extra protein.",
+      "definition": "Nutrient that builds and repairs the body"
+    },
+    {
+      "id": "health:saturated-fats",
+      "term": "Saturated fats",
+      "gloss": "Насыщенные жиры",
+      "example": "Avoid eating saturated fats.",
+      "definition": "Animal fats that can harm the heart"
+    },
+    {
+      "id": "health:processed-food",
+      "term": "Processed food",
+      "gloss": "Обработанная еда",
+      "example": "Processed food contains chemicals.",
+      "definition": "Food changed by industry before sale"
+    },
+    {
+      "id": "health:additives",
+      "term": "Additives",
+      "gloss": "Добавки",
+      "example": "Check the label for additives.",
+      "definition": "Chemicals added to food for taste or color"
+    },
+    {
+      "id": "health:preservatives",
+      "term": "Preservatives",
+      "gloss": "Консерванты",
+      "example": "This juice has no preservatives.",
+      "definition": "Substances that stop food going bad"
+    },
+    {
+      "id": "health:caloric-intake",
+      "term": "Caloric intake",
+      "gloss": "Потребление калорий",
+      "example": "Monitor your daily caloric intake.",
+      "definition": "Number of calories you eat each day"
+    },
+    {
+      "id": "health:malnutrition",
+      "term": "Malnutrition",
+      "gloss": "Недоедание / Плохое пит.",
+      "example": "Poverty causes malnutrition.",
+      "definition": "Poor health from not eating enough nutrients"
+    },
+    {
+      "id": "health:deficiency",
+      "term": "Deficiency",
+      "gloss": "Дефицит / Нехватка",
+      "example": "Iron deficiency causes fatigue.",
+      "definition": "Lack of something the body needs"
+    },
+    {
+      "id": "health:organic",
+      "term": "Organic",
+      "gloss": "Органический",
+      "example": "Choose organic vegetables.",
+      "definition": "Grown without synthetic chemicals"
+    },
+    {
+      "id": "health:vegetarianism",
+      "term": "Vegetarianism",
+      "gloss": "Вегетарианство",
+      "example": "Vegetarianism is becoming popular.",
+      "definition": "Diet that excludes meat"
+    },
+    {
+      "id": "health:veganism",
+      "term": "Veganism",
+      "gloss": "Веганство",
+      "example": "Veganism excludes all animal products.",
+      "definition": "Diet that excludes all animal products"
+    },
+    {
+      "id": "health:balanced-diet",
+      "term": "Balanced diet",
+      "gloss": "Сбалансиров. диета",
+      "example": "Stick to a balanced diet.",
+      "definition": "Eating the right mix of food types"
+    },
+    {
+      "id": "health:sanitation",
+      "term": "Sanitation",
+      "gloss": "Санитария",
+      "example": "Good sanitation saves lives.",
+      "definition": "Clean water and waste systems for health"
+    },
+    {
+      "id": "health:hygiene",
+      "term": "Hygiene",
+      "gloss": "Гигиена",
+      "example": "Personal hygiene is important.",
+      "definition": "Practices that keep you clean and healthy"
+    },
+    {
+      "id": "health:disinfectant",
+      "term": "Disinfectant",
+      "gloss": "Дезинф. средство",
+      "example": "Use a disinfectant to kill germs.",
+      "definition": "Chemical that kills germs on surfaces"
+    },
+    {
+      "id": "health:contagious",
+      "term": "Contagious",
+      "gloss": "Заразный",
+      "example": "This flu is highly contagious.",
+      "definition": "Able to spread from person to person"
+    },
+    {
+      "id": "health:infectious",
+      "term": "Infectious",
+      "gloss": "Инфекционный",
+      "example": "It is an infectious disease.",
+      "definition": "Caused by germs that can spread"
+    },
+    {
+      "id": "health:epidemic",
+      "term": "Epidemic",
+      "gloss": "Эпидемия",
+      "example": "The epidemic spread fast.",
+      "definition": "Disease spreading quickly in one region"
+    },
+    {
+      "id": "health:pandemic",
+      "term": "Pandemic",
+      "gloss": "Пандемия",
+      "example": "COVID-19 was a global pandemic.",
+      "definition": "Disease spreading across many countries"
+    },
+    {
+      "id": "health:vaccination",
+      "term": "Vaccination",
+      "gloss": "Вакцинация",
+      "example": "Vaccination prevents polio.",
+      "definition": "Giving a vaccine to prevent disease"
+    },
+    {
+      "id": "health:immunity",
+      "term": "Immunity",
+      "gloss": "Иммунитет",
+      "example": "The vaccine provides immunity.",
+      "definition": "Body's ability to resist a disease"
+    },
+    {
+      "id": "health:antibiotics",
+      "term": "Antibiotics",
+      "gloss": "Антибиотики",
+      "example": "Do not overuse antibiotics.",
+      "definition": "Medicines that kill bacteria"
+    },
+    {
+      "id": "health:resistant",
+      "term": "Resistant",
+      "gloss": "Устойчивый",
+      "example": "Bacteria are becoming resistant.",
+      "definition": "Not affected by a drug or treatment"
+    },
+    {
+      "id": "health:chronic",
+      "term": "Chronic",
+      "gloss": "Хронический",
+      "example": "He suffers from chronic pain.",
+      "definition": "Lasting a long time or constantly returning"
+    },
+    {
+      "id": "health:acute",
+      "term": "Acute",
+      "gloss": "Острый (о боли/фазе)",
+      "example": "He was rushed with acute pain.",
+      "definition": "Sudden, severe, and usually short-lived"
+    },
+    {
+      "id": "health:symptom",
+      "term": "Symptom",
+      "gloss": "Симптом",
+      "example": "Fatigue is a common symptom.",
+      "definition": "Sign that shows you may be ill"
+    },
+    {
+      "id": "health:diagnosis",
+      "term": "Diagnosis",
+      "gloss": "Диагноз",
+      "example": "The doctor confirmed the diagnosis.",
+      "definition": "Identification of an illness"
+    },
+    {
+      "id": "health:treatment",
+      "term": "Treatment",
+      "gloss": "Лечение",
+      "example": "The treatment took six months.",
+      "definition": "Medical care to cure or ease illness"
+    },
+    {
+      "id": "health:therapy",
+      "term": "Therapy",
+      "gloss": "Терапия",
+      "example": "Physical therapy helps recovery.",
+      "definition": "Treatment to help someone recover"
+    },
+    {
+      "id": "health:medication",
+      "term": "Medication",
+      "gloss": "Лекарство",
+      "example": "Take your medication daily.",
+      "definition": "Medicine used to treat illness"
+    },
+    {
+      "id": "health:prescription",
+      "term": "Prescription",
+      "gloss": "Рецепт (от врача)",
+      "example": "I need a prescription for this.",
+      "definition": "Doctor's written order for medicine"
+    },
+    {
+      "id": "health:over-the-counter",
+      "term": "Over-the-counter",
+      "gloss": "Безрецептурный",
+      "example": "Buy over-the-counter aspirin.",
+      "definition": "Medicine sold without a doctor's order"
+    },
+    {
+      "id": "health:surgery",
+      "term": "Surgery",
+      "gloss": "Хирургия / Операция",
+      "example": "He underwent heart surgery.",
+      "definition": "Medical operation to treat the body"
+    },
+    {
+      "id": "health:recovery",
+      "term": "Recovery",
+      "gloss": "Восстановление",
+      "example": "We wish you a speedy recovery.",
+      "definition": "Process of getting well again"
+    },
+    {
+      "id": "health:relapse",
+      "term": "Relapse",
+      "gloss": "Рецидив (болезни)",
+      "example": "Avoid a relapse by resting.",
+      "definition": "Return of illness after improvement"
+    },
+    {
+      "id": "health:fatal",
+      "term": "Fatal",
+      "gloss": "Смертельный",
+      "example": "The accident was fatal.",
+      "definition": "Causing death rather than recovery"
+    },
+    {
+      "id": "health:preventive",
+      "term": "Preventive",
+      "gloss": "Профилактический",
+      "example": "Take preventive measures.",
+      "definition": "Intended to stop illness before it starts"
+    },
+    {
+      "id": "health:check-up",
+      "term": "Check-up",
+      "gloss": "Осмотр",
+      "example": "Go for an annual check-up.",
+      "definition": "Routine medical examination of your health"
+    },
+    {
+      "id": "health:healthcare",
+      "term": "Healthcare",
+      "gloss": "Здравоохранение",
+      "example": "Universal healthcare is vital.",
+      "definition": "Services that treat and prevent illness"
+    },
+    {
+      "id": "health:public-health",
+      "term": "Public health",
+      "gloss": "Обществ. здоровье",
+      "example": "Smoking is a public health issue.",
+      "definition": "Health of the whole population"
+    },
+    {
+      "id": "health:health-insurance",
+      "term": "Health insurance",
+      "gloss": "Мед. страховка",
+      "example": "My health insurance covers this.",
+      "definition": "Cover that pays for medical costs"
+    },
+    {
+      "id": "health:mental-health",
+      "term": "Mental health",
+      "gloss": "Псих. здоровье",
+      "example": "Mental health is as vital as physical.",
+      "definition": "Condition of your mind and emotions"
+    },
+    {
+      "id": "health:anxiety",
+      "term": "Anxiety",
+      "gloss": "Тревога / Беспокойство",
+      "example": "Exams cause high anxiety.",
+      "definition": "Strong worry or nervousness"
+    },
+    {
+      "id": "health:depression",
+      "term": "Depression",
+      "gloss": "Депрессия",
+      "example": "Depression is a clinical illness.",
+      "definition": "Serious lasting low mood and loss of interest"
+    },
+    {
+      "id": "health:stress-management",
+      "term": "Stress management",
+      "gloss": "Управление стрессом",
+      "example": "Yoga helps with stress management.",
+      "definition": "Skills for controlling pressure and worry"
+    },
+    {
+      "id": "health:insomnia",
+      "term": "Insomnia",
+      "gloss": "Бессонница",
+      "example": "Caffeine causes insomnia.",
+      "definition": "Inability to sleep well"
+    },
+    {
+      "id": "health:burnout",
+      "term": "Burnout",
+      "gloss": "Выгорание",
+      "example": "Work stress leads to burnout.",
+      "definition": "Exhaustion from long-term stress"
+    },
+    {
+      "id": "health:addiction",
+      "term": "Addiction",
+      "gloss": "Зависимость",
+      "example": "Fight against nicotine addiction.",
+      "definition": "Inability to stop using something harmful"
+    },
+    {
+      "id": "health:substance-abuse",
+      "term": "Substance abuse",
+      "gloss": "Злоупотребление вещ.",
+      "example": "Substance abuse ruins families.",
+      "definition": "Harmful overuse of drugs or alcohol"
+    },
+    {
+      "id": "health:rehabilitation",
+      "term": "Rehabilitation",
+      "gloss": "Реабилитация",
+      "example": "He is in a rehabilitation clinic.",
+      "definition": "Treatment to restore health or independence"
+    },
+    {
+      "id": "health:leisure-time",
+      "term": "Leisure time",
+      "gloss": "Досуг",
+      "example": "Spend your leisure time outdoors.",
+      "definition": "Free time for rest and enjoyment"
+    },
+    {
+      "id": "health:recreation",
+      "term": "Recreation",
+      "gloss": "Отдых / Развлечение",
+      "example": "Parks are for recreation.",
+      "definition": "Activities done for fun and relaxation"
+    },
+    {
+      "id": "health:aerobic",
+      "term": "Aerobic",
+      "gloss": "Аэробный",
+      "example": "Running is an aerobic exercise.",
+      "definition": "Exercise that raises heart rate and breathing"
+    },
+    {
+      "id": "health:strenuous",
+      "term": "Strenuous",
+      "gloss": "Напряженный / Тяжелый",
+      "example": "Avoid strenuous exercise for now.",
+      "definition": "Requiring a lot of physical effort"
+    },
+    {
+      "id": "health:endurance",
+      "term": "Endurance",
+      "gloss": "Выносливость",
+      "example": "Marathons require endurance.",
+      "definition": "Ability to keep going for a long time"
+    },
+    {
+      "id": "health:flexibility",
+      "term": "Flexibility",
+      "gloss": "Гибкость",
+      "example": "Stretching improves flexibility.",
+      "definition": "Ability to bend and stretch easily"
+    },
+    {
+      "id": "health:longevity",
+      "term": "Longevity",
+      "gloss": "Долголетие",
+      "example": "Healthy diet leads to longevity.",
+      "definition": "Living a long life"
+    },
+    {
+      "id": "health:life-expectancy",
+      "term": "Life expectancy",
+      "gloss": "Прод-ность жизни",
+      "example": "Life expectancy is 80 years.",
+      "definition": "Average years a person is expected to live"
+    },
+    {
+      "id": "health:physique",
+      "term": "Physique",
+      "gloss": "Телосложение",
+      "example": "He has a muscular physique.",
+      "definition": "Shape and size of a person's body"
+    },
+    {
+      "id": "health:vitamins",
+      "term": "Vitamins",
+      "gloss": "Витамины",
+      "example": "Take your vitamins in winter.",
+      "definition": "Natural substances needed in small amounts"
+    },
+    {
+      "id": "health:minerals",
+      "term": "Minerals",
+      "gloss": "Минералы",
+      "example": "Calcium is an essential mineral.",
+      "definition": "Natural elements the body needs, like iron"
+    },
+    {
+      "id": "health:posture",
+      "term": "Posture",
+      "gloss": "Осанка",
+      "example": "Sitting straight improves posture.",
+      "definition": "The way you hold your body when sitting or standing"
+    },
+    {
+      "id": "health:hydration",
+      "term": "Hydration",
+      "gloss": "Гидратация",
+      "example": "Maintain proper hydration.",
+      "definition": "Having enough water in the body"
+    }
+  ]
+}

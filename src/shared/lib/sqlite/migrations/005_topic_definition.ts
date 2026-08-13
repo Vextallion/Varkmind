@@ -1,0 +1,3 @@
+export const MIGRATION_005_TOPIC_DEFINITION = `
+ALTER TABLE topic_entries ADD COLUMN definition TEXT NOT NULL DEFAULT '';
+`;

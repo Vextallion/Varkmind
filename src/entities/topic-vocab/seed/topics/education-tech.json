@@ -1,0 +1,532 @@
+{
+  "id": "education-tech",
+  "title": "Education & Technology",
+  "version": 1,
+  "entries": [
+    {
+      "id": "education-tech:curriculum",
+      "term": "Curriculum",
+      "gloss": "Учебная программа",
+      "example": "The school updated its curriculum.",
+      "definition": "Subjects and content taught in a school or course"
+    },
+    {
+      "id": "education-tech:syllabus",
+      "term": "Syllabus",
+      "gloss": "План курса",
+      "example": "Check the syllabus for exam dates.",
+      "definition": "Outline of topics and dates for a particular course"
+    },
+    {
+      "id": "education-tech:pedagogy",
+      "term": "Pedagogy",
+      "gloss": "Педагогика / Методика",
+      "example": "Innovative pedagogy improves results.",
+      "definition": "Method and practice of teaching"
+    },
+    {
+      "id": "education-tech:literacy",
+      "term": "Literacy",
+      "gloss": "Грамотность",
+      "example": "Digital literacy is essential now.",
+      "definition": "Ability to read and write"
+    },
+    {
+      "id": "education-tech:numeracy",
+      "term": "Numeracy",
+      "gloss": "Умение считать",
+      "example": "Primary schools focus on numeracy.",
+      "definition": "Ability to understand and work with numbers"
+    },
+    {
+      "id": "education-tech:academic-achievement",
+      "term": "Academic achievement",
+      "gloss": "Успеваемость",
+      "example": "High academic achievement is rewarded.",
+      "definition": "Success in schoolwork and exams"
+    },
+    {
+      "id": "education-tech:rote-learning",
+      "term": "Rote learning",
+      "gloss": "Зубрежка",
+      "example": "Rote learning stifles creativity.",
+      "definition": "Memorizing facts by repetition without understanding"
+    },
+    {
+      "id": "education-tech:critical-thinking",
+      "term": "Critical thinking",
+      "gloss": "Критическое мышление",
+      "example": "Students must develop critical thinking.",
+      "definition": "Careful analysis of ideas instead of accepting them blindly"
+    },
+    {
+      "id": "education-tech:problem-solving",
+      "term": "Problem-solving",
+      "gloss": "Решение задач",
+      "example": "Maths enhances problem-solving skills.",
+      "definition": "Ability to find solutions to difficult situations"
+    },
+    {
+      "id": "education-tech:holistic-education",
+      "term": "Holistic education",
+      "gloss": "Целостное образование",
+      "example": "We believe in holistic education.",
+      "definition": "Teaching that develops the whole person, not just academics"
+    },
+    {
+      "id": "education-tech:vocational-training",
+      "term": "Vocational training",
+      "gloss": "Проф. обучение",
+      "example": "He chose vocational training as a chef.",
+      "definition": "Practical education for a specific job or trade"
+    },
+    {
+      "id": "education-tech:higher-education",
+      "term": "Higher education",
+      "gloss": "Высшее образование",
+      "example": "Higher education opens many doors.",
+      "definition": "Study at university or college after school"
+    },
+    {
+      "id": "education-tech:tertiary-education",
+      "term": "Tertiary education",
+      "gloss": "Третья ступень (ВУЗ)",
+      "example": "Tuition fees for tertiary education rose.",
+      "definition": "Education after secondary school, such as university"
+    },
+    {
+      "id": "education-tech:tuition-fees",
+      "term": "Tuition fees",
+      "gloss": "Плата за обучение",
+      "example": "Many struggle to pay tuition fees.",
+      "definition": "Money paid to a school or university for teaching"
+    },
+    {
+      "id": "education-tech:scholarship",
+      "term": "Scholarship",
+      "gloss": "Стипендия (грант)",
+      "example": "She won a scholarship to Oxford.",
+      "definition": "Money awarded to a student to pay for their studies"
+    },
+    {
+      "id": "education-tech:grant",
+      "term": "Grant",
+      "gloss": "Грант (субсидия)",
+      "example": "The research was funded by a grant.",
+      "definition": "Sum of money given for a specific purpose, often research"
+    },
+    {
+      "id": "education-tech:distance-learning",
+      "term": "Distance learning",
+      "gloss": "Дистанц. обучение",
+      "example": "Distance learning is very flexible.",
+      "definition": "Studying remotely rather than attending in person"
+    },
+    {
+      "id": "education-tech:e-learning",
+      "term": "E-learning",
+      "gloss": "Электронное обучение",
+      "example": "E-learning platforms are booming.",
+      "definition": "Education delivered through computers and the internet"
+    },
+    {
+      "id": "education-tech:blended-learning",
+      "term": "Blended learning",
+      "gloss": "Смешанное обучение",
+      "example": "Our college uses blended learning.",
+      "definition": "Mix of classroom teaching and online study"
+    },
+    {
+      "id": "education-tech:virtual-classroom",
+      "term": "Virtual classroom",
+      "gloss": "Виртуальный класс",
+      "example": "Log in to the virtual classroom at 9.",
+      "definition": "Online space where a class meets and learns"
+    },
+    {
+      "id": "education-tech:self-discipline",
+      "term": "Self-discipline",
+      "gloss": "Самодисциплина",
+      "example": "Online study requires self-discipline.",
+      "definition": "Ability to control yourself and keep working"
+    },
+    {
+      "id": "education-tech:motivation",
+      "term": "Motivation",
+      "gloss": "Мотивация",
+      "example": "High motivation leads to success.",
+      "definition": "Desire and energy that makes you want to do something"
+    },
+    {
+      "id": "education-tech:standardized-testing",
+      "term": "Standardized testing",
+      "gloss": "Стандарт. тесты",
+      "example": "Critics hate standardized testing.",
+      "definition": "Exams that are the same for all students"
+    },
+    {
+      "id": "education-tech:assessment",
+      "term": "Assessment",
+      "gloss": "Оценка / Оценивание",
+      "example": "Continuous assessment is vital.",
+      "definition": "Process of judging a student's work or progress"
+    },
+    {
+      "id": "education-tech:qualification",
+      "term": "Qualification",
+      "gloss": "Квалификация / Диплом",
+      "example": "He gained a teaching qualification.",
+      "definition": "Official diploma or certificate showing a skill or course"
+    },
+    {
+      "id": "education-tech:enrolment",
+      "term": "Enrolment",
+      "gloss": "Зачисление / Регистрация",
+      "example": "Enrolment starts in September.",
+      "definition": "Process of registering as a student on a course"
+    },
+    {
+      "id": "education-tech:dropout-rate",
+      "term": "Dropout rate",
+      "gloss": "Процент отчислений",
+      "example": "The dropout rate has decreased.",
+      "definition": "Percentage of students who leave before finishing"
+    },
+    {
+      "id": "education-tech:illiteracy",
+      "term": "Illiteracy",
+      "gloss": "Безграмотность",
+      "example": "The goal is to eradicate illiteracy.",
+      "definition": "Inability to read and write"
+    },
+    {
+      "id": "education-tech:educational-facilities",
+      "term": "Educational facilities",
+      "gloss": "Учебная база",
+      "example": "The campus has great educational facilities.",
+      "definition": "Buildings and equipment used for teaching"
+    },
+    {
+      "id": "education-tech:co-educational",
+      "term": "Co-educational",
+      "gloss": "Смешанное (М и Ж)",
+      "example": "It is a co-educational school.",
+      "definition": "For both male and female students"
+    },
+    {
+      "id": "education-tech:single-sex-school",
+      "term": "Single-sex school",
+      "gloss": "Школа только для М/Ж",
+      "example": "He attended a single-sex school.",
+      "definition": "School that admits only boys or only girls"
+    },
+    {
+      "id": "education-tech:compulsory-education",
+      "term": "Compulsory education",
+      "gloss": "Обязат. образование",
+      "example": "Primary school is compulsory education.",
+      "definition": "Schooling that the law requires children to attend"
+    },
+    {
+      "id": "education-tech:elite-university",
+      "term": "Elite university",
+      "gloss": "Элитный университет",
+      "example": "Ivy League schools are elite universities.",
+      "definition": "Highly selective and prestigious university"
+    },
+    {
+      "id": "education-tech:knowledge-acquisition",
+      "term": "Knowledge acquisition",
+      "gloss": "Получение знаний",
+      "example": "Reading aids knowledge acquisition.",
+      "definition": "Process of gaining new information and skills"
+    },
+    {
+      "id": "education-tech:soft-skills",
+      "term": "Soft skills",
+      "gloss": "Гибкие навыки",
+      "example": "Communication is a vital soft skill.",
+      "definition": "Personal abilities such as communication and teamwork"
+    },
+    {
+      "id": "education-tech:hands-on-experience",
+      "term": "Hands-on experience",
+      "gloss": "Практический опыт",
+      "example": "Internships provide hands-on experience.",
+      "definition": "Practical learning by actually doing a task"
+    },
+    {
+      "id": "education-tech:innovation",
+      "term": "Innovation",
+      "gloss": "Инновация",
+      "example": "Technology drives innovation.",
+      "definition": "Introduction of new ideas, methods, or products"
+    },
+    {
+      "id": "education-tech:state-of-the-art",
+      "term": "State-of-the-art",
+      "gloss": "Ультрасовременный",
+      "example": "We use state-of-the-art software.",
+      "definition": "Using the most modern and advanced technology"
+    },
+    {
+      "id": "education-tech:cutting-edge",
+      "term": "Cutting-edge",
+      "gloss": "Передовой",
+      "example": "This is cutting-edge research.",
+      "definition": "At the most advanced stage of development"
+    },
+    {
+      "id": "education-tech:technological-advance",
+      "term": "Technological advance",
+      "gloss": "Тех. прогресс",
+      "example": "Technological advances change lives.",
+      "definition": "Improvement or new development in technology"
+    },
+    {
+      "id": "education-tech:automation",
+      "term": "Automation",
+      "gloss": "Автоматизация",
+      "example": "Automation replaces manual labor.",
+      "definition": "Use of machines to do work with little human help"
+    },
+    {
+      "id": "education-tech:artificial-intelligence",
+      "term": "Artificial Intelligence",
+      "gloss": "Искусств. интеллект",
+      "example": "AI can personalize learning.",
+      "definition": "Computer systems that can perform tasks needing human intelligence"
+    },
+    {
+      "id": "education-tech:algorithm",
+      "term": "Algorithm",
+      "gloss": "Алгоритм",
+      "example": "The algorithm filters the data.",
+      "definition": "Set of step-by-step rules a computer follows"
+    },
+    {
+      "id": "education-tech:big-data",
+      "term": "Big Data",
+      "gloss": "Большие данные",
+      "example": "Companies analyze Big Data.",
+      "definition": "Extremely large sets of information analyzed by computers"
+    },
+    {
+      "id": "education-tech:cybersecurity",
+      "term": "Cybersecurity",
+      "gloss": "Кибербезопасность",
+      "example": "Cybersecurity is a top priority.",
+      "definition": "Protection of computers and data from attack"
+    },
+    {
+      "id": "education-tech:data-privacy",
+      "term": "Data privacy",
+      "gloss": "Приватность данных",
+      "example": "We must protect data privacy.",
+      "definition": "Right to control how personal information is used"
+    },
+    {
+      "id": "education-tech:the-digital-divide",
+      "term": "The digital divide",
+      "gloss": "Цифровой разрыв",
+      "example": "Poverty creates a digital divide.",
+      "definition": "Gap between those with and without access to technology"
+    },
+    {
+      "id": "education-tech:user-friendly",
+      "term": "User-friendly",
+      "gloss": "Удобный (интерфейс)",
+      "example": "The app is very user-friendly.",
+      "definition": "Easy for ordinary people to use"
+    },
+    {
+      "id": "education-tech:high-tech",
+      "term": "High-tech",
+      "gloss": "Высокотехнологичный",
+      "example": "Japan is a high-tech nation.",
+      "definition": "Using advanced, sophisticated technology"
+    },
+    {
+      "id": "education-tech:revolutionize",
+      "term": "Revolutionize",
+      "gloss": "Революционизировать",
+      "example": "Tools revolutionize the industry.",
+      "definition": "To change something completely and dramatically"
+    },
+    {
+      "id": "education-tech:breakthrough",
+      "term": "Breakthrough",
+      "gloss": "Прорыв",
+      "example": "Scientists made a major breakthrough.",
+      "definition": "Important discovery or sudden success"
+    },
+    {
+      "id": "education-tech:device-gadget",
+      "term": "Device / Gadget",
+      "gloss": "Устройство / Гаджет",
+      "example": "Keep your gadgets turned off.",
+      "definition": "Small electronic tool or machine"
+    },
+    {
+      "id": "education-tech:interactive",
+      "term": "Interactive",
+      "gloss": "Интерактивный",
+      "example": "Whiteboards make lessons interactive.",
+      "definition": "Allowing the user to take part and respond"
+    },
+    {
+      "id": "education-tech:ubiquitous",
+      "term": "Ubiquitous",
+      "gloss": "Вездесущий",
+      "example": "Smartphones are ubiquitous today.",
+      "definition": "Present everywhere at the same time"
+    },
+    {
+      "id": "education-tech:obsolete",
+      "term": "Obsolete",
+      "gloss": "Устаревший",
+      "example": "Typewriters are now obsolete.",
+      "definition": "No longer used because something newer exists"
+    },
+    {
+      "id": "education-tech:efficiency",
+      "term": "Efficiency",
+      "gloss": "Эффективность",
+      "example": "Tech improves work efficiency.",
+      "definition": "Ability to do something well without wasting time or resources"
+    },
+    {
+      "id": "education-tech:to-streamline",
+      "term": "To streamline",
+      "gloss": "Оптимизировать",
+      "example": "We need to streamline the process.",
+      "definition": "To make a process simpler and more efficient"
+    },
+    {
+      "id": "education-tech:virtual-reality",
+      "term": "Virtual reality (VR)",
+      "gloss": "Виртуальная реальность",
+      "example": "VR is used for flight training.",
+      "definition": "Computer-generated environment you can look around in"
+    },
+    {
+      "id": "education-tech:accessibility",
+      "term": "Accessibility",
+      "gloss": "Доступность (тех)",
+      "example": "Tech increases accessibility for all.",
+      "definition": "How easily people, including disabled users, can use something"
+    },
+    {
+      "id": "education-tech:cloud-computing",
+      "term": "Cloud computing",
+      "gloss": "Облачные вычисления",
+      "example": "We store files in cloud computing.",
+      "definition": "Storing and using data on the internet instead of a local computer"
+    },
+    {
+      "id": "education-tech:remote-work",
+      "term": "Remote work",
+      "gloss": "Удаленная работа",
+      "example": "Remote work is a new trend.",
+      "definition": "Doing your job from home or another place outside the office"
+    },
+    {
+      "id": "education-tech:digital-footprint",
+      "term": "Digital footprint",
+      "gloss": "Цифровой след",
+      "example": "Mind your digital footprint online.",
+      "definition": "Record of what you do and share online"
+    },
+    {
+      "id": "education-tech:plagiarism",
+      "term": "Plagiarism",
+      "gloss": "Плагиат",
+      "example": "Plagiarism is strictly forbidden.",
+      "definition": "Using someone else's work and presenting it as your own"
+    },
+    {
+      "id": "education-tech:information-overload",
+      "term": "Information overload",
+      "gloss": "Информ. перегрузка",
+      "example": "Internet leads to information overload.",
+      "definition": "Having so much information that it is hard to cope"
+    },
+    {
+      "id": "education-tech:technical-glitch",
+      "term": "Technical glitch",
+      "gloss": "Технический сбой",
+      "example": "Sorry, there was a technical glitch.",
+      "definition": "Small unexpected fault in a computer system"
+    },
+    {
+      "id": "education-tech:bandwidth",
+      "term": "Bandwidth",
+      "gloss": "Пропускная способность",
+      "example": "High bandwidth allows fast streaming.",
+      "definition": "Amount of data that can be sent over a connection"
+    },
+    {
+      "id": "education-tech:to-multitask",
+      "term": "To multitask",
+      "gloss": "Делать неск. дел сразу",
+      "example": "Teens often multitask with apps.",
+      "definition": "To do several tasks at the same time"
+    },
+    {
+      "id": "education-tech:peer-to-peer",
+      "term": "Peer-to-peer",
+      "gloss": "Равноправный",
+      "example": "We use a peer-to-peer network.",
+      "definition": "Directly between users, without a central server"
+    },
+    {
+      "id": "education-tech:social-media",
+      "term": "Social media",
+      "gloss": "Соцсети",
+      "example": "Social media influences students.",
+      "definition": "Websites and apps for sharing and connecting with others"
+    },
+    {
+      "id": "education-tech:connectivity",
+      "term": "Connectivity",
+      "gloss": "Связь / Соединение",
+      "example": "Better connectivity is needed in rural areas.",
+      "definition": "Ability to connect to the internet or a network"
+    },
+    {
+      "id": "education-tech:to-upgrade",
+      "term": "To upgrade",
+      "gloss": "Обновить / Улучшить",
+      "example": "You need to upgrade your PC.",
+      "definition": "To improve something by installing a newer version"
+    },
+    {
+      "id": "education-tech:interface",
+      "term": "Interface",
+      "gloss": "Интерфейс",
+      "example": "The interface is quite intuitive.",
+      "definition": "The screen and controls you use to operate a program"
+    },
+    {
+      "id": "education-tech:collaboration",
+      "term": "Collaboration",
+      "gloss": "Сотрудничество",
+      "example": "Tools facilitate global collaboration.",
+      "definition": "Working together with others to achieve something"
+    },
+    {
+      "id": "education-tech:computer-literate",
+      "term": "Computer-literate",
+      "gloss": "Комп. грамотный",
+      "example": "Staff must be computer-literate.",
+      "definition": "Able to use computers with basic skill"
+    },
+    {
+      "id": "education-tech:technophobe",
+      "term": "Technophobe",
+      "gloss": "Технофоб",
+      "example": "My grandpa is a bit of a technophobe.",
+      "definition": "Person who dislikes or fears new technology"
+    }
+  ]
+}

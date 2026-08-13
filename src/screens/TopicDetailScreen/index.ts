@@ -1,0 +1,1 @@
+export { TopicDetailScreen } from './ui';

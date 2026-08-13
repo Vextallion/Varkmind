@@ -1,0 +1,728 @@
+{
+  "id": "misc-advanced",
+  "title": "Advanced Vocabulary",
+  "version": 1,
+  "entries": [
+    {
+      "id": "misc-advanced:siding",
+      "term": "Siding",
+      "gloss": "Сайдинг / Обшивка",
+      "example": "We need to replace the vinyl siding.",
+      "definition": "outer wall covering on a house"
+    },
+    {
+      "id": "misc-advanced:poise",
+      "term": "Poise",
+      "gloss": "Самообладание / Осанка",
+      "example": "She handled the crisis with great poise.",
+      "definition": "calm, controlled dignity in manner or posture"
+    },
+    {
+      "id": "misc-advanced:wound",
+      "term": "Wound",
+      "gloss": "Рана / Ранить",
+      "example": "The soldier suffered a deep wound.",
+      "definition": "an injury that breaks the skin"
+    },
+    {
+      "id": "misc-advanced:hiker",
+      "term": "Hiker",
+      "gloss": "Пеший турист",
+      "example": "The hiker reached the summit at noon.",
+      "definition": "a person who walks long distances in nature"
+    },
+    {
+      "id": "misc-advanced:edged",
+      "term": "Edged",
+      "gloss": "Окаймленный / Острый",
+      "example": "The path was edged with wild flowers.",
+      "definition": "bordered or lined along the sides"
+    },
+    {
+      "id": "misc-advanced:tempered",
+      "term": "Tempered",
+      "gloss": "Закаленный",
+      "example": "Tempered glass is much stronger.",
+      "definition": "made stronger by heat treatment, or moderated"
+    },
+    {
+      "id": "misc-advanced:polished",
+      "term": "Polished",
+      "gloss": "Отполированный",
+      "example": "He wore a pair of polished shoes.",
+      "definition": "shiny from being rubbed smooth; also refined"
+    },
+    {
+      "id": "misc-advanced:sharpened",
+      "term": "Sharpened",
+      "gloss": "Заточенный",
+      "example": "I have sharpened all the kitchen knives.",
+      "definition": "made to have a finer, keener cutting edge"
+    },
+    {
+      "id": "misc-advanced:forged",
+      "term": "Forged",
+      "gloss": "Кованый / Подделанный",
+      "example": "The sword was forged in fire.",
+      "definition": "shaped by heating and hammering metal; also faked"
+    },
+    {
+      "id": "misc-advanced:hammer-blows",
+      "term": "Hammer blows",
+      "gloss": "Удары молота",
+      "example": "We heard heavy hammer blows from the forge.",
+      "definition": "heavy strikes made with a hammer"
+    },
+    {
+      "id": "misc-advanced:embrace",
+      "term": "Embrace",
+      "gloss": "Принимать / Охватывать",
+      "example": "You should embrace new opportunities.",
+      "definition": "to accept something willingly, or to hug"
+    },
+    {
+      "id": "misc-advanced:effort",
+      "term": "Effort",
+      "gloss": "Усилие",
+      "example": "It takes a lot of effort to learn a language.",
+      "definition": "physical or mental energy used to do something"
+    },
+    {
+      "id": "misc-advanced:savage",
+      "term": "Savage",
+      "gloss": "Дикий / Жестокий",
+      "example": "It was a savage attack on his reputation.",
+      "definition": "extremely violent, cruel, or fierce"
+    },
+    {
+      "id": "misc-advanced:gossip",
+      "term": "Gossip",
+      "gloss": "Сплетни",
+      "example": "Don't listen to office gossip.",
+      "definition": "talk about other people's private lives"
+    },
+    {
+      "id": "misc-advanced:provide",
+      "term": "Provide",
+      "gloss": "Предоставлять",
+      "example": "They provide free meals for the poor.",
+      "definition": "to supply something that is needed"
+    },
+    {
+      "id": "misc-advanced:meanwhile",
+      "term": "Meanwhile",
+      "gloss": "Тем временем",
+      "example": "I’ll cook; meanwhile, you set the table.",
+      "definition": "at the same time, while something else happens"
+    },
+    {
+      "id": "misc-advanced:therefore",
+      "term": "Therefore",
+      "gloss": "Следовательно",
+      "example": "I am tired, therefore I’m going to bed.",
+      "definition": "for that reason; as a result"
+    },
+    {
+      "id": "misc-advanced:coleslaw",
+      "term": "Coleslaw",
+      "gloss": "Капустный салат",
+      "example": "I’d like a side of coleslaw with my burger.",
+      "definition": "a salad of shredded cabbage, often with mayonnaise"
+    },
+    {
+      "id": "misc-advanced:sake",
+      "term": "Sake",
+      "gloss": "Ради / Польза",
+      "example": "Do it for the sake of your health.",
+      "definition": "benefit or purpose; for the good of someone"
+    },
+    {
+      "id": "misc-advanced:nerds",
+      "term": "Nerds",
+      "gloss": "Ботаники / Компьютерщики",
+      "example": "Those nerds spend all day coding.",
+      "definition": "people deeply into technical or academic interests"
+    },
+    {
+      "id": "misc-advanced:backwards",
+      "term": "Backwards",
+      "gloss": "Назад / Задом наперед",
+      "example": "Can you say the alphabet backwards?",
+      "definition": "in the reverse direction, or in reverse order"
+    },
+    {
+      "id": "misc-advanced:stain",
+      "term": "Stain",
+      "gloss": "Пятно",
+      "example": "Coffee left a dark stain on the rug.",
+      "definition": "a dirty mark that is hard to remove"
+    },
+    {
+      "id": "misc-advanced:petrol",
+      "term": "Petrol",
+      "gloss": "Бензин (UK)",
+      "example": "The car is almost out of petrol.",
+      "definition": "British word for gasoline used in cars"
+    },
+    {
+      "id": "misc-advanced:gutter",
+      "term": "Gutter",
+      "gloss": "Сточная канава",
+      "example": "The ball rolled into the gutter.",
+      "definition": "a channel at the edge of a road or roof for water"
+    },
+    {
+      "id": "misc-advanced:regal",
+      "term": "Regal",
+      "gloss": "Величественный / Царский",
+      "example": "She looked truly regal in that dress.",
+      "definition": "like a king or queen; impressive and grand"
+    },
+    {
+      "id": "misc-advanced:have-them-on",
+      "term": "Have them on",
+      "gloss": "Обманывать / Разыгрывать",
+      "example": "Don't believe him, he's just having you on.",
+      "definition": "to tease someone by pretending something is true"
+    },
+    {
+      "id": "misc-advanced:outcome",
+      "term": "Outcome",
+      "gloss": "Результат / Исход",
+      "example": "We are waiting for the final outcome.",
+      "definition": "the final result of a process or event"
+    },
+    {
+      "id": "misc-advanced:stretch",
+      "term": "Stretch",
+      "gloss": "Растяжка / Участок",
+      "example": "Let's stop and stretch our legs.",
+      "definition": "to extend your body, or a continuous length of road"
+    },
+    {
+      "id": "misc-advanced:gluttony",
+      "term": "Gluttony",
+      "gloss": "Чревоугодие",
+      "example": "Gluttony is considered one of the seven sins.",
+      "definition": "the habit of eating and drinking far too much"
+    },
+    {
+      "id": "misc-advanced:accountable",
+      "term": "Accountable",
+      "gloss": "Подотчетный / Ответственный",
+      "example": "Politicians are accountable to the people.",
+      "definition": "required to explain your actions and accept blame"
+    },
+    {
+      "id": "misc-advanced:lame",
+      "term": "Lame",
+      "gloss": "Хромой / Неубедительный",
+      "example": "That is a very lame excuse for being late.",
+      "definition": "weak, unconvincing, or disappointing"
+    },
+    {
+      "id": "misc-advanced:poverty",
+      "term": "Poverty",
+      "gloss": "Бедность",
+      "example": "They are living in extreme poverty.",
+      "definition": "the state of being extremely poor"
+    },
+    {
+      "id": "misc-advanced:skank",
+      "term": "Skank",
+      "gloss": "Потаскуха / Гадкий человек",
+      "example": "Don't talk to her, she's such a skank.",
+      "definition": "a rude insult for someone seen as cheap or promiscuous"
+    },
+    {
+      "id": "misc-advanced:germ",
+      "term": "Germ",
+      "gloss": "Микроб / Бактерия",
+      "example": "Always wash your hands to kill germs.",
+      "definition": "a tiny organism that can cause disease"
+    },
+    {
+      "id": "misc-advanced:slop",
+      "term": "Slop",
+      "gloss": "Помои / Халтура",
+      "example": "The cafeteria food was just tasteless slop.",
+      "definition": "watery, unpleasant food of poor quality"
+    },
+    {
+      "id": "misc-advanced:checks-out",
+      "term": "Checks out",
+      "gloss": "Подтверждаться",
+      "example": "His story checks out with the evidence.",
+      "definition": "turns out to be true or consistent with the facts"
+    },
+    {
+      "id": "misc-advanced:uncover",
+      "term": "Uncover",
+      "gloss": "Раскрывать",
+      "example": "They managed to uncover the truth.",
+      "definition": "to find and reveal something that was hidden"
+    },
+    {
+      "id": "misc-advanced:rape-capital",
+      "term": "Rape capital",
+      "gloss": "Столица изнасилований",
+      "example": "The city was labeled the rape capital.",
+      "definition": "a place notorious for a very high rape rate"
+    },
+    {
+      "id": "misc-advanced:tripe",
+      "term": "Tripe",
+      "gloss": "Требуха / Чепуха",
+      "example": "Don't talk tripe; that's not true at all.",
+      "definition": "nonsense; also the stomach lining of a cow as food"
+    },
+    {
+      "id": "misc-advanced:pursuing",
+      "term": "Pursuing",
+      "gloss": "Преследование / Поиск",
+      "example": "She is pursuing a career in medicine.",
+      "definition": "trying to achieve or follow something over time"
+    },
+    {
+      "id": "misc-advanced:regime",
+      "term": "Regime",
+      "gloss": "Режим",
+      "example": "The old regime was finally toppled.",
+      "definition": "a system of government, often authoritarian"
+    },
+    {
+      "id": "misc-advanced:around-the-hood",
+      "term": "Around the hood",
+      "gloss": "На районе",
+      "example": "He is well-known around the hood.",
+      "definition": "in the local neighborhood"
+    },
+    {
+      "id": "misc-advanced:roaming",
+      "term": "Roaming",
+      "gloss": "Бродить / Роуминг",
+      "example": "Cattle were roaming across the fields.",
+      "definition": "wandering around with no fixed path"
+    },
+    {
+      "id": "misc-advanced:dip-sticks",
+      "term": "Dip sticks",
+      "gloss": "Тупицы / Щуп (масло)",
+      "example": "Those dip sticks forgot the keys again!",
+      "definition": "slang for foolish people; also an oil-level tool"
+    },
+    {
+      "id": "misc-advanced:on-edge",
+      "term": "On edge",
+      "gloss": "На пределе / Нервный",
+      "example": "I've been a bit on edge lately.",
+      "definition": "nervous, tense, and easily upset"
+    },
+    {
+      "id": "misc-advanced:even-though",
+      "term": "Even though",
+      "gloss": "Хотя / Даже если",
+      "example": "I enjoyed it, even though it was raining.",
+      "definition": "despite the fact that"
+    },
+    {
+      "id": "misc-advanced:filthy",
+      "term": "Filthy",
+      "gloss": "Грязный / Мерзкий",
+      "example": "Your clothes are absolutely filthy.",
+      "definition": "extremely dirty or disgusting"
+    },
+    {
+      "id": "misc-advanced:tube",
+      "term": "Tube",
+      "gloss": "Метро (Лондон) / Труба",
+      "example": "I take the tube to work every morning.",
+      "definition": "London's underground railway; also a hollow pipe"
+    },
+    {
+      "id": "misc-advanced:negotiate",
+      "term": "Negotiate",
+      "gloss": "Вести переговоры",
+      "example": "We need to negotiate a better deal.",
+      "definition": "to discuss terms in order to reach an agreement"
+    },
+    {
+      "id": "misc-advanced:consistency",
+      "term": "Consistency",
+      "gloss": "Последовательность",
+      "example": "Consistency is key to success.",
+      "definition": "doing something the same reliable way over time"
+    },
+    {
+      "id": "misc-advanced:fabulous",
+      "term": "Fabulous",
+      "gloss": "Потрясающий",
+      "example": "You look fabulous in that suit!",
+      "definition": "extremely good or impressive"
+    },
+    {
+      "id": "misc-advanced:a-row-with",
+      "term": "A row with...",
+      "gloss": "Ссора с кем-то",
+      "example": "I had a huge row with my boss today.",
+      "definition": "a noisy argument with someone"
+    },
+    {
+      "id": "misc-advanced:moan",
+      "term": "Moan",
+      "gloss": "Стонать / Жаловаться",
+      "example": "Stop moaning about the weather!",
+      "definition": "to complain in an unhappy voice"
+    },
+    {
+      "id": "misc-advanced:cross-section",
+      "term": "Cross section",
+      "gloss": "Поперечное сечение",
+      "example": "Here is a cross section of the building.",
+      "definition": "a view of something as if it were cut through"
+    },
+    {
+      "id": "misc-advanced:solicitors",
+      "term": "Solicitors",
+      "gloss": "Адвокаты / Юристы",
+      "example": "You should consult with your solicitors.",
+      "definition": "lawyers in Britain who advise clients and prepare cases"
+    },
+    {
+      "id": "misc-advanced:colpitts",
+      "term": "Colpitts",
+      "gloss": "Кольпиц (схема/фамилия)",
+      "example": "He designed a new Colpitts oscillator.",
+      "definition": "a type of electronic oscillator circuit"
+    },
+    {
+      "id": "misc-advanced:fondest",
+      "term": "Fondest",
+      "gloss": "Самый теплый (о памяти)",
+      "example": "My fondest memory is of my grandma.",
+      "definition": "most loved or warmly remembered"
+    },
+    {
+      "id": "misc-advanced:used-to-sail",
+      "term": "Used to sail",
+      "gloss": "Раньше плавал",
+      "example": "My father used to sail across the sea.",
+      "definition": "sailed regularly in the past but no longer does"
+    },
+    {
+      "id": "misc-advanced:stray",
+      "term": "Stray",
+      "gloss": "Бродячий",
+      "example": "We found a stray cat in the garden.",
+      "definition": "lost or without a home, especially an animal"
+    },
+    {
+      "id": "misc-advanced:shape-shifting",
+      "term": "Shape shifting",
+      "gloss": "Оборотничество",
+      "example": "The myth is about a shape shifting wolf.",
+      "definition": "the ability to change from one form into another"
+    },
+    {
+      "id": "misc-advanced:vomite",
+      "term": "Vomite (Vomit)",
+      "gloss": "Рвота / Тошнить",
+      "example": "The smell made me want to vomit.",
+      "definition": "to throw up food from the stomach"
+    },
+    {
+      "id": "misc-advanced:flatter",
+      "term": "Flatter",
+      "gloss": "Льстить",
+      "example": "Are you just trying to flatter me?",
+      "definition": "to praise someone, often to win their favor"
+    },
+    {
+      "id": "misc-advanced:poke",
+      "term": "Poke",
+      "gloss": "Тыкать",
+      "example": "Don't poke the dog with that stick.",
+      "definition": "to push someone or something with a finger or stick"
+    },
+    {
+      "id": "misc-advanced:morse",
+      "term": "Morse",
+      "gloss": "Азбука Морзе",
+      "example": "They sent a signal in Morse code.",
+      "definition": "a code of dots and dashes used to send messages"
+    },
+    {
+      "id": "misc-advanced:tame",
+      "term": "Tame",
+      "gloss": "Ручной / Приручать",
+      "example": "The lion is surprisingly tame.",
+      "definition": "not wild; used to living with people"
+    },
+    {
+      "id": "misc-advanced:overwhelming",
+      "term": "Overwhelming",
+      "gloss": "Подавляющий / Огромный",
+      "example": "The response was overwhelming.",
+      "definition": "so strong or great that it is hard to deal with"
+    },
+    {
+      "id": "misc-advanced:pulling-up",
+      "term": "Pulling up",
+      "gloss": "Подъезжать / Останавливаться",
+      "example": "A black car is pulling up to the house.",
+      "definition": "stopping a vehicle next to a place"
+    },
+    {
+      "id": "misc-advanced:hooves",
+      "term": "Hooves",
+      "gloss": "Копыта",
+      "example": "I heard the sound of horse hooves.",
+      "definition": "the hard feet of horses, cows, and similar animals"
+    },
+    {
+      "id": "misc-advanced:the-species",
+      "term": "The species",
+      "gloss": "Вид (биол.)",
+      "example": "This species is found only in Africa.",
+      "definition": "a group of living things that can breed together"
+    },
+    {
+      "id": "misc-advanced:labouring",
+      "term": "Labouring",
+      "gloss": "Тяжело трудиться",
+      "example": "He spent his life labouring in the fields.",
+      "definition": "working hard, especially at physical work"
+    },
+    {
+      "id": "misc-advanced:shilling",
+      "term": "Shilling",
+      "gloss": "Шиллинг",
+      "example": "That old coin is a British shilling.",
+      "definition": "a former British coin worth twelve pence"
+    },
+    {
+      "id": "misc-advanced:come-up-upon-me",
+      "term": "Come up upon me",
+      "gloss": "Случайно встретить",
+      "example": "A sudden fear came up upon me.",
+      "definition": "to overtake someone suddenly, as a feeling does"
+    },
+    {
+      "id": "misc-advanced:het-up",
+      "term": "Het up",
+      "gloss": "Взволнованный / Злой",
+      "example": "Don't get so het up about small things.",
+      "definition": "agitated, angry, or overly excited"
+    },
+    {
+      "id": "misc-advanced:omen",
+      "term": "Omen",
+      "gloss": "Предзнаменование",
+      "example": "Seeing a black cat is a bad omen.",
+      "definition": "a sign believed to show what will happen"
+    },
+    {
+      "id": "misc-advanced:decisive",
+      "term": "Decisive",
+      "gloss": "Решающий",
+      "example": "We need to take decisive action now.",
+      "definition": "able to decide quickly; also settling an issue"
+    },
+    {
+      "id": "misc-advanced:profound",
+      "term": "Profound",
+      "gloss": "Глубокий / Серьезный",
+      "example": "The book had a profound effect on me.",
+      "definition": "very deep, intense, or showing great understanding"
+    },
+    {
+      "id": "misc-advanced:descendants",
+      "term": "Descendants",
+      "gloss": "Потомки",
+      "example": "They are the descendants of kings.",
+      "definition": "people who come from a particular ancestor"
+    },
+    {
+      "id": "misc-advanced:couch",
+      "term": "Couch",
+      "gloss": "Диван / Кушетка",
+      "example": "I fell asleep on the couch.",
+      "definition": "a long, soft seat for two or more people"
+    },
+    {
+      "id": "misc-advanced:marble",
+      "term": "Marble",
+      "gloss": "Мрамор",
+      "example": "The floor is made of white marble.",
+      "definition": "a hard, polished stone used in buildings and sculpture"
+    },
+    {
+      "id": "misc-advanced:the-dawn-of-time",
+      "term": "The dawn of time",
+      "gloss": "Начало времен",
+      "example": "It has been this way since the dawn of time.",
+      "definition": "the very beginning of history"
+    },
+    {
+      "id": "misc-advanced:fragile",
+      "term": "Fragile",
+      "gloss": "Хрупкий",
+      "example": "Be careful, this vase is very fragile.",
+      "definition": "easily broken or damaged"
+    },
+    {
+      "id": "misc-advanced:desperacy",
+      "term": "Desperacy",
+      "gloss": "Отчаяние (уст./поэт.)",
+      "example": "There was a sense of desperacy in his eyes.",
+      "definition": "an old-fashioned word for despair"
+    },
+    {
+      "id": "misc-advanced:onwards",
+      "term": "Onwards",
+      "gloss": "Далее / Вперед",
+      "example": "The path continues onwards from here.",
+      "definition": "continuing forward from a point in time or space"
+    },
+    {
+      "id": "misc-advanced:cheapsters",
+      "term": "Cheapsters",
+      "gloss": "Дешевки / Скупердяи",
+      "example": "I don't want to hang out with cheapsters.",
+      "definition": "people who are stingy and unwilling to spend"
+    },
+    {
+      "id": "misc-advanced:nailed-it",
+      "term": "Nailed it",
+      "gloss": "Справился! / В точку!",
+      "example": "Great presentation! You nailed it!",
+      "definition": "did something perfectly"
+    },
+    {
+      "id": "misc-advanced:fall-in-line",
+      "term": "Fall in line",
+      "gloss": "Подчиниться / Встать в строй",
+      "example": "All employees must fall in line with the rules.",
+      "definition": "obey and follow the expected rules"
+    },
+    {
+      "id": "misc-advanced:reunited",
+      "term": "Reunited",
+      "gloss": "Воссоединившийся",
+      "example": "The family was finally reunited.",
+      "definition": "brought back together after being apart"
+    },
+    {
+      "id": "misc-advanced:modesty",
+      "term": "Modesty",
+      "gloss": "Скромность",
+      "example": "He is famous for his modesty.",
+      "definition": "the quality of not showing off or being vain"
+    },
+    {
+      "id": "misc-advanced:heatstroke",
+      "term": "Heatstroke",
+      "gloss": "Солнечный удар",
+      "example": "Drink water to avoid heatstroke.",
+      "definition": "a dangerous illness from being too hot for too long"
+    },
+    {
+      "id": "misc-advanced:disputes",
+      "term": "Disputes",
+      "gloss": "Споры / Конфликты",
+      "example": "We need to settle these legal disputes.",
+      "definition": "arguments or disagreements, especially legal ones"
+    },
+    {
+      "id": "misc-advanced:fall-out",
+      "term": "Fall out",
+      "gloss": "Ссориться",
+      "example": "I don't want to fall out with you over money.",
+      "definition": "to quarrel and stop being friendly"
+    },
+    {
+      "id": "misc-advanced:rehearse",
+      "term": "Rehearse",
+      "gloss": "Репетировать",
+      "example": "We need to rehearse the play tonight.",
+      "definition": "to practice a performance before the real event"
+    },
+    {
+      "id": "misc-advanced:way-over",
+      "term": "Way over",
+      "gloss": "Гораздо больше / Слишком",
+      "example": "That price is way over my budget.",
+      "definition": "far beyond a limit or amount"
+    },
+    {
+      "id": "misc-advanced:phonics",
+      "term": "Phonics",
+      "gloss": "Фонетика",
+      "example": "Children learn to read using phonics.",
+      "definition": "a method of teaching reading through letter sounds"
+    },
+    {
+      "id": "misc-advanced:distinguished",
+      "term": "Distinguished",
+      "gloss": "Выдающийся",
+      "example": "He is a distinguished member of the club.",
+      "definition": "respected and impressive because of achievement"
+    },
+    {
+      "id": "misc-advanced:tuition",
+      "term": "Tuition",
+      "gloss": "Обучение / Плата за учебу",
+      "example": "College tuition is rising every year.",
+      "definition": "money paid for instruction at a school or college"
+    },
+    {
+      "id": "misc-advanced:hands-on",
+      "term": "Hands on",
+      "gloss": "Практический",
+      "example": "He has a hands on approach to management.",
+      "definition": "involving practical doing, not just theory"
+    },
+    {
+      "id": "misc-advanced:stale",
+      "term": "Stale",
+      "gloss": "Черствый / Застоявшийся",
+      "example": "This bread is completely stale.",
+      "definition": "no longer fresh, or no longer interesting"
+    },
+    {
+      "id": "misc-advanced:sue",
+      "term": "Sue",
+      "gloss": "Подавать в суд",
+      "example": "She decided to sue the company.",
+      "definition": "to take someone to court for money or justice"
+    },
+    {
+      "id": "misc-advanced:ace-of-spades",
+      "term": "Ace of spades",
+      "gloss": "Пиковый туз",
+      "example": "He drew the ace of spades from the deck.",
+      "definition": "the highest spade card in a deck"
+    },
+    {
+      "id": "misc-advanced:inclusive",
+      "term": "Inclusive",
+      "gloss": "Инклюзивный / Включающий",
+      "example": "Our school is very inclusive.",
+      "definition": "including everyone; not leaving people out"
+    },
+    {
+      "id": "misc-advanced:insights",
+      "term": "Insights",
+      "gloss": "Озарения / Понимание",
+      "example": "The report provides deep insights.",
+      "definition": "clear, useful understandings of a situation"
+    },
+    {
+      "id": "misc-advanced:pitch",
+      "term": "Pitch",
+      "gloss": "Подача / Поле / Тон",
+      "example": "That was a great sales pitch.",
+      "definition": "a short persuasive talk selling an idea"
+    }
+  ]
+}

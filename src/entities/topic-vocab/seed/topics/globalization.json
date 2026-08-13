@@ -1,0 +1,532 @@
+{
+  "id": "globalization",
+  "title": "Globalization",
+  "version": 1,
+  "entries": [
+    {
+      "id": "globalization:interconnectedness",
+      "term": "Interconnectedness",
+      "gloss": "Взаимосвязанность",
+      "example": "Global interconnectedness is rising.",
+      "definition": "State of being linked together across the world"
+    },
+    {
+      "id": "globalization:integration",
+      "term": "Integration",
+      "gloss": "Интеграция",
+      "example": "Economic integration helps trade.",
+      "definition": "Process of combining into one economic or social system"
+    },
+    {
+      "id": "globalization:homogenization",
+      "term": "Homogenization",
+      "gloss": "Однородность",
+      "example": "Avoid cultural homogenization.",
+      "definition": "Becoming the same and losing local differences"
+    },
+    {
+      "id": "globalization:westernization",
+      "term": "Westernization",
+      "gloss": "Вестернизация",
+      "example": "Many fear rapid westernization.",
+      "definition": "Adoption of Western culture, values, or lifestyle"
+    },
+    {
+      "id": "globalization:dominance",
+      "term": "Dominance",
+      "gloss": "Доминирование",
+      "example": "Cultural dominance can be harmful.",
+      "definition": "Position of having greater power or influence"
+    },
+    {
+      "id": "globalization:heritage",
+      "term": "Heritage",
+      "gloss": "Наследие",
+      "example": "We must protect our heritage.",
+      "definition": "Traditions and history passed down from previous generations"
+    },
+    {
+      "id": "globalization:customs",
+      "term": "Customs",
+      "gloss": "Обычаи",
+      "example": "Local customs are very unique.",
+      "definition": "Traditional ways of behaving in a particular culture"
+    },
+    {
+      "id": "globalization:preservation",
+      "term": "Preservation",
+      "gloss": "Сохранение",
+      "example": "Focus on language preservation.",
+      "definition": "Protection of something so it is not lost"
+    },
+    {
+      "id": "globalization:identity-crisis",
+      "term": "Identity crisis",
+      "gloss": "Кризис идентичности",
+      "example": "Youth often face an identity crisis.",
+      "definition": "Period of confusion about who you really are"
+    },
+    {
+      "id": "globalization:stereotyping",
+      "term": "Stereotyping",
+      "gloss": "Стереотипизация",
+      "example": "Stop stereotyping other nations.",
+      "definition": "Judging people by a fixed, oversimplified idea"
+    },
+    {
+      "id": "globalization:multiculturalism",
+      "term": "Multiculturalism",
+      "gloss": "Мультикультурализм",
+      "example": "London is a model of multiculturalism.",
+      "definition": "Coexistence of many cultures in one society"
+    },
+    {
+      "id": "globalization:diversity",
+      "term": "Diversity",
+      "gloss": "Разнообразие",
+      "example": "We celebrate cultural diversity.",
+      "definition": "Range of different people, cultures, or ideas"
+    },
+    {
+      "id": "globalization:tolerance",
+      "term": "Tolerance",
+      "gloss": "Терпимость",
+      "example": "Promote religious tolerance.",
+      "definition": "Willingness to accept beliefs different from yours"
+    },
+    {
+      "id": "globalization:global-village",
+      "term": "Global village",
+      "gloss": "Глобальная деревня",
+      "example": "The world is now a global village.",
+      "definition": "The world seen as one closely connected community"
+    },
+    {
+      "id": "globalization:standardization",
+      "term": "Standardization",
+      "gloss": "Стандартизация",
+      "example": "Standardization makes products cheaper.",
+      "definition": "Making products or practices the same everywhere"
+    },
+    {
+      "id": "globalization:outsourcing",
+      "term": "Outsourcing",
+      "gloss": "Аутсорсинг",
+      "example": "Outsourcing saves company costs.",
+      "definition": "Paying another company, often abroad, to do work"
+    },
+    {
+      "id": "globalization:free-trade",
+      "term": "Free trade",
+      "gloss": "Свободная торговля",
+      "example": "Free trade boosts the economy.",
+      "definition": "International commerce without tariffs or barriers"
+    },
+    {
+      "id": "globalization:tariffs",
+      "term": "Tariffs",
+      "gloss": "Тарифы / Пошлины",
+      "example": "High tariffs hurt international trade.",
+      "definition": "Taxes on goods imported from other countries"
+    },
+    {
+      "id": "globalization:corporation",
+      "term": "Corporation",
+      "gloss": "Корпорация",
+      "example": "This corporation operates globally.",
+      "definition": "Large company owned by shareholders"
+    },
+    {
+      "id": "globalization:consumerism",
+      "term": "Consumerism",
+      "gloss": "Потребительство",
+      "example": "Modern consumerism is unsustainable.",
+      "definition": "Culture of buying and owning more and more goods"
+    },
+    {
+      "id": "globalization:mass-production",
+      "term": "Mass production",
+      "gloss": "Массовое произв-во",
+      "example": "Mass production lowered prices.",
+      "definition": "Making large numbers of identical products cheaply"
+    },
+    {
+      "id": "globalization:exploitation",
+      "term": "Exploitation",
+      "gloss": "Эксплуатация",
+      "example": "Stop the exploitation of labor.",
+      "definition": "Unfair use of people or resources for profit"
+    },
+    {
+      "id": "globalization:sweatshops",
+      "term": "Sweatshops",
+      "gloss": "Потогонные фабрики",
+      "example": "Avoid buying from sweatshops.",
+      "definition": "Factories with very poor pay and working conditions"
+    },
+    {
+      "id": "globalization:supply-chain",
+      "term": "Supply chain",
+      "gloss": "Цепь поставок",
+      "example": "The global supply chain broke.",
+      "definition": "Network that moves goods from producer to customer"
+    },
+    {
+      "id": "globalization:emerging-economy",
+      "term": "Emerging economy",
+      "gloss": "Развивающаяся эк-ка",
+      "example": "India is an emerging economy.",
+      "definition": "Country whose economy is growing rapidly"
+    },
+    {
+      "id": "globalization:inequality",
+      "term": "Inequality",
+      "gloss": "Неравенство",
+      "example": "Global inequality is a huge issue.",
+      "definition": "Unfair difference in wealth, status, or opportunity"
+    },
+    {
+      "id": "globalization:imperialism",
+      "term": "Imperialism",
+      "gloss": "Империализм",
+      "example": "English is a form of imperialism.",
+      "definition": "Extending a country's power over other nations"
+    },
+    {
+      "id": "globalization:mother-tongue",
+      "term": "Mother tongue",
+      "gloss": "Родной язык",
+      "example": "Speak your mother tongue at home.",
+      "definition": "The first language a person learns as a child"
+    },
+    {
+      "id": "globalization:extinction",
+      "term": "Extinction",
+      "gloss": "Вымирание",
+      "example": "Prevent the extinction of dialects.",
+      "definition": "Complete disappearance of a language or species"
+    },
+    {
+      "id": "globalization:bilingualism",
+      "term": "Bilingualism",
+      "gloss": "Двуязычие",
+      "example": "Bilingualism improves brain function.",
+      "definition": "Ability to speak two languages fluently"
+    },
+    {
+      "id": "globalization:indigenous",
+      "term": "Indigenous",
+      "gloss": "Коренной",
+      "example": "Respect indigenous land rights.",
+      "definition": "Originating in a place; native to a region"
+    },
+    {
+      "id": "globalization:ancestors",
+      "term": "Ancestors",
+      "gloss": "Предки",
+      "example": "Our ancestors lived in caves.",
+      "definition": "People in your family who lived long ago"
+    },
+    {
+      "id": "globalization:values",
+      "term": "Values",
+      "gloss": "Ценности",
+      "example": "Traditional values are changing.",
+      "definition": "Beliefs about what is right, important, or worthwhile"
+    },
+    {
+      "id": "globalization:spiritualism",
+      "term": "Spiritualism",
+      "gloss": "Духовность",
+      "example": "People find peace in spiritualism.",
+      "definition": "Focus on the spirit rather than material things"
+    },
+    {
+      "id": "globalization:materialism",
+      "term": "Materialism",
+      "gloss": "Материализм",
+      "example": "Society is driven by materialism.",
+      "definition": "Belief that money and possessions matter most"
+    },
+    {
+      "id": "globalization:assimilation",
+      "term": "Assimilation",
+      "gloss": "Ассимиляция",
+      "example": "Cultural assimilation takes time.",
+      "definition": "Process of becoming similar to another culture"
+    },
+    {
+      "id": "globalization:acculturation",
+      "term": "Acculturation",
+      "gloss": "Аккультурация",
+      "example": "Acculturation happens in schools.",
+      "definition": "Adopting aspects of another culture while keeping your own"
+    },
+    {
+      "id": "globalization:segregation",
+      "term": "Segregation",
+      "gloss": "Сегрегация",
+      "example": "Segregation is a dark part of history.",
+      "definition": "Forced separation of groups, especially by race"
+    },
+    {
+      "id": "globalization:xenophobia",
+      "term": "Xenophobia",
+      "gloss": "Ксенофобия",
+      "example": "Education can reduce xenophobia.",
+      "definition": "Fear or hatred of people from other countries"
+    },
+    {
+      "id": "globalization:discrimination",
+      "term": "Discrimination",
+      "gloss": "Дискриминация",
+      "example": "Fight against racial discrimination.",
+      "definition": "Unfair treatment of people based on group identity"
+    },
+    {
+      "id": "globalization:patriotism",
+      "term": "Patriotism",
+      "gloss": "Патриотизм",
+      "example": "Patriotism is a love for country.",
+      "definition": "Love of and loyalty to one's country"
+    },
+    {
+      "id": "globalization:nationalism",
+      "term": "Nationalism",
+      "gloss": "Национализм",
+      "example": "Extreme nationalism leads to war.",
+      "definition": "Strong belief that one's nation is superior to others"
+    },
+    {
+      "id": "globalization:global-citizen",
+      "term": "Global citizen",
+      "gloss": "Гражданин мира",
+      "example": "I consider myself a global citizen.",
+      "definition": "Person who feels responsible for the whole world"
+    },
+    {
+      "id": "globalization:boundary",
+      "term": "Boundary",
+      "gloss": "Граница",
+      "example": "Trade crosses every boundary.",
+      "definition": "Line that marks the edge of a country or area"
+    },
+    {
+      "id": "globalization:sovereignty",
+      "term": "Sovereignty",
+      "gloss": "Суверенитет",
+      "example": "Nations must protect their sovereignty.",
+      "definition": "A nation's right to govern itself independently"
+    },
+    {
+      "id": "globalization:censorship",
+      "term": "Censorship",
+      "gloss": "Цензура",
+      "example": "Internet censorship is increasing.",
+      "definition": "Control or suppression of information by authority"
+    },
+    {
+      "id": "globalization:propaganda",
+      "term": "Propaganda",
+      "gloss": "Пропаганда",
+      "example": "Media is often full of propaganda.",
+      "definition": "Biased information used to influence public opinion"
+    },
+    {
+      "id": "globalization:authenticity",
+      "term": "Authenticity",
+      "gloss": "Подлинность",
+      "example": "Tourists seek cultural authenticity.",
+      "definition": "Quality of being genuine and not fake"
+    },
+    {
+      "id": "globalization:folk-art",
+      "term": "Folk art",
+      "gloss": "Народное искусство",
+      "example": "Folk art represents the people.",
+      "definition": "Traditional art made by ordinary people of a culture"
+    },
+    {
+      "id": "globalization:handicrafts",
+      "term": "Handicrafts",
+      "gloss": "Ремесла",
+      "example": "Sell handicrafts to tourists.",
+      "definition": "Objects made by hand using traditional skills"
+    },
+    {
+      "id": "globalization:world-renowned",
+      "term": "World-renowned",
+      "gloss": "Всемирно известный",
+      "example": "It is a world-renowned museum.",
+      "definition": "Famous all over the world"
+    },
+    {
+      "id": "globalization:exotic",
+      "term": "Exotic",
+      "gloss": "Экзотический",
+      "example": "I love trying exotic fruits.",
+      "definition": "Unusual and interesting because from a distant place"
+    },
+    {
+      "id": "globalization:commercialization",
+      "term": "Commercialization",
+      "gloss": "Коммерциализация",
+      "example": "Commercialization ruins holidays.",
+      "definition": "Turning something into a product for profit"
+    },
+    {
+      "id": "globalization:dependent",
+      "term": "Dependent",
+      "gloss": "Зависимый",
+      "example": "Small islands are dependent on aid.",
+      "definition": "Needing someone or something else for support"
+    },
+    {
+      "id": "globalization:social-norms",
+      "term": "Social norms",
+      "gloss": "Соц. нормы",
+      "example": "Respect the local social norms.",
+      "definition": "Unwritten rules of acceptable behavior in a group"
+    },
+    {
+      "id": "globalization:etiquette",
+      "term": "Etiquette",
+      "gloss": "Этикет",
+      "example": "Learn the business etiquette.",
+      "definition": "Formal rules of polite behavior"
+    },
+    {
+      "id": "globalization:hospitality",
+      "term": "Hospitality",
+      "gloss": "Гостеприимство",
+      "example": "Thank you for your hospitality.",
+      "definition": "Friendly and generous treatment of guests"
+    },
+    {
+      "id": "globalization:superstition",
+      "term": "Superstition",
+      "gloss": "Суеверие",
+      "example": "Fear of number 13 is a superstition.",
+      "definition": "Belief not based on reason or scientific fact"
+    },
+    {
+      "id": "globalization:civilization",
+      "term": "Civilization",
+      "gloss": "Цивилизация",
+      "example": "Maya was a great civilization.",
+      "definition": "Advanced society with its own culture and institutions"
+    },
+    {
+      "id": "globalization:artifacts",
+      "term": "Artifacts",
+      "gloss": "Артефакты",
+      "example": "Rare artifacts were stolen.",
+      "definition": "Objects made by people in the past"
+    },
+    {
+      "id": "globalization:repatriation",
+      "term": "Repatriation",
+      "gloss": "Репатриация",
+      "example": "Demand the repatriation of gold.",
+      "definition": "Return of people or objects to their home country"
+    },
+    {
+      "id": "globalization:to-erode",
+      "term": "To erode",
+      "gloss": "Размывать / Разрушать",
+      "example": "Tech can erode family bonds.",
+      "definition": "To gradually wear away or weaken"
+    },
+    {
+      "id": "globalization:to-embrace",
+      "term": "To embrace",
+      "gloss": "Принимать",
+      "example": "Embrace new cultural ideas.",
+      "definition": "To accept and welcome something willingly"
+    },
+    {
+      "id": "globalization:to-vanish",
+      "term": "To vanish",
+      "gloss": "Исчезать",
+      "example": "Old traditions are starting to vanish.",
+      "definition": "To disappear completely from sight or existence"
+    },
+    {
+      "id": "globalization:to-clash",
+      "term": "To clash",
+      "gloss": "Сталкиваться",
+      "example": "Different cultures often clash.",
+      "definition": "To come into conflict or disagreement"
+    },
+    {
+      "id": "globalization:to-adapt",
+      "term": "To adapt",
+      "gloss": "Адаптироваться",
+      "example": "You must adapt to local food.",
+      "definition": "To change in order to fit new conditions"
+    },
+    {
+      "id": "globalization:inseparable",
+      "term": "Inseparable",
+      "gloss": "Неотделимый",
+      "example": "Food is inseparable from culture.",
+      "definition": "Impossible to separate or consider apart"
+    },
+    {
+      "id": "globalization:alienation",
+      "term": "Alienation",
+      "gloss": "Отчуждение",
+      "example": "Migrants often feel alienation.",
+      "definition": "Feeling of being isolated from a group or society"
+    },
+    {
+      "id": "globalization:peer-pressure",
+      "term": "Peer pressure",
+      "gloss": "Давление среды",
+      "example": "Kids give in to peer pressure.",
+      "definition": "Influence from people of the same age or status"
+    },
+    {
+      "id": "globalization:brainwashing",
+      "term": "Brainwashing",
+      "gloss": "Промывка мозгов",
+      "example": "Cults use brainwashing tactics.",
+      "definition": "Forcing someone to accept ideas by intense pressure"
+    },
+    {
+      "id": "globalization:pioneer",
+      "term": "Pioneer",
+      "gloss": "Новатор",
+      "example": "He was a pioneer of modern art.",
+      "definition": "Person who is first to develop something new"
+    },
+    {
+      "id": "globalization:unprecedented",
+      "term": "Unprecedented",
+      "gloss": "Беспрецедентный",
+      "example": "This crisis is unprecedented.",
+      "definition": "Never known or done before"
+    },
+    {
+      "id": "globalization:global-mobility",
+      "term": "Global mobility",
+      "gloss": "Глобальная мобильность",
+      "example": "Air travel increased global mobility.",
+      "definition": "Ability of people to move easily between countries"
+    },
+    {
+      "id": "globalization:melting-pot",
+      "term": "Melting pot",
+      "gloss": "Плавильный котел",
+      "example": "NYC is a famous melting pot.",
+      "definition": "Place where many cultures mix into one"
+    },
+    {
+      "id": "globalization:cosmopolitan",
+      "term": "Cosmopolitan",
+      "gloss": "Космополитичный",
+      "example": "Enjoy the cosmopolitan lifestyle.",
+      "definition": "Familiar with and open to many cultures"
+    }
+  ]
+}

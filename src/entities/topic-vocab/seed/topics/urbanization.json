@@ -1,0 +1,532 @@
+{
+  "id": "urbanization",
+  "title": "Urbanization",
+  "version": 1,
+  "entries": [
+    {
+      "id": "urbanization:urbanization",
+      "term": "Urbanization",
+      "gloss": "Урбанизация",
+      "example": "Rapid urbanization creates challenges.",
+      "definition": "Growth of towns as people move from the countryside"
+    },
+    {
+      "id": "urbanization:metropolis",
+      "term": "Metropolis",
+      "gloss": "Мегаполис",
+      "example": "Tokyo is a massive metropolis.",
+      "definition": "A very large and important city"
+    },
+    {
+      "id": "urbanization:rural-to-urban-migration",
+      "term": "Rural-to-urban migration",
+      "gloss": "Миграция из сел",
+      "example": "Rural-to-urban migration is rising.",
+      "definition": "Movement of people from villages into cities"
+    },
+    {
+      "id": "urbanization:infrastructure",
+      "term": "Infrastructure",
+      "gloss": "Инфраструктура",
+      "example": "We must invest in infrastructure.",
+      "definition": "Basic systems such as roads, water, and power"
+    },
+    {
+      "id": "urbanization:urban-sprawl",
+      "term": "Urban sprawl",
+      "gloss": "Разрастание города",
+      "example": "Urban sprawl destroys green areas.",
+      "definition": "Unplanned spread of a city into surrounding land"
+    },
+    {
+      "id": "urbanization:densely-populated",
+      "term": "Densely populated",
+      "gloss": "Густонаселенный",
+      "example": "Hong Kong is densely populated.",
+      "definition": "Having a very large number of people in a small area"
+    },
+    {
+      "id": "urbanization:overcrowding",
+      "term": "Overcrowding",
+      "gloss": "Перенаселенность",
+      "example": "Overcrowding is common in slums.",
+      "definition": "Too many people living in too little space"
+    },
+    {
+      "id": "urbanization:congestion",
+      "term": "Congestion",
+      "gloss": "Заторы / Пробки",
+      "example": "Traffic congestion wastes time.",
+      "definition": "Severe crowding, especially of traffic"
+    },
+    {
+      "id": "urbanization:commuter",
+      "term": "Commuter",
+      "gloss": "Пассажир (пригород)",
+      "example": "Commuters spend hours on trains.",
+      "definition": "Person who travels regularly between home and work"
+    },
+    {
+      "id": "urbanization:residential-area",
+      "term": "Residential area",
+      "gloss": "Жилой район",
+      "example": "I live in a quiet residential area.",
+      "definition": "Part of a town used mainly for housing"
+    },
+    {
+      "id": "urbanization:slums-shanty-towns",
+      "term": "Slums / Shanty towns",
+      "gloss": "Трущобы",
+      "example": "Many live in extreme slums.",
+      "definition": "Overcrowded poor areas with very bad housing"
+    },
+    {
+      "id": "urbanization:gentrification",
+      "term": "Gentrification",
+      "gloss": "Джентрификация",
+      "example": "Gentrification displaces poor residents.",
+      "definition": "Wealthier people moving in and pushing poorer residents out"
+    },
+    {
+      "id": "urbanization:commercial-hub",
+      "term": "Commercial hub",
+      "gloss": "Деловой центр",
+      "example": "London is a global commercial hub.",
+      "definition": "Center of business and trade"
+    },
+    {
+      "id": "urbanization:amenities",
+      "term": "Amenities",
+      "gloss": "Удобства / Блага",
+      "example": "The city offers many amenities.",
+      "definition": "Useful facilities such as shops, parks, and services"
+    },
+    {
+      "id": "urbanization:sanitation",
+      "term": "Sanitation",
+      "gloss": "Санитария",
+      "example": "Proper sanitation prevents diseases.",
+      "definition": "Systems for clean water and safe waste disposal"
+    },
+    {
+      "id": "urbanization:standard-of-living",
+      "term": "Standard of living",
+      "gloss": "Уровень жизни",
+      "example": "The standard of living is high here.",
+      "definition": "Level of wealth and comfort people enjoy"
+    },
+    {
+      "id": "urbanization:livelihood",
+      "term": "Livelihood",
+      "gloss": "Средства к жизни",
+      "example": "Cities provide a better livelihood.",
+      "definition": "Work or resources that provide money to live"
+    },
+    {
+      "id": "urbanization:cost-of-living",
+      "term": "Cost of living",
+      "gloss": "Стоимость жизни",
+      "example": "The cost of living is skyrocketing.",
+      "definition": "Amount of money needed for everyday expenses"
+    },
+    {
+      "id": "urbanization:pace-of-life",
+      "term": "Pace of life",
+      "gloss": "Темп жизни",
+      "example": "I enjoy the fast pace of life.",
+      "definition": "How fast or slow everyday life feels"
+    },
+    {
+      "id": "urbanization:high-rise-building",
+      "term": "High-rise building",
+      "gloss": "Высотка",
+      "example": "High-rise buildings dominate the city.",
+      "definition": "Very tall building with many floors"
+    },
+    {
+      "id": "urbanization:skyscraper",
+      "term": "Skyscraper",
+      "gloss": "Небоскреб",
+      "example": "NYC is famous for its skyscrapers.",
+      "definition": "Extremely tall building in a city"
+    },
+    {
+      "id": "urbanization:concrete-jungle",
+      "term": "Concrete jungle",
+      "gloss": "Бетонные джунгли",
+      "example": "I feel lost in this concrete jungle.",
+      "definition": "City full of buildings and little greenery"
+    },
+    {
+      "id": "urbanization:green-belt",
+      "term": "Green belt",
+      "gloss": "Зеленая зона",
+      "example": "The green belt protects the forest.",
+      "definition": "Protected open land around a city"
+    },
+    {
+      "id": "urbanization:pedestrian-zone",
+      "term": "Pedestrian zone",
+      "gloss": "Пешеходная зона",
+      "example": "The center is now a pedestrian zone.",
+      "definition": "Street area where cars are not allowed"
+    },
+    {
+      "id": "urbanization:public-transport",
+      "term": "Public transport",
+      "gloss": "Обществ. транспорт",
+      "example": "We need reliable public transport.",
+      "definition": "Buses, trains, and other shared passenger services"
+    },
+    {
+      "id": "urbanization:commuting-time",
+      "term": "Commuting time",
+      "gloss": "Время в пути",
+      "example": "My commuting time is 40 minutes.",
+      "definition": "Time spent travelling between home and work"
+    },
+    {
+      "id": "urbanization:urban-planning",
+      "term": "Urban planning",
+      "gloss": "Город. планирование",
+      "example": "Good urban planning is essential.",
+      "definition": "Designing how a city is laid out and developed"
+    },
+    {
+      "id": "urbanization:zoning-regulations",
+      "term": "Zoning regulations",
+      "gloss": "Правила зонирования",
+      "example": "Zoning regulations limit building height.",
+      "definition": "Rules about what can be built in each area"
+    },
+    {
+      "id": "urbanization:housing-shortage",
+      "term": "Housing shortage",
+      "gloss": "Дефицит жилья",
+      "example": "The housing shortage is a crisis.",
+      "definition": "Not enough homes for the people who need them"
+    },
+    {
+      "id": "urbanization:real-estate-bubble",
+      "term": "Real estate bubble",
+      "gloss": "Пузырь недвижимости",
+      "example": "The real estate bubble might burst.",
+      "definition": "Unsustainable rise in property prices"
+    },
+    {
+      "id": "urbanization:affordable-housing",
+      "term": "Affordable housing",
+      "gloss": "Доступное жилье",
+      "example": "Families need affordable housing.",
+      "definition": "Homes that ordinary people can reasonably pay for"
+    },
+    {
+      "id": "urbanization:remote-area",
+      "term": "Remote area",
+      "gloss": "Глубинка",
+      "example": "Facilities are scarce in remote areas.",
+      "definition": "Place far from cities and services"
+    },
+    {
+      "id": "urbanization:rural-flight",
+      "term": "Rural flight",
+      "gloss": "Бегство из сел",
+      "example": "Rural flight leads to empty villages.",
+      "definition": "People leaving the countryside to live in cities"
+    },
+    {
+      "id": "urbanization:depopulation",
+      "term": "Depopulation",
+      "gloss": "Депопуляция",
+      "example": "Villages face severe depopulation.",
+      "definition": "Fall in the number of people living in a place"
+    },
+    {
+      "id": "urbanization:isolation",
+      "term": "Isolation",
+      "gloss": "Изоляция",
+      "example": "Isolation is a problem in the country.",
+      "definition": "Being cut off from other people or services"
+    },
+    {
+      "id": "urbanization:agriculture",
+      "term": "Agriculture",
+      "gloss": "Сельское хозяйство",
+      "example": "Agriculture is the main industry.",
+      "definition": "Farming; growing crops and raising animals"
+    },
+    {
+      "id": "urbanization:fertile-land",
+      "term": "Fertile land",
+      "gloss": "Плодородная почва",
+      "example": "Farmers need fertile land.",
+      "definition": "Soil that is rich and good for growing crops"
+    },
+    {
+      "id": "urbanization:subsistence-farming",
+      "term": "Subsistence farming",
+      "gloss": "Натур. хозяйство",
+      "example": "They survive on subsistence farming.",
+      "definition": "Growing only enough food for your own family"
+    },
+    {
+      "id": "urbanization:urban-decay",
+      "term": "Urban decay",
+      "gloss": "Упадок города",
+      "example": "We must fix urban decay.",
+      "definition": "Decline of a city area through neglect and poverty"
+    },
+    {
+      "id": "urbanization:redevelopment",
+      "term": "Redevelopment",
+      "gloss": "Реставрация",
+      "example": "The docks underwent redevelopment.",
+      "definition": "Rebuilding an area to improve or modernize it"
+    },
+    {
+      "id": "urbanization:pollution-levels",
+      "term": "Pollution levels",
+      "gloss": "Уровни загрязнения",
+      "example": "Pollution levels are dangerous.",
+      "definition": "Measured amount of harmful substances in the environment"
+    },
+    {
+      "id": "urbanization:social-cohesion",
+      "term": "Social cohesion",
+      "gloss": "Сплоченность",
+      "example": "Small towns have more social cohesion.",
+      "definition": "Sense of togetherness and trust in a community"
+    },
+    {
+      "id": "urbanization:anonymity",
+      "term": "Anonymity",
+      "gloss": "Анонимность",
+      "example": "I love the anonymity of the city.",
+      "definition": "State of not being known or recognized"
+    },
+    {
+      "id": "urbanization:job-opportunities",
+      "term": "Job opportunities",
+      "gloss": "Вакансии / Шансы",
+      "example": "Cities offer more job opportunities.",
+      "definition": "Chances to find paid work"
+    },
+    {
+      "id": "urbanization:brain-drain",
+      "term": "Brain drain",
+      "gloss": "Утечка мозгов",
+      "example": "Small towns suffer from brain drain.",
+      "definition": "Loss of skilled people who leave to work elsewhere"
+    },
+    {
+      "id": "urbanization:sustainable-city",
+      "term": "Sustainable city",
+      "gloss": "Эко-город",
+      "example": "We aim to build a sustainable city.",
+      "definition": "City designed to limit environmental harm"
+    },
+    {
+      "id": "urbanization:smart-city",
+      "term": "Smart city",
+      "gloss": "Умный город",
+      "example": "Technology powers the smart city.",
+      "definition": "City that uses technology to run services efficiently"
+    },
+    {
+      "id": "urbanization:suburbia",
+      "term": "Suburbia",
+      "gloss": "Пригород",
+      "example": "Many families prefer suburbia.",
+      "definition": "Residential areas on the edge of a city"
+    },
+    {
+      "id": "urbanization:outskirts",
+      "term": "Outskirts",
+      "gloss": "Окраина",
+      "example": "The factory is on the outskirts.",
+      "definition": "The outer edges of a town or city"
+    },
+    {
+      "id": "urbanization:metropolitan-area",
+      "term": "Metropolitan area",
+      "gloss": "Стол. область",
+      "example": "It’s the largest metropolitan area.",
+      "definition": "A city together with its surrounding suburbs"
+    },
+    {
+      "id": "urbanization:public-utilities",
+      "term": "Public utilities",
+      "gloss": "Коммунал. услуги",
+      "example": "Public utilities must be upgraded.",
+      "definition": "Essential services such as water, gas, and electricity"
+    },
+    {
+      "id": "urbanization:cosmopolitan",
+      "term": "Cosmopolitan",
+      "gloss": "Космополитичный",
+      "example": "Berlin is a cosmopolitan city.",
+      "definition": "Containing people and cultures from many countries"
+    },
+    {
+      "id": "urbanization:megacity",
+      "term": "Megacity",
+      "gloss": "Мегагород (10м+)",
+      "example": "Lagos is a growing megacity.",
+      "definition": "City with more than ten million inhabitants"
+    },
+    {
+      "id": "urbanization:sewerage-system",
+      "term": "Sewerage system",
+      "gloss": "Канализация",
+      "example": "The sewerage system is outdated.",
+      "definition": "Network of pipes that carry away waste water"
+    },
+    {
+      "id": "urbanization:water-supply",
+      "term": "Water supply",
+      "gloss": "Водоснабжение",
+      "example": "We need a stable water supply.",
+      "definition": "System that provides water to homes and businesses"
+    },
+    {
+      "id": "urbanization:power-grid",
+      "term": "Power grid",
+      "gloss": "Энергосеть",
+      "example": "The power grid failed during the storm.",
+      "definition": "Network that delivers electricity across a region"
+    },
+    {
+      "id": "urbanization:architectural-heritage",
+      "term": "Architectural heritage",
+      "gloss": "Арх. наследие",
+      "example": "We must preserve our heritage.",
+      "definition": "Historic buildings worth protecting"
+    },
+    {
+      "id": "urbanization:urban-renewal",
+      "term": "Urban renewal",
+      "gloss": "Город. обновление",
+      "example": "Urban renewal attracts investment.",
+      "definition": "Rebuilding run-down city areas to improve them"
+    },
+    {
+      "id": "urbanization:accessibility",
+      "term": "Accessibility",
+      "gloss": "Доступность",
+      "example": "Accessibility for the disabled is poor.",
+      "definition": "How easily people, including disabled users, can reach places"
+    },
+    {
+      "id": "urbanization:landlord",
+      "term": "Landlord",
+      "gloss": "Арендодатель",
+      "example": "The landlord raised the rent.",
+      "definition": "Person who owns a property and rents it out"
+    },
+    {
+      "id": "urbanization:tenant",
+      "term": "Tenant",
+      "gloss": "Арендатор",
+      "example": "The tenant pays monthly.",
+      "definition": "Person who rents a home from a landlord"
+    },
+    {
+      "id": "urbanization:to-renovate",
+      "term": "To renovate",
+      "gloss": "Ремонтировать",
+      "example": "They decided to renovate the house.",
+      "definition": "To repair and improve an old building"
+    },
+    {
+      "id": "urbanization:mortgage",
+      "term": "Mortgage",
+      "gloss": "Ипотека",
+      "example": "I took out a 20-year mortgage.",
+      "definition": "Loan used to buy a house, paid back over years"
+    },
+    {
+      "id": "urbanization:inner-city",
+      "term": "Inner city",
+      "gloss": "Старый центр (бедный)",
+      "example": "Crimes are higher in the inner city.",
+      "definition": "Older central part of a city, often poorer"
+    },
+    {
+      "id": "urbanization:skyline",
+      "term": "Skyline",
+      "gloss": "Силуэт города",
+      "example": "The skyline looks amazing at night.",
+      "definition": "Outline of buildings against the sky"
+    },
+    {
+      "id": "urbanization:to-commute",
+      "term": "To commute",
+      "gloss": "Ездить на работу",
+      "example": "I commute by bus every day.",
+      "definition": "To travel regularly between home and work"
+    },
+    {
+      "id": "urbanization:gridlock",
+      "term": "Gridlock",
+      "gloss": "Тупик / Пробка",
+      "example": "The city is in a total gridlock.",
+      "definition": "Traffic so jammed that nothing can move"
+    },
+    {
+      "id": "urbanization:pavement-sidewalk",
+      "term": "Pavement / Sidewalk",
+      "gloss": "Тротуар",
+      "example": "Please stay on the pavement.",
+      "definition": "Path beside a road for people to walk on"
+    },
+    {
+      "id": "urbanization:green-space",
+      "term": "Green space",
+      "gloss": "Зеленая зона",
+      "example": "We need more green space in cities.",
+      "definition": "Parks and other areas of plants in a city"
+    },
+    {
+      "id": "urbanization:overpass-flyover",
+      "term": "Overpass / Flyover",
+      "gloss": "Эстакада",
+      "example": "Cars zoomed over the overpass.",
+      "definition": "Road or bridge that goes over another road"
+    },
+    {
+      "id": "urbanization:bustling",
+      "term": "Bustling",
+      "gloss": "Оживленный",
+      "example": "I love the bustling streets.",
+      "definition": "Full of busy activity and people"
+    },
+    {
+      "id": "urbanization:squatter",
+      "term": "Squatter",
+      "gloss": "Незакон. жилец",
+      "example": "Squatters occupied the old hotel.",
+      "definition": "Person living in a building without permission"
+    },
+    {
+      "id": "urbanization:property-tax",
+      "term": "Property tax",
+      "gloss": "Налог на имущество",
+      "example": "Property tax is quite high here.",
+      "definition": "Tax paid on the value of a house or land"
+    },
+    {
+      "id": "urbanization:district",
+      "term": "District",
+      "gloss": "Район / Округ",
+      "example": "This is the financial district.",
+      "definition": "An official area or neighborhood of a city"
+    },
+    {
+      "id": "urbanization:substandard",
+      "term": "Substandard",
+      "gloss": "Некачественный",
+      "example": "They live in substandard housing.",
+      "definition": "Below an acceptable quality or safety level"
+    }
+  ]
+}

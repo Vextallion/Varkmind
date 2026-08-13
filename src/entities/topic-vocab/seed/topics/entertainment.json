@@ -1,0 +1,882 @@
+{
+  "id": "entertainment",
+  "title": "Entertainment",
+  "version": 1,
+  "entries": [
+    {
+      "id": "entertainment:hilarious",
+      "term": "Hilarious",
+      "gloss": "Уморительный",
+      "example": "His new stand-up show is absolutely hilarious.",
+      "definition": "extremely funny and amusing"
+    },
+    {
+      "id": "entertainment:footage",
+      "term": "Footage",
+      "gloss": "Видеоматериал",
+      "example": "The news showed rare footage of the whale.",
+      "definition": "recorded film or video of an event"
+    },
+    {
+      "id": "entertainment:annually",
+      "term": "Annually",
+      "gloss": "Ежегодно",
+      "example": "We update our business plan annually.",
+      "definition": "once every year"
+    },
+    {
+      "id": "entertainment:gather",
+      "term": "Gather",
+      "gloss": "Собираться",
+      "example": "Let’s gather in the lobby at 9 AM.",
+      "definition": "to come together in one place"
+    },
+    {
+      "id": "entertainment:rigged",
+      "term": "Rigged",
+      "gloss": "Подстроенный",
+      "example": "I think this game is rigged, I never win!",
+      "definition": "secretly arranged so the result is unfair"
+    },
+    {
+      "id": "entertainment:folks",
+      "term": "Folks",
+      "gloss": "Ребята / Люди",
+      "example": "My folks are coming to visit me this weekend.",
+      "definition": "people in general, or your parents"
+    },
+    {
+      "id": "entertainment:firmly",
+      "term": "Firmly",
+      "gloss": "Твердо",
+      "example": "You must hold the handle firmly.",
+      "definition": "in a strong, steady, and definite way"
+    },
+    {
+      "id": "entertainment:fraud",
+      "term": "Fraud",
+      "gloss": "Мошенничество",
+      "example": "He was a victim of online fraud.",
+      "definition": "the crime of deceiving people for gain"
+    },
+    {
+      "id": "entertainment:implode",
+      "term": "Implode",
+      "gloss": "Потерпеть крах",
+      "example": "Without funding, the project will implode.",
+      "definition": "to collapse inward or fail suddenly from within"
+    },
+    {
+      "id": "entertainment:marching",
+      "term": "Marching",
+      "gloss": "Марширующий",
+      "example": "The band was marching across the field.",
+      "definition": "walking together in regular, organized steps"
+    },
+    {
+      "id": "entertainment:dysentery",
+      "term": "Dysentery",
+      "gloss": "Дизентерия",
+      "example": "Untreated water can cause dysentery.",
+      "definition": "a severe infection causing bloody diarrhea"
+    },
+    {
+      "id": "entertainment:sobbing",
+      "term": "Sobbing",
+      "gloss": "Рыдания",
+      "example": "I heard a child sobbing in the hallway.",
+      "definition": "crying noisily with short breaths"
+    },
+    {
+      "id": "entertainment:grace",
+      "term": "Grace",
+      "gloss": "Изящество / Грация",
+      "example": "She danced with such grace and poise.",
+      "definition": "smooth, elegant movement or manner"
+    },
+    {
+      "id": "entertainment:stitch",
+      "term": "Stitch",
+      "gloss": "Стежок / Шов",
+      "example": "I need a few stitches to close the wound.",
+      "definition": "a loop of thread used to close a wound or sew"
+    },
+    {
+      "id": "entertainment:gross",
+      "term": "Gross",
+      "gloss": "Мерзкий / Валовой",
+      "example": "Eww, that's gross! Don't touch it.",
+      "definition": "disgusting; also total before deductions"
+    },
+    {
+      "id": "entertainment:wiener",
+      "term": "Wiener",
+      "gloss": "Слабак (сленг)",
+      "example": "Don't be a wiener, just try it once!",
+      "definition": "slang for a coward or weak person"
+    },
+    {
+      "id": "entertainment:clog",
+      "term": "Clog",
+      "gloss": "Засор / Засорять",
+      "example": "Hair is starting to clog the shower drain.",
+      "definition": "to block a pipe or passage so nothing can flow"
+    },
+    {
+      "id": "entertainment:baggy",
+      "term": "Baggy",
+      "gloss": "Мешковатый",
+      "example": "I prefer wearing baggy hoodies at home.",
+      "definition": "hanging loosely, not tight on the body"
+    },
+    {
+      "id": "entertainment:shelf",
+      "term": "Shelf",
+      "gloss": "Полка",
+      "example": "Put the spare keys on the top shelf.",
+      "definition": "a flat board on a wall for storing things"
+    },
+    {
+      "id": "entertainment:go-for-a-hike",
+      "term": "Go for a hike",
+      "gloss": "Идти в поход",
+      "example": "Let’s go for a hike in the mountains.",
+      "definition": "go on a long walk in nature"
+    },
+    {
+      "id": "entertainment:outdoorsy",
+      "term": "Outdoorsy",
+      "gloss": "Любящий природу",
+      "example": "She’s very outdoorsy and loves camping.",
+      "definition": "enjoying outdoor activities such as camping"
+    },
+    {
+      "id": "entertainment:frat-guy",
+      "term": "Frat guy",
+      "gloss": "Парень из братства",
+      "example": "He acts like a typical loud frat guy.",
+      "definition": "a stereotypical member of a college fraternity"
+    },
+    {
+      "id": "entertainment:toes",
+      "term": "Toes",
+      "gloss": "Пальцы ног",
+      "example": "I stubbed my toes against the table leg.",
+      "definition": "the five digits at the end of each foot"
+    },
+    {
+      "id": "entertainment:cougar",
+      "term": "Cougar",
+      "gloss": "пума",
+      "example": "She’s a total cougar, dating only students.",
+      "definition": "an older woman who dates much younger men"
+    },
+    {
+      "id": "entertainment:shade",
+      "term": "Shade",
+      "gloss": "Тень / Оттенок",
+      "example": "Let's sit in the shade under that tree.",
+      "definition": "a cooler area out of direct sunlight"
+    },
+    {
+      "id": "entertainment:lung",
+      "term": "Lung",
+      "gloss": "Легкое (орган)",
+      "example": "Smoking is very harmful to your lungs.",
+      "definition": "the organ in the chest used for breathing"
+    },
+    {
+      "id": "entertainment:blend",
+      "term": "Blend",
+      "gloss": "Смесь / Смешивать",
+      "example": "This coffee is a perfect blend of beans.",
+      "definition": "a mixture, or to mix things together smoothly"
+    },
+    {
+      "id": "entertainment:proximity",
+      "term": "Proximity",
+      "gloss": "Близость",
+      "example": "The hotel is in close proximity to the sea.",
+      "definition": "nearness in distance"
+    },
+    {
+      "id": "entertainment:coward",
+      "term": "Coward",
+      "gloss": "Трус",
+      "example": "He was a coward and ran away from the fight.",
+      "definition": "a person who is too afraid to face danger"
+    },
+    {
+      "id": "entertainment:spoil",
+      "term": "Spoil",
+      "gloss": "Портить / Баловать",
+      "example": "Don't spoil your appetite before dinner.",
+      "definition": "to ruin something, or to overindulge a person"
+    },
+    {
+      "id": "entertainment:get-rid-of",
+      "term": "Get rid of",
+      "gloss": "Избавиться от",
+      "example": "I need to get rid of these old clothes.",
+      "definition": "to throw away or remove something unwanted"
+    },
+    {
+      "id": "entertainment:attic",
+      "term": "Attic",
+      "gloss": "Чердак",
+      "example": "It’s very dark and dusty in the attic.",
+      "definition": "the space just under the roof of a house"
+    },
+    {
+      "id": "entertainment:chores",
+      "term": "Chores",
+      "gloss": "Дела по дому",
+      "example": "I have a lot of household chores today.",
+      "definition": "regular household jobs such as cleaning"
+    },
+    {
+      "id": "entertainment:bustle",
+      "term": "Bustle",
+      "gloss": "Суета",
+      "example": "I miss the bustle of the big city.",
+      "definition": "busy, noisy activity of many people"
+    },
+    {
+      "id": "entertainment:beneath",
+      "term": "Beneath",
+      "gloss": "Под / Ниже",
+      "example": "The cat was hiding beneath the sofa.",
+      "definition": "in a lower position, under something"
+    },
+    {
+      "id": "entertainment:join-forces",
+      "term": "Join forces",
+      "gloss": "Объединить силы",
+      "example": "We must join forces to solve this problem.",
+      "definition": "work together toward the same goal"
+    },
+    {
+      "id": "entertainment:summoned",
+      "term": "Summoned",
+      "gloss": "Вызванный",
+      "example": "He was summoned to appear in court.",
+      "definition": "officially ordered to appear somewhere"
+    },
+    {
+      "id": "entertainment:clunky",
+      "term": "Clunky",
+      "gloss": "Неуклюжий / Топорный",
+      "example": "This software is too clunky and slow.",
+      "definition": "awkward, heavy, and not smooth to use"
+    },
+    {
+      "id": "entertainment:hiss",
+      "term": "Hiss",
+      "gloss": "Шипение / Шипеть",
+      "example": "The cat began to hiss at the dog.",
+      "definition": "to make a sharp 's' sound, like an angry cat"
+    },
+    {
+      "id": "entertainment:wreck",
+      "term": "Wreck",
+      "gloss": "Крушение / Авария",
+      "example": "The car was a total wreck after the crash.",
+      "definition": "something badly damaged, especially a vehicle"
+    },
+    {
+      "id": "entertainment:briefly",
+      "term": "Briefly",
+      "gloss": "Кратко",
+      "example": "He briefly explained the new rules.",
+      "definition": "for a short time, or in few words"
+    },
+    {
+      "id": "entertainment:youth",
+      "term": "Youth",
+      "gloss": "Молодежь / Юность",
+      "example": "He spent his youth traveling the world.",
+      "definition": "the time of being young, or young people as a group"
+    },
+    {
+      "id": "entertainment:pride",
+      "term": "Pride",
+      "gloss": "Гордость",
+      "example": "He takes great pride in his garden.",
+      "definition": "a feeling of satisfaction in something you have"
+    },
+    {
+      "id": "entertainment:further",
+      "term": "Further",
+      "gloss": "Дальше / Дальнейший",
+      "example": "We need further information to decide.",
+      "definition": "more; additional, or to a greater degree"
+    },
+    {
+      "id": "entertainment:lowkey",
+      "term": "Lowkey",
+      "gloss": "Слегка / Втихаря",
+      "example": "I'm lowkey worried about the exam.",
+      "definition": "somewhat, quietly, or without making a fuss"
+    },
+    {
+      "id": "entertainment:surface",
+      "term": "Surface",
+      "gloss": "Поверхность",
+      "example": "The ball floated on the surface of the water.",
+      "definition": "the outer or top layer of something"
+    },
+    {
+      "id": "entertainment:reinforce",
+      "term": "Reinforce",
+      "gloss": "Укреплять",
+      "example": "We need to reinforce our defenses.",
+      "definition": "to make something stronger or more effective"
+    },
+    {
+      "id": "entertainment:rapid",
+      "term": "Rapid",
+      "gloss": "Быстрый",
+      "example": "The patient made a rapid recovery.",
+      "definition": "happening very quickly"
+    },
+    {
+      "id": "entertainment:fussing",
+      "term": "Fussing",
+      "gloss": "Суетиться / Нервничать",
+      "example": "Stop fussing over your hair; it looks fine.",
+      "definition": "worrying or paying too much attention to small things"
+    },
+    {
+      "id": "entertainment:enforce",
+      "term": "Enforce",
+      "gloss": "Обеспечивать соблюдение",
+      "example": "The police enforce the traffic laws.",
+      "definition": "to make sure a rule or law is followed"
+    },
+    {
+      "id": "entertainment:in-awe",
+      "term": "In awe",
+      "gloss": "В восторге / трепете",
+      "example": "I stood in awe of the Grand Canyon.",
+      "definition": "feeling great respect mixed with wonder"
+    },
+    {
+      "id": "entertainment:to-nap",
+      "term": "To nap",
+      "gloss": "Вздремнуть",
+      "example": "I’m going to nap for twenty minutes.",
+      "definition": "to sleep for a short time during the day"
+    },
+    {
+      "id": "entertainment:rift-apart",
+      "term": "Rift apart",
+      "gloss": "Раскалывать",
+      "example": "Money issues can rift apart even best friends.",
+      "definition": "to drive people apart and damage a relationship"
+    },
+    {
+      "id": "entertainment:encounter",
+      "term": "Encounter",
+      "gloss": "Случайная встреча",
+      "example": "I had a strange encounter in the park.",
+      "definition": "an unexpected meeting with a person or situation"
+    },
+    {
+      "id": "entertainment:pulled-over",
+      "term": "Pulled over",
+      "gloss": "Остановился у обочины",
+      "example": "He got pulled over for speeding.",
+      "definition": "stopped by police at the side of the road"
+    },
+    {
+      "id": "entertainment:due",
+      "term": "Due",
+      "gloss": "Должный (к сроку)",
+      "example": "The report is due by tomorrow morning.",
+      "definition": "expected or required by a particular time"
+    },
+    {
+      "id": "entertainment:flippers",
+      "term": "Flippers",
+      "gloss": "Ласты",
+      "example": "It’s hard to walk while wearing flippers.",
+      "definition": "rubber fins worn on the feet for swimming"
+    },
+    {
+      "id": "entertainment:so-far",
+      "term": "So far",
+      "gloss": "На данный момент",
+      "example": "So far, everything is going according to plan.",
+      "definition": "up to this moment; until now"
+    },
+    {
+      "id": "entertainment:force",
+      "term": "Force",
+      "gloss": "Сила / Заставлять",
+      "example": "You can't force him to change his mind.",
+      "definition": "physical power, or to make someone do something"
+    },
+    {
+      "id": "entertainment:doomed",
+      "term": "Doomed",
+      "gloss": "Обреченный",
+      "example": "Without oxygen, the mission is doomed.",
+      "definition": "certain to fail or suffer a bad end"
+    },
+    {
+      "id": "entertainment:detain",
+      "term": "Detain",
+      "gloss": "Задерживать",
+      "example": "The police detains the suspect for 24 hours.",
+      "definition": "to keep someone in official custody for a time"
+    },
+    {
+      "id": "entertainment:essentially",
+      "term": "Essentially",
+      "gloss": "По сути",
+      "example": "Essentially, we are doing the same job.",
+      "definition": "in the most important or basic sense"
+    },
+    {
+      "id": "entertainment:mauled",
+      "term": "Mauled",
+      "gloss": "Истерзанный",
+      "example": "The hiker was mauled by a wild bear.",
+      "definition": "badly injured by an animal's teeth or claws"
+    },
+    {
+      "id": "entertainment:dismembered",
+      "term": "Dismembered",
+      "gloss": "Расчлененный",
+      "example": "The killer dismembered the body.",
+      "definition": "cut into separate body parts"
+    },
+    {
+      "id": "entertainment:encourage",
+      "term": "Encourage",
+      "gloss": "Поощрять",
+      "example": "We encourage students to ask questions.",
+      "definition": "to give someone support and confidence to act"
+    },
+    {
+      "id": "entertainment:rapist",
+      "term": "Rapist",
+      "gloss": "Насильник",
+      "example": "The rapist was sentenced to life in prison.",
+      "definition": "a person who forces someone into sex"
+    },
+    {
+      "id": "entertainment:refute",
+      "term": "Refute",
+      "gloss": "Опровергать",
+      "example": "We have evidence to refute his claims.",
+      "definition": "to prove that a statement is false"
+    },
+    {
+      "id": "entertainment:explicitly",
+      "term": "Explicitly",
+      "gloss": "Явно / Открыто",
+      "example": "I explicitly told you not to enter.",
+      "definition": "in a clear, direct, and detailed way"
+    },
+    {
+      "id": "entertainment:grapist",
+      "term": "Grapist",
+      "gloss": "Насильник (сленг)(",
+      "example": "Slang term for a predator).",
+      "definition": "crude slang insult calling someone a sexual predator"
+    },
+    {
+      "id": "entertainment:determine",
+      "term": "Determine",
+      "gloss": "Определять",
+      "example": "We need to determine the cause of the fire.",
+      "definition": "to find out or decide something after investigation"
+    },
+    {
+      "id": "entertainment:fallacy",
+      "term": "Fallacy",
+      "gloss": "Заблуждение",
+      "example": "It's a fallacy that all cats hate water.",
+      "definition": "a false belief or a mistake in reasoning"
+    },
+    {
+      "id": "entertainment:maul",
+      "term": "Maul",
+      "gloss": "Терзать / Калечить",
+      "example": "A tiger can maul a person in seconds.",
+      "definition": "to attack and tear at someone violently"
+    },
+    {
+      "id": "entertainment:hasty",
+      "term": "Hasty",
+      "gloss": "Поспешный",
+      "example": "Don't make a hasty decision you'll regret.",
+      "definition": "done too quickly, without enough thought"
+    },
+    {
+      "id": "entertainment:prejudice",
+      "term": "Prejudice",
+      "gloss": "Предрассудок",
+      "example": "We must fight against racial prejudice.",
+      "definition": "an unfair opinion formed without enough knowledge"
+    },
+    {
+      "id": "entertainment:misandry",
+      "term": "Misandry",
+      "gloss": "Мужененавистничество",
+      "example": "Her radical views are close to misandry.",
+      "definition": "hatred of or strong prejudice against men"
+    },
+    {
+      "id": "entertainment:bitter",
+      "term": "Bitter",
+      "gloss": "Горький / Озлобленный",
+      "example": "He is still bitter about his divorce.",
+      "definition": "angry and resentful about something in the past"
+    },
+    {
+      "id": "entertainment:chivalry",
+      "term": "Chivalry",
+      "gloss": "Рыцарство / Галантность",
+      "example": "Some people think that chivalry is dead.",
+      "definition": "polite, protective behavior traditionally shown to women"
+    },
+    {
+      "id": "entertainment:has-beef-with",
+      "term": "Has beef with",
+      "gloss": "Имеет конфликт с...",
+      "example": "He has beef with half of the office.",
+      "definition": "has an ongoing quarrel or grudge against someone"
+    },
+    {
+      "id": "entertainment:beyond",
+      "term": "Beyond",
+      "gloss": "За пределами",
+      "example": "This situation is beyond my control.",
+      "definition": "further than; outside the reach of"
+    },
+    {
+      "id": "entertainment:offend",
+      "term": "Offend",
+      "gloss": "Обижать",
+      "example": "I'm sorry, I didn't mean to offend you.",
+      "definition": "to upset someone by being rude or disrespectful"
+    },
+    {
+      "id": "entertainment:in-a-nutshell",
+      "term": "In a nutshell",
+      "gloss": "Вкратце",
+      "example": "In a nutshell, we need more money.",
+      "definition": "in a very short summary"
+    },
+    {
+      "id": "entertainment:no-brainer",
+      "term": "No-brainer",
+      "gloss": "Элементарно",
+      "example": "Taking that job was a total no-brainer.",
+      "definition": "an obvious choice that needs little thought"
+    },
+    {
+      "id": "entertainment:riddle",
+      "term": "Riddle",
+      "gloss": "Загадка",
+      "example": "I spent all night solving this riddle.",
+      "definition": "a puzzling question with a clever answer"
+    },
+    {
+      "id": "entertainment:the-light-went-out",
+      "term": "The light went out",
+      "gloss": "Свет погас",
+      "example": "Suddenly, the light went out in the room.",
+      "definition": "the lamp or electricity stopped working"
+    },
+    {
+      "id": "entertainment:dropped-by",
+      "term": "Dropped by",
+      "gloss": "Заскочил (в гости)",
+      "example": "My neighbor dropped by to say hello.",
+      "definition": "visited someone briefly, without a long stay"
+    },
+    {
+      "id": "entertainment:came-over",
+      "term": "Came over",
+      "gloss": "Пришел (в гости)",
+      "example": "He came over to help me with the chores.",
+      "definition": "visited someone's home"
+    },
+    {
+      "id": "entertainment:tussle",
+      "term": "Tussle",
+      "gloss": "Потасовка",
+      "example": "The kids had a little tussle over the toy.",
+      "definition": "a short, rough fight or struggle"
+    },
+    {
+      "id": "entertainment:bruised",
+      "term": "Bruised",
+      "gloss": "В синяках",
+      "example": "My knee was badly bruised after the fall.",
+      "definition": "marked with a dark patch from an injury"
+    },
+    {
+      "id": "entertainment:spines",
+      "term": "Spines",
+      "gloss": "Позвоночники / Шипы",
+      "example": "Cactus plants are covered in sharp spines.",
+      "definition": "sharp pointed parts on a plant or animal"
+    },
+    {
+      "id": "entertainment:head-out",
+      "term": "Head out",
+      "gloss": "Уходить / Выдвигаться",
+      "example": "We need to head out before the rush hour.",
+      "definition": "leave a place and start going somewhere"
+    },
+    {
+      "id": "entertainment:look-out",
+      "term": "Look out",
+      "gloss": "Осторожно!",
+      "example": "Look out! There's glass on the floor.",
+      "definition": "a warning to watch for danger"
+    },
+    {
+      "id": "entertainment:flopped",
+      "term": "Flopped",
+      "gloss": "Провалился",
+      "example": "His latest movie flopped at the box office.",
+      "definition": "failed completely, especially a film or show"
+    },
+    {
+      "id": "entertainment:turns-out",
+      "term": "Turns out",
+      "gloss": "Оказывается",
+      "example": "It turns out that she was right all along.",
+      "definition": "is discovered to be true, often surprisingly"
+    },
+    {
+      "id": "entertainment:shattered",
+      "term": "Shattered",
+      "gloss": "Разрушенный / Вдребезги",
+      "example": "The glass shattered into a thousand pieces.",
+      "definition": "broken into many pieces, or emotionally destroyed"
+    },
+    {
+      "id": "entertainment:soft-people",
+      "term": "Soft people",
+      "gloss": "Ранимые люди",
+      "example": "He thinks the new generation are soft people.",
+      "definition": "people seen as overly sensitive or not tough"
+    },
+    {
+      "id": "entertainment:faithful",
+      "term": "Faithful",
+      "gloss": "Верный",
+      "example": "He has been a faithful employee for years.",
+      "definition": "loyal and reliable over a long time"
+    },
+    {
+      "id": "entertainment:sorority",
+      "term": "Sorority",
+      "gloss": "Женское сообщество",
+      "example": "She lived in a sorority house at college.",
+      "definition": "a female student club at a US college"
+    },
+    {
+      "id": "entertainment:surround",
+      "term": "Surround",
+      "gloss": "Окружать",
+      "example": "Tall mountains surround the village.",
+      "definition": "to be all around something on every side"
+    },
+    {
+      "id": "entertainment:prey",
+      "term": "Prey",
+      "gloss": "Добыча",
+      "example": "The lion was stalking its prey.",
+      "definition": "an animal hunted and eaten by another animal"
+    },
+    {
+      "id": "entertainment:expose",
+      "term": "Expose",
+      "gloss": "Разоблачать",
+      "example": "The journalist tried to expose the truth.",
+      "definition": "to reveal something hidden, often something wrong"
+    },
+    {
+      "id": "entertainment:oyster",
+      "term": "Oyster",
+      "gloss": "Устрица",
+      "example": "He ate a fresh oyster for the first time.",
+      "definition": "a shellfish often eaten raw"
+    },
+    {
+      "id": "entertainment:work-on",
+      "term": "Work on",
+      "gloss": "Работать над чем-то",
+      "example": "I need to work on my English accent.",
+      "definition": "spend effort improving a skill or task"
+    },
+    {
+      "id": "entertainment:find-out",
+      "term": "Find out",
+      "gloss": "Узнавать / Выяснять",
+      "example": "Call him to find out when he arrives.",
+      "definition": "to discover information you did not know"
+    },
+    {
+      "id": "entertainment:started-raining",
+      "term": "Started raining",
+      "gloss": "Пошел дождь",
+      "example": "It started raining just as we left.",
+      "definition": "rain began to fall"
+    },
+    {
+      "id": "entertainment:shallow",
+      "term": "Shallow",
+      "gloss": "Мелкий / Поверхностный",
+      "example": "The water is quite shallow near the shore.",
+      "definition": "not deep, or lacking serious thought"
+    },
+    {
+      "id": "entertainment:unraveling",
+      "term": "Unraveling",
+      "gloss": "Разгадка / Распутывание",
+      "example": "The mystery is finally unraveling.",
+      "definition": "becoming clear as the mystery is solved"
+    },
+    {
+      "id": "entertainment:facets",
+      "term": "Facets",
+      "gloss": "Грани / Аспекты",
+      "example": "There are many facets to this problem.",
+      "definition": "different sides or aspects of something"
+    },
+    {
+      "id": "entertainment:hit-piece",
+      "term": "Hit piece",
+      "gloss": "Заказная статья",
+      "example": "That article was a total hit piece on him.",
+      "definition": "an article written to attack someone's reputation"
+    },
+    {
+      "id": "entertainment:suspend",
+      "term": "Suspend",
+      "gloss": "Приостанавливать",
+      "example": "They had to suspend the football match.",
+      "definition": "to stop something temporarily"
+    },
+    {
+      "id": "entertainment:made-out",
+      "term": "Made out",
+      "gloss": "Целоваться / Справляться",
+      "example": "They made out in the back of the cinema.",
+      "definition": "kissed passionately, or managed with difficulty"
+    },
+    {
+      "id": "entertainment:desperate",
+      "term": "Desperate",
+      "gloss": "Отчаянный",
+      "example": "He was desperate for some good news.",
+      "definition": "feeling a great need and willing to try anything"
+    },
+    {
+      "id": "entertainment:mess-with",
+      "term": "Mess with",
+      "gloss": "Связываться / Шутить",
+      "example": "Don't mess with him; he's dangerous.",
+      "definition": "interfere with or provoke someone, often unwisely"
+    },
+    {
+      "id": "entertainment:altercation",
+      "term": "Altercation",
+      "gloss": "Перепалка / Ссора",
+      "example": "There was a loud altercation in the bar.",
+      "definition": "a noisy argument or fight"
+    },
+    {
+      "id": "entertainment:sentenced",
+      "term": "Sentenced",
+      "gloss": "Приговоренный",
+      "example": "He was sentenced to 10 years in prison.",
+      "definition": "given a punishment by a court"
+    },
+    {
+      "id": "entertainment:probation",
+      "term": "Probation",
+      "gloss": "Испытательный срок",
+      "example": "He was released on probation for a year.",
+      "definition": "a period of supervised freedom instead of prison"
+    },
+    {
+      "id": "entertainment:whale",
+      "term": "Whale",
+      "gloss": "Кит",
+      "example": "We saw a huge blue whale in the ocean.",
+      "definition": "a very large sea mammal"
+    },
+    {
+      "id": "entertainment:occasion",
+      "term": "Occasion",
+      "gloss": "Случай / Повод",
+      "example": "It was a very special occasion for us.",
+      "definition": "a particular event or special time"
+    },
+    {
+      "id": "entertainment:replicant",
+      "term": "Replicant",
+      "gloss": "Репликант",
+      "example": "He discovered he was a replicant.",
+      "definition": "an artificial human in science fiction"
+    },
+    {
+      "id": "entertainment:slaughter",
+      "term": "Slaughter",
+      "gloss": "Убой / Резня",
+      "example": "The slaughter was stopped by the police.",
+      "definition": "the killing of many people or animals at once"
+    },
+    {
+      "id": "entertainment:ridge",
+      "term": "Ridge",
+      "gloss": "Хребет",
+      "example": "We walked along the mountain ridge.",
+      "definition": "a long, narrow raised line, especially on a mountain"
+    },
+    {
+      "id": "entertainment:promptly",
+      "term": "Promptly",
+      "gloss": "Быстро / Срочно",
+      "example": "She responded promptly to my email.",
+      "definition": "quickly and without delay"
+    },
+    {
+      "id": "entertainment:hangover",
+      "term": "Hangover",
+      "gloss": "Похмелье",
+      "example": "He has a terrible hangover this morning.",
+      "definition": "feeling ill after drinking too much alcohol"
+    },
+    {
+      "id": "entertainment:pull-out",
+      "term": "Pull out",
+      "gloss": "Вытаскивать / Выезжать",
+      "example": "I saw the car pull out of the driveway.",
+      "definition": "to move out from a place, or to withdraw"
+    },
+    {
+      "id": "entertainment:meticulous",
+      "term": "Meticulous",
+      "gloss": "Дотошный / Тщательный",
+      "example": "He is a meticulous cleaner.",
+      "definition": "extremely careful about small details"
+    },
+    {
+      "id": "entertainment:feasible",
+      "term": "Feasible",
+      "gloss": "Осуществимый",
+      "example": "Is it feasible to finish this by Friday?",
+      "definition": "possible and practical to achieve"
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "id": "advanced-general",
+  "title": "Advanced General",
+  "version": 1,
+  "entries": [
+    {
+      "id": "advanced-general:genuinely",
+      "term": "Genuinely",
+      "gloss": "Искренне",
+      "example": "I genuinely care about you.",
+      "definition": "truly and sincerely, not pretending"
+    },
+    {
+      "id": "advanced-general:blacked-out",
+      "term": "Blacked out",
+      "gloss": "Отключился / Потерял память",
+      "example": "He blacked out and woke up at home.",
+      "definition": "lost consciousness or memory for a time"
+    },
+    {
+      "id": "advanced-general:convince",
+      "term": "Convince",
+      "gloss": "Убеждать",
+      "example": "I’ll try to convince him to go.",
+      "definition": "to make someone believe or agree to something"
+    },
+    {
+      "id": "advanced-general:work-your-ass-off",
+      "term": "Work your ass off",
+      "gloss": "Пахать до седьмого пота",
+      "example": "You have to work your ass off to win.",
+      "definition": "work extremely hard"
+    },
+    {
+      "id": "advanced-general:long-odds",
+      "term": "Long odds",
+      "gloss": "Минимальные шансы",
+      "example": "They succeeded against long odds.",
+      "definition": "a very small chance of succeeding"
+    },
+    {
+      "id": "advanced-general:collapse",
+      "term": "Collapse",
+      "gloss": "Рухнуть / Свалиться",
+      "example": "The economy might collapse.",
+      "definition": "to fall down or fail suddenly"
+    },
+    {
+      "id": "advanced-general:receding",
+      "term": "Receding",
+      "gloss": "Отступающий (о волосах)",
+      "example": "He has a receding hairline.",
+      "definition": "moving backward, especially a hairline"
+    },
+    {
+      "id": "advanced-general:fraternity",
+      "term": "Fraternity",
+      "gloss": "Братство / Сообщество",
+      "example": "He joined a college fraternity.",
+      "definition": "a male student club, or a close brotherhood"
+    },
+    {
+      "id": "advanced-general:lineage",
+      "term": "Lineage",
+      "gloss": "Родословная / Линия",
+      "example": "Check your family lineage.",
+      "definition": "your family line of descent"
+    },
+    {
+      "id": "advanced-general:admit",
+      "term": "Admit",
+      "gloss": "Признавать",
+      "example": "Just admit you made a mistake.",
+      "definition": "to accept that something is true, often reluctantly"
+    },
+    {
+      "id": "advanced-general:thoughts-fired",
+      "term": "Thoughts fired",
+      "gloss": "Резкое мнение / «Выстрелил» мыслью",
+      "example": "Thoughts fired! That’s a bold take.",
+      "definition": "a blunt opinion thrown out suddenly"
+    },
+    {
+      "id": "advanced-general:broke-guys",
+      "term": "Broke guys",
+      "gloss": "Бедные парни (без денег)",
+      "example": "He doesn't hang out with broke guys.",
+      "definition": "men who have little or no money"
+    },
+    {
+      "id": "advanced-general:gypsy",
+      "term": "Gypsy",
+      "gloss": "Цыган / Кочевник",
+      "example": "She lives a gypsy lifestyle.",
+      "definition": "a wandering lifestyle; also a term for Roma people"
+    },
+    {
+      "id": "advanced-general:shrunk-shrink",
+      "term": "Shrunk / Shrink",
+      "gloss": "Сжался / Уменьшился",
+      "example": "My sweater shrunk in the wash.",
+      "definition": "became smaller, or to make something smaller"
+    },
+    {
+      "id": "advanced-general:horns",
+      "term": "Horns",
+      "gloss": "Рога",
+      "example": "The bull’s horns are dangerous.",
+      "definition": "hard pointed growths on an animal's head"
+    },
+    {
+      "id": "advanced-general:throw-down-the-well",
+      "term": "Throw down the well",
+      "gloss": "Выбросить зря (в колодец)",
+      "example": "Don't throw your talent down the well.",
+      "definition": "waste something valuable for nothing"
+    },
+    {
+      "id": "advanced-general:insist",
+      "term": "Insist",
+      "gloss": "Настаивать",
+      "example": "I insist on driving you home.",
+      "definition": "to demand something firmly and not give in"
+    },
+    {
+      "id": "advanced-general:awkward",
+      "term": "Awkward",
+      "gloss": "Неловкий",
+      "example": "It was an awkward moment.",
+      "definition": "uncomfortable, embarrassing, or clumsy"
+    },
+    {
+      "id": "advanced-general:disciple",
+      "term": "Disciple",
+      "gloss": "Ученик / Последователь",
+      "example": "He was a devoted disciple.",
+      "definition": "a devoted follower of a teacher or idea"
+    },
+    {
+      "id": "advanced-general:outlook",
+      "term": "Outlook",
+      "gloss": "Взгляд на мир / Перспектива",
+      "example": "Change your outlook on life.",
+      "definition": "your general attitude or view of the future"
+    },
+    {
+      "id": "advanced-general:vanish",
+      "term": "Vanish",
+      "gloss": "Исчезать",
+      "example": "My keys always vanish!",
+      "definition": "to disappear suddenly"
+    },
+    {
+      "id": "advanced-general:despise",
+      "term": "Despise",
+      "gloss": "Презирать",
+      "example": "I despise people who lie.",
+      "definition": "to dislike someone or something very strongly"
+    },
+    {
+      "id": "advanced-general:frequent",
+      "term": "Frequent",
+      "gloss": "Частый",
+      "example": "We are frequent travelers.",
+      "definition": "happening often, or visiting a place often"
+    },
+    {
+      "id": "advanced-general:vital",
+      "term": "Vital",
+      "gloss": "Жизненно важный",
+      "example": "Vitamin C is vital for health.",
+      "definition": "extremely important for success or survival"
+    },
+    {
+      "id": "advanced-general:superior-superb",
+      "term": "Superior / Superb",
+      "gloss": "Превосходный",
+      "example": "The quality is superior.",
+      "definition": "better than others; of excellent quality"
+    },
+    {
+      "id": "advanced-general:exceed",
+      "term": "Exceed",
+      "gloss": "Превышать",
+      "example": "You exceed my expectations.",
+      "definition": "to go beyond a limit or expectation"
+    },
+    {
+      "id": "advanced-general:mutton-bustin",
+      "term": "Mutton bustin'",
+      "gloss": "Родео на овцах (для детей)",
+      "example": "He won the mutton bustin' contest.",
+      "definition": "a children's rodeo event riding a sheep"
+    },
+    {
+      "id": "advanced-general:stewardship",
+      "term": "Stewardship",
+      "gloss": "Управление / Присмотр",
+      "example": "Environmental stewardship is key.",
+      "definition": "responsible care and management of something"
+    },
+    {
+      "id": "advanced-general:frustrated",
+      "term": "Frustrated",
+      "gloss": "Раздраженный / В тупике",
+      "example": "I’m frustrated with this computer.",
+      "definition": "annoyed because you cannot achieve something"
+    },
+    {
+      "id": "advanced-general:door-dash-dot",
+      "term": "Door dash dot",
+      "gloss": "Доставка (сленг)",
+      "example": "Let's order via door dash dot.",
+      "definition": "food delivery ordered through the DoorDash app"
+    },
+    {
+      "id": "advanced-general:ties",
+      "term": "Ties",
+      "gloss": "Связи",
+      "example": "Maintain strong family ties.",
+      "definition": "connections or bonds between people"
+    },
+    {
+      "id": "advanced-general:waging",
+      "term": "Waging",
+      "gloss": "Вести (войну / борьбу)",
+      "example": "They are waging a legal battle.",
+      "definition": "carrying on a war, campaign, or struggle"
+    },
+    {
+      "id": "advanced-general:three-some",
+      "term": "Three some",
+      "gloss": "Тройка / Тройничок",
+      "example": "They formed a three some for the task.",
+      "definition": "a group of three people"
+    },
+    {
+      "id": "advanced-general:anxiety",
+      "term": "Anxiety",
+      "gloss": "Тревога",
+      "example": "I suffer from social anxiety.",
+      "definition": "a feeling of worry or nervous fear"
+    },
+    {
+      "id": "advanced-general:gills",
+      "term": "Gills",
+      "gloss": "Жабры",
+      "example": "Fish use gills to breathe.",
+      "definition": "organs that let fish breathe underwater"
+    },
+    {
+      "id": "advanced-general:outright",
+      "term": "Outright",
+      "gloss": "Сразу / Напрямую",
+      "example": "I rejected the offer outright.",
+      "definition": "completely and without delay or disguise"
+    },
+    {
+      "id": "advanced-general:put-down",
+      "term": "Put down",
+      "gloss": "Усыпить / Унизить",
+      "example": "They had to put down their cat.",
+      "definition": "to have an animal killed, or to insult someone"
+    },
+    {
+      "id": "advanced-general:tough",
+      "term": "Tough",
+      "gloss": "Жесткий / Трудный",
+      "example": "Life can be tough sometimes.",
+      "definition": "difficult, or strong and able to cope"
+    },
+    {
+      "id": "advanced-general:lumber",
+      "term": "Lumber",
+      "gloss": "Древесина",
+      "example": "We need lumber for the deck.",
+      "definition": "wood cut into boards for building"
+    },
+    {
+      "id": "advanced-general:abstain",
+      "term": "Abstain",
+      "gloss": "Воздерживаться",
+      "example": "Abstain from smoking.",
+      "definition": "to choose not to do or take something"
+    },
+    {
+      "id": "advanced-general:furry",
+      "term": "Furry",
+      "gloss": "Пушистый",
+      "example": "He has a furry little dog.",
+      "definition": "covered in a thick coat of hair"
+    },
+    {
+      "id": "advanced-general:squire",
+      "term": "Squire",
+      "gloss": "Оруженосец / Сопровождать",
+      "example": "He acted as her squire.",
+      "definition": "a young attendant to a knight, or an escort"
+    },
+    {
+      "id": "advanced-general:curry-favor",
+      "term": "Curry favor",
+      "gloss": "Втереться / специи на основе куркумы",
+      "example": "He tries to curry favor with them.",
+      "definition": "try to win approval by flattering someone"
+    },
+    {
+      "id": "advanced-general:turn-down-gold",
+      "term": "Turn down gold",
+      "gloss": "Отказаться от ценного",
+      "example": "Why did you turn down gold?",
+      "definition": "refuse something that is clearly valuable"
+    },
+    {
+      "id": "advanced-general:beaver",
+      "term": "Beaver",
+      "gloss": "Бобер / Трудяга",
+      "example": "He’s an eager beaver at work.",
+      "definition": "an eager, hard-working person; also the animal"
+    },
+    {
+      "id": "advanced-general:peak",
+      "term": "Peak",
+      "gloss": "Пик",
+      "example": "He is at the peak of his career.",
+      "definition": "the highest point of something"
+    },
+    {
+      "id": "advanced-general:eager",
+      "term": "Eager",
+      "gloss": "жаждущий",
+      "example": "I am eager to see you.",
+      "definition": "very keen and wanting to do something soon"
+    },
+    {
+      "id": "advanced-general:hesitant-reluctant",
+      "term": "Hesitant / Reluctant",
+      "gloss": "Нерешительный",
+      "example": "She was reluctant to help.",
+      "definition": "unwilling or slow to do something"
+    },
+    {
+      "id": "advanced-general:bizarre",
+      "term": "Bizarre",
+      "gloss": "Причудливый",
+      "example": "That is a bizarre story.",
+      "definition": "very strange and unusual"
+    },
+    {
+      "id": "advanced-general:pointless",
+      "term": "Pointless",
+      "gloss": "Бессмысленный",
+      "example": "It is pointless to argue now.",
+      "definition": "having no useful purpose"
+    },
+    {
+      "id": "advanced-general:futile",
+      "term": "Futile",
+      "gloss": "Тщетный / бесполезный",
+      "example": "Any resistance is futile.",
+      "definition": "incapable of producing any useful result"
+    },
+    {
+      "id": "advanced-general:narrow",
+      "term": "Narrow",
+      "gloss": "Узкий",
+      "example": "The street is too narrow.",
+      "definition": "small in width, or limited in range"
+    },
+    {
+      "id": "advanced-general:vast",
+      "term": "Vast",
+      "gloss": "Огромный / Обширный",
+      "example": "Russia is a vast country.",
+      "definition": "extremely large in area or amount"
+    },
+    {
+      "id": "advanced-general:greasier",
+      "term": "Greasier",
+      "gloss": "Жирный (еда)",
+      "example": "The food is greasier here.",
+      "definition": "containing more fat or oil"
+    },
+    {
+      "id": "advanced-general:reflect",
+      "term": "Reflect",
+      "gloss": "Отражать",
+      "example": "Mirrors reflect light.",
+      "definition": "to send back light, or to think carefully"
+    },
+    {
+      "id": "advanced-general:bounce",
+      "term": "Bounce",
+      "gloss": "Подпрыгивать",
+      "example": "The ball will bounce high.",
+      "definition": "to spring back after hitting a surface"
+    },
+    {
+      "id": "advanced-general:rays-back",
+      "term": "Rays back",
+      "gloss": "Отражает лучи (обратно)",
+      "example": "The surface rays back the heat.",
+      "definition": "sends light or heat back from a surface"
+    },
+    {
+      "id": "advanced-general:absorb",
+      "term": "Absorb",
+      "gloss": "Поглощать",
+      "example": "Dark colors absorb heat.",
+      "definition": "to take in liquid, heat, or information"
+    },
+    {
+      "id": "advanced-general:solar-reflective",
+      "term": "Solar reflective",
+      "gloss": "Солнцеотражающий",
+      "example": "Use solar reflective paint.",
+      "definition": "designed to bounce sunlight away"
+    },
+    {
+      "id": "advanced-general:coat",
+      "term": "Coat",
+      "gloss": "Слой / Покрытие",
+      "example": "Apply another coat of wax.",
+      "definition": "a covering layer of paint, wax, or similar"
+    },
+    {
+      "id": "advanced-general:wage",
+      "term": "Wage",
+      "gloss": "Ставка зарплаты",
+      "example": "What is your hourly wage?",
+      "definition": "pay received for work, often by the hour"
+    },
+    {
+      "id": "advanced-general:wage-war",
+      "term": "Wage war",
+      "gloss": "Вести войну",
+      "example": "To wage war against poverty.",
+      "definition": "to carry on a war or campaign against something"
+    },
+    {
+      "id": "advanced-general:jar",
+      "term": "Jar",
+      "gloss": "Банка",
+      "example": "A jar of pickles.",
+      "definition": "a glass container with a lid"
+    },
+    {
+      "id": "advanced-general:mourn",
+      "term": "Mourn",
+      "gloss": "Оплакивать",
+      "example": "We mourn our heroes.",
+      "definition": "to feel and show sadness after a death"
+    },
+    {
+      "id": "advanced-general:foreplay",
+      "term": "Foreplay",
+      "gloss": "Прелюдия",
+      "example": "Don't skip the foreplay.",
+      "definition": "sexual activity that comes before intercourse"
+    },
+    {
+      "id": "advanced-general:effortless",
+      "term": "Effortless",
+      "gloss": "Без усилий",
+      "example": "She makes it look effortless.",
+      "definition": "done with little apparent difficulty"
+    },
+    {
+      "id": "advanced-general:challenging",
+      "term": "Challenging",
+      "gloss": "Сложный",
+      "example": "This puzzle is challenging.",
+      "definition": "difficult in a way that tests your ability"
+    },
+    {
+      "id": "advanced-general:affluent",
+      "term": "Affluent",
+      "gloss": "Богатый",
+      "example": "He comes from an affluent family.",
+      "definition": "having a lot of money and a comfortable life"
+    },
+    {
+      "id": "advanced-general:underprivileged",
+      "term": "Underprivileged",
+      "gloss": "Бедный",
+      "example": "Helping underprivileged kids.",
+      "definition": "lacking the money or opportunities most people have"
+    },
+    {
+      "id": "advanced-general:scorching",
+      "term": "Scorching",
+      "gloss": "Обжигающий (жара)",
+      "example": "The scorching sun of Dubai.",
+      "definition": "extremely hot, almost burning"
+    },
+    {
+      "id": "advanced-general:freezing",
+      "term": "Freezing",
+      "gloss": "Ледяной",
+      "example": "I’m freezing out here!",
+      "definition": "extremely cold, almost icy"
+    },
+    {
+      "id": "advanced-general:spotless",
+      "term": "Spotless",
+      "gloss": "Идеально чистый",
+      "example": "Her room is always spotless.",
+      "definition": "completely clean, with no marks"
+    },
+    {
+      "id": "advanced-general:ancient",
+      "term": "Ancient",
+      "gloss": "Древний",
+      "example": "Look at these ancient ruins.",
+      "definition": "very old, from a distant past"
+    },
+    {
+      "id": "advanced-general:brand-new",
+      "term": "Brand-new",
+      "gloss": "Совершенно новый",
+      "example": "I got a brand-new phone.",
+      "definition": "completely new and unused"
+    },
+    {
+      "id": "advanced-general:adore",
+      "term": "Adore",
+      "gloss": "Обожать",
+      "example": "I adore your style.",
+      "definition": "to love and admire someone or something greatly"
+    },
+    {
+      "id": "advanced-general:commence",
+      "term": "Commence",
+      "gloss": "Начинать",
+      "example": "Let the games commence.",
+      "definition": "to begin or start something"
+    },
+    {
+      "id": "advanced-general:conclude",
+      "term": "Conclude",
+      "gloss": "Заканчивать",
+      "example": "How did the story conclude?",
+      "definition": "to bring something to an end, or to decide"
+    },
+    {
+      "id": "advanced-general:facilitate",
+      "term": "Facilitate",
+      "gloss": "Облегчать",
+      "example": "To facilitate a discussion.",
+      "definition": "to make a process easier"
+    },
+    {
+      "id": "advanced-general:exhausted",
+      "term": "Exhausted",
+      "gloss": "Вымотанный",
+      "example": "I am too exhausted to talk.",
+      "definition": "extremely tired after hard effort"
+    },
+    {
+      "id": "advanced-general:indolent",
+      "term": "Indolent",
+      "gloss": "Ленивый",
+      "example": "He is an indolent young man.",
+      "definition": "lazy and avoiding activity"
+    },
+    {
+      "id": "advanced-general:crucial",
+      "term": "Crucial",
+      "gloss": "Решающий",
+      "example": "Timing is crucial.",
+      "definition": "extremely important for the result"
+    },
+    {
+      "id": "advanced-general:demonstrate",
+      "term": "Demonstrate",
+      "gloss": "Демонстрировать",
+      "example": "Demonstrate your talent.",
+      "definition": "to show clearly by example or action"
+    },
+    {
+      "id": "advanced-general:contemplate",
+      "term": "Contemplate",
+      "gloss": "Обдумывать",
+      "example": "Contemplate your options.",
+      "definition": "to think about something carefully for a while"
+    },
+    {
+      "id": "advanced-general:proceed",
+      "term": "Proceed",
+      "gloss": "Продолжать",
+      "example": "Please proceed with caution.",
+      "definition": "to continue or go forward"
+    },
+    {
+      "id": "advanced-general:inquire",
+      "term": "Inquire",
+      "gloss": "Спрашивать",
+      "example": "I called to inquire about prices.",
+      "definition": "to ask for information"
+    },
+    {
+      "id": "advanced-general:perceive",
+      "term": "Perceive",
+      "gloss": "Воспринимать",
+      "example": "How do you perceive him?",
+      "definition": "to notice or understand something in a certain way"
+    },
+    {
+      "id": "advanced-general:amicable",
+      "term": "Amicable",
+      "gloss": "Дружелюбный",
+      "example": "An amicable solution.",
+      "definition": "friendly and without hostility"
+    },
+    {
+      "id": "advanced-general:alluring",
+      "term": "Alluring",
+      "gloss": "Заманчивый",
+      "example": "An alluring smile.",
+      "definition": "attractive and tempting"
+    },
+    {
+      "id": "advanced-general:ecstatic",
+      "term": "Ecstatic",
+      "gloss": "В экстазе / Восторге",
+      "example": "She was ecstatic to win.",
+      "definition": "extremely happy and excited"
+    },
+    {
+      "id": "advanced-general:benevolent",
+      "term": "Benevolent",
+      "gloss": "Доброжелательный",
+      "example": "A benevolent leader.",
+      "definition": "kind and wanting to help others"
+    },
+    {
+      "id": "advanced-general:alleviate",
+      "term": "Alleviate",
+      "gloss": "Облегчать",
+      "example": "To alleviate symptoms.",
+      "definition": "to make pain or a problem less severe"
+    },
+    {
+      "id": "advanced-general:ambiguous",
+      "term": "Ambiguous",
+      "gloss": "Двусмысленный",
+      "example": "His text was ambiguous.",
+      "definition": "having more than one possible meaning"
+    },
+    {
+      "id": "advanced-general:articulate",
+      "term": "Articulate",
+      "gloss": "Ясно излагающий",
+      "example": "He is very articulate.",
+      "definition": "able to express ideas clearly in words"
+    },
+    {
+      "id": "advanced-general:augment",
+      "term": "Augment",
+      "gloss": "Увеличивать",
+      "example": "To augment reality.",
+      "definition": "to increase or add to something"
+    },
+    {
+      "id": "advanced-general:coherent",
+      "term": "Coherent",
+      "gloss": "Связный",
+      "example": "Give a coherent explanation.",
+      "definition": "logical, clear, and easy to follow"
+    },
+    {
+      "id": "advanced-general:compelling",
+      "term": "Compelling",
+      "gloss": "Неотразимый / Веский",
+      "example": "A compelling argument.",
+      "definition": "so strong or interesting that it persuades you"
+    },
+    {
+      "id": "advanced-general:conspicuous",
+      "term": "Conspicuous",
+      "gloss": "Бросающийся в глаза",
+      "example": "Conspicuous consumption.",
+      "definition": "easy to notice; standing out"
+    },
+    {
+      "id": "advanced-general:conventions",
+      "term": "Conventions",
+      "gloss": "Традиции / Правила",
+      "example": "Social conventions.",
+      "definition": "accepted social rules or usual ways of doing things"
+    },
+    {
+      "id": "advanced-general:credible",
+      "term": "Credible",
+      "gloss": "Надежный",
+      "example": "A credible witness.",
+      "definition": "able to be believed or trusted"
+    },
+    {
+      "id": "advanced-general:deliberate",
+      "term": "Deliberate",
+      "gloss": "Намеренный",
+      "example": "A deliberate act.",
+      "definition": "done on purpose, not by accident"
+    },
+    {
+      "id": "advanced-general:deteriorate",
+      "term": "Deteriorate",
+      "gloss": "Ухудшаться",
+      "example": "Relations deteriorate.",
+      "definition": "to become worse over time"
+    },
+    {
+      "id": "advanced-general:elusive",
+      "term": "Elusive",
+      "gloss": "Ускользающий",
+      "example": "An elusive thief.",
+      "definition": "difficult to find, catch, or define"
+    },
+    {
+      "id": "advanced-general:empirical",
+      "term": "Empirical",
+      "gloss": "Опытный / На фактах",
+      "example": "Empirical research.",
+      "definition": "based on observation and evidence, not theory alone"
+    },
+    {
+      "id": "advanced-general:exacerbate",
+      "term": "Exacerbate",
+      "gloss": "Усугублять",
+      "example": "Don't exacerbate the conflict.",
+      "definition": "to make a bad situation even worse"
+    },
+    {
+      "id": "advanced-general:feasible",
+      "term": "Feasible",
+      "gloss": "Реальный / Выполнимый",
+      "example": "Is this plan feasible?",
+      "definition": "possible and practical to do"
+    },
+    {
+      "id": "advanced-general:formidable",
+      "term": "Formidable",
+      "gloss": "Грозный",
+      "example": "A formidable challenge.",
+      "definition": "impressive and difficult to deal with or defeat"
+    },
+    {
+      "id": "advanced-general:inevitable",
+      "term": "Inevitable",
+      "gloss": "Неизбежный",
+      "example": "It was inevitable.",
+      "definition": "certain to happen and impossible to avoid"
+    },
+    {
+      "id": "advanced-general:intricate",
+      "term": "Intricate",
+      "gloss": "Запутанный / Сложный",
+      "example": "An intricate design.",
+      "definition": "having many small, complex details"
+    }
+  ]
+}

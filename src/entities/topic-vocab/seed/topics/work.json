@@ -1,0 +1,525 @@
+{
+  "id": "work",
+  "title": "Work & Career",
+  "version": 1,
+  "entries": [
+    {
+      "id": "work:occupation",
+      "term": "Occupation",
+      "gloss": "Род занятий",
+      "example": "State your occupation on the form.",
+      "definition": "A person's job or type of work"
+    },
+    {
+      "id": "work:profession",
+      "term": "Profession",
+      "gloss": "Профессия",
+      "example": "Nursing is a noble profession.",
+      "definition": "Skilled job that requires training or qualifications"
+    },
+    {
+      "id": "work:career-path",
+      "term": "Career path",
+      "gloss": "Карьерный путь",
+      "example": "He chose a difficult career path.",
+      "definition": "Series of jobs that make up someone's working life"
+    },
+    {
+      "id": "work:livelihood",
+      "term": "Livelihood",
+      "gloss": "Средства к жизни",
+      "example": "Fishing is their main livelihood.",
+      "definition": "Work or resources that provide money to live"
+    },
+    {
+      "id": "work:job-security",
+      "term": "Job security",
+      "gloss": "Стабильность работы",
+      "example": "Public sector offers better job security.",
+      "definition": "Likelihood that you will keep your job"
+    },
+    {
+      "id": "work:unemployment",
+      "term": "Unemployment",
+      "gloss": "Безработица",
+      "example": "Unemployment reached a record high.",
+      "definition": "State of not having a paid job"
+    },
+    {
+      "id": "work:redundancy",
+      "term": "Redundancy",
+      "gloss": "Сокращение (штата)",
+      "example": "He received a redundancy payment.",
+      "definition": "Loss of a job because the position is no longer needed"
+    },
+    {
+      "id": "work:to-dismiss-fire",
+      "term": "To dismiss / Fire",
+      "gloss": "Уволить",
+      "example": "The boss had to dismiss him.",
+      "definition": "To officially end someone's employment"
+    },
+    {
+      "id": "work:to-resign-quit",
+      "term": "To resign / Quit",
+      "gloss": "Уволиться (самому)",
+      "example": "She decided to resign last week.",
+      "definition": "To leave a job of your own choice"
+    },
+    {
+      "id": "work:recruitment",
+      "term": "Recruitment",
+      "gloss": "Подбор персонала",
+      "example": "Our recruitment process is strict.",
+      "definition": "Process of finding and hiring new employees"
+    },
+    {
+      "id": "work:headhunter",
+      "term": "Headhunter",
+      "gloss": "Хедхантер",
+      "example": "A headhunter called me yesterday.",
+      "definition": "Recruiter who approaches people already in jobs"
+    },
+    {
+      "id": "work:vacancy",
+      "term": "Vacancy",
+      "gloss": "Вакансия",
+      "example": "Is there any vacancy in your firm?",
+      "definition": "Job that is available and needs to be filled"
+    },
+    {
+      "id": "work:candidate-applicant",
+      "term": "Candidate / Applicant",
+      "gloss": "Кандидат",
+      "example": "The applicant was very nervous.",
+      "definition": "Person applying for a job"
+    },
+    {
+      "id": "work:curriculum-vitae",
+      "term": "Curriculum Vitae (CV)",
+      "gloss": "Резюме",
+      "example": "Attach your CV to the email.",
+      "definition": "Document summarizing your education and work history"
+    },
+    {
+      "id": "work:cover-letter",
+      "term": "Cover letter",
+      "gloss": "Сопроводит. письмо",
+      "example": "Write a strong cover letter.",
+      "definition": "Letter sent with a CV explaining why you want the job"
+    },
+    {
+      "id": "work:probationary-period",
+      "term": "Probationary period",
+      "gloss": "Испытательный срок",
+      "example": "I am still on my probationary period.",
+      "definition": "Trial time at the start of a new job"
+    },
+    {
+      "id": "work:remuneration",
+      "term": "Remuneration",
+      "gloss": "Вознаграждение",
+      "example": "The remuneration package is great.",
+      "definition": "Pay and other rewards given for work"
+    },
+    {
+      "id": "work:salary",
+      "term": "Salary",
+      "gloss": "Зарплата (мес/год)",
+      "example": "My salary is paid monthly.",
+      "definition": "Fixed regular payment, usually monthly or yearly"
+    },
+    {
+      "id": "work:wages",
+      "term": "Wages",
+      "gloss": "Зарплата (почас/нед)",
+      "example": "He earns weekly wages at the site.",
+      "definition": "Pay based on hours or days worked"
+    },
+    {
+      "id": "work:perks-benefits",
+      "term": "Perks / Benefits",
+      "gloss": "Льготы / Бонусы",
+      "example": "Free gym is one of the perks.",
+      "definition": "Extra advantages besides pay, such as a gym or car"
+    },
+    {
+      "id": "work:incentive",
+      "term": "Incentive",
+      "gloss": "Стимул",
+      "example": "Bonuses are a good incentive.",
+      "definition": "Reward that encourages people to work harder"
+    },
+    {
+      "id": "work:promotion",
+      "term": "Promotion",
+      "gloss": "Повышение",
+      "example": "He is hoping for a promotion.",
+      "definition": "Move to a higher, better-paid job"
+    },
+    {
+      "id": "work:prospects",
+      "term": "Prospects",
+      "gloss": "Перспективы",
+      "example": "This job has excellent prospects.",
+      "definition": "Chances of future success or promotion"
+    },
+    {
+      "id": "work:to-climb-the-ladder",
+      "term": "To climb the ladder",
+      "gloss": "Карьерный рост",
+      "example": "She wants to climb the ladder.",
+      "definition": "To advance to higher positions at work"
+    },
+    {
+      "id": "work:overtime",
+      "term": "Overtime",
+      "gloss": "Сверхурочные",
+      "example": "I had to work overtime on Friday.",
+      "definition": "Extra hours worked beyond the usual schedule"
+    },
+    {
+      "id": "work:workload",
+      "term": "Workload",
+      "gloss": "Рабочая нагрузка",
+      "example": "My workload has doubled lately.",
+      "definition": "Amount of work a person has to do"
+    },
+    {
+      "id": "work:deadline",
+      "term": "Deadline",
+      "gloss": "Дедлайн",
+      "example": "We must meet the deadline.",
+      "definition": "Time by which a task must be finished"
+    },
+    {
+      "id": "work:work-life-balance",
+      "term": "Work-life balance",
+      "gloss": "Баланс работа-жизнь",
+      "example": "Tech ruins our work-life balance.",
+      "definition": "Fair split between job demands and personal life"
+    },
+    {
+      "id": "work:burnout",
+      "term": "Burnout",
+      "gloss": "Выгорание",
+      "example": "Constant stress leads to burnout.",
+      "definition": "Exhaustion caused by long-term work stress"
+    },
+    {
+      "id": "work:flexitime",
+      "term": "Flexitime",
+      "gloss": "Гибкий график",
+      "example": "Flexitime is great for parents.",
+      "definition": "System that lets staff choose their working hours"
+    },
+    {
+      "id": "work:telecommuting",
+      "term": "Telecommuting",
+      "gloss": "Удаленная работа",
+      "example": "Telecommuting saves travel time.",
+      "definition": "Working from home using a computer and phone"
+    },
+    {
+      "id": "work:remote-work",
+      "term": "Remote work",
+      "gloss": "Дистанц. работа",
+      "example": "Remote work is now standard.",
+      "definition": "Doing your job away from the company office"
+    },
+    {
+      "id": "work:commute",
+      "term": "Commute",
+      "gloss": "Путь на работу",
+      "example": "I have a long daily commute.",
+      "definition": "Regular journey between home and work"
+    },
+    {
+      "id": "work:shift-work",
+      "term": "Shift work",
+      "gloss": "Сменная работа",
+      "example": "Nurses are used to shift work.",
+      "definition": "Working in rotating periods, including nights"
+    },
+    {
+      "id": "work:part-time",
+      "term": "Part-time",
+      "gloss": "Частичная занятость",
+      "example": "I work part-time as a tutor.",
+      "definition": "Working fewer hours than a full working week"
+    },
+    {
+      "id": "work:full-time",
+      "term": "Full-time",
+      "gloss": "Полная занятость",
+      "example": "It is a full-time position.",
+      "definition": "Working the complete standard number of hours"
+    },
+    {
+      "id": "work:freelance",
+      "term": "Freelance",
+      "gloss": "Фриланс",
+      "example": "She does freelance design work.",
+      "definition": "Working independently for different clients"
+    },
+    {
+      "id": "work:self-employed",
+      "term": "Self-employed",
+      "gloss": "Самозанятый",
+      "example": "Being self-employed is risky.",
+      "definition": "Working for yourself rather than an employer"
+    },
+    {
+      "id": "work:entrepreneur",
+      "term": "Entrepreneur",
+      "gloss": "Предприниматель",
+      "example": "Every entrepreneur takes risks.",
+      "definition": "Person who starts and runs a business"
+    },
+    {
+      "id": "work:start-up",
+      "term": "Start-up",
+      "gloss": "Стартап",
+      "example": "He launched a tech start-up.",
+      "definition": "Newly created company, often in technology"
+    },
+    {
+      "id": "work:blue-collar",
+      "term": "Blue-collar",
+      "gloss": "Рабочий (физ. труд)",
+      "example": "Blue-collar jobs are essential.",
+      "definition": "Relating to manual or industrial work"
+    },
+    {
+      "id": "work:white-collar",
+      "term": "White-collar",
+      "gloss": "Офисный работник",
+      "example": "White-collar workers often sit.",
+      "definition": "Relating to office or professional work"
+    },
+    {
+      "id": "work:manual-labor",
+      "term": "Manual labor",
+      "gloss": "Ручной труд",
+      "example": "I am not used to manual labor.",
+      "definition": "Physical work done with the hands"
+    },
+    {
+      "id": "work:skilled-labor",
+      "term": "Skilled labor",
+      "gloss": "Квалифиц. труд",
+      "example": "The industry needs skilled labor.",
+      "definition": "Work that requires special training or qualifications"
+    },
+    {
+      "id": "work:apprenticeship",
+      "term": "Apprenticeship",
+      "gloss": "Ученичество",
+      "example": "He started an apprenticeship.",
+      "definition": "Period of training while working for a skilled person"
+    },
+    {
+      "id": "work:internship",
+      "term": "Internship",
+      "gloss": "Стажировка",
+      "example": "I did a summer internship.",
+      "definition": "Short period of work experience, often for students"
+    },
+    {
+      "id": "work:experience",
+      "term": "Experience",
+      "gloss": "Опыт",
+      "example": "You need five years of experience.",
+      "definition": "Knowledge and skill gained from doing a job"
+    },
+    {
+      "id": "work:expertise",
+      "term": "Expertise",
+      "gloss": "Компетентность",
+      "example": "He has technical expertise.",
+      "definition": "High-level skill or knowledge in a particular field"
+    },
+    {
+      "id": "work:competence",
+      "term": "Competence",
+      "gloss": "Компетенция",
+      "example": "Prove your professional competence.",
+      "definition": "Ability to do a job well"
+    },
+    {
+      "id": "work:efficiency",
+      "term": "Efficiency",
+      "gloss": "Эффективность",
+      "example": "Aim for maximum efficiency.",
+      "definition": "Doing work well without wasting time or resources"
+    },
+    {
+      "id": "work:productivity",
+      "term": "Productivity",
+      "gloss": "Производительность",
+      "example": "Tech boosts workplace productivity.",
+      "definition": "Amount of work produced in a given time"
+    },
+    {
+      "id": "work:collaborative",
+      "term": "Collaborative",
+      "gloss": "Командный",
+      "example": "We work in a collaborative way.",
+      "definition": "Involving people working together"
+    },
+    {
+      "id": "work:teamwork",
+      "term": "Teamwork",
+      "gloss": "Командная работа",
+      "example": "Teamwork is key to success.",
+      "definition": "Cooperative effort of a group"
+    },
+    {
+      "id": "work:leadership",
+      "term": "Leadership",
+      "gloss": "Лидерство",
+      "example": "He showed great leadership.",
+      "definition": "Ability to guide and motivate other people"
+    },
+    {
+      "id": "work:management",
+      "term": "Management",
+      "gloss": "Менеджмент",
+      "example": "The management rejected the plan.",
+      "definition": "People who run a company; the act of running it"
+    },
+    {
+      "id": "work:subordinate",
+      "term": "Subordinate",
+      "gloss": "Подчиненный",
+      "example": "Be fair to your subordinates.",
+      "definition": "Employee who reports to someone more senior"
+    },
+    {
+      "id": "work:colleague-peer",
+      "term": "Colleague / Peer",
+      "gloss": "Коллега",
+      "example": "My colleagues are very helpful.",
+      "definition": "Person you work with at the same level"
+    },
+    {
+      "id": "work:trade-union",
+      "term": "Trade union",
+      "gloss": "Профсоюз",
+      "example": "Join the trade union for rights.",
+      "definition": "Organization that protects workers' rights"
+    },
+    {
+      "id": "work:strike",
+      "term": "Strike",
+      "gloss": "Забастовка",
+      "example": "Workers went on strike for pay.",
+      "definition": "Organized stoppage of work as a protest"
+    },
+    {
+      "id": "work:to-commute",
+      "term": "To commute",
+      "gloss": "Ездить на работу",
+      "example": "Many people commute by train.",
+      "definition": "To travel regularly between home and work"
+    },
+    {
+      "id": "work:labor-market",
+      "term": "Labor market",
+      "gloss": "Рынок труда",
+      "example": "The labor market is competitive.",
+      "definition": "Supply of workers and demand for jobs"
+    },
+    {
+      "id": "work:pension",
+      "term": "Pension",
+      "gloss": "Пенсия",
+      "example": "He lives on a small pension.",
+      "definition": "Regular payment received after retirement"
+    },
+    {
+      "id": "work:retirement",
+      "term": "Retirement",
+      "gloss": "Выход на пенсию",
+      "example": "I am looking forward to retirement.",
+      "definition": "Period of life after you stop working"
+    },
+    {
+      "id": "work:glass-ceiling",
+      "term": "Glass ceiling",
+      "gloss": "Стеклянный потолок",
+      "example": "Break the glass ceiling in tech.",
+      "definition": "Unofficial barrier to promotion, especially for women"
+    },
+    {
+      "id": "work:discrimination",
+      "term": "Discrimination",
+      "gloss": "Дискриминация",
+      "example": "Fight workplace discrimination.",
+      "definition": "Unfair treatment based on sex, race, age, or similar"
+    },
+    {
+      "id": "work:harassment",
+      "term": "Harassment",
+      "gloss": "Домогательство",
+      "example": "Zero tolerance for harassment.",
+      "definition": "Unwanted behavior that intimidates or offends someone"
+    },
+    {
+      "id": "work:sick-leave",
+      "term": "Sick leave",
+      "gloss": "Больничный",
+      "example": "She is on sick leave this week.",
+      "definition": "Time off work because of illness"
+    },
+    {
+      "id": "work:maternity-leave",
+      "term": "Maternity leave",
+      "gloss": "Декрет (мама)",
+      "example": "She is taking maternity leave.",
+      "definition": "Time off work for a mother after having a baby"
+    },
+    {
+      "id": "work:paternity-leave",
+      "term": "Paternity leave",
+      "gloss": "Декрет (папа)",
+      "example": "Dads can take paternity leave.",
+      "definition": "Time off work for a father after a child is born"
+    },
+    {
+      "id": "work:staff-turnover",
+      "term": "Staff turnover",
+      "gloss": "Текучка кадров",
+      "example": "High staff turnover is costly.",
+      "definition": "Rate at which employees leave and are replaced"
+    },
+    {
+      "id": "work:workplace",
+      "term": "Workplace",
+      "gloss": "Рабочее место",
+      "example": "Safety in the workplace is vital.",
+      "definition": "Place where people do their jobs"
+    },
+    {
+      "id": "work:corporate-culture",
+      "term": "Corporate culture",
+      "gloss": "Корпоратив. культура",
+      "example": "I love our corporate culture.",
+      "definition": "Shared values and habits inside a company"
+    },
+    {
+      "id": "work:in-house",
+      "term": "In-house",
+      "gloss": "Внутренний (в комп.)",
+      "example": "We provide in-house training.",
+      "definition": "Done by the company's own staff, not outsiders"
+    },
+    {
+      "id": "work:outsourcing",
+      "term": "Outsourcing",
+      "gloss": "Аутсорсинг",
+      "example": "Outsourcing reduces overheads.",
+      "definition": "Paying another company to do work instead of staff"
+    }
+  ]
+}

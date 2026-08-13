@@ -1,0 +1,483 @@
+{
+  "id": "slang-idioms",
+  "title": "Slang & Idioms",
+  "version": 1,
+  "entries": [
+    {
+      "id": "slang-idioms:down-for-sth",
+      "term": "(To be) down for sth",
+      "gloss": "Быть «за» / Быть готовым",
+      "example": "I’m down for a road trip.",
+      "definition": "willing and ready to do something"
+    },
+    {
+      "id": "slang-idioms:asap",
+      "term": "ASAP",
+      "gloss": "Как можно скорее",
+      "example": "Send the report ASAP.",
+      "definition": "as soon as possible"
+    },
+    {
+      "id": "slang-idioms:back-to-square-one",
+      "term": "Back to square one",
+      "gloss": "Вернуться в самое начало",
+      "example": "The deal failed. Back to square one.",
+      "definition": "having to start over after a failure"
+    },
+    {
+      "id": "slang-idioms:back-to-the-drawing-board",
+      "term": "Back to the drawing board",
+      "gloss": "Вернуться к планированию",
+      "example": "It didn't work. Back to the drawing board.",
+      "definition": "returning to planning after a plan fails"
+    },
+    {
+      "id": "slang-idioms:beat-around-the-bush",
+      "term": "Beat around the bush",
+      "gloss": "Ходить вокруг да около",
+      "example": "Stop beating around the bush.",
+      "definition": "avoid saying the main point directly"
+    },
+    {
+      "id": "slang-idioms:bent-out-of-shape",
+      "term": "Bent out of shape",
+      "gloss": "Сильно расстроиться",
+      "example": "Don't get bent out of shape!",
+      "definition": "unusually angry or upset about something"
+    },
+    {
+      "id": "slang-idioms:bite-the-bullet",
+      "term": "Bite the bullet",
+      "gloss": "Сцепить зубы (терпеть)",
+      "example": "I had to bite the bullet and pay.",
+      "definition": "accept something difficult and get it done"
+    },
+    {
+      "id": "slang-idioms:blown-away",
+      "term": "Blown away",
+      "gloss": "Быть пораженным",
+      "example": "I was blown away by his voice.",
+      "definition": "extremely impressed or amazed"
+    },
+    {
+      "id": "slang-idioms:bummer",
+      "term": "Bummer",
+      "gloss": "Облом / Неудача",
+      "example": "That's such a bummer.",
+      "definition": "something disappointing or unfortunate"
+    },
+    {
+      "id": "slang-idioms:call-it-a-day",
+      "term": "Call it a day",
+      "gloss": "Закончить на сегодня",
+      "example": "Let's call it a day and go home.",
+      "definition": "stop working and finish for today"
+    },
+    {
+      "id": "slang-idioms:can-t-stand-sth",
+      "term": "Can't stand sth",
+      "gloss": "Терпеть не могу",
+      "example": "I can't stand loud chewing.",
+      "definition": "dislike something very strongly"
+    },
+    {
+      "id": "slang-idioms:catch-up",
+      "term": "Catch up (with sb)",
+      "gloss": "Наверстать / Пересечься",
+      "example": "Let’s catch up over lunch.",
+      "definition": "meet someone and share recent news"
+    },
+    {
+      "id": "slang-idioms:chill",
+      "term": "Chill",
+      "gloss": "Расслабиться / Спокойный",
+      "example": "Just chill and watch a movie.",
+      "definition": "relax and stay calm"
+    },
+    {
+      "id": "slang-idioms:cost-an-arm-and-a-leg",
+      "term": "Cost an arm and a leg",
+      "gloss": "Очень дорого стоить",
+      "example": "This watch cost an arm and a leg.",
+      "definition": "be extremely expensive"
+    },
+    {
+      "id": "slang-idioms:couch-potato",
+      "term": "Couch potato",
+      "gloss": "Лежебока",
+      "example": "Don't be such a couch potato.",
+      "definition": "a lazy person who sits around watching TV"
+    },
+    {
+      "id": "slang-idioms:cut-corners",
+      "term": "Cut corners",
+      "gloss": "Халтурить / Экономить",
+      "example": "Never cut corners on safety.",
+      "definition": "do something cheaply by skipping important steps"
+    },
+    {
+      "id": "slang-idioms:cut-to-the-chase",
+      "term": "Cut to the chase",
+      "gloss": "Перейти к сути",
+      "example": "Cut to the chase – what’s the price?",
+      "definition": "skip the details and get to the point"
+    },
+    {
+      "id": "slang-idioms:drive-sb-up-the-wall",
+      "term": "Drive sb up the wall",
+      "gloss": "Бесить / Раздражать",
+      "example": "That noise is driving me up the wall.",
+      "definition": "annoy someone a great deal"
+    },
+    {
+      "id": "slang-idioms:face-the-music",
+      "term": "Face the music",
+      "gloss": "Отвечать за поступки",
+      "example": "It’s time to face the music.",
+      "definition": "accept the unpleasant results of your actions"
+    },
+    {
+      "id": "slang-idioms:get-down-to-business",
+      "term": "Get down to business",
+      "gloss": "Перейти к делу",
+      "example": "Enough talk, let's get down to business.",
+      "definition": "start dealing with the real work"
+    },
+    {
+      "id": "slang-idioms:get-over-it",
+      "term": "Get over it",
+      "gloss": "Пережить / Забыть",
+      "example": "It's over. You need to get over it.",
+      "definition": "stop being upset about something that happened"
+    },
+    {
+      "id": "slang-idioms:get-the-ball-rolling",
+      "term": "Get the ball rolling",
+      "gloss": "Запустить процесс",
+      "example": "Let’s get the ball rolling now.",
+      "definition": "start a process or activity"
+    },
+    {
+      "id": "slang-idioms:go-the-extra-mile",
+      "term": "Go the extra mile",
+      "gloss": "Приложить доп. усилия",
+      "example": "She always goes the extra mile.",
+      "definition": "do more than what is expected"
+    },
+    {
+      "id": "slang-idioms:hang-out",
+      "term": "Hang out",
+      "gloss": "Тусоваться",
+      "example": "We used to hang out every day.",
+      "definition": "spend casual time with people"
+    },
+    {
+      "id": "slang-idioms:hit-me-up",
+      "term": "Hit me up",
+      "gloss": "Напиши мне",
+      "example": "Hit me up when you arrive.",
+      "definition": "contact me, especially by message"
+    },
+    {
+      "id": "slang-idioms:hit-the-nail-on-the-head",
+      "term": "Hit the nail on the head",
+      "gloss": "Попасть в точку",
+      "example": "You hit the nail on the head.",
+      "definition": "describe something exactly right"
+    },
+    {
+      "id": "slang-idioms:in-a-nutshell",
+      "term": "In a nutshell",
+      "gloss": "Вкратце",
+      "example": "In a nutshell, the idea failed.",
+      "definition": "in a very short summary"
+    },
+    {
+      "id": "slang-idioms:it-s-up-to-you",
+      "term": "It's up to you",
+      "gloss": "Тебе решать",
+      "example": "Stay or go – it's up to you.",
+      "definition": "you are the one who must decide"
+    },
+    {
+      "id": "slang-idioms:keep-me-posted",
+      "term": "Keep me posted",
+      "gloss": "Держи в курсе",
+      "example": "Keep me posted on any changes.",
+      "definition": "keep telling me the latest news"
+    },
+    {
+      "id": "slang-idioms:learn-the-ropes",
+      "term": "Learn the ropes",
+      "gloss": "Входить в курс дела",
+      "example": "It takes time to learn the ropes.",
+      "definition": "learn how a job or system works"
+    },
+    {
+      "id": "slang-idioms:long-time-no-see",
+      "term": "Long time no see",
+      "gloss": "Давно не виделись",
+      "example": "Hey! Long time no see!",
+      "definition": "greeting used after not meeting for a while"
+    },
+    {
+      "id": "slang-idioms:no-biggie",
+      "term": "No biggie",
+      "gloss": "Ничего страшного",
+      "example": "You're late? No biggie.",
+      "definition": "it is not a problem or a big deal"
+    },
+    {
+      "id": "slang-idioms:no-brainer",
+      "term": "No brainer",
+      "gloss": "Элементарное решение",
+      "example": "This choice is a no brainer.",
+      "definition": "an obvious, very easy decision"
+    },
+    {
+      "id": "slang-idioms:no-worries",
+      "term": "No worries",
+      "gloss": "Без проблем",
+      "example": "Thanks! – No worries!",
+      "definition": "that's fine; don't worry about it"
+    },
+    {
+      "id": "slang-idioms:on-the-same-page",
+      "term": "On the same page",
+      "gloss": "На одной волне",
+      "example": "Are we all on the same page?",
+      "definition": "sharing the same understanding or plan"
+    },
+    {
+      "id": "slang-idioms:out-of-the-blue",
+      "term": "Out of the blue",
+      "gloss": "Внезапно",
+      "example": "She called me out of the blue.",
+      "definition": "suddenly and without warning"
+    },
+    {
+      "id": "slang-idioms:out-of-the-loop",
+      "term": "Out of the loop",
+      "gloss": "Не в курсе событий",
+      "example": "I’ve been away, I’m out of the loop.",
+      "definition": "not informed about current events"
+    },
+    {
+      "id": "slang-idioms:piece-of-cake",
+      "term": "Piece of cake",
+      "gloss": "Проще простого",
+      "example": "The test was a piece of cake.",
+      "definition": "very easy to do"
+    },
+    {
+      "id": "slang-idioms:right-off-the-bat",
+      "term": "Right off the bat",
+      "gloss": "Сразу же",
+      "example": "I knew it right off the bat.",
+      "definition": "immediately, from the very start"
+    },
+    {
+      "id": "slang-idioms:see-eye-to-eye",
+      "term": "See eye to eye",
+      "gloss": "Сходиться во взглядах",
+      "example": "We don't see eye to eye on this.",
+      "definition": "agree with someone about something"
+    },
+    {
+      "id": "slang-idioms:shady",
+      "term": "Shady",
+      "gloss": "Подозрительный",
+      "example": "That guy looks a bit shady.",
+      "definition": "dishonest or suspiciously untrustworthy"
+    },
+    {
+      "id": "slang-idioms:shoot-an-email-text",
+      "term": "Shoot an email/text",
+      "gloss": "Написать (быстро)",
+      "example": "Shoot me a text later.",
+      "definition": "quickly send a message"
+    },
+    {
+      "id": "slang-idioms:sleep-on-it",
+      "term": "Sleep on it",
+      "gloss": "Отложить решение до утра",
+      "example": "I need to sleep on it.",
+      "definition": "wait overnight before making a decision"
+    },
+    {
+      "id": "slang-idioms:spill-the-beans",
+      "term": "Spill the beans",
+      "gloss": "Проболтаться",
+      "example": "Come on, spill the beans!",
+      "definition": "reveal a secret"
+    },
+    {
+      "id": "slang-idioms:ball-is-in-your-court",
+      "term": "Ball is in your court",
+      "gloss": "Твой ход",
+      "example": "I’ve said my part. The ball is in your court.",
+      "definition": "it is now your turn to act or decide"
+    },
+    {
+      "id": "slang-idioms:think-outside-the-box",
+      "term": "Think outside the box",
+      "gloss": "Мыслить нестандартно",
+      "example": "We must think outside the box.",
+      "definition": "think in a creative, unconventional way"
+    },
+    {
+      "id": "slang-idioms:wrap-up",
+      "term": "Wrap up",
+      "gloss": "Заканчивать",
+      "example": "Let's wrap up the project.",
+      "definition": "finish or bring something to an end"
+    },
+    {
+      "id": "slang-idioms:by-all-means",
+      "term": "By all means",
+      "gloss": "Несомненно / Пожалуйста",
+      "example": "By all means, use my phone.",
+      "definition": "yes, of course; you are welcome to"
+    },
+    {
+      "id": "slang-idioms:fair-enough",
+      "term": "Fair enough",
+      "gloss": "Справедливо / Согласен",
+      "example": "You’re tired? Fair enough, let’s rest.",
+      "definition": "that seems reasonable; I accept it"
+    },
+    {
+      "id": "slang-idioms:in-the-long-run",
+      "term": "In the long run",
+      "gloss": "В долгосрочной перспективе",
+      "example": "It will save money in the long run.",
+      "definition": "over a long period of time"
+    },
+    {
+      "id": "slang-idioms:keep-your-cool",
+      "term": "Keep your cool",
+      "gloss": "Сохранять спокойствие",
+      "example": "Keep your cool during the exam.",
+      "definition": "stay calm under pressure"
+    },
+    {
+      "id": "slang-idioms:make-a-long-story-short",
+      "term": "Make a long story short",
+      "gloss": "Короче говоря",
+      "example": "To make a long story short, we won.",
+      "definition": "give only the main points of a story"
+    },
+    {
+      "id": "slang-idioms:on-the-fence",
+      "term": "On the fence",
+      "gloss": "В нерешительности",
+      "example": "I’m still on the fence about it.",
+      "definition": "unable to decide between options"
+    },
+    {
+      "id": "slang-idioms:take-it-easy",
+      "term": "Take it easy",
+      "gloss": "Не бери в голову / Пока",
+      "example": "Take it easy, don’t work too hard.",
+      "definition": "relax and do not push yourself too hard"
+    },
+    {
+      "id": "slang-idioms:under-the-weather",
+      "term": "Under the weather",
+      "gloss": "Плохо себя чувствовать",
+      "example": "I'm feeling a bit under the weather.",
+      "definition": "feeling slightly ill"
+    },
+    {
+      "id": "slang-idioms:up-in-the-air",
+      "term": "Up in the air",
+      "gloss": "В подвешенном состоянии",
+      "example": "Our plans are still up in the air.",
+      "definition": "still uncertain and not decided"
+    },
+    {
+      "id": "slang-idioms:your-guess-is-as-good-as-mine",
+      "term": "Your guess is as good as mine",
+      "gloss": "Я знаю не больше твоего",
+      "example": "Where is he? – Your guess is as good as mine.",
+      "definition": "I have no more idea than you do"
+    },
+    {
+      "id": "slang-idioms:burn-the-midnight-oil",
+      "term": "Burn the midnight oil",
+      "gloss": "Работать допоздна",
+      "example": "I had to burn the midnight oil.",
+      "definition": "work late into the night"
+    },
+    {
+      "id": "slang-idioms:get-out-of-hand",
+      "term": "Get out of hand",
+      "gloss": "Выйти из-под контроля",
+      "example": "The party got out of hand.",
+      "definition": "become impossible to control"
+    },
+    {
+      "id": "slang-idioms:hang-in-there",
+      "term": "Hang in there",
+      "gloss": "Держись (поддержка)",
+      "example": "Hang in there, things will get better.",
+      "definition": "keep going through a hard time"
+    },
+    {
+      "id": "slang-idioms:let-sb-off-the-hook",
+      "term": "Let sb off the hook",
+      "gloss": "Простить / Отпустить",
+      "example": "I’ll let you off the hook this time.",
+      "definition": "excuse someone from blame or duty"
+    },
+    {
+      "id": "slang-idioms:miss-the-boat",
+      "term": "Miss the boat",
+      "gloss": "Упустить возможность",
+      "example": "You’ll miss the boat if you wait.",
+      "definition": "fail to take an opportunity in time"
+    },
+    {
+      "id": "slang-idioms:so-far-so-good",
+      "term": "So far so good",
+      "gloss": "Пока все идет хорошо",
+      "example": "How’s work? – So far so good.",
+      "definition": "things are going well up to now"
+    },
+    {
+      "id": "slang-idioms:the-best-of-both-worlds",
+      "term": "The best of both worlds",
+      "gloss": "Лучшее из двух миров",
+      "example": "Living here is the best of both worlds.",
+      "definition": "the advantages of two different situations at once"
+    },
+    {
+      "id": "slang-idioms:play-it-by-ear",
+      "term": "Play it by ear",
+      "gloss": "Действовать по ситуации",
+      "example": "Let’s just play it by ear.",
+      "definition": "decide as you go, without a fixed plan"
+    },
+    {
+      "id": "slang-idioms:better-late-than-never",
+      "term": "Better late than never",
+      "gloss": "Лучше поздно, чем никогда",
+      "example": "You arrived! Better late than never.",
+      "definition": "doing something late is still better than never"
+    },
+    {
+      "id": "slang-idioms:once-in-a-blue-moon",
+      "term": "Once in a blue moon",
+      "gloss": "Крайне редко",
+      "example": "I go to the gym once in a blue moon.",
+      "definition": "happening very rarely"
+    },
+    {
+      "id": "slang-idioms:the-bottom-line",
+      "term": "The bottom line",
+      "gloss": "Суть / Итог",
+      "example": "The bottom line is we need money.",
+      "definition": "the most important point or final result"
+    }
+  ]
+}

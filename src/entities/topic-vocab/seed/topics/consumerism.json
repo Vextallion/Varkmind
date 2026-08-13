@@ -1,0 +1,532 @@
+{
+  "id": "consumerism",
+  "title": "Consumerism & Economy",
+  "version": 1,
+  "entries": [
+    {
+      "id": "consumerism:consumerism",
+      "term": "Consumerism",
+      "gloss": "Потребительство",
+      "example": "Modern consumerism is growing.",
+      "definition": "Culture of buying and using more goods"
+    },
+    {
+      "id": "consumerism:consumer",
+      "term": "Consumer",
+      "gloss": "Потребитель",
+      "example": "The consumer has rights.",
+      "definition": "Person who buys goods or services"
+    },
+    {
+      "id": "consumerism:to-consume",
+      "term": "To consume",
+      "gloss": "Потреблять",
+      "example": "We consume too much plastic.",
+      "definition": "To use, eat, or buy something"
+    },
+    {
+      "id": "consumerism:consumption",
+      "term": "Consumption",
+      "gloss": "Потребление",
+      "example": "Reduce energy consumption.",
+      "definition": "The act of using goods or energy"
+    },
+    {
+      "id": "consumerism:purchasing-power",
+      "term": "Purchasing power",
+      "gloss": "Покупательная спос-ть",
+      "example": "Inflation cuts purchasing power.",
+      "definition": "How much you can buy with your money"
+    },
+    {
+      "id": "consumerism:disposable-income",
+      "term": "Disposable income",
+      "gloss": "Чистый доход (после нал)",
+      "example": "I have more disposable income.",
+      "definition": "Money left after paying taxes"
+    },
+    {
+      "id": "consumerism:spending-habits",
+      "term": "Spending habits",
+      "gloss": "Привычки в тратах",
+      "example": "Change your spending habits.",
+      "definition": "Usual ways a person spends money"
+    },
+    {
+      "id": "consumerism:brand-loyalty",
+      "term": "Brand loyalty",
+      "gloss": "Верность бренду",
+      "example": "Apple has high brand loyalty.",
+      "definition": "Tendency to keep buying one brand"
+    },
+    {
+      "id": "consumerism:target-audience",
+      "term": "Target audience",
+      "gloss": "Целевая аудитория",
+      "example": "Kids are the target audience.",
+      "definition": "The group a product is aimed at"
+    },
+    {
+      "id": "consumerism:marketing-tool",
+      "term": "Marketing tool",
+      "gloss": "Инструмент маркетинга",
+      "example": "Instagram is a marketing tool.",
+      "definition": "Method used to promote a product"
+    },
+    {
+      "id": "consumerism:advertisement",
+      "term": "Advertisement (Ad)",
+      "gloss": "Рекламное объявление",
+      "example": "I saw an ad for a new car.",
+      "definition": "Public notice that promotes a product"
+    },
+    {
+      "id": "consumerism:advertising",
+      "term": "Advertising",
+      "gloss": "Реклама (индустрия)",
+      "example": "Advertising influences people.",
+      "definition": "Business of promoting products to buyers"
+    },
+    {
+      "id": "consumerism:commercial",
+      "term": "Commercial",
+      "gloss": "Ролик (ТВ/Радио)",
+      "example": "This commercial is very funny.",
+      "definition": "Advertisement on television or radio"
+    },
+    {
+      "id": "consumerism:billboard",
+      "term": "Billboard",
+      "gloss": "Рекламный щит",
+      "example": "Look at that giant billboard.",
+      "definition": "Large outdoor board showing an advert"
+    },
+    {
+      "id": "consumerism:leaflet-flyer",
+      "term": "Leaflet / Flyer",
+      "gloss": "Листовка",
+      "example": "He was handing out flyers.",
+      "definition": "Small printed paper advertising something"
+    },
+    {
+      "id": "consumerism:endorsement",
+      "term": "Endorsement",
+      "gloss": "Одобрение (звездой)",
+      "example": "Celebrity endorsement works.",
+      "definition": "Public support of a product by a celebrity"
+    },
+    {
+      "id": "consumerism:to-endorse",
+      "term": "To endorse",
+      "gloss": "Рекламировать / Советовать",
+      "example": "Stars endorse luxury watches.",
+      "definition": "To publicly recommend a product"
+    },
+    {
+      "id": "consumerism:sponsorship",
+      "term": "Sponsorship",
+      "gloss": "Спонсорство",
+      "example": "Football relies on sponsorship.",
+      "definition": "Money given to support an event or team"
+    },
+    {
+      "id": "consumerism:to-persuade",
+      "term": "To persuade",
+      "gloss": "Убеждать",
+      "example": "Ads persuade us to buy more.",
+      "definition": "To make someone agree or buy"
+    },
+    {
+      "id": "consumerism:persuasive",
+      "term": "Persuasive",
+      "gloss": "Убедительный",
+      "example": "That was a persuasive ad.",
+      "definition": "Able to convince people easily"
+    },
+    {
+      "id": "consumerism:manipulative",
+      "term": "Manipulative",
+      "gloss": "Манипулятивный",
+      "example": "Marketing can be manipulative.",
+      "definition": "Controlling people in a dishonest way"
+    },
+    {
+      "id": "consumerism:subliminal",
+      "term": "Subliminal",
+      "gloss": "Подсознательный",
+      "example": "Avoid subliminal messaging.",
+      "definition": "Hidden below conscious awareness"
+    },
+    {
+      "id": "consumerism:ubiquitous",
+      "term": "Ubiquitous",
+      "gloss": "Вездесущий",
+      "example": "Ads are ubiquitous today.",
+      "definition": "Present everywhere at the same time"
+    },
+    {
+      "id": "consumerism:informative",
+      "term": "Informative",
+      "gloss": "Информативный",
+      "example": "This review is very informative.",
+      "definition": "Giving useful facts or information"
+    },
+    {
+      "id": "consumerism:deceptive",
+      "term": "Deceptive",
+      "gloss": "Обманчивый",
+      "example": "Beware of deceptive packaging.",
+      "definition": "Intended to make you believe something false"
+    },
+    {
+      "id": "consumerism:misleading",
+      "term": "Misleading",
+      "gloss": "Вводящий в заблуждение",
+      "example": "The claim was misleading.",
+      "definition": "Giving the wrong idea about something"
+    },
+    {
+      "id": "consumerism:temptation",
+      "term": "Temptation",
+      "gloss": "Искушение",
+      "example": "Resist the temptation to shop.",
+      "definition": "Strong desire to do something unwise"
+    },
+    {
+      "id": "consumerism:impulse-buying",
+      "term": "Impulse buying",
+      "gloss": "Импульсивная покупка",
+      "example": "Stop your impulse buying.",
+      "definition": "Buying something suddenly without planning"
+    },
+    {
+      "id": "consumerism:retail-therapy",
+      "term": "Retail therapy",
+      "gloss": "Шопинг-терапия",
+      "example": "I need some retail therapy.",
+      "definition": "Shopping to improve your mood"
+    },
+    {
+      "id": "consumerism:status-symbol",
+      "term": "Status symbol",
+      "gloss": "Символ статуса",
+      "example": "A Rolex is a status symbol.",
+      "definition": "Object that shows wealth or success"
+    },
+    {
+      "id": "consumerism:materialism",
+      "term": "Materialism",
+      "gloss": "Материализм",
+      "example": "Materialism is a social issue.",
+      "definition": "Valuing money and possessions too highly"
+    },
+    {
+      "id": "consumerism:e-commerce",
+      "term": "E-commerce",
+      "gloss": "Электронная торговля",
+      "example": "E-commerce is booming now.",
+      "definition": "Buying and selling goods online"
+    },
+    {
+      "id": "consumerism:retailer",
+      "term": "Retailer",
+      "gloss": "Розничный продавец",
+      "example": "The retailer offers a discount.",
+      "definition": "Shop that sells goods to the public"
+    },
+    {
+      "id": "consumerism:wholesaler",
+      "term": "Wholesaler",
+      "gloss": "Оптовик",
+      "example": "Buy from a wholesaler to save.",
+      "definition": "Business that sells goods in large amounts"
+    },
+    {
+      "id": "consumerism:bargain",
+      "term": "Bargain",
+      "gloss": "Выгодная покупка",
+      "example": "This jacket was a real bargain.",
+      "definition": "Something bought at a good low price"
+    },
+    {
+      "id": "consumerism:discount-rebate",
+      "term": "Discount / Rebate",
+      "gloss": "Скидка",
+      "example": "Ask for a student discount.",
+      "definition": "Money taken off the usual price"
+    },
+    {
+      "id": "consumerism:refund",
+      "term": "Refund",
+      "gloss": "Возврат денег",
+      "example": "Can I get a full refund?",
+      "definition": "Money returned after you give something back"
+    },
+    {
+      "id": "consumerism:exchange",
+      "term": "Exchange",
+      "gloss": "Обмен",
+      "example": "I want an exchange, not a refund.",
+      "definition": "Replacing a bought item with another"
+    },
+    {
+      "id": "consumerism:warranty",
+      "term": "Warranty",
+      "gloss": "Гарантия",
+      "example": "The laptop is under warranty.",
+      "definition": "Promise to repair a product if it breaks"
+    },
+    {
+      "id": "consumerism:receipt",
+      "term": "Receipt",
+      "gloss": "Чек",
+      "example": "Keep your receipt for return.",
+      "definition": "Paper proving you paid for something"
+    },
+    {
+      "id": "consumerism:bulk-buying",
+      "term": "Bulk buying",
+      "gloss": "Оптовая закупка",
+      "example": "Bulk buying reduces waste.",
+      "definition": "Purchasing large amounts at once"
+    },
+    {
+      "id": "consumerism:value-for-money",
+      "term": "Value for money",
+      "gloss": "Соотн. цена-качество",
+      "example": "This phone is good value for money.",
+      "definition": "Quality that is worth the price paid"
+    },
+    {
+      "id": "consumerism:luxury-goods",
+      "term": "Luxury goods",
+      "gloss": "Товары роскоши",
+      "example": "Taxes on luxury goods are high.",
+      "definition": "Expensive products that are not necessary"
+    },
+    {
+      "id": "consumerism:essential-goods",
+      "term": "Essential goods",
+      "gloss": "Товары первой необх.",
+      "example": "Bread and milk are essentials.",
+      "definition": "Basic products people need to live"
+    },
+    {
+      "id": "consumerism:niche-market",
+      "term": "Niche market",
+      "gloss": "Нишевый рынок",
+      "example": "It is a small niche market.",
+      "definition": "Small specialized group of customers"
+    },
+    {
+      "id": "consumerism:saturated-market",
+      "term": "Saturated market",
+      "gloss": "Насыщенный рынок",
+      "example": "The phone market is saturated.",
+      "definition": "Market with too many similar products"
+    },
+    {
+      "id": "consumerism:to-launch",
+      "term": "To launch",
+      "gloss": "Запустить (продукт)",
+      "example": "They will launch a new app.",
+      "definition": "To start selling a new product"
+    },
+    {
+      "id": "consumerism:brand-awareness",
+      "term": "Brand awareness",
+      "gloss": "Узнаваемость бренда",
+      "example": "Ads increase brand awareness.",
+      "definition": "How well people recognize a brand"
+    },
+    {
+      "id": "consumerism:to-appeal-to",
+      "term": "To appeal to",
+      "gloss": "Привлекать / Нравиться",
+      "example": "It appeals to teenagers.",
+      "definition": "To attract or interest a group"
+    },
+    {
+      "id": "consumerism:customer-service",
+      "term": "Customer service",
+      "gloss": "Обслуживание клиентов",
+      "example": "Their customer service is poor.",
+      "definition": "Help a company gives its buyers"
+    },
+    {
+      "id": "consumerism:complaint",
+      "term": "Complaint",
+      "gloss": "Жалоба",
+      "example": "I want to make a complaint.",
+      "definition": "Statement that you are unhappy with something"
+    },
+    {
+      "id": "consumerism:overpriced",
+      "term": "Overpriced",
+      "gloss": "Слишком дорогой",
+      "example": "This coffee is overpriced.",
+      "definition": "Costing more than it is worth"
+    },
+    {
+      "id": "consumerism:affordable",
+      "term": "Affordable",
+      "gloss": "Доступный (по цене)",
+      "example": "Find an affordable apartment.",
+      "definition": "Cheap enough for people to buy"
+    },
+    {
+      "id": "consumerism:value-added-tax",
+      "term": "Value-added tax (VAT)",
+      "gloss": "НДС",
+      "example": "The price includes VAT.",
+      "definition": "Tax added to the price of goods"
+    },
+    {
+      "id": "consumerism:instalment",
+      "term": "Instalment",
+      "gloss": "Взнос (рассрочка)",
+      "example": "Pay in monthly instalments.",
+      "definition": "One of several regular payments"
+    },
+    {
+      "id": "consumerism:credit-rating",
+      "term": "Credit rating",
+      "gloss": "Кредитный рейтинг",
+      "example": "Check your credit rating.",
+      "definition": "Score showing how safely you repay debt"
+    },
+    {
+      "id": "consumerism:to-go-into-debt",
+      "term": "To go into debt",
+      "gloss": "Залезать в долги",
+      "example": "Don’t go into debt for clothes.",
+      "definition": "To start owing money to others"
+    },
+    {
+      "id": "consumerism:malls-shopping-center",
+      "term": "Malls / Shopping center",
+      "gloss": "ТЦ",
+      "example": "The mall is very crowded.",
+      "definition": "Large building with many shops"
+    },
+    {
+      "id": "consumerism:high-street",
+      "term": "High street",
+      "gloss": "Главная торговая улица",
+      "example": "Many high street shops closed.",
+      "definition": "Main shopping street in a town"
+    },
+    {
+      "id": "consumerism:counterfeit",
+      "term": "Counterfeit",
+      "gloss": "Поддельный",
+      "example": "Avoid buying counterfeit bags.",
+      "definition": "Made as a fake copy of a real product"
+    },
+    {
+      "id": "consumerism:imitation",
+      "term": "Imitation",
+      "gloss": "Имитация",
+      "example": "It is a cheap imitation.",
+      "definition": "Copy that is not the original"
+    },
+    {
+      "id": "consumerism:peer-pressure",
+      "term": "Peer pressure",
+      "gloss": "Давление сверстников",
+      "example": "Peer pressure leads to buying.",
+      "definition": "Influence from people of your age"
+    },
+    {
+      "id": "consumerism:to-keep-up-with-the-joneses",
+      "term": "To keep up with the Joneses",
+      "gloss": "Быть не хуже других (ид)",
+      "example": "They shop just to keep up....",
+      "definition": "To copy neighbours' lifestyle and spending"
+    },
+    {
+      "id": "consumerism:commercialization",
+      "term": "Commercialization",
+      "gloss": "Коммерциализация",
+      "example": "Commercialization of holidays.",
+      "definition": "Turning something into a product for profit"
+    },
+    {
+      "id": "consumerism:advertising-campaign",
+      "term": "Advertising campaign",
+      "gloss": "Рекламная кампания",
+      "example": "The campaign was successful.",
+      "definition": "Series of ads promoting one product"
+    },
+    {
+      "id": "consumerism:word-of-mouth",
+      "term": "Word of mouth",
+      "gloss": "Сарафанное радио",
+      "example": "Word of mouth is the best ad.",
+      "definition": "Recommendations passed from person to person"
+    },
+    {
+      "id": "consumerism:pop-up-ad",
+      "term": "Pop-up ad",
+      "gloss": "Всплывающее окно",
+      "example": "Pop-up ads are very annoying.",
+      "definition": "Advert that appears suddenly on a screen"
+    },
+    {
+      "id": "consumerism:spam",
+      "term": "Spam",
+      "gloss": "Спам",
+      "example": "My inbox is full of spam.",
+      "definition": "Unwanted advertising messages, usually email"
+    },
+    {
+      "id": "consumerism:aesthetic",
+      "term": "Aesthetic",
+      "gloss": "Эстетический",
+      "example": "I like the aesthetic of the ad.",
+      "definition": "Related to beauty and visual style"
+    },
+    {
+      "id": "consumerism:catchy",
+      "term": "Catchy",
+      "gloss": "Легко запоминающийся",
+      "example": "The slogan is very catchy.",
+      "definition": "Easy to remember, especially a slogan"
+    },
+    {
+      "id": "consumerism:product-placement",
+      "term": "Product placement",
+      "gloss": "Скрытая реклама в кино",
+      "example": "Product placement in movies.",
+      "definition": "Showing a brand inside a film or show"
+    },
+    {
+      "id": "consumerism:to-boycott",
+      "term": "To boycott",
+      "gloss": "Бойкотировать",
+      "example": "Boycott companies that pollute.",
+      "definition": "To refuse to buy from a company as protest"
+    },
+    {
+      "id": "consumerism:fair-trade",
+      "term": "Fair trade",
+      "gloss": "Справедливая торговля",
+      "example": "Support fair trade coffee.",
+      "definition": "Trade that pays producers a fair price"
+    },
+    {
+      "id": "consumerism:sustainable",
+      "term": "Sustainable",
+      "gloss": "Экологичный",
+      "example": "Choose sustainable brands.",
+      "definition": "Able to continue without harming the planet"
+    },
+    {
+      "id": "consumerism:obsolescence",
+      "term": "Obsolescence",
+      "gloss": "Устаревание",
+      "example": "Planned obsolescence is bad.",
+      "definition": "The process of becoming outdated"
+    }
+  ]
+}

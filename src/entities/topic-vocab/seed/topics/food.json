@@ -1,0 +1,532 @@
+{
+  "id": "food",
+  "title": "Food & Nutrition",
+  "version": 1,
+  "entries": [
+    {
+      "id": "food:staple-food",
+      "term": "Staple food",
+      "gloss": "Основной продукт",
+      "example": "Rice is a staple food in Asia.",
+      "definition": "Basic food eaten regularly in a region"
+    },
+    {
+      "id": "food:cuisine",
+      "term": "Cuisine",
+      "gloss": "Кухня (нац-ная)",
+      "example": "I love Italian cuisine.",
+      "definition": "Style of cooking of a country or region"
+    },
+    {
+      "id": "food:nutritious",
+      "term": "Nutritious",
+      "gloss": "Питательный",
+      "example": "This soup is very nutritious.",
+      "definition": "Containing substances that keep you healthy"
+    },
+    {
+      "id": "food:nourishment",
+      "term": "Nourishment",
+      "gloss": "Питание / Пища",
+      "example": "Children need proper nourishment.",
+      "definition": "Food needed for health and growth"
+    },
+    {
+      "id": "food:balanced-diet",
+      "term": "Balanced diet",
+      "gloss": "Сбалансир. диета",
+      "example": "Maintain a balanced diet.",
+      "definition": "Eating a healthy mix of food types"
+    },
+    {
+      "id": "food:wholesome",
+      "term": "Wholesome",
+      "gloss": "Полезный / Здоровый",
+      "example": "We eat wholesome home-cooked meals.",
+      "definition": "Good for your health"
+    },
+    {
+      "id": "food:organic",
+      "term": "Organic",
+      "gloss": "Органический",
+      "example": "Organic fruit is more expensive.",
+      "definition": "Grown without synthetic chemicals"
+    },
+    {
+      "id": "food:locally-sourced",
+      "term": "Locally sourced",
+      "gloss": "Местного произв-ва",
+      "example": "We use locally sourced eggs.",
+      "definition": "Produced near where it is sold"
+    },
+    {
+      "id": "food:processed-food",
+      "term": "Processed food",
+      "gloss": "Обработанная еда",
+      "example": "Avoid eating processed food.",
+      "definition": "Food changed by industry before sale"
+    },
+    {
+      "id": "food:ready-made-meal",
+      "term": "Ready-made meal",
+      "gloss": "Полуфабрикат",
+      "example": "Ready-made meals save time.",
+      "definition": "Meal prepared in advance to heat and eat"
+    },
+    {
+      "id": "food:junk-food",
+      "term": "Junk food",
+      "gloss": "Вредная еда",
+      "example": "Stop buying junk food.",
+      "definition": "Unhealthy food high in fat, salt or sugar"
+    },
+    {
+      "id": "food:fast-food",
+      "term": "Fast food",
+      "gloss": "Фастфуд",
+      "example": "Fast food leads to obesity.",
+      "definition": "Quick cheap meals from restaurants"
+    },
+    {
+      "id": "food:takeaway-takeout",
+      "term": "Takeaway / Takeout",
+      "gloss": "Еда навынос",
+      "example": "Let's order a takeaway.",
+      "definition": "Food bought to eat elsewhere"
+    },
+    {
+      "id": "food:caloric-intake",
+      "term": "Caloric intake",
+      "gloss": "Потребление калорий",
+      "example": "High caloric intake causes weight gain.",
+      "definition": "Number of calories eaten"
+    },
+    {
+      "id": "food:fiber",
+      "term": "Fiber",
+      "gloss": "Клетчатка",
+      "example": "Beans are high in fiber.",
+      "definition": "Plant material that aids digestion"
+    },
+    {
+      "id": "food:protein",
+      "term": "Protein",
+      "gloss": "Белок",
+      "example": "Meat is a source of protein.",
+      "definition": "Nutrient that builds muscle and tissue"
+    },
+    {
+      "id": "food:carbohydrates",
+      "term": "Carbohydrates",
+      "gloss": "Углеводы",
+      "example": "Pasta is rich in carbohydrates.",
+      "definition": "Nutrients that give the body energy"
+    },
+    {
+      "id": "food:saturated-fat",
+      "term": "Saturated fat",
+      "gloss": "Насыщенный жир",
+      "example": "Reduce your saturated fat intake.",
+      "definition": "Type of fat, often from animals, that can harm the heart"
+    },
+    {
+      "id": "food:preservatives",
+      "term": "Preservatives",
+      "gloss": "Консерванты",
+      "example": "This bread has no preservatives.",
+      "definition": "Substances that keep food from spoiling"
+    },
+    {
+      "id": "food:artificial-flavors",
+      "term": "Artificial flavors",
+      "gloss": "Искусс. ароматизаторы",
+      "example": "I hate artificial flavors.",
+      "definition": "Chemical tastes added to food"
+    },
+    {
+      "id": "food:additives",
+      "term": "Additives",
+      "gloss": "Добавки",
+      "example": "Food additives can cause allergies.",
+      "definition": "Extra substances put into food"
+    },
+    {
+      "id": "food:sweetener",
+      "term": "Sweetener",
+      "gloss": "Подсластитель",
+      "example": "Use a natural sweetener.",
+      "definition": "Substance used instead of sugar"
+    },
+    {
+      "id": "food:gluten-free",
+      "term": "Gluten-free",
+      "gloss": "Без глютена",
+      "example": "Is this cake gluten-free?",
+      "definition": "Containing no wheat protein called gluten"
+    },
+    {
+      "id": "food:dairy",
+      "term": "Dairy",
+      "gloss": "Молочные продукты",
+      "example": "I am cutting down on dairy.",
+      "definition": "Milk and foods made from milk"
+    },
+    {
+      "id": "food:poultry",
+      "term": "Poultry",
+      "gloss": "Птица (мясо)",
+      "example": "Chicken is a type of poultry.",
+      "definition": "Birds kept for meat or eggs, such as chicken"
+    },
+    {
+      "id": "food:seafood",
+      "term": "Seafood",
+      "gloss": "Морепродукты",
+      "example": "Fresh seafood is delicious.",
+      "definition": "Fish and shellfish eaten as food"
+    },
+    {
+      "id": "food:whole-grain",
+      "term": "Whole grain",
+      "gloss": "Цельнозерновой",
+      "example": "Switch to whole grain rice.",
+      "definition": "Using the entire grain, not just the inner part"
+    },
+    {
+      "id": "food:vegetarian",
+      "term": "Vegetarian",
+      "gloss": "Вегетарианец",
+      "example": "He is a strict vegetarian.",
+      "definition": "Person who does not eat meat"
+    },
+    {
+      "id": "food:vegan",
+      "term": "Vegan",
+      "gloss": "Веган",
+      "example": "Vegan food is everywhere now.",
+      "definition": "Person who avoids all animal products"
+    },
+    {
+      "id": "food:pescetarian",
+      "term": "Pescetarian",
+      "gloss": "Пескетарианец",
+      "example": "As a pescetarian, I eat fish.",
+      "definition": "Person who eats fish but not meat"
+    },
+    {
+      "id": "food:raw-foodist",
+      "term": "Raw foodist",
+      "gloss": "Сыроед",
+      "example": "She is a dedicated raw foodist.",
+      "definition": "Person who eats mainly uncooked food"
+    },
+    {
+      "id": "food:eating-disorder",
+      "term": "Eating disorder",
+      "gloss": "Расстройство питания",
+      "example": "Bulimia is an eating disorder.",
+      "definition": "Mental illness affecting eating behaviour"
+    },
+    {
+      "id": "food:anorexia",
+      "term": "Anorexia",
+      "gloss": "Анорексия",
+      "example": "Anorexia is a serious illness.",
+      "definition": "Disorder involving extreme fear of gaining weight"
+    },
+    {
+      "id": "food:obesity",
+      "term": "Obesity",
+      "gloss": "Ожирение",
+      "example": "Fight against childhood obesity.",
+      "definition": "Condition of being dangerously overweight"
+    },
+    {
+      "id": "food:malnutrition",
+      "term": "Malnutrition",
+      "gloss": "Недоедание",
+      "example": "The region suffers from malnutrition.",
+      "definition": "Poor health from inadequate diet"
+    },
+    {
+      "id": "food:famine",
+      "term": "Famine",
+      "gloss": "Голод (массовый)",
+      "example": "The famine lasted for years.",
+      "definition": "Extreme shortage of food in a region"
+    },
+    {
+      "id": "food:starvation",
+      "term": "Starvation",
+      "gloss": "Голодание",
+      "example": "Many died of starvation.",
+      "definition": "Suffering or death from lack of food"
+    },
+    {
+      "id": "food:scarcity",
+      "term": "Scarcity",
+      "gloss": "Дефицит / Нехватка",
+      "example": "A scarcity of fresh water.",
+      "definition": "Situation where there is not enough of something"
+    },
+    {
+      "id": "food:abundance",
+      "term": "Abundance",
+      "gloss": "Изобилие",
+      "example": "We live in a time of abundance.",
+      "definition": "Large amount of something"
+    },
+    {
+      "id": "food:culinary-skills",
+      "term": "Culinary skills",
+      "gloss": "Кулинарные навыки",
+      "example": "Improve your culinary skills.",
+      "definition": "Ability to cook well"
+    },
+    {
+      "id": "food:recipe",
+      "term": "Recipe",
+      "gloss": "Рецепт",
+      "example": "Follow the recipe carefully.",
+      "definition": "Instructions for preparing a dish"
+    },
+    {
+      "id": "food:ingredients",
+      "term": "Ingredients",
+      "gloss": "Ингредиенты",
+      "example": "Mix all the ingredients.",
+      "definition": "Foods combined to make a dish"
+    },
+    {
+      "id": "food:seasoning",
+      "term": "Seasoning",
+      "gloss": "Приправа",
+      "example": "Add some seasoning to the meat.",
+      "definition": "Salt, herbs or spices added for flavour"
+    },
+    {
+      "id": "food:garnish",
+      "term": "Garnish",
+      "gloss": "Гарнир / Украшение",
+      "example": "Use mint as a garnish.",
+      "definition": "Small decoration added to a dish"
+    },
+    {
+      "id": "food:beverage",
+      "term": "Beverage",
+      "gloss": "Напиток",
+      "example": "Alcohol is a popular beverage.",
+      "definition": "A drink of any kind"
+    },
+    {
+      "id": "food:refreshments",
+      "term": "Refreshments",
+      "gloss": "Закуски и напитки",
+      "example": "Light refreshments were served.",
+      "definition": "Light food and drinks served at an event"
+    },
+    {
+      "id": "food:edible",
+      "term": "Edible",
+      "gloss": "Съедобный",
+      "example": "These mushrooms are edible.",
+      "definition": "Safe and suitable to eat"
+    },
+    {
+      "id": "food:inedible",
+      "term": "Inedible",
+      "gloss": "Несъедобный",
+      "example": "The steak was burnt and inedible.",
+      "definition": "Not suitable or safe to eat"
+    },
+    {
+      "id": "food:perishable",
+      "term": "Perishable",
+      "gloss": "Скоропортящийся",
+      "example": "Milk is a perishable good.",
+      "definition": "Likely to go bad quickly"
+    },
+    {
+      "id": "food:shelf-life",
+      "term": "Shelf life",
+      "gloss": "Срок годности",
+      "example": "Honey has a long shelf life.",
+      "definition": "How long a product stays good to eat"
+    },
+    {
+      "id": "food:expiration-date",
+      "term": "Expiration date",
+      "gloss": "Дата истечения срока",
+      "example": "Check the expiration date.",
+      "definition": "Date after which food should not be eaten"
+    },
+    {
+      "id": "food:food-poisoning",
+      "term": "Food poisoning",
+      "gloss": "Пищ. отравление",
+      "example": "I got food poisoning from fish.",
+      "definition": "Illness from eating contaminated food"
+    },
+    {
+      "id": "food:contamination",
+      "term": "Contamination",
+      "gloss": "Загрязнение",
+      "example": "Avoid bacterial contamination.",
+      "definition": "Presence of harmful substances in food"
+    },
+    {
+      "id": "food:sanitation",
+      "term": "Sanitation",
+      "gloss": "Санитария",
+      "example": "Kitchen sanitation is vital.",
+      "definition": "Clean conditions that prevent disease"
+    },
+    {
+      "id": "food:digestive-system",
+      "term": "Digestive system",
+      "gloss": "Пищеварение",
+      "example": "Yogurt is good for the digestive system.",
+      "definition": "Organs that break down food in the body"
+    },
+    {
+      "id": "food:metabolism",
+      "term": "Metabolism",
+      "gloss": "Обмен веществ",
+      "example": "Sleep affects your metabolism.",
+      "definition": "Process of turning food into energy"
+    },
+    {
+      "id": "food:appetizer-starter",
+      "term": "Appetizer / Starter",
+      "gloss": "Закуска",
+      "example": "Order an appetizer first.",
+      "definition": "Small dish eaten before the main meal"
+    },
+    {
+      "id": "food:main-course",
+      "term": "Main course",
+      "gloss": "Основное блюдо",
+      "example": "What's for the main course?",
+      "definition": "Principal dish of a meal"
+    },
+    {
+      "id": "food:dessert",
+      "term": "Dessert",
+      "gloss": "Десерт",
+      "example": "I'll have fruit for dessert.",
+      "definition": "Sweet food eaten at the end of a meal"
+    },
+    {
+      "id": "food:portion-size",
+      "term": "Portion size",
+      "gloss": "Размер порции",
+      "example": "Reduce your portion size.",
+      "definition": "Amount of food served at one time"
+    },
+    {
+      "id": "food:savor",
+      "term": "Savor",
+      "gloss": "Смаковать / Наслаждаться",
+      "example": "Savor every bite of the meal.",
+      "definition": "To enjoy the taste of food slowly"
+    },
+    {
+      "id": "food:to-overeat",
+      "term": "To overeat",
+      "gloss": "Переедать",
+      "example": "It's easy to overeat at a buffet.",
+      "definition": "To eat more than you need"
+    },
+    {
+      "id": "food:temptation",
+      "term": "Temptation",
+      "gloss": "Искушение",
+      "example": "Resist the temptation of sweets.",
+      "definition": "Strong desire to eat something unwise"
+    },
+    {
+      "id": "food:cravings",
+      "term": "Cravings",
+      "gloss": "Тяга (к еде)",
+      "example": "I have cravings for chocolate.",
+      "definition": "Strong sudden desire for a particular food"
+    },
+    {
+      "id": "food:bland",
+      "term": "Bland",
+      "gloss": "Пресный / Безвкусный",
+      "example": "This soup is a bit bland.",
+      "definition": "Having little flavour or taste"
+    },
+    {
+      "id": "food:savory",
+      "term": "Savory",
+      "gloss": "Несладкий / Пикантный",
+      "example": "I prefer savory snacks to sweet.",
+      "definition": "Tasting salty or spicy rather than sweet"
+    },
+    {
+      "id": "food:spicy-hot",
+      "term": "Spicy / Hot",
+      "gloss": "Острый",
+      "example": "Indian food is often spicy.",
+      "definition": "Having a strong burning taste from chilli"
+    },
+    {
+      "id": "food:bitter",
+      "term": "Bitter",
+      "gloss": "Горький",
+      "example": "Dark chocolate is bitter.",
+      "definition": "Having a sharp unpleasant taste, like coffee"
+    },
+    {
+      "id": "food:sour",
+      "term": "Sour",
+      "gloss": "Кислый",
+      "example": "Lemons have a sour taste.",
+      "definition": "Having an acid taste, like lemon"
+    },
+    {
+      "id": "food:aroma",
+      "term": "Aroma",
+      "gloss": "Аромат",
+      "example": "The aroma of fresh coffee.",
+      "definition": "Pleasant smell of food or drink"
+    },
+    {
+      "id": "food:food-security",
+      "term": "Food security",
+      "gloss": "Прод. безопасность",
+      "example": "Global food security is at risk.",
+      "definition": "Reliable access to enough safe food"
+    },
+    {
+      "id": "food:wastage",
+      "term": "Wastage",
+      "gloss": "Растрата / Отходы",
+      "example": "Reduce food wastage at home.",
+      "definition": "Food thrown away unused"
+    },
+    {
+      "id": "food:sustainable",
+      "term": "Sustainable",
+      "gloss": "Устойчивый",
+      "example": "Use sustainable farming methods.",
+      "definition": "Able to continue without harming the environment"
+    },
+    {
+      "id": "food:cultivation",
+      "term": "Cultivation",
+      "gloss": "Выращивание",
+      "example": "The cultivation of wheat.",
+      "definition": "The growing of crops"
+    },
+    {
+      "id": "food:pesticides",
+      "term": "Pesticides",
+      "gloss": "Пестициды",
+      "example": "Crops sprayed with pesticides.",
+      "definition": "Chemicals used to kill insects on crops"
+    }
+  ]
+}

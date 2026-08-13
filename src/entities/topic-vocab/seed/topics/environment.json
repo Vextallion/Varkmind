@@ -1,0 +1,532 @@
+{
+  "id": "environment",
+  "title": "Environment",
+  "version": 1,
+  "entries": [
+    {
+      "id": "environment:sustainability",
+      "term": "Sustainability",
+      "gloss": "Устойчивость",
+      "example": "We must promote sustainability.",
+      "definition": "Ability to meet needs without harming the future"
+    },
+    {
+      "id": "environment:degradation",
+      "term": "Degradation",
+      "gloss": "Разрушение / Упадок",
+      "example": "Stop environmental degradation.",
+      "definition": "Gradual damage or decline of the natural environment"
+    },
+    {
+      "id": "environment:emissions",
+      "term": "Emissions",
+      "gloss": "Выбросы",
+      "example": "Cars produce harmful emissions.",
+      "definition": "Gases or particles released into the air"
+    },
+    {
+      "id": "environment:carbon-footprint",
+      "term": "Carbon footprint",
+      "gloss": "Углеродный след",
+      "example": "Reduce your carbon footprint.",
+      "definition": "Total greenhouse gases produced by an activity"
+    },
+    {
+      "id": "environment:fossil-fuels",
+      "term": "Fossil fuels",
+      "gloss": "Ископаемое топливо",
+      "example": "Burning fossil fuels causes heat.",
+      "definition": "Coal, oil, and gas formed from ancient remains"
+    },
+    {
+      "id": "environment:combustion",
+      "term": "Combustion",
+      "gloss": "Сжигание",
+      "example": "Combustion releases toxic gases.",
+      "definition": "The process of burning something"
+    },
+    {
+      "id": "environment:renewable",
+      "term": "Renewable",
+      "gloss": "Возобновляемый",
+      "example": "Invest in renewable energy.",
+      "definition": "Able to be replaced naturally and used again"
+    },
+    {
+      "id": "environment:solar-panels",
+      "term": "Solar panels",
+      "gloss": "Солнечные панели",
+      "example": "Install solar panels on roofs.",
+      "definition": "Devices that convert sunlight into electricity"
+    },
+    {
+      "id": "environment:wind-turbines",
+      "term": "Wind turbines",
+      "gloss": "Ветрогенераторы",
+      "example": "Wind turbines generate power.",
+      "definition": "Machines that turn wind into electrical power"
+    },
+    {
+      "id": "environment:hydroelectric",
+      "term": "Hydroelectric",
+      "gloss": "Гидроэнергетический",
+      "example": "Hydroelectric dams provide electricity.",
+      "definition": "Relating to electricity generated from flowing water"
+    },
+    {
+      "id": "environment:geothermal",
+      "term": "Geothermal",
+      "gloss": "Геотермальный",
+      "example": "Iceland uses geothermal heat.",
+      "definition": "Relating to heat from inside the Earth"
+    },
+    {
+      "id": "environment:biodiversity",
+      "term": "Biodiversity",
+      "gloss": "Биоразнообразие",
+      "example": "Protect the planet's biodiversity.",
+      "definition": "Variety of plants, animals, and other living things"
+    },
+    {
+      "id": "environment:ecosystem",
+      "term": "Ecosystem",
+      "gloss": "Экосистема",
+      "example": "Every ecosystem is fragile.",
+      "definition": "Community of living things and their environment"
+    },
+    {
+      "id": "environment:habitat-loss",
+      "term": "Habitat loss",
+      "gloss": "Потеря среды обитания",
+      "example": "Habitat loss threatens tigers.",
+      "definition": "Destruction of the natural home of a species"
+    },
+    {
+      "id": "environment:endangered",
+      "term": "Endangered",
+      "gloss": "Вымирающий (вид)",
+      "example": "Pandas are an endangered species.",
+      "definition": "At serious risk of dying out completely"
+    },
+    {
+      "id": "environment:extinction",
+      "term": "Extinction",
+      "gloss": "Вымирание",
+      "example": "Hunting leads to extinction.",
+      "definition": "Complete disappearance of a species from Earth"
+    },
+    {
+      "id": "environment:poaching",
+      "term": "Poaching",
+      "gloss": "Браконьерство",
+      "example": "Poaching is a serious crime.",
+      "definition": "Illegal hunting or capturing of wild animals"
+    },
+    {
+      "id": "environment:deforestation",
+      "term": "Deforestation",
+      "gloss": "Вырубка лесов",
+      "example": "Deforestation affects the climate.",
+      "definition": "Cutting down large areas of forest"
+    },
+    {
+      "id": "environment:reforestation",
+      "term": "Reforestation",
+      "gloss": "Восстановление лесов",
+      "example": "Support local reforestation.",
+      "definition": "Planting trees to restore a forest"
+    },
+    {
+      "id": "environment:logging",
+      "term": "Logging",
+      "gloss": "Лесозаготовка",
+      "example": "Illegal logging must stop.",
+      "definition": "Cutting down trees for timber"
+    },
+    {
+      "id": "environment:soil-erosion",
+      "term": "Soil erosion",
+      "gloss": "Эрозия почвы",
+      "example": "Overfarming causes soil erosion.",
+      "definition": "Wearing away of the top layer of soil"
+    },
+    {
+      "id": "environment:desertification",
+      "term": "Desertification",
+      "gloss": "Опустынивание",
+      "example": "Desertification turns land to dust.",
+      "definition": "Process by which fertile land becomes desert"
+    },
+    {
+      "id": "environment:contamination",
+      "term": "Contamination",
+      "gloss": "Загрязнение (хим)",
+      "example": "Avoid water contamination.",
+      "definition": "Making something dirty or poisonous with harmful substances"
+    },
+    {
+      "id": "environment:pollutant",
+      "term": "Pollutant",
+      "gloss": "Загрязнитель",
+      "example": "Plastic is a major pollutant.",
+      "definition": "A substance that makes air, water, or soil dirty"
+    },
+    {
+      "id": "environment:particulate-matter",
+      "term": "Particulate matter",
+      "gloss": "Взвешенные частицы",
+      "example": "Particulate matter harms lungs.",
+      "definition": "Tiny solid or liquid particles in the air"
+    },
+    {
+      "id": "environment:smog-haze",
+      "term": "Smog / Haze",
+      "gloss": "Смог / Мгла",
+      "example": "Beijing is famous for its smog.",
+      "definition": "Thick dirty air caused by pollution"
+    },
+    {
+      "id": "environment:acid-rain",
+      "term": "Acid rain",
+      "gloss": "Кислотный дождь",
+      "example": "Acid rain damages monuments.",
+      "definition": "Rain made acidic by pollution in the air"
+    },
+    {
+      "id": "environment:sewage",
+      "term": "Sewage",
+      "gloss": "Сточные воды",
+      "example": "Sewage flows into the river.",
+      "definition": "Waste water from homes and toilets"
+    },
+    {
+      "id": "environment:effluents",
+      "term": "Effluents",
+      "gloss": "Промышленные стоки",
+      "example": "Factories dump effluents.",
+      "definition": "Liquid waste discharged from factories"
+    },
+    {
+      "id": "environment:toxic-waste",
+      "term": "Toxic waste",
+      "gloss": "Токсичные отходы",
+      "example": "Dispose of toxic waste safely.",
+      "definition": "Poisonous leftover materials from industry"
+    },
+    {
+      "id": "environment:landfill",
+      "term": "Landfill",
+      "gloss": "Свалка",
+      "example": "The landfill is overflowing.",
+      "definition": "Site where rubbish is buried in the ground"
+    },
+    {
+      "id": "environment:incineration",
+      "term": "Incineration",
+      "gloss": "Сжигание (мусора)",
+      "example": "Incineration can be polluting.",
+      "definition": "Burning of waste at high temperatures"
+    },
+    {
+      "id": "environment:biodegradable",
+      "term": "Biodegradable",
+      "gloss": "Биоразлагаемый",
+      "example": "Use biodegradable bags.",
+      "definition": "Able to break down naturally without harm"
+    },
+    {
+      "id": "environment:single-use",
+      "term": "Single-use",
+      "gloss": "Одноразовый",
+      "example": "Ban single-use plastics.",
+      "definition": "Designed to be used once, then thrown away"
+    },
+    {
+      "id": "environment:microplastics",
+      "term": "Microplastics",
+      "gloss": "Микропластик",
+      "example": "Fish ingest microplastics.",
+      "definition": "Tiny plastic pieces that pollute water and soil"
+    },
+    {
+      "id": "environment:acidification",
+      "term": "Acidification",
+      "gloss": "Закисление",
+      "example": "Ocean acidification kills reefs.",
+      "definition": "Process of becoming more acidic"
+    },
+    {
+      "id": "environment:marine-life",
+      "term": "Marine life",
+      "gloss": "Морская фауна",
+      "example": "Oil spills destroy marine life.",
+      "definition": "Animals and plants that live in the sea"
+    },
+    {
+      "id": "environment:overfishing",
+      "term": "Overfishing",
+      "gloss": "Перелов рыбы",
+      "example": "Overfishing depletes the ocean.",
+      "definition": "Catching so many fish that stocks cannot recover"
+    },
+    {
+      "id": "environment:depletion",
+      "term": "Depletion",
+      "gloss": "Истощение",
+      "example": "Prevent resource depletion.",
+      "definition": "Using up a resource until little remains"
+    },
+    {
+      "id": "environment:global-warming",
+      "term": "Global warming",
+      "gloss": "Глоб. потепление",
+      "example": "Global warming is a reality.",
+      "definition": "Rise in Earth's average temperature"
+    },
+    {
+      "id": "environment:glacier-retreat",
+      "term": "Glacier retreat",
+      "gloss": "Таяние ледников",
+      "example": "Glacier retreat is accelerating.",
+      "definition": "Shrinking of glaciers as they melt"
+    },
+    {
+      "id": "environment:sea-level-rise",
+      "term": "Sea level rise",
+      "gloss": "Подъем уровня моря",
+      "example": "Sea level rise floods cities.",
+      "definition": "Increase in the height of the world's oceans"
+    },
+    {
+      "id": "environment:permafrost",
+      "term": "Permafrost",
+      "gloss": "Вечная мерзлота",
+      "example": "The permafrost is melting.",
+      "definition": "Ground that stays frozen all year"
+    },
+    {
+      "id": "environment:extreme-weather",
+      "term": "Extreme weather",
+      "gloss": "Экстрем. погода",
+      "example": "Extreme weather is more frequent.",
+      "definition": "Unusually severe storms, heat, or other conditions"
+    },
+    {
+      "id": "environment:drought",
+      "term": "Drought",
+      "gloss": "Засуха",
+      "example": "The drought ruined the crops.",
+      "definition": "Long period with little or no rain"
+    },
+    {
+      "id": "environment:wildfire",
+      "term": "Wildfire",
+      "gloss": "Лесной пожар",
+      "example": "A wildfire spread quickly.",
+      "definition": "Large uncontrolled fire in countryside or forest"
+    },
+    {
+      "id": "environment:flooding",
+      "term": "Flooding",
+      "gloss": "Наводнение",
+      "example": "Heavy rain caused flooding.",
+      "definition": "Overflow of water onto normally dry land"
+    },
+    {
+      "id": "environment:ecological-balance",
+      "term": "Ecological balance",
+      "gloss": "Эко-баланс",
+      "example": "Maintain the ecological balance.",
+      "definition": "Stable relationship among living things and nature"
+    },
+    {
+      "id": "environment:conservation",
+      "term": "Conservation",
+      "gloss": "Сохранение",
+      "example": "Conservation groups help birds.",
+      "definition": "Protection of nature and natural resources"
+    },
+    {
+      "id": "environment:preservation",
+      "term": "Preservation",
+      "gloss": "Сбережение",
+      "example": "Wildlife preservation is vital.",
+      "definition": "Keeping something in its original unharmed state"
+    },
+    {
+      "id": "environment:mitigation",
+      "term": "Mitigation",
+      "gloss": "Смягчение",
+      "example": "Focus on climate mitigation.",
+      "definition": "Action to reduce the seriousness of a problem"
+    },
+    {
+      "id": "environment:adaptation",
+      "term": "Adaptation",
+      "gloss": "Адаптация",
+      "example": "Adaptation to heat is necessary.",
+      "definition": "Change in behavior to cope with new conditions"
+    },
+    {
+      "id": "environment:waste-management",
+      "term": "Waste management",
+      "gloss": "Утилизация",
+      "example": "Improve city waste management.",
+      "definition": "Collection, treatment, and disposal of rubbish"
+    },
+    {
+      "id": "environment:recycling",
+      "term": "Recycling",
+      "gloss": "Переработка",
+      "example": "Recycling saves energy.",
+      "definition": "Turning used materials into new products"
+    },
+    {
+      "id": "environment:upcycling",
+      "term": "Upcycling",
+      "gloss": "Апсайклинг",
+      "example": "Upcycling gives clothes new life.",
+      "definition": "Reusing waste to make something of higher value"
+    },
+    {
+      "id": "environment:impact",
+      "term": "Impact",
+      "gloss": "Воздействие",
+      "example": "Assess the environmental impact.",
+      "definition": "Effect or influence of one thing on another"
+    },
+    {
+      "id": "environment:legislation",
+      "term": "Legislation",
+      "gloss": "Законодательство",
+      "example": "New legislation protects parks.",
+      "definition": "Laws passed by a government"
+    },
+    {
+      "id": "environment:enforcement",
+      "term": "Enforcement",
+      "gloss": "Исполнение (закона)",
+      "example": "We need stricter enforcement.",
+      "definition": "Making sure that laws are actually followed"
+    },
+    {
+      "id": "environment:incentive",
+      "term": "Incentive",
+      "gloss": "Стимул",
+      "example": "Tax incentives for green cars.",
+      "definition": "Something that encourages a particular action"
+    },
+    {
+      "id": "environment:subsidies",
+      "term": "Subsidies",
+      "gloss": "Субсидии",
+      "example": "Remove subsidies for oil.",
+      "definition": "Money given by government to support an industry"
+    },
+    {
+      "id": "environment:accountability",
+      "term": "Accountability",
+      "gloss": "Отчетность",
+      "example": "Corporate accountability is low.",
+      "definition": "Duty to take responsibility for one's actions"
+    },
+    {
+      "id": "environment:irreversible",
+      "term": "Irreversible",
+      "gloss": "Необратимый",
+      "example": "The damage is irreversible.",
+      "definition": "Impossible to change back to the original state"
+    },
+    {
+      "id": "environment:tipping-point",
+      "term": "Tipping point",
+      "gloss": "Точка невозврата",
+      "example": "We are reaching a tipping point.",
+      "definition": "Moment after which change cannot be stopped"
+    },
+    {
+      "id": "environment:precautionary",
+      "term": "Precautionary",
+      "gloss": "Предосторожный",
+      "example": "Take a precautionary approach.",
+      "definition": "Done to prevent possible harm in advance"
+    },
+    {
+      "id": "environment:organic",
+      "term": "Organic",
+      "gloss": "Органический",
+      "example": "Buy organic vegetables.",
+      "definition": "Grown without synthetic chemicals or pesticides"
+    },
+    {
+      "id": "environment:pesticides",
+      "term": "Pesticides",
+      "gloss": "Ядохимикаты",
+      "example": "Farmers use fewer pesticides.",
+      "definition": "Chemicals used to kill insects that damage crops"
+    },
+    {
+      "id": "environment:fertilizers",
+      "term": "Fertilizers",
+      "gloss": "Удобрения",
+      "example": "Chemical fertilizers leach out.",
+      "definition": "Substances added to soil to help plants grow"
+    },
+    {
+      "id": "environment:awareness",
+      "term": "Awareness",
+      "gloss": "Осведомленность",
+      "example": "Raise public awareness.",
+      "definition": "Knowledge or understanding of a situation"
+    },
+    {
+      "id": "environment:greenhouse-gas",
+      "term": "Greenhouse gas",
+      "gloss": "Парниковый газ",
+      "example": "Methane is a greenhouse gas.",
+      "definition": "Gas that traps heat in the Earth's atmosphere"
+    },
+    {
+      "id": "environment:disposable",
+      "term": "Disposable",
+      "gloss": "Одноразовый",
+      "example": "Avoid disposable coffee cups.",
+      "definition": "Intended to be thrown away after one use"
+    },
+    {
+      "id": "environment:composting",
+      "term": "Composting",
+      "gloss": "Компостирование",
+      "example": "Start composting food waste.",
+      "definition": "Turning food and plant waste into soil"
+    },
+    {
+      "id": "environment:energy-efficient",
+      "term": "Energy-efficient",
+      "gloss": "Энергоэффективный",
+      "example": "Buy energy-efficient bulbs.",
+      "definition": "Using less energy to do the same job"
+    },
+    {
+      "id": "environment:carbon-sequestration",
+      "term": "Carbon sequestration",
+      "gloss": "Связывание углерода",
+      "example": "Trees help in sequestration.",
+      "definition": "Capturing and storing carbon dioxide"
+    },
+    {
+      "id": "environment:deterioration",
+      "term": "Deterioration",
+      "gloss": "Ухудшение",
+      "example": "Nature's deterioration is fast.",
+      "definition": "Process of becoming worse over time"
+    },
+    {
+      "id": "environment:eco-friendly",
+      "term": "Eco-friendly",
+      "gloss": "Экологичный",
+      "example": "Choose eco-friendly products.",
+      "definition": "Not harmful to the environment"
+    }
+  ]
+}

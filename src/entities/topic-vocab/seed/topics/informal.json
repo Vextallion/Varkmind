@@ -1,0 +1,805 @@
+{
+  "id": "informal",
+  "title": "Informal English",
+  "version": 1,
+  "entries": [
+    {
+      "id": "informal:set-me-up-with",
+      "term": "Set me up with",
+      "gloss": "Свести меня с кем-то",
+      "example": "Can you set me up with your friend?",
+      "definition": "arrange a date or meeting with someone for me"
+    },
+    {
+      "id": "informal:stink",
+      "term": "Stink",
+      "gloss": "Вонять / Быть плохим",
+      "example": "This situation really stinks.",
+      "definition": "smell bad, or be a really bad situation"
+    },
+    {
+      "id": "informal:walk-in-on",
+      "term": "Walk in on",
+      "gloss": "Застать врасплох (войти)",
+      "example": "I didn't mean to walk in on you.",
+      "definition": "enter and catch someone in a private moment"
+    },
+    {
+      "id": "informal:deemed",
+      "term": "Deemed",
+      "gloss": "Считающийся / Признанный",
+      "example": "It was deemed unsafe for travel.",
+      "definition": "officially considered or judged to be"
+    },
+    {
+      "id": "informal:do-would-you-mind-if",
+      "term": "Do/Would you mind if",
+      "gloss": "Вы не против, если...?",
+      "example": "I opened the window?",
+      "definition": "polite way to ask permission to do something"
+    },
+    {
+      "id": "informal:citizenship",
+      "term": "Citizenship",
+      "gloss": "Гражданство",
+      "example": "He applied for dual citizenship.",
+      "definition": "legal membership of a country"
+    },
+    {
+      "id": "informal:acquire",
+      "term": "Acquire",
+      "gloss": "Приобретать / Получать",
+      "example": "The company wants to acquire new firms.",
+      "definition": "to get or obtain something"
+    },
+    {
+      "id": "informal:clavicular",
+      "term": "Clavicular",
+      "gloss": "Ключичный",
+      "example": "He suffered a clavicular fracture.",
+      "definition": "relating to the collarbone"
+    },
+    {
+      "id": "informal:pledge",
+      "term": "Pledge",
+      "gloss": "Обещание / Обет",
+      "example": "They made a pledge to stay silent.",
+      "definition": "a serious promise or commitment"
+    },
+    {
+      "id": "informal:frame",
+      "term": "Frame",
+      "gloss": "Рамка / Подставить (кого-то)",
+      "example": "He claimed they tried to frame him.",
+      "definition": "to make an innocent person look guilty"
+    },
+    {
+      "id": "informal:that-was-smooth",
+      "term": "That was smooth",
+      "gloss": "Это было технично/ловко",
+      "example": "You handled that talk. That was smooth.",
+      "definition": "that was handled in a skillful, impressive way"
+    },
+    {
+      "id": "informal:humble",
+      "term": "Humble",
+      "gloss": "Скромный",
+      "example": "He is a very humble person.",
+      "definition": "not proud; modest about yourself"
+    },
+    {
+      "id": "informal:obsess",
+      "term": "Obsess (with)",
+      "gloss": "Быть одержимым",
+      "example": "Don't obsess with small details.",
+      "definition": "to think about something constantly and too much"
+    },
+    {
+      "id": "informal:grab",
+      "term": "Grab",
+      "gloss": "Схватить / Перекусить",
+      "example": "Let's grab a coffee later.",
+      "definition": "to take quickly, often a snack or drink"
+    },
+    {
+      "id": "informal:delusion",
+      "term": "Delusion(al)",
+      "gloss": "Иллюзия (бредовый)",
+      "example": "He is delusional if he thinks he'll win.",
+      "definition": "a false belief that is not based on reality"
+    },
+    {
+      "id": "informal:struggle",
+      "term": "Struggle",
+      "gloss": "Борьба / Усилие",
+      "example": "Life can be a constant struggle.",
+      "definition": "a difficult effort or ongoing hardship"
+    },
+    {
+      "id": "informal:rizz",
+      "term": "Rizz",
+      "gloss": "Харизма (сленг)",
+      "example": "He’s got so much rizz.",
+      "definition": "slang for charm or skill at attracting people"
+    },
+    {
+      "id": "informal:discourage",
+      "term": "Discourage",
+      "gloss": "Обескураживать/разубедить",
+      "example": "Don't let failure discourage you.",
+      "definition": "to make someone lose confidence or hope"
+    },
+    {
+      "id": "informal:obstacle",
+      "term": "Obstacle",
+      "gloss": "Препятствие",
+      "example": "Overcome every obstacle in your way.",
+      "definition": "something that stands in the way of progress"
+    },
+    {
+      "id": "informal:disclosure",
+      "term": "Disclosure",
+      "gloss": "Раскрытие (информации)",
+      "example": "The disclosure of secrets shocked us.",
+      "definition": "the act of making hidden information known"
+    },
+    {
+      "id": "informal:impersonal",
+      "term": "Impersonal",
+      "gloss": "Безличный",
+      "example": "Big hotels can feel a bit impersonal.",
+      "definition": "lacking warmth or a personal touch"
+    },
+    {
+      "id": "informal:timely",
+      "term": "Timely",
+      "gloss": "Своевременный",
+      "example": "Thanks for your timely response.",
+      "definition": "happening at a useful or suitable moment"
+    },
+    {
+      "id": "informal:cost-effective",
+      "term": "Cost-effective",
+      "gloss": "Выгодный (по цене)",
+      "example": "It is a cost-effective solution.",
+      "definition": "giving good results for the money spent"
+    },
+    {
+      "id": "informal:employment",
+      "term": "Employment",
+      "gloss": "Занятость / Работа",
+      "example": "I am seeking full-time employment.",
+      "definition": "paid work; having a job"
+    },
+    {
+      "id": "informal:enterprise",
+      "term": "Enterprise",
+      "gloss": "Предприятие / Инициатива",
+      "example": "This is a risky business enterprise.",
+      "definition": "a business project, often involving risk"
+    },
+    {
+      "id": "informal:exploitation",
+      "term": "Exploitation",
+      "gloss": "Эксплуатация",
+      "example": "We must stop labor exploitation.",
+      "definition": "unfair use of people or resources for gain"
+    },
+    {
+      "id": "informal:establish",
+      "term": "Establish",
+      "gloss": "Устанавливать / Создавать",
+      "example": "We need to establish new rules.",
+      "definition": "to set up or create something lasting"
+    },
+    {
+      "id": "informal:retail",
+      "term": "Retail",
+      "gloss": "Розничная торговля",
+      "example": "He works in the retail sector.",
+      "definition": "selling goods directly to ordinary customers"
+    },
+    {
+      "id": "informal:the-executive",
+      "term": "The executive",
+      "gloss": "Исполнит. власть/Директор",
+      "example": "The executive made the final call.",
+      "definition": "a senior manager, or the branch that runs government"
+    },
+    {
+      "id": "informal:bummer",
+      "term": "Bummer",
+      "gloss": "Облом / Печаль",
+      "example": "You can't come? What a bummer.",
+      "definition": "a disappointing or unfortunate situation"
+    },
+    {
+      "id": "informal:apparent",
+      "term": "Apparent",
+      "gloss": "Очевидный",
+      "example": "The truth became apparent later.",
+      "definition": "easy to see or understand; seeming to be true"
+    },
+    {
+      "id": "informal:anticipate",
+      "term": "Anticipate",
+      "gloss": "Ожидать / Предвидеть",
+      "example": "We anticipate a lot of guests.",
+      "definition": "to expect something and prepare for it"
+    },
+    {
+      "id": "informal:arbitrary",
+      "term": "Arbitrary",
+      "gloss": "Произвольный / Случайный",
+      "example": "It was an arbitrary decision.",
+      "definition": "based on personal choice, not on a fair rule"
+    },
+    {
+      "id": "informal:assume",
+      "term": "Assume",
+      "gloss": "Предполагать",
+      "example": "Don't assume I agree with you.",
+      "definition": "to believe something is true without proof"
+    },
+    {
+      "id": "informal:authentic",
+      "term": "Authentic",
+      "gloss": "Подлинный",
+      "example": "This is an authentic Italian pizza.",
+      "definition": "real, genuine, and not fake"
+    },
+    {
+      "id": "informal:bias",
+      "term": "Bias",
+      "gloss": "Предвзятость",
+      "example": "The judge showed no bias.",
+      "definition": "an unfair preference for or against something"
+    },
+    {
+      "id": "informal:comprehensive",
+      "term": "Comprehensive",
+      "gloss": "Всесторонний / Полный",
+      "example": "We need a comprehensive study.",
+      "definition": "covering all or nearly all important parts"
+    },
+    {
+      "id": "informal:constraint",
+      "term": "Constraint",
+      "gloss": "Ограничение",
+      "example": "Time is our biggest constraint.",
+      "definition": "a limit that restricts what you can do"
+    },
+    {
+      "id": "informal:consume",
+      "term": "Consume",
+      "gloss": "Потреблять",
+      "example": "How much energy do we consume?",
+      "definition": "to use up or eat something"
+    },
+    {
+      "id": "informal:controversial",
+      "term": "Controversial",
+      "gloss": "Спорный",
+      "example": "Abortion is a controversial topic.",
+      "definition": "causing public disagreement or argument"
+    },
+    {
+      "id": "informal:convene",
+      "term": "Convene",
+      "gloss": "Созывать (собрание)",
+      "example": "They will convene a meeting tomorrow.",
+      "definition": "to call people together for a meeting"
+    },
+    {
+      "id": "informal:deduce",
+      "term": "Deduce",
+      "gloss": "Делать вывод",
+      "example": "What can we infer from this text?",
+      "definition": "to reach a conclusion from available facts"
+    },
+    {
+      "id": "informal:maturity",
+      "term": "Maturity",
+      "gloss": "Зрелость",
+      "example": "He showed great emotional maturity.",
+      "definition": "the quality of being emotionally grown-up"
+    },
+    {
+      "id": "informal:concern",
+      "term": "Concern",
+      "gloss": "Беспокойство",
+      "example": "My main concern is your safety.",
+      "definition": "a worry or matter that matters to you"
+    },
+    {
+      "id": "informal:gauge",
+      "term": "Gauge",
+      "gloss": "Оценивать / Измерять",
+      "example": "Use this to gauge customer interest.",
+      "definition": "to estimate or measure the size of something"
+    },
+    {
+      "id": "informal:propose",
+      "term": "Propose",
+      "gloss": "Предлагать",
+      "example": "I propose we take a break.",
+      "definition": "to suggest a plan or idea"
+    },
+    {
+      "id": "informal:encourage",
+      "term": "Encourage",
+      "gloss": "Поощрять / Стимулировать",
+      "example": "Encourage kids to read more.",
+      "definition": "to give someone support and confidence"
+    },
+    {
+      "id": "informal:accuse",
+      "term": "Accuse",
+      "gloss": "Обвинять",
+      "example": "Do not accuse him without proof.",
+      "definition": "to say that someone has done something wrong"
+    },
+    {
+      "id": "informal:breadwinning",
+      "term": "Breadwinning",
+      "gloss": "Заработок на жизнь",
+      "example": "She takes her breadwinning seriously.",
+      "definition": "earning the money a household lives on"
+    },
+    {
+      "id": "informal:cleavage",
+      "term": "Cleavage",
+      "gloss": "Декольте / Раскол",
+      "example": "A deep cleavage in the party.",
+      "definition": "a split, or the gap between a woman's breasts"
+    },
+    {
+      "id": "informal:tough-to-buy",
+      "term": "Tough to buy",
+      "gloss": "Сложно поверить",
+      "example": "His excuse is tough to buy.",
+      "definition": "hard to believe or accept as true"
+    },
+    {
+      "id": "informal:cattle",
+      "term": "Cattle",
+      "gloss": "Рогатый скот",
+      "example": "The farmer has a lot of cattle.",
+      "definition": "cows and similar farm animals kept for meat or milk"
+    },
+    {
+      "id": "informal:treat",
+      "term": "Treat",
+      "gloss": "Относиться / Лечить",
+      "example": "Treat others with respect.",
+      "definition": "to behave toward someone in a particular way"
+    },
+    {
+      "id": "informal:firm",
+      "term": "Firm",
+      "gloss": "Фирма / Твердый",
+      "example": "I am firm in my decision.",
+      "definition": "strong and not changing; also a company"
+    },
+    {
+      "id": "informal:creeping-along",
+      "term": "Creeping along...",
+      "gloss": "Красться по коридору",
+      "example": "Someone was creeping along the corridor.",
+      "definition": "moving slowly and quietly, close to the ground"
+    },
+    {
+      "id": "informal:disservice",
+      "term": "Disservice",
+      "gloss": "Плохая услуга",
+      "example": "Lying to him was a great disservice.",
+      "definition": "an action that harms someone you meant to help"
+    },
+    {
+      "id": "informal:flip",
+      "term": "Flip",
+      "gloss": "Перевернуть",
+      "example": "Flip the coin to decide.",
+      "definition": "to turn something over quickly"
+    },
+    {
+      "id": "informal:confession",
+      "term": "Confession",
+      "gloss": "Признание",
+      "example": "His confession was recorded.",
+      "definition": "an admission that you did something wrong"
+    },
+    {
+      "id": "informal:rendition",
+      "term": "Rendition",
+      "gloss": "Исполнение / Версия",
+      "example": "A beautiful rendition of the song.",
+      "definition": "a particular performance or version of a work"
+    },
+    {
+      "id": "informal:i-am-on-a-cut",
+      "term": "I am on a cut",
+      "gloss": "Я на сушке (диете)",
+      "example": "No cake for me, I am on a cut.",
+      "definition": "reducing calories to lose body fat"
+    },
+    {
+      "id": "informal:engage",
+      "term": "Engage",
+      "gloss": "Участвовать / Нанимать",
+      "example": "We need to engage the audience.",
+      "definition": "to involve someone and hold their attention"
+    },
+    {
+      "id": "informal:gruz-lowkey",
+      "term": "Gruz lowkey",
+      "gloss": "Груз / Тяжеляк (сленг)",
+      "example": "This movie is gruz lowkey.",
+      "definition": "quietly heavy or depressing, in a low-key way"
+    },
+    {
+      "id": "informal:conscription",
+      "term": "Conscription",
+      "gloss": "Призыв (в армию)",
+      "example": "Conscription is mandatory there.",
+      "definition": "required military service by law"
+    },
+    {
+      "id": "informal:in-a-span",
+      "term": "In a span",
+      "gloss": "В течение / За период",
+      "example": "Ten goals in a span of two days.",
+      "definition": "within a particular period of time"
+    },
+    {
+      "id": "informal:felony-charges",
+      "term": "Felony charges",
+      "gloss": "Уголовные обвинения",
+      "example": "He is facing felony charges.",
+      "definition": "formal accusations of a serious crime"
+    },
+    {
+      "id": "informal:minor",
+      "term": "Minor",
+      "gloss": "Несовершеннолетний",
+      "example": "Selling alcohol to a minor is illegal.",
+      "definition": "a person below the legal adult age"
+    },
+    {
+      "id": "informal:occurred-over",
+      "term": "Occurred over",
+      "gloss": "Произошло в течение",
+      "example": "Changes occurred over several years.",
+      "definition": "happened gradually during a period of time"
+    },
+    {
+      "id": "informal:charges",
+      "term": "Charges",
+      "gloss": "Обвинения",
+      "example": "All charges were dropped.",
+      "definition": "formal accusations of a crime"
+    },
+    {
+      "id": "informal:allege",
+      "term": "Allege",
+      "gloss": "Утверждать (без док-в)",
+      "example": "They allege that he stole the money.",
+      "definition": "to claim something is true without proving it"
+    },
+    {
+      "id": "informal:detention",
+      "term": "Detention",
+      "gloss": "Задержание / Арест",
+      "example": "He was kept in detention.",
+      "definition": "the state of being held by the authorities"
+    },
+    {
+      "id": "informal:court-system",
+      "term": "Court system",
+      "gloss": "Судебная система",
+      "example": "Trust the fairness of the court system.",
+      "definition": "the network of courts that handle legal cases"
+    },
+    {
+      "id": "informal:resolved-as-a-trial",
+      "term": "Resolved as a trial",
+      "gloss": "Разрешено в суде",
+      "example": "The case was resolved as a trial.",
+      "definition": "settled by going through a court trial"
+    },
+    {
+      "id": "informal:speak-when",
+      "term": "Speak when...",
+      "gloss": "Говори, когда спрашивают",
+      "example": "Speak when you are spoken to.",
+      "definition": "talk only after you are asked to"
+    },
+    {
+      "id": "informal:distraction",
+      "term": "Distraction",
+      "gloss": "Отвлечение",
+      "example": "Phone is a big distraction.",
+      "definition": "something that takes your attention away"
+    },
+    {
+      "id": "informal:squatted",
+      "term": "Squatted",
+      "gloss": "Присел на корточки",
+      "example": "He squatted down to look at the map.",
+      "definition": "sat back on your heels with bent knees"
+    },
+    {
+      "id": "informal:alumni",
+      "term": "Alumni",
+      "gloss": "Выпускники",
+      "example": "He is one of our famous alumni.",
+      "definition": "former students of a school or university"
+    },
+    {
+      "id": "informal:tan",
+      "term": "Tan",
+      "gloss": "Загар",
+      "example": "You have a nice tan.",
+      "definition": "darker skin color from being in the sun"
+    },
+    {
+      "id": "informal:entrepreneur",
+      "term": "Entrepreneur",
+      "gloss": "Предприниматель",
+      "example": "A successful entrepreneur.",
+      "definition": "a person who starts and runs a business"
+    },
+    {
+      "id": "informal:viral",
+      "term": "Viral",
+      "gloss": "Вирусный",
+      "example": "The meme went viral overnight.",
+      "definition": "spreading very quickly online"
+    },
+    {
+      "id": "informal:spark",
+      "term": "Spark",
+      "gloss": "Искра / Вызывать",
+      "example": "A small mistake can spark a fight.",
+      "definition": "to cause something to start suddenly"
+    },
+    {
+      "id": "informal:bar",
+      "term": "Bar",
+      "gloss": "Планка / Запрещать",
+      "example": "He set the bar very high.",
+      "definition": "a standard of quality that others must reach"
+    },
+    {
+      "id": "informal:enclosure",
+      "term": "Enclosure",
+      "gloss": "Приложение / Ограда",
+      "example": "Please see the enclosure in the mail.",
+      "definition": "something included with a letter, or a fenced area"
+    },
+    {
+      "id": "informal:jaw-dropping",
+      "term": "Jaw-dropping",
+      "gloss": "Потрясающий/ челюсть отпала",
+      "example": "The view was jaw-dropping.",
+      "definition": "so impressive that it amazes you"
+    },
+    {
+      "id": "informal:slip-out",
+      "term": "Slip out",
+      "gloss": "Выскользнуть / Сболтнуть",
+      "example": "The secret just slipped out.",
+      "definition": "to be said or leave by accident"
+    },
+    {
+      "id": "informal:supervision",
+      "term": "Supervision",
+      "gloss": "Надзор / Контроль",
+      "example": "Kids need constant supervision.",
+      "definition": "watching over someone to keep them safe or on task"
+    },
+    {
+      "id": "informal:astonish",
+      "term": "Astonish",
+      "gloss": "Изумлять/удивлять",
+      "example": "You astonish me with your talent.",
+      "definition": "to surprise someone greatly"
+    },
+    {
+      "id": "informal:fence",
+      "term": "Fence",
+      "gloss": "Забор",
+      "example": "Don't sit on the fence.",
+      "definition": "a barrier around land; also remaining undecided"
+    },
+    {
+      "id": "informal:crawl",
+      "term": "Crawl",
+      "gloss": "Ползать",
+      "example": "The baby started to crawl.",
+      "definition": "to move on hands and knees"
+    },
+    {
+      "id": "informal:informed",
+      "term": "Informed",
+      "gloss": "Информированный",
+      "example": "Make an informed decision.",
+      "definition": "based on good knowledge of the facts"
+    },
+    {
+      "id": "informal:jolly-fellow",
+      "term": "Jolly fellow",
+      "gloss": "Весельчак",
+      "example": "He is such a jolly fellow.",
+      "definition": "a cheerful, good-humored person"
+    },
+    {
+      "id": "informal:reduction",
+      "term": "Reduction",
+      "gloss": "Сокращение",
+      "example": "A massive reduction in costs.",
+      "definition": "the act of making something smaller in amount"
+    },
+    {
+      "id": "informal:beneath",
+      "term": "Beneath",
+      "gloss": "Под / Ниже",
+      "example": "It is beneath my dignity.",
+      "definition": "under something, or too low for your dignity"
+    },
+    {
+      "id": "informal:missiles",
+      "term": "Missiles",
+      "gloss": "Ракеты",
+      "example": "The army launched missiles.",
+      "definition": "weapons that fly through the air to a target"
+    },
+    {
+      "id": "informal:thugs",
+      "term": "Thugs",
+      "gloss": "Бандиты / Хулиганы",
+      "example": "He was attacked by thugs.",
+      "definition": "violent criminals or aggressive bullies"
+    },
+    {
+      "id": "informal:throughout",
+      "term": "Throughout",
+      "gloss": "На протяжении",
+      "example": "It rained throughout the day.",
+      "definition": "during the whole of a period or place"
+    },
+    {
+      "id": "informal:mutilated",
+      "term": "Mutilated",
+      "gloss": "Изуродованный",
+      "example": "The body was mutilated.",
+      "definition": "badly damaged, especially a body or object"
+    },
+    {
+      "id": "informal:sophisticated",
+      "term": "Sophisticated",
+      "gloss": "Сложный / Изысканный",
+      "example": "A sophisticated computer system.",
+      "definition": "complex, advanced, or stylishly refined"
+    },
+    {
+      "id": "informal:obliterated",
+      "term": "Obliterated",
+      "gloss": "Уничтоженный",
+      "example": "The town was obliterated.",
+      "definition": "completely destroyed so almost nothing remains"
+    },
+    {
+      "id": "informal:indeed",
+      "term": "Indeed",
+      "gloss": "В самом деле",
+      "example": "It is very cold indeed.",
+      "definition": "used to emphasize that something is true"
+    },
+    {
+      "id": "informal:enhance",
+      "term": "Enhance",
+      "gloss": "Улучшать",
+      "example": "Enhance your photo quality.",
+      "definition": "to improve the quality or strength of something"
+    },
+    {
+      "id": "informal:stated",
+      "term": "Stated",
+      "gloss": "Заявленный",
+      "example": "He stated his name clearly.",
+      "definition": "said or written clearly and officially"
+    },
+    {
+      "id": "informal:however",
+      "term": "However",
+      "gloss": "Однако",
+      "example": "I am busy; however, I can help.",
+      "definition": "used to introduce a contrasting idea"
+    },
+    {
+      "id": "informal:reveals",
+      "term": "Reveals",
+      "gloss": "Раскрывает",
+      "example": "The map reveals a hidden path.",
+      "definition": "makes something hidden become known"
+    },
+    {
+      "id": "informal:suffer",
+      "term": "Suffer",
+      "gloss": "Страдать",
+      "example": "Don't let him suffer.",
+      "definition": "to experience pain, harm, or hardship"
+    },
+    {
+      "id": "informal:grief",
+      "term": "Grief",
+      "gloss": "Горе",
+      "example": "She was overwhelmed with grief.",
+      "definition": "deep sadness after a loss"
+    },
+    {
+      "id": "informal:refuge",
+      "term": "Refuge",
+      "gloss": "Убежище",
+      "example": "They found refuge in the cave.",
+      "definition": "a safe place to shelter from danger"
+    },
+    {
+      "id": "informal:arrogant",
+      "term": "Arrogant",
+      "gloss": "Высокомерный",
+      "example": "Stop being so arrogant.",
+      "definition": "too proud and looking down on others"
+    },
+    {
+      "id": "informal:bury",
+      "term": "Bury",
+      "gloss": "Хоронить / Закапывать",
+      "example": "Bury the past and move on.",
+      "definition": "to put underground, or to hide and forget something"
+    },
+    {
+      "id": "informal:refine",
+      "term": "Refine",
+      "gloss": "Совершенствовать",
+      "example": "Refine your skills daily.",
+      "definition": "to improve something by making small careful changes"
+    },
+    {
+      "id": "informal:flinch",
+      "term": "Flinch",
+      "gloss": "Вздрогнуть",
+      "example": "He didn't even flinch.",
+      "definition": "to make a sudden movement from pain or fear"
+    },
+    {
+      "id": "informal:steady",
+      "term": "Steady",
+      "gloss": "Стабильный / Ровный",
+      "example": "Keep a steady hand.",
+      "definition": "firm, even, and not shaking or changing"
+    },
+    {
+      "id": "informal:divine-grace",
+      "term": "Divine grace",
+      "gloss": "Божественная благодать",
+      "example": "Saved by divine grace.",
+      "definition": "help or mercy believed to come from God"
+    },
+    {
+      "id": "informal:divinity",
+      "term": "Divinity",
+      "gloss": "Божественность",
+      "example": "Study the divinity of nature.",
+      "definition": "the quality of being godlike or sacred"
+    },
+    {
+      "id": "informal:envy",
+      "term": "Envy",
+      "gloss": "Зависть",
+      "example": "I don't envy his position.",
+      "definition": "wanting what another person has"
+    }
+  ]
+}

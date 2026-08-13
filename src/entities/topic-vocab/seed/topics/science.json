@@ -1,0 +1,532 @@
+{
+  "id": "science",
+  "title": "Science & Research",
+  "version": 1,
+  "entries": [
+    {
+      "id": "science:scientific-rigor",
+      "term": "Scientific rigor",
+      "gloss": "Научная строгость",
+      "example": "Research requires scientific rigor.",
+      "definition": "Careful, strict methods in research"
+    },
+    {
+      "id": "science:empirical-evidence",
+      "term": "Empirical evidence",
+      "gloss": "Эмпирич. данные",
+      "example": "We need empirical evidence.",
+      "definition": "Proof based on observation or experiment"
+    },
+    {
+      "id": "science:data-analysis",
+      "term": "Data analysis",
+      "gloss": "Анализ данных",
+      "example": "Data analysis takes months.",
+      "definition": "Examining numbers to find patterns"
+    },
+    {
+      "id": "science:hypothesis",
+      "term": "Hypothesis",
+      "gloss": "Гипотеза",
+      "example": "Test the hypothesis in the lab.",
+      "definition": "Suggested explanation to be tested"
+    },
+    {
+      "id": "science:theory",
+      "term": "Theory",
+      "gloss": "Теория",
+      "example": "It is still just a theory.",
+      "definition": "Well-tested explanation of how something works"
+    },
+    {
+      "id": "science:experiment",
+      "term": "Experiment",
+      "gloss": "Эксперимент",
+      "example": "Conduct a controlled experiment.",
+      "definition": "Test done to discover or prove something"
+    },
+    {
+      "id": "science:breakthrough",
+      "term": "Breakthrough",
+      "gloss": "Прорыв",
+      "example": "A major breakthrough in cancer.",
+      "definition": "Sudden important discovery or advance"
+    },
+    {
+      "id": "science:discovery",
+      "term": "Discovery",
+      "gloss": "Открытие",
+      "example": "The discovery of penicillin.",
+      "definition": "Finding something that was not known"
+    },
+    {
+      "id": "science:innovation",
+      "term": "Innovation",
+      "gloss": "Инновация",
+      "example": "Constant innovation drives tech.",
+      "definition": "New idea, method or invention"
+    },
+    {
+      "id": "science:laboratory",
+      "term": "Laboratory",
+      "gloss": "Лаборатория",
+      "example": "The laboratory is high-tech.",
+      "definition": "Room equipped for scientific work"
+    },
+    {
+      "id": "science:peer-reviewed",
+      "term": "Peer-reviewed",
+      "gloss": "Рецензируемый",
+      "example": "Read peer-reviewed journals.",
+      "definition": "Checked by other experts before publication"
+    },
+    {
+      "id": "science:publication",
+      "term": "Publication",
+      "gloss": "Публикация",
+      "example": "His publication was famous.",
+      "definition": "Article or book that presents research"
+    },
+    {
+      "id": "science:researcher",
+      "term": "Researcher",
+      "gloss": "Исследователь",
+      "example": "The researcher found a link.",
+      "definition": "Person who studies a subject in depth"
+    },
+    {
+      "id": "science:technological-race",
+      "term": "Technological race",
+      "gloss": "Технологич. гонка",
+      "example": "The global technological race.",
+      "definition": "Competition to develop better technology"
+    },
+    {
+      "id": "science:state-of-the-art",
+      "term": "State-of-the-art",
+      "gloss": "Ультрасовременный",
+      "example": "Use state-of-the-art tools.",
+      "definition": "Using the most advanced methods available"
+    },
+    {
+      "id": "science:genetics",
+      "term": "Genetics",
+      "gloss": "Генетика",
+      "example": "Genetics explains our traits.",
+      "definition": "Study of how traits are passed on"
+    },
+    {
+      "id": "science:genome",
+      "term": "Genome",
+      "gloss": "Геном",
+      "example": "Sequencing the human genome.",
+      "definition": "Complete set of genes in an organism"
+    },
+    {
+      "id": "science:dna-sequencing",
+      "term": "DNA sequencing",
+      "gloss": "Секвенирование ДНК",
+      "example": "DNA sequencing is now cheap.",
+      "definition": "Reading the order of letters in DNA"
+    },
+    {
+      "id": "science:gene-therapy",
+      "term": "Gene therapy",
+      "gloss": "Генная терапия",
+      "example": "Gene therapy cures diseases.",
+      "definition": "Treating disease by changing a person's genes"
+    },
+    {
+      "id": "science:genetic-engineering",
+      "term": "Genetic engineering",
+      "gloss": "Генная инженерия",
+      "example": "Genetic engineering is debated.",
+      "definition": "Changing an organism's genes on purpose"
+    },
+    {
+      "id": "science:gmo",
+      "term": "GMO",
+      "gloss": "ГМО",
+      "example": "GMO crops produce more food.",
+      "definition": "Organism whose genes have been artificially changed"
+    },
+    {
+      "id": "science:modification",
+      "term": "Modification",
+      "gloss": "Модификация",
+      "example": "Genetic modification of corn.",
+      "definition": "Change made to something"
+    },
+    {
+      "id": "science:cloning",
+      "term": "Cloning",
+      "gloss": "Клонирование",
+      "example": "Cloning animals is possible.",
+      "definition": "Making an identical genetic copy"
+    },
+    {
+      "id": "science:stem-cells",
+      "term": "Stem cells",
+      "gloss": "Стволовые клетки",
+      "example": "Stem cells can grow tissue.",
+      "definition": "Cells that can grow into different body tissues"
+    },
+    {
+      "id": "science:artificial-selection",
+      "term": "Artificial selection",
+      "gloss": "Искусств. отбор",
+      "example": "Farmers use artificial selection.",
+      "definition": "Breeding plants or animals for chosen traits"
+    },
+    {
+      "id": "science:ethical-dilemma",
+      "term": "Ethical dilemma",
+      "gloss": "Этическая дилемма",
+      "example": "Science faces an ethical dilemma.",
+      "definition": "Situation where moral choices conflict"
+    },
+    {
+      "id": "science:moral-boundaries",
+      "term": "Moral boundaries",
+      "gloss": "Моральные границы",
+      "example": "Do not cross moral boundaries.",
+      "definition": "Limits of what is considered right"
+    },
+    {
+      "id": "science:controversial",
+      "term": "Controversial",
+      "gloss": "Спорный",
+      "example": "It is a controversial study.",
+      "definition": "Causing strong public disagreement"
+    },
+    {
+      "id": "science:regulation",
+      "term": "Regulation",
+      "gloss": "Регулирование",
+      "example": "Strict regulation of research.",
+      "definition": "Official rules that control an activity"
+    },
+    {
+      "id": "science:prohibition",
+      "term": "Prohibition",
+      "gloss": "Запрет",
+      "example": "A prohibition on human cloning.",
+      "definition": "Official ban on something"
+    },
+    {
+      "id": "science:ethics-committee",
+      "term": "Ethics committee",
+      "gloss": "Комитет по этике",
+      "example": "Ask the ethics committee.",
+      "definition": "Group that judges whether research is moral"
+    },
+    {
+      "id": "science:bioethics",
+      "term": "Bioethics",
+      "gloss": "Биоэтика",
+      "example": "Bioethics is a complex field.",
+      "definition": "Moral questions about biology and medicine"
+    },
+    {
+      "id": "science:clinical-trial",
+      "term": "Clinical trial",
+      "gloss": "Клинич. испытание",
+      "example": "The drug is in a clinical trial.",
+      "definition": "Test of a treatment on people"
+    },
+    {
+      "id": "science:placebo-effect",
+      "term": "Placebo effect",
+      "gloss": "Эффект плацебо",
+      "example": "Is it just the placebo effect?",
+      "definition": "Improvement caused by belief, not the treatment"
+    },
+    {
+      "id": "science:side-effects",
+      "term": "Side effects",
+      "gloss": "Побочные эффекты",
+      "example": "Check the drug for side effects.",
+      "definition": "Unwanted extra effects of a treatment"
+    },
+    {
+      "id": "science:sample-size",
+      "term": "Sample size",
+      "gloss": "Размер выборки",
+      "example": "The sample size was too small.",
+      "definition": "Number of people or items studied"
+    },
+    {
+      "id": "science:variables",
+      "term": "Variables",
+      "gloss": "Переменные",
+      "example": "Control all the variables.",
+      "definition": "Factors that can change in an experiment"
+    },
+    {
+      "id": "science:reliability",
+      "term": "Reliability",
+      "gloss": "Надежность",
+      "example": "Prove the reliability of data.",
+      "definition": "Consistency of results when repeated"
+    },
+    {
+      "id": "science:validity",
+      "term": "Validity",
+      "gloss": "Обоснованность",
+      "example": "I doubt the validity of results.",
+      "definition": "How well a test measures what it claims"
+    },
+    {
+      "id": "science:correlation",
+      "term": "Correlation",
+      "gloss": "Корреляция",
+      "example": "There is a high correlation.",
+      "definition": "Link between two things that change together"
+    },
+    {
+      "id": "science:automation",
+      "term": "Automation",
+      "gloss": "Автоматизация",
+      "example": "Automation speeds up tests.",
+      "definition": "Using machines to do work without humans"
+    },
+    {
+      "id": "science:robotics",
+      "term": "Robotics",
+      "gloss": "Робототехника",
+      "example": "Robotics helps in surgery.",
+      "definition": "Design and use of robots"
+    },
+    {
+      "id": "science:artificial",
+      "term": "Artificial",
+      "gloss": "Искусственный интеллект",
+      "example": "AI can predict protein folding.",
+      "definition": "Computer systems that mimic human intelligence"
+    },
+    {
+      "id": "science:nanotechnology",
+      "term": "Nanotechnology",
+      "gloss": "Нанотехнологии",
+      "example": "Nanotechnology is very small.",
+      "definition": "Science of working with extremely small materials"
+    },
+    {
+      "id": "science:space-exploration",
+      "term": "Space exploration",
+      "gloss": "Освоение космоса",
+      "example": "Invest in space exploration.",
+      "definition": "Travel and research beyond Earth"
+    },
+    {
+      "id": "science:mars-mission",
+      "term": "Mars mission",
+      "gloss": "Миссия на Марс",
+      "example": "The Mars mission is planned.",
+      "definition": "Planned journey to the planet Mars"
+    },
+    {
+      "id": "science:satellite",
+      "term": "Satellite",
+      "gloss": "Спутник",
+      "example": "Launch a new satellite.",
+      "definition": "Object orbiting a planet, often for communication"
+    },
+    {
+      "id": "science:space-station",
+      "term": "Space station",
+      "gloss": "Космическая станция",
+      "example": "Living on a space station.",
+      "definition": "Structure in orbit where people live and work"
+    },
+    {
+      "id": "science:gravity",
+      "term": "Gravity",
+      "gloss": "Гравитация",
+      "example": "Study the effects of gravity.",
+      "definition": "Force that pulls objects towards each other"
+    },
+    {
+      "id": "science:atmosphere",
+      "term": "Atmosphere",
+      "gloss": "Атмосфера",
+      "example": "Testing the Martian atmosphere.",
+      "definition": "Layer of gases around a planet"
+    },
+    {
+      "id": "science:colonization",
+      "term": "Colonization",
+      "gloss": "Колонизация",
+      "example": "Space colonization is a dream.",
+      "definition": "Settling people in a new place, including space"
+    },
+    {
+      "id": "science:astronomy",
+      "term": "Astronomy",
+      "gloss": "Астрономия",
+      "example": "He is a student of astronomy.",
+      "definition": "Study of stars, planets and space"
+    },
+    {
+      "id": "science:astrophysics",
+      "term": "Astrophysics",
+      "gloss": "Астрофизика",
+      "example": "Astrophysics is very hard.",
+      "definition": "Physics of stars, galaxies and the universe"
+    },
+    {
+      "id": "science:physics",
+      "term": "Physics",
+      "gloss": "Физика",
+      "example": "Basic laws of physics.",
+      "definition": "Science of matter, energy and forces"
+    },
+    {
+      "id": "science:quantum-mechanics",
+      "term": "Quantum mechanics",
+      "gloss": "Квантовая механика",
+      "example": "Quantum mechanics is strange.",
+      "definition": "Physics of very small particles"
+    },
+    {
+      "id": "science:laboratory-animals",
+      "term": "Laboratory animals",
+      "gloss": "Лабор. животные",
+      "example": "Reduce use of lab animals.",
+      "definition": "Animals used in scientific experiments"
+    },
+    {
+      "id": "science:vivisection",
+      "term": "Vivisection",
+      "gloss": "Вивисекция",
+      "example": "Many protest against vivisection.",
+      "definition": "Operating on live animals for research"
+    },
+    {
+      "id": "science:animal-welfare",
+      "term": "Animal welfare",
+      "gloss": "Благополучие животных",
+      "example": "Respect animal welfare.",
+      "definition": "Protection of animals from suffering"
+    },
+    {
+      "id": "science:alternative-testing",
+      "term": "Alternative testing",
+      "gloss": "Альтерн. тесты",
+      "example": "Use alternative testing methods.",
+      "definition": "Research methods that avoid using animals"
+    },
+    {
+      "id": "science:synthetic",
+      "term": "Synthetic",
+      "gloss": "Синтетический",
+      "example": "Create synthetic materials.",
+      "definition": "Made by people, not found in nature"
+    },
+    {
+      "id": "science:biodiversity",
+      "term": "Biodiversity",
+      "gloss": "Биоразнообразие",
+      "example": "Loss of biodiversity is bad.",
+      "definition": "Variety of living things in an area"
+    },
+    {
+      "id": "science:evolution",
+      "term": "Evolution",
+      "gloss": "Эволюция",
+      "example": "The theory of evolution.",
+      "definition": "Gradual change of species over time"
+    },
+    {
+      "id": "science:mutation",
+      "term": "Mutation",
+      "gloss": "Мутация",
+      "example": "A genetic mutation occurred.",
+      "definition": "Change in a gene"
+    },
+    {
+      "id": "science:trait",
+      "term": "Trait",
+      "gloss": "Черта / Свойство",
+      "example": "Eye color is a genetic trait.",
+      "definition": "Characteristic passed on genetically"
+    },
+    {
+      "id": "science:inherited",
+      "term": "Inherited",
+      "gloss": "Наследственный",
+      "example": "It is an inherited disease.",
+      "definition": "Received from your parents through genes"
+    },
+    {
+      "id": "science:forensics",
+      "term": "Forensics",
+      "gloss": "Криминалистика",
+      "example": "Forensics solved the crime.",
+      "definition": "Science used to investigate crime"
+    },
+    {
+      "id": "science:sustainability",
+      "term": "Sustainability",
+      "gloss": "Устойчивость",
+      "example": "Focus on sustainability.",
+      "definition": "Ability to continue without using up resources"
+    },
+    {
+      "id": "science:renewable",
+      "term": "Renewable",
+      "gloss": "Возобновляемый",
+      "example": "Renewable energy research.",
+      "definition": "Able to be replaced naturally"
+    },
+    {
+      "id": "science:polluter",
+      "term": "Polluter",
+      "gloss": "Загрязнитель",
+      "example": "Identify the main polluter.",
+      "definition": "Person or company that damages the environment"
+    },
+    {
+      "id": "science:patenting",
+      "term": "Patenting",
+      "gloss": "Патентование",
+      "example": "Patenting genetic sequences.",
+      "definition": "Legally protecting an invention"
+    },
+    {
+      "id": "science:intellectual-property",
+      "term": "Intellectual property",
+      "gloss": "Интелл. собственность",
+      "example": "Protect intellectual property.",
+      "definition": "Legal rights over ideas and inventions"
+    },
+    {
+      "id": "science:funding",
+      "term": "Funding",
+      "gloss": "Финансирование",
+      "example": "Science needs more funding.",
+      "definition": "Money provided to support research"
+    },
+    {
+      "id": "science:commercialization",
+      "term": "Commercialization",
+      "gloss": "Коммерциализация",
+      "example": "Commercialization of space.",
+      "definition": "Turning a discovery into a product for sale"
+    },
+    {
+      "id": "science:technophobe",
+      "term": "Technophobe",
+      "gloss": "Технофоб",
+      "example": "He is a bit of a technophobe.",
+      "definition": "Person who fears or dislikes new technology"
+    },
+    {
+      "id": "science:futuristic",
+      "term": "Futuristic",
+      "gloss": "Футуристический",
+      "example": "A futuristic vision of Earth.",
+      "definition": "Looking as if it belongs in the future"
+    }
+  ]
+}

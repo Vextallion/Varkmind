@@ -11,6 +11,7 @@ import { useAuthBootstrap } from '@features/auth';
 
 import { useProfileStore } from '@entities/profile';
 import { initRegisterGraph } from '@entities/register-graph/db/init';
+import { initTopicVocab } from '@entities/topic-vocab';
 import { useSessionStore } from '@entities/user';
 
 import i18n from '@shared/config/locales/i18n';
@@ -56,6 +57,8 @@ function AuthNavigation({ bootReady }: { bootReady: boolean }) {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Protected guard={hasAccess && onboardingCompleted}>
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="library/register" />
+        <Stack.Screen name="library/topic/[topicId]" />
       </Stack.Protected>
       <Stack.Protected guard={hasAccess && !onboardingCompleted}>
         <Stack.Screen name="(onboarding)" />
@@ -74,7 +77,7 @@ export default function RootLayout() {
 
   useEffect(() => {
     let cancelled = false;
-    initRegisterGraph()
+    Promise.all([initRegisterGraph(), initTopicVocab()])
       .catch(() => undefined)
       .finally(() => {
         if (!cancelled) {

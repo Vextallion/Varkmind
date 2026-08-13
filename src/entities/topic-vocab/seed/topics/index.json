@@ -1,0 +1,153 @@
+{
+  "version": 3,
+  "generatedAt": "2026-08-13",
+  "topics": [
+    {
+      "id": "environment",
+      "title": "Environment",
+      "file": "environment.json",
+      "entryCount": 75,
+      "imageKey": "environment"
+    },
+    {
+      "id": "urbanization",
+      "title": "Urbanization",
+      "file": "urbanization.json",
+      "entryCount": 75,
+      "imageKey": "urbanization"
+    },
+    {
+      "id": "globalization",
+      "title": "Globalization",
+      "file": "globalization.json",
+      "entryCount": 75,
+      "imageKey": "globalization"
+    },
+    {
+      "id": "crime-law",
+      "title": "Crime & Law",
+      "file": "crime-law.json",
+      "entryCount": 75,
+      "imageKey": "crime-law"
+    },
+    {
+      "id": "society",
+      "title": "Society & Demographics",
+      "file": "society.json",
+      "entryCount": 75,
+      "imageKey": "society"
+    },
+    {
+      "id": "education-tech",
+      "title": "Education & Technology",
+      "file": "education-tech.json",
+      "entryCount": 75,
+      "imageKey": "education-tech"
+    },
+    {
+      "id": "work",
+      "title": "Work & Career",
+      "file": "work.json",
+      "entryCount": 74,
+      "imageKey": "work"
+    },
+    {
+      "id": "consumerism",
+      "title": "Consumerism & Economy",
+      "file": "consumerism.json",
+      "entryCount": 75,
+      "imageKey": "consumerism"
+    },
+    {
+      "id": "health",
+      "title": "Health & Well-being",
+      "file": "health.json",
+      "entryCount": 75,
+      "imageKey": "health"
+    },
+    {
+      "id": "media",
+      "title": "Media & Communication",
+      "file": "media.json",
+      "entryCount": 75,
+      "imageKey": "media"
+    },
+    {
+      "id": "travel",
+      "title": "Travel & Transport",
+      "file": "travel.json",
+      "entryCount": 75,
+      "imageKey": "travel"
+    },
+    {
+      "id": "science",
+      "title": "Science & Research",
+      "file": "science.json",
+      "entryCount": 75,
+      "imageKey": "science"
+    },
+    {
+      "id": "food",
+      "title": "Food & Nutrition",
+      "file": "food.json",
+      "entryCount": 75,
+      "imageKey": "food"
+    },
+    {
+      "id": "arts",
+      "title": "Arts & Culture",
+      "file": "arts.json",
+      "entryCount": 75,
+      "imageKey": "arts"
+    },
+    {
+      "id": "family",
+      "title": "Family & Relationships",
+      "file": "family.json",
+      "entryCount": 75,
+      "imageKey": "family"
+    },
+    {
+      "id": "slang-idioms",
+      "title": "Slang & Idioms",
+      "file": "slang-idioms.json",
+      "entryCount": 68,
+      "imageKey": "slang-idioms"
+    },
+    {
+      "id": "informal",
+      "title": "Informal English",
+      "file": "informal.json",
+      "entryCount": 114,
+      "imageKey": "informal"
+    },
+    {
+      "id": "advanced-general",
+      "title": "Advanced General",
+      "file": "advanced-general.json",
+      "entryCount": 108,
+      "imageKey": "advanced-general"
+    },
+    {
+      "id": "daily-life",
+      "title": "Daily Life",
+      "file": "daily-life.json",
+      "entryCount": 103,
+      "imageKey": "daily-life"
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "file": "entertainment.json",
+      "entryCount": 125,
+      "imageKey": "entertainment"
+    },
+    {
+      "id": "misc-advanced",
+      "title": "Advanced Vocabulary",
+      "file": "misc-advanced.json",
+      "entryCount": 103,
+      "imageKey": "misc-advanced"
+    }
+  ]
+}
