@@ -1,6 +1,11 @@
 import { getDb, type SqlScalar } from '@shared/lib/sqlite';
 
 import type {
+  LibraryChunkStatus,
+  LibraryEntry,
+  ListLibraryOptions,
+} from '../model/library';
+import type {
   CommonPitfall,
   DrillCard,
   RegisterGraphNode,
@@ -304,6 +309,93 @@ export function findPitfall(
   }
 
   return null;
+}
+
+function asLibraryStatus(value: SqlScalar | undefined): LibraryChunkStatus {
+  const text = asString(value);
+  if (text === 'active' || text === 'mastered') {
+    return text;
+  }
+  return 'passive';
+}
+
+export async function listLibraryEntries(
+  options: ListLibraryOptions = {},
+): Promise<LibraryEntry[]> {
+  const db = getDb();
+  const status = options.status ?? 'all';
+  const outcomeTag =
+    options.outcomeTag && options.outcomeTag !== 'all'
+      ? options.outcomeTag
+      : null;
+  const query = options.query?.trim().toLowerCase() ?? '';
+
+  const clauses: string[] = ['r.is_primary = 1'];
+  const params: SqlScalar[] = [];
+
+  if (status !== 'all') {
+    if (status === 'passive') {
+      clauses.push(`(cs.status IS NULL OR cs.status = 'passive')`);
+    } else {
+      clauses.push(`cs.status = ?`);
+      params.push(status);
+    }
+  }
+
+  if (outcomeTag) {
+    clauses.push(`(',' || REPLACE(b.outcome_tags, ' ', '') || ',') LIKE ?`);
+    params.push(`%,${outcomeTag},%`);
+  }
+
+  if (query) {
+    clauses.push(
+      `(LOWER(b.text) LIKE ? OR LOWER(r.text) LIKE ? OR LOWER(COALESCE(c.text, '')) LIKE ?)`,
+    );
+    const like = `%${query}%`;
+    params.push(like, like, like);
+  }
+
+  const result = await db.execute(
+    `
+    SELECT
+      b.id AS b2_chunk_id,
+      b.text AS highlight_chunk,
+      b.outcome_tags AS outcome_tags,
+      COALESCE(c.text, b.text) AS b2_sentence,
+      r.text AS c1_text,
+      cs.status AS status,
+      (
+        SELECT p.explanation FROM common_pitfalls p
+        WHERE p.b2_chunk_id = b.id
+        LIMIT 1
+      ) AS pitfall_explanation
+    FROM b2_chunks b
+    INNER JOIN c1_replacements r
+      ON r.b2_chunk_id = b.id AND r.is_primary = 1
+    LEFT JOIN contexts c
+      ON c.b2_chunk_id = b.id
+    LEFT JOIN chunk_status cs
+      ON cs.chunk_id = b.id
+    WHERE ${clauses.join(' AND ')}
+    GROUP BY b.id
+    ORDER BY b.text COLLATE NOCASE ASC
+    `,
+    params,
+  );
+
+  return (result.rows ?? []).map((row: Record<string, SqlScalar>) => ({
+    b2ChunkId: asString(row.b2_chunk_id),
+    b2Text: asString(row.b2_sentence),
+    c1Text: asString(row.c1_text),
+    highlightChunk: asString(row.highlight_chunk),
+    outcomeTags: asString(row.outcome_tags)
+      .split(',')
+      .map(tag => tag.trim())
+      .filter(Boolean),
+    status: asLibraryStatus(row.status),
+    contextText: asString(row.b2_sentence) || null,
+    pitfallExplanation: asString(row.pitfall_explanation) || null,
+  }));
 }
 
 export { initRegisterGraph } from './init';

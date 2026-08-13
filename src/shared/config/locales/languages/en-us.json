@@ -63,7 +63,29 @@
   },
   "library": {
     "title": "Library",
-    "subtitle": "Collocations · Passive / Active / Mastered"
+    "subtitle": "Your Register Graph · Passive / Active / Mastered",
+    "count": "{{count}} chunks",
+    "searchPlaceholder": "Search B2 or C1…",
+    "loadingTitle": "Loading library",
+    "loadingBody": "Reading chunks from the local Register Graph.",
+    "emptyTitle": "No chunks match",
+    "emptyBody": "Try another filter or clear search.",
+    "retry": "Reload",
+    "drillThis": "Drill this",
+    "close": "Close",
+    "pitfall": "Pitfall",
+    "status": {
+      "all": "All",
+      "passive": "Passive",
+      "active": "Active",
+      "mastered": "Mastered"
+    },
+    "outcome": {
+      "all": "All decks",
+      "tech": "Tech",
+      "academic": "Academic",
+      "biz": "Biz"
+    }
   },
   "profile": {
     "title": "Profile",

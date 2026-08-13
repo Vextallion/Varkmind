@@ -6,6 +6,7 @@ export {
   getPrimaryCard,
   initRegisterGraph,
   listCardsByRegister,
+  listLibraryEntries,
 } from './db';
 export type {
   B2Chunk,
@@ -13,6 +14,11 @@ export type {
   CommonPitfall,
   ContextExample,
   DrillCard,
+  LibraryChunkStatus,
+  LibraryEntry,
+  LibraryOutcomeFilter,
+  LibraryStatusFilter,
+  ListLibraryOptions,
   RegisterGraphNode,
   RegisterKind,
 } from './model';

@@ -7,3 +7,10 @@ export type {
   RegisterGraphNode,
   RegisterKind,
 } from './types';
+export type {
+  LibraryChunkStatus,
+  LibraryEntry,
+  LibraryOutcomeFilter,
+  LibraryStatusFilter,
+  ListLibraryOptions,
+} from './library';

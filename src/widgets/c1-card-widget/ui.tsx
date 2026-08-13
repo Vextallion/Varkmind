@@ -5,13 +5,14 @@ import { Text, View } from 'react-native';
 import { useFocusEffect } from 'expo-router';
 
 import { recordLastUpgrade } from '@features/share-progress';
-import { validateC1Input } from '@features/upgrade-register';
+import { useDrillPinStore, validateC1Input } from '@features/upgrade-register';
 
 import { outcomeToSeedTag, useProfileStore } from '@entities/profile';
 import {
   type DrillCard,
   findPitfall,
   getDueDrillCard,
+  getPrimaryCard,
 } from '@entities/register-graph';
 import {
   type SrsGrade,
@@ -23,7 +24,7 @@ import {
 import {
   advanceActiveProduction,
   markDay1Active,
-  useCardStore
+  useCardStore,
 } from '@entities/word';
 
 import { useTheme } from '@shared/theme/useTheme';
@@ -65,8 +66,11 @@ export const C1CardWidget: React.FC = () => {
   const loadCard = useCallback(async () => {
     setStatus('loading');
     try {
+      const pinnedId = useDrillPinStore.getState().consumePin();
       const tag = outcomeToSeedTag(outcome);
-      const card: DrillCard | null = await getDueDrillCard(tag);
+      const card: DrillCard | null = pinnedId
+        ? await getPrimaryCard(pinnedId)
+        : await getDueDrillCard(tag);
       if (!card) {
         setStatus('empty');
         return;
