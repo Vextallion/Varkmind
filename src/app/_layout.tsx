@@ -74,8 +74,10 @@ function AuthNavigation({ bootReady }: { bootReady: boolean }) {
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Protected guard={hasAccess && onboardingCompleted}>
         <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="embed" />
         <Stack.Screen name="library/register" />
         <Stack.Screen name="library/topic/[topicId]" />
+        <Stack.Screen name="library/topic/[topicId]/produce" />
       </Stack.Protected>
       <Stack.Protected guard={hasAccess && !onboardingCompleted}>
         <Stack.Screen name="(onboarding)" />

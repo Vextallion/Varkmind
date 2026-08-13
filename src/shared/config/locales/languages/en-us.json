@@ -26,6 +26,74 @@
     "startDrill": "Start drill",
     "yourFocus": "Your focus"
   },
+  "embed": {
+    "title": "Embed",
+    "subtitle": "Input + micro-task — lock chunks into real use.",
+    "back": "Back",
+    "backHome": "Back to Home",
+    "goLearn": "Start drill",
+    "loadingTitle": "Preparing Embed",
+    "loadingBody": "Loading your recent Active Chunks.",
+    "emptyTitle": "Drill first",
+    "emptyBody": "Complete a Register Upgrade on Learn so Embed has Active Chunks to lock in.",
+    "doneTitle": "Embed done for today",
+    "doneBody": "You re-exposed chunks and used them in context. Come back tomorrow.",
+    "ritual": {
+      "badge": "DAILY LOOP",
+      "title": "Upgrade → Activate → Embed",
+      "body": "One focused pass for a Tech Lead month boost.",
+      "upgrade": "Upgrade",
+      "upgradeTodo": "Run Register Upgrade on Learn",
+      "upgradeDone": "{{count}} upgraded today",
+      "activate": "Activate",
+      "activateStart": "Finish a drill to open the 48h queue",
+      "activateDue": "{{count}} phrases due now",
+      "activateClear": "No activations due",
+      "embed": "Embed",
+      "embedTodo": "Input + standup micro-task",
+      "embedMicroTodo": "Finish today’s micro-task",
+      "embedDone": "Locked in for today"
+    },
+    "input": {
+      "badge": "INPUT {{current}} / {{total}}",
+      "title": "Meet the chunk again",
+      "body": "Read the C1 collocation in context. No typing — just re-exposure.",
+      "contextLabel": "Context",
+      "wasB2": "Upgraded from: {{b2}}",
+      "next": "Next"
+    },
+    "micro": {
+      "badge": "MICRO-TASK",
+      "useThese": "Use every phrase below",
+      "placeholder": "Write your standup update here…",
+      "submit": "Submit",
+      "missingPhrases": "Include every highlighted C1 phrase exactly.",
+      "tech_lead_standups": {
+        "title": "Tech Lead standup",
+        "body": "Write a short standup update (blockers, progress, ask). Use each C1 phrase naturally."
+      },
+      "academic_writing_7_5": {
+        "title": "Academic paragraph",
+        "body": "Write 3–5 sentences arguing a point. Use each C1 phrase in formal register."
+      },
+      "c_level_negotiations": {
+        "title": "Negotiation beat",
+        "body": "Write a brief client/exec note. Use each C1 phrase with decisive tone."
+      }
+    }
+  },
+  "topicProduce": {
+    "cta": "Produce from definition",
+    "title": "Topic produce",
+    "badge": "RETRIEVAL",
+    "prompt": "Type the English term for this definition.",
+    "placeholder": "English term…",
+    "check": "Check",
+    "tryAgain": "Not quite — try the exact term.",
+    "correct": "Correct",
+    "next": "Next word",
+    "loadingBody": "Picking a word from this topic."
+  },
   "outcomes": {
     "tech_lead_standups": "Tech Lead Standups",
     "academic_writing_7_5": "Academic Writing 7.5+",

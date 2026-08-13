@@ -15,6 +15,7 @@ import { Button } from '@shared/ui/atoms/Button';
 import { Chip } from '@shared/ui/atoms/Chip';
 import { ProgressRing } from '@shared/ui/molecules/ProgressRing';
 import { ActiveQueueWidget } from '@widgets/active-queue';
+import { DailyRitualWidget } from '@widgets/daily-ritual';
 
 function outcomeLabelKey(
   id: LearningOutcome,
@@ -154,6 +155,7 @@ export const DashboardScreen: React.FC = () => {
           gap: theme.space.xl,
         }}
       >
+        <DailyRitualWidget />
         <ActiveQueueWidget />
 
         <View style={{ gap: theme.space.md }}>

@@ -4,6 +4,7 @@ import { MIGRATION_002_CHUNK_STATUS } from './migrations/002_chunk_status';
 import { MIGRATION_003_ACTIVE_STAGES } from './migrations/003_active_stages';
 import { MIGRATION_004_TOPIC_VOCAB } from './migrations/004_topic_vocab';
 import { MIGRATION_005_TOPIC_DEFINITION } from './migrations/005_topic_definition';
+import { MIGRATION_006_EMBED } from './migrations/006_embed';
 import type { SqlDB } from './types';
 
 type Migration = {
@@ -17,6 +18,7 @@ const MIGRATIONS: Migration[] = [
   { version: 3, sql: MIGRATION_003_ACTIVE_STAGES },
   { version: 4, sql: MIGRATION_004_TOPIC_VOCAB },
   { version: 5, sql: MIGRATION_005_TOPIC_DEFINITION },
+  { version: 6, sql: MIGRATION_006_EMBED },
 ];
 
 export async function runMigrations(db: SqlDB = getDb()): Promise<void> {

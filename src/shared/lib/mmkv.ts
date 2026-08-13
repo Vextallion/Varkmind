@@ -18,6 +18,8 @@ export const mmkvStateStorage: StateStorage = {
 export const storageKeys = {
   authToken: 'auth.token',
   uiFlags: 'ui.flags',
+  embedInputDoneDate: 'embed.inputDoneDate',
+  embedMicroDoneDate: 'embed.microDoneDate',
 } as const;
 
 export function getAuthToken(): string | null {

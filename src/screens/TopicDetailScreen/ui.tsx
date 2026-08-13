@@ -1,4 +1,9 @@
-import { useFocusEffect, useLocalSearchParams, useRouter } from 'expo-router';
+import {
+  useFocusEffect,
+  useLocalSearchParams,
+  useRouter,
+  type Href,
+} from 'expo-router';
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FlatList, Text, View } from 'react-native';
@@ -11,6 +16,7 @@ import {
 } from '@entities/topic-vocab';
 
 import { useTheme } from '@shared/theme/useTheme';
+import { Button } from '@shared/ui/atoms/Button';
 import { SpoilerText } from '@shared/ui/atoms/SpoilerText';
 import { ScreenHeader } from '@shared/ui/molecules/ScreenHeader';
 import { ScreenState } from '@shared/ui/molecules/ScreenState';
@@ -102,6 +108,18 @@ export const TopicDetailScreen: React.FC = () => {
             paddingTop: theme.space.md,
             paddingBottom: theme.space.xxxl,
           }}
+          ListHeaderComponent={
+            <View style={{ marginBottom: theme.space.md }}>
+              <Button
+                label={t('topicProduce.cta')}
+                onPress={() =>
+                  router.push(
+                    `/library/topic/${topicId}/produce` as Href,
+                  )
+                }
+              />
+            </View>
+          }
           ItemSeparatorComponent={() => (
             <View style={{ height: theme.space.sm }} />
           )}

@@ -1,5 +1,10 @@
 export { initTopicVocab } from './db/init';
-export { getTopicById, listTopicEntries, listTopics } from './db/queries';
+export {
+  getTopicById,
+  listTopicEntries,
+  listTopics,
+  pickRandomTopicEntry,
+} from './db/queries';
 export type {
   TopicEntry,
   TopicSeedFile,

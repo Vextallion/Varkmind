@@ -93,3 +93,33 @@ export async function listTopicEntries(topicId: string): Promise<TopicEntry[]> {
     example: asString(row.example),
   }));
 }
+
+export async function pickRandomTopicEntry(
+  topicId: string,
+  excludeId?: string,
+): Promise<TopicEntry | null> {
+  const db = getDb();
+  const result = await db.execute(
+    `
+    SELECT id, topic_id, term, definition, gloss, example
+    FROM topic_entries
+    WHERE topic_id = ?
+      AND (? IS NULL OR id != ?)
+    ORDER BY RANDOM()
+    LIMIT 1
+    `,
+    [topicId, excludeId ?? null, excludeId ?? null],
+  );
+  const row = result.rows?.[0] as Record<string, SqlScalar> | undefined;
+  if (!row) {
+    return null;
+  }
+  return {
+    id: asString(row.id),
+    topicId: asString(row.topic_id),
+    term: asString(row.term),
+    definition: asString(row.definition),
+    gloss: asString(row.gloss),
+    example: asString(row.example),
+  };
+}

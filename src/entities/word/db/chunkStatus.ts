@@ -138,6 +138,90 @@ export async function countActiveChunks(): Promise<number> {
   return Number(result.rows?.[0]?.count ?? 0);
 }
 
+function startOfUtcDayIso(date = new Date()): string {
+  const start = new Date(date);
+  start.setUTCHours(0, 0, 0, 0);
+  return start.toISOString();
+}
+
+/** Day-1 completions since UTC midnight — proxy for Upgrade progress today. */
+export async function countDay1CompletedToday(): Promise<number> {
+  const db = getDb();
+  const since = startOfUtcDayIso();
+  const result = await db.execute(
+    `
+    SELECT COUNT(*) AS count
+    FROM chunk_status
+    WHERE day1_completed_at IS NOT NULL
+      AND day1_completed_at >= ?
+    `,
+    [since],
+  );
+  return Number(result.rows?.[0]?.count ?? 0);
+}
+
+export async function markEmbedUsed(chunkIds: string[]): Promise<void> {
+  if (chunkIds.length === 0) {
+    return;
+  }
+  const db = getDb();
+  const now = new Date().toISOString();
+  for (const chunkId of chunkIds) {
+    await db.execute(
+      `
+      UPDATE chunk_status
+      SET embed_used_at = COALESCE(embed_used_at, ?)
+      WHERE chunk_id = ?
+      `,
+      [now, chunkId],
+    );
+  }
+}
+
+export type EmbedCandidateRow = {
+  chunkId: string;
+  b2Text: string;
+  c1Text: string;
+  contextText: string;
+};
+
+/** Recent / Active chunks for Embed input + micro-task (local only). */
+export async function listEmbedCandidates(
+  limit = 12,
+): Promise<EmbedCandidateRow[]> {
+  const db = getDb();
+  const result = await db.execute(
+    `
+    SELECT
+      b.id AS chunk_id,
+      b.text AS b2_text,
+      r.text AS c1_text,
+      COALESCE(c.text, b.text) AS context_text,
+      cs.day1_completed_at AS day1_completed_at,
+      cs.embed_used_at AS embed_used_at
+    FROM chunk_status cs
+    INNER JOIN b2_chunks b ON b.id = cs.chunk_id
+    INNER JOIN c1_replacements r
+      ON r.b2_chunk_id = b.id AND r.is_primary = 1
+    LEFT JOIN contexts c ON c.id = b.id || ':ctx'
+    WHERE cs.status IN ('active', 'mastered')
+      AND cs.day1_completed_at IS NOT NULL
+    ORDER BY
+      CASE WHEN cs.embed_used_at IS NULL THEN 0 ELSE 1 END ASC,
+      cs.day1_completed_at DESC
+    LIMIT ?
+    `,
+    [limit],
+  );
+
+  return (result.rows ?? []).map(row => ({
+    chunkId: asString(row.chunk_id),
+    b2Text: asString(row.b2_text),
+    c1Text: asString(row.c1_text),
+    contextText: asString(row.context_text),
+  }));
+}
+
 export type DueActiveRow = {
   chunkId: string;
   prompt: string;
